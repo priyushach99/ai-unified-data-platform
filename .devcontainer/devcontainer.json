@@ -1,0 +1,6 @@
+{
+  "name": "data-platform",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "workspace",
+  "workspaceFolder": "/workspace"
+}
