@@ -33,6 +33,7 @@ services:
       - "5432:5432"
 
   spark:
-    image: bitnami/spark:latest
+    image: apache/spark:3.5.0
     environment:
       - SPARK_MODE=master
+    
