@@ -31,6 +31,10 @@ TABLE_NAME = "transactions"
 
 spark = SparkSession.builder \
     .appName("Dynamic ETL Pipeline") \
+    .config(
+        "spark.jars.packages",
+        "org.postgresql:postgresql:42.7.3"
+    ) \
     .getOrCreate()
 
 spark.sparkContext.setLogLevel("ERROR")

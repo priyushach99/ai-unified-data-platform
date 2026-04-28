@@ -1,0 +1,77 @@
+[2026-04-28T22:28:25.937+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-28T22:28:25.971+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: batch_spark_csv_pipeline.run_spark_job manual__2026-04-28T22:28:23.186867+00:00 [queued]>
+[2026-04-28T22:28:25.977+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: batch_spark_csv_pipeline.run_spark_job manual__2026-04-28T22:28:23.186867+00:00 [queued]>
+[2026-04-28T22:28:25.977+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2026-04-28T22:28:25.987+0000] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): run_spark_job> on 2026-04-28 22:28:23.186867+00:00
+[2026-04-28T22:28:25.996+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=372) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-04-28T22:28:25.998+0000] {standard_task_runner.py:63} INFO - Started process 374 to run task
+[2026-04-28T22:28:25.998+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'batch_spark_csv_pipeline', 'run_spark_job', 'manual__2026-04-28T22:28:23.186867+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/batch_csv_pipeline.py', '--cfg-path', '/tmp/tmpavokuaob']
+[2026-04-28T22:28:26.000+0000] {standard_task_runner.py:91} INFO - Job 4: Subtask run_spark_job
+[2026-04-28T22:28:26.041+0000] {task_command.py:426} INFO - Running <TaskInstance: batch_spark_csv_pipeline.run_spark_job manual__2026-04-28T22:28:23.186867+00:00 [running]> on host d3f42c9f6cec
+[2026-04-28T22:28:26.118+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='batch_spark_csv_pipeline' AIRFLOW_CTX_TASK_ID='run_spark_job' AIRFLOW_CTX_EXECUTION_DATE='2026-04-28T22:28:23.186867+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-28T22:28:23.186867+00:00'
+[2026-04-28T22:28:26.120+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-28T22:28:26.159+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-28T22:28:26.162+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n        echo "🚀 Running Spark with input param" &&\n        python /opt/***/project/spark_dynamic_pipeline.py /opt/***/project/data/input_file &&\n        echo "✅ Spark Job Completed"\n        ']
+[2026-04-28T22:28:26.220+0000] {subprocess.py:86} INFO - Output:
+[2026-04-28T22:28:26.247+0000] {subprocess.py:93} INFO - 🚀 Running Spark with input param
+[2026-04-28T22:28:30.420+0000] {subprocess.py:93} INFO - WARNING: Using incubator modules: jdk.incubator.vector
+[2026-04-28T22:28:37.697+0000] {subprocess.py:93} INFO - :: loading settings :: url = jar:file:/home/***/.local/lib/python3.12/site-packages/pyspark/jars/ivy-2.5.3.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[2026-04-28T22:28:37.956+0000] {subprocess.py:93} INFO - Ivy Default Cache set to: /home/***/.ivy2.5.2/cache
+[2026-04-28T22:28:37.957+0000] {subprocess.py:93} INFO - The jars for the packages stored in: /home/***/.ivy2.5.2/jars
+[2026-04-28T22:28:37.973+0000] {subprocess.py:93} INFO - org.postgresql#postgresql added as a dependency
+[2026-04-28T22:28:37.976+0000] {subprocess.py:93} INFO - :: resolving dependencies :: org.apache.spark#spark-submit-parent-29a84a39-1e4f-4293-b686-74884e306c6b;1.0
+[2026-04-28T22:28:37.977+0000] {subprocess.py:93} INFO - 	confs: [default]
+[2026-04-28T22:28:39.164+0000] {subprocess.py:93} INFO - 	found org.postgresql#postgresql;42.7.3 in central
+[2026-04-28T22:28:39.308+0000] {subprocess.py:93} INFO - 	found org.checkerframework#checker-qual;3.42.0 in central
+[2026-04-28T22:28:39.389+0000] {subprocess.py:93} INFO - downloading https://repo1.maven.org/maven2/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar ...
+[2026-04-28T22:28:39.496+0000] {subprocess.py:93} INFO - 	[SUCCESSFUL ] org.postgresql#postgresql;42.7.3!postgresql.jar (169ms)
+[2026-04-28T22:28:39.522+0000] {subprocess.py:93} INFO - downloading https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar ...
+[2026-04-28T22:28:39.559+0000] {subprocess.py:93} INFO - 	[SUCCESSFUL ] org.checkerframework#checker-qual;3.42.0!checker-qual.jar (62ms)
+[2026-04-28T22:28:39.559+0000] {subprocess.py:93} INFO - :: resolution report :: resolve 1347ms :: artifacts dl 237ms
+[2026-04-28T22:28:39.559+0000] {subprocess.py:93} INFO - 	:: modules in use:
+[2026-04-28T22:28:39.560+0000] {subprocess.py:93} INFO - 	org.checkerframework#checker-qual;3.42.0 from central in [default]
+[2026-04-28T22:28:39.560+0000] {subprocess.py:93} INFO - 	org.postgresql#postgresql;42.7.3 from central in [default]
+[2026-04-28T22:28:39.560+0000] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2026-04-28T22:28:39.560+0000] {subprocess.py:93} INFO - 	|                  |            modules            ||   artifacts   |
+[2026-04-28T22:28:39.560+0000] {subprocess.py:93} INFO - 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[2026-04-28T22:28:39.561+0000] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2026-04-28T22:28:39.563+0000] {subprocess.py:93} INFO - 	|      default     |   2   |   2   |   2   |   0   ||   2   |   2   |
+[2026-04-28T22:28:39.563+0000] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2026-04-28T22:28:39.570+0000] {subprocess.py:93} INFO - :: retrieving :: org.apache.spark#spark-submit-parent-29a84a39-1e4f-4293-b686-74884e306c6b
+[2026-04-28T22:28:39.571+0000] {subprocess.py:93} INFO - 	confs: [default]
+[2026-04-28T22:28:39.598+0000] {subprocess.py:93} INFO - 	2 artifacts copied, 0 already retrieved (1289kB/26ms)
+[2026-04-28T22:28:40.512+0000] {subprocess.py:93} INFO - 26/04/28 22:28:40 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2026-04-28T22:28:41.357+0000] {subprocess.py:93} INFO - Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+[2026-04-28T22:28:41.357+0000] {subprocess.py:93} INFO - Setting default log level to "WARN".
+[2026-04-28T22:28:41.357+0000] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[2026-04-28T22:29:45.206+0000] {subprocess.py:93} INFO - [Stage 0:>                                                          (0 + 1) / 1]                                                                                [Stage 1:>                                                          (0 + 1) / 1]                                                                                [Stage 2:>                                                          (0 + 1) / 1][Stage 3:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1]                                                                                [Stage 6:>                                                          (0 + 1) / 1]                                                                                [Stage 9:>                                                          (0 + 1) / 1]                                                                                [Stage 13:>                                                         (0 + 1) / 1]                                                                                📥 Reading from: /opt/***/project/data/input_file
+[2026-04-28T22:29:45.220+0000] {subprocess.py:93} INFO - 📊 Columns after normalization:
+[2026-04-28T22:29:45.220+0000] {subprocess.py:93} INFO - ['account_no', 'transaction_date', 'transaction_details', 'chqno', 'value_date', 'withdrawal_amt', 'deposit_amt', 'balance_amt', 'source_file']
+[2026-04-28T22:29:45.221+0000] {subprocess.py:93} INFO - +-------------+----------------+--------------------------------+-----+----------+--------------+-----------+--------------+----------------+
+[2026-04-28T22:29:45.221+0000] {subprocess.py:93} INFO - |account_no   |transaction_date|transaction_details             |chqno|value_date|withdrawal_amt|deposit_amt|balance_amt   |source_file     |
+[2026-04-28T22:29:45.222+0000] {subprocess.py:93} INFO - +-------------+----------------+--------------------------------+-----+----------+--------------+-----------+--------------+----------------+
+[2026-04-28T22:29:45.222+0000] {subprocess.py:93} INFO - |409000611074'|16-Aug-17       |INDO GIBL Indiaforensic STL01071|NULL |16-Aug-17 | 133,900.00   |NULL       | 8,366,100.00 |transactions.csv|
+[2026-04-28T22:29:45.222+0000] {subprocess.py:93} INFO - |409000611074'|16-Aug-17       |INDO GIBL Indiaforensic STL02071|NULL |16-Aug-17 | 18,000.00    |NULL       | 8,348,100.00 |transactions.csv|
+[2026-04-28T22:29:45.222+0000] {subprocess.py:93} INFO - |409000611074'|16-Aug-17       |INDO GIBL Indiaforensic STL03071|NULL |16-Aug-17 | 5,000.00     |NULL       | 8,343,100.00 |transactions.csv|
+[2026-04-28T22:29:45.223+0000] {subprocess.py:93} INFO - |409000611074'|16-Aug-17       |INDO GIBL Indiaforensic STL04071|NULL |16-Aug-17 | 195,800.00   |NULL       | 8,147,300.00 |transactions.csv|
+[2026-04-28T22:29:45.223+0000] {subprocess.py:93} INFO - |409000611074'|16-Aug-17       |INDO GIBL Indiaforensic STL05071|NULL |16-Aug-17 | 81,600.00    |NULL       | 8,065,700.00 |transactions.csv|
+[2026-04-28T22:29:45.223+0000] {subprocess.py:93} INFO - +-------------+----------------+--------------------------------+-----+----------+--------------+-----------+--------------+----------------+
+[2026-04-28T22:29:45.224+0000] {subprocess.py:93} INFO - only showing top 5 rows
+[2026-04-28T22:29:45.224+0000] {subprocess.py:93} INFO - 🧼 Cleaning data...
+[2026-04-28T22:29:45.224+0000] {subprocess.py:93} INFO - 🚨 Identifying bad records...
+[2026-04-28T22:29:45.225+0000] {subprocess.py:93} INFO - ✅ Good records: 10
+[2026-04-28T22:29:45.225+0000] {subprocess.py:93} INFO - ❌ Bad records: 0
+[2026-04-28T22:29:45.226+0000] {subprocess.py:93} INFO - 💾 Writing bad data...
+[2026-04-28T22:29:45.228+0000] {subprocess.py:93} INFO - ℹ️ No bad records to write
+[2026-04-28T22:29:45.228+0000] {subprocess.py:93} INFO - 🧠 Handling schema evolution...
+[2026-04-28T22:29:45.228+0000] {subprocess.py:93} INFO - 🛢️ Writing to PostgreSQL...
+[2026-04-28T22:29:45.228+0000] {subprocess.py:93} INFO - 🎉 ETL Completed Successfully
+[2026-04-28T22:29:45.797+0000] {subprocess.py:93} INFO - ✅ Spark Job Completed
+[2026-04-28T22:29:46.292+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-04-28T22:29:46.298+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-28T22:29:46.329+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=batch_spark_csv_pipeline, task_id=run_spark_job, execution_date=20260428T222823, start_date=20260428T222825, end_date=20260428T222946
+[2026-04-28T22:29:46.383+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-04-28T22:29:46.395+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-28T22:29:46.397+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
