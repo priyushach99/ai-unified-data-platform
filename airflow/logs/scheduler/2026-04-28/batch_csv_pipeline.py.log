@@ -2963,3 +2963,17 @@
 [2026-04-28T22:40:45.674+0000] {logging_mixin.py:188} INFO - [2026-04-28T22:40:45.674+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-04-28T22:40:45.689+0000] {logging_mixin.py:188} INFO - [2026-04-28T22:40:45.689+0000] {dag.py:3954} INFO - Setting next_dagrun for batch_spark_csv_pipeline to None, run_after=None
 [2026-04-28T22:40:45.713+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/batch_csv_pipeline.py took 0.085 seconds
+[2026-04-28T22:41:16.654+0000] {processor.py:161} INFO - Started process (PID=2634) to work on /opt/airflow/dags/batch_csv_pipeline.py
+[2026-04-28T22:41:16.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/batch_csv_pipeline.py for tasks to queue
+[2026-04-28T22:41:16.657+0000] {logging_mixin.py:188} INFO - [2026-04-28T22:41:16.656+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/batch_csv_pipeline.py
+[2026-04-28T22:41:16.670+0000] {processor.py:840} INFO - DAG(s) 'batch_spark_csv_pipeline' retrieved from /opt/airflow/dags/batch_csv_pipeline.py
+[2026-04-28T22:41:16.717+0000] {logging_mixin.py:188} INFO - [2026-04-28T22:41:16.716+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-28T22:41:16.749+0000] {logging_mixin.py:188} INFO - [2026-04-28T22:41:16.749+0000] {dag.py:3954} INFO - Setting next_dagrun for batch_spark_csv_pipeline to None, run_after=None
+[2026-04-28T22:41:16.823+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/batch_csv_pipeline.py took 0.178 seconds
+[2026-04-28T22:41:47.596+0000] {processor.py:161} INFO - Started process (PID=2694) to work on /opt/airflow/dags/batch_csv_pipeline.py
+[2026-04-28T22:41:47.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/batch_csv_pipeline.py for tasks to queue
+[2026-04-28T22:41:47.610+0000] {logging_mixin.py:188} INFO - [2026-04-28T22:41:47.606+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/batch_csv_pipeline.py
+[2026-04-28T22:41:47.623+0000] {processor.py:840} INFO - DAG(s) 'batch_spark_csv_pipeline' retrieved from /opt/airflow/dags/batch_csv_pipeline.py
+[2026-04-28T22:41:47.660+0000] {logging_mixin.py:188} INFO - [2026-04-28T22:41:47.660+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-28T22:41:47.691+0000] {logging_mixin.py:188} INFO - [2026-04-28T22:41:47.691+0000] {dag.py:3954} INFO - Setting next_dagrun for batch_spark_csv_pipeline to None, run_after=None
+[2026-04-28T22:41:47.729+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/batch_csv_pipeline.py took 0.142 seconds

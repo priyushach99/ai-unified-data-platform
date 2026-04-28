@@ -2942,3 +2942,17 @@
 [2026-04-28T22:40:45.693+0000] {logging_mixin.py:188} INFO - [2026-04-28T22:40:45.692+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-04-28T22:40:45.735+0000] {logging_mixin.py:188} INFO - [2026-04-28T22:40:45.734+0000] {dag.py:3954} INFO - Setting next_dagrun for system_health to 2026-04-28 21:00:00+00:00, run_after=2026-04-28 22:00:00+00:00
 [2026-04-28T22:40:45.753+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/system_health.py took 0.111 seconds
+[2026-04-28T22:41:16.687+0000] {processor.py:161} INFO - Started process (PID=2635) to work on /opt/airflow/dags/system_health.py
+[2026-04-28T22:41:16.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/system_health.py for tasks to queue
+[2026-04-28T22:41:16.701+0000] {logging_mixin.py:188} INFO - [2026-04-28T22:41:16.694+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/system_health.py
+[2026-04-28T22:41:16.732+0000] {processor.py:840} INFO - DAG(s) 'system_health' retrieved from /opt/airflow/dags/system_health.py
+[2026-04-28T22:41:16.820+0000] {logging_mixin.py:188} INFO - [2026-04-28T22:41:16.819+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-28T22:41:16.975+0000] {logging_mixin.py:188} INFO - [2026-04-28T22:41:16.974+0000] {dag.py:3954} INFO - Setting next_dagrun for system_health to 2026-04-28 21:00:00+00:00, run_after=2026-04-28 22:00:00+00:00
+[2026-04-28T22:41:17.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/system_health.py took 0.485 seconds
+[2026-04-28T22:41:47.619+0000] {processor.py:161} INFO - Started process (PID=2695) to work on /opt/airflow/dags/system_health.py
+[2026-04-28T22:41:47.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/system_health.py for tasks to queue
+[2026-04-28T22:41:47.626+0000] {logging_mixin.py:188} INFO - [2026-04-28T22:41:47.626+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/system_health.py
+[2026-04-28T22:41:47.647+0000] {processor.py:840} INFO - DAG(s) 'system_health' retrieved from /opt/airflow/dags/system_health.py
+[2026-04-28T22:41:47.694+0000] {logging_mixin.py:188} INFO - [2026-04-28T22:41:47.694+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-28T22:41:47.734+0000] {logging_mixin.py:188} INFO - [2026-04-28T22:41:47.734+0000] {dag.py:3954} INFO - Setting next_dagrun for system_health to 2026-04-28 21:00:00+00:00, run_after=2026-04-28 22:00:00+00:00
+[2026-04-28T22:41:47.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/system_health.py took 0.152 seconds
