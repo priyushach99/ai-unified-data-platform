@@ -12,9 +12,11 @@ with DAG(
     run_spark_batch = BashOperator(
         task_id="run_spark_job",
         bash_command="""
-        echo "🚀 Running Spark with input param" &&
-        python /opt/airflow/project/spark_dynamic_pipeline.py /opt/airflow/project/data/input_file &&
-        echo "✅ Spark Job Completed"
+        spark-submit \
+            --master local[*] \
+            --packages org.postgresql:postgresql:42.7.3 \
+            /opt/airflow/project/spark_dynamic_pipeline.py \
+            /opt/airflow/project/data/input_file
         """
     )
 

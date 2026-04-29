@@ -1,0 +1,134 @@
+[2026-04-29T01:05:43.376+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-29T01:05:43.405+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: batch_spark_csv_pipeline.run_spark_job manual__2026-04-29T01:05:39.333170+00:00 [queued]>
+[2026-04-29T01:05:43.411+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: batch_spark_csv_pipeline.run_spark_job manual__2026-04-29T01:05:39.333170+00:00 [queued]>
+[2026-04-29T01:05:43.411+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2026-04-29T01:05:43.422+0000] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): run_spark_job> on 2026-04-29 01:05:39.333170+00:00
+[2026-04-29T01:05:43.432+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=340) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-04-29T01:05:43.433+0000] {standard_task_runner.py:63} INFO - Started process 342 to run task
+[2026-04-29T01:05:43.432+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'batch_spark_csv_pipeline', 'run_spark_job', 'manual__2026-04-29T01:05:39.333170+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/batch_csv_pipeline.py', '--cfg-path', '/tmp/tmp9epjhun8']
+[2026-04-29T01:05:43.435+0000] {standard_task_runner.py:91} INFO - Job 4: Subtask run_spark_job
+[2026-04-29T01:05:43.480+0000] {task_command.py:426} INFO - Running <TaskInstance: batch_spark_csv_pipeline.run_spark_job manual__2026-04-29T01:05:39.333170+00:00 [running]> on host c055fe8adf8f
+[2026-04-29T01:05:43.556+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='batch_spark_csv_pipeline' AIRFLOW_CTX_TASK_ID='run_spark_job' AIRFLOW_CTX_EXECUTION_DATE='2026-04-29T01:05:39.333170+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-29T01:05:39.333170+00:00'
+[2026-04-29T01:05:43.558+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-29T01:05:43.559+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-29T01:05:43.560+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n        spark-submit             --master local[*]             --packages org.postgresql:postgresql:42.7.3             /opt/***/project/spark_dynamic_pipeline.py             /opt/***/project/data/input_file\n        ']
+[2026-04-29T01:05:43.580+0000] {subprocess.py:86} INFO - Output:
+[2026-04-29T01:05:44.944+0000] {subprocess.py:93} INFO - WARNING: Using incubator modules: jdk.incubator.vector
+[2026-04-29T01:05:52.313+0000] {subprocess.py:93} INFO - :: loading settings :: url = jar:file:/home/***/.local/lib/python3.12/site-packages/pyspark/jars/ivy-2.5.3.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[2026-04-29T01:05:52.956+0000] {subprocess.py:93} INFO - Ivy Default Cache set to: /home/***/.ivy2.5.2/cache
+[2026-04-29T01:05:52.957+0000] {subprocess.py:93} INFO - The jars for the packages stored in: /home/***/.ivy2.5.2/jars
+[2026-04-29T01:05:52.985+0000] {subprocess.py:93} INFO - org.postgresql#postgresql added as a dependency
+[2026-04-29T01:05:52.996+0000] {subprocess.py:93} INFO - :: resolving dependencies :: org.apache.spark#spark-submit-parent-0b4ccc8c-14d9-43a9-a17d-f8d6cc3680a8;1.0
+[2026-04-29T01:05:52.999+0000] {subprocess.py:93} INFO - 	confs: [default]
+[2026-04-29T01:05:55.092+0000] {subprocess.py:93} INFO - 	found org.postgresql#postgresql;42.7.3 in central
+[2026-04-29T01:05:55.274+0000] {subprocess.py:93} INFO - 	found org.checkerframework#checker-qual;3.42.0 in central
+[2026-04-29T01:05:55.389+0000] {subprocess.py:93} INFO - downloading https://repo1.maven.org/maven2/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar ...
+[2026-04-29T01:05:55.593+0000] {subprocess.py:93} INFO - 	[SUCCESSFUL ] org.postgresql#postgresql;42.7.3!postgresql.jar (284ms)
+[2026-04-29T01:05:55.643+0000] {subprocess.py:93} INFO - downloading https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar ...
+[2026-04-29T01:05:55.719+0000] {subprocess.py:93} INFO - 	[SUCCESSFUL ] org.checkerframework#checker-qual;3.42.0!checker-qual.jar (116ms)
+[2026-04-29T01:05:55.720+0000] {subprocess.py:93} INFO - :: resolution report :: resolve 2312ms :: artifacts dl 420ms
+[2026-04-29T01:05:55.722+0000] {subprocess.py:93} INFO - 	:: modules in use:
+[2026-04-29T01:05:55.724+0000] {subprocess.py:93} INFO - 	org.checkerframework#checker-qual;3.42.0 from central in [default]
+[2026-04-29T01:05:55.724+0000] {subprocess.py:93} INFO - 	org.postgresql#postgresql;42.7.3 from central in [default]
+[2026-04-29T01:05:55.724+0000] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2026-04-29T01:05:55.724+0000] {subprocess.py:93} INFO - 	|                  |            modules            ||   artifacts   |
+[2026-04-29T01:05:55.726+0000] {subprocess.py:93} INFO - 	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+[2026-04-29T01:05:55.726+0000] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2026-04-29T01:05:55.726+0000] {subprocess.py:93} INFO - 	|      default     |   2   |   2   |   2   |   0   ||   2   |   2   |
+[2026-04-29T01:05:55.727+0000] {subprocess.py:93} INFO - 	---------------------------------------------------------------------
+[2026-04-29T01:05:55.739+0000] {subprocess.py:93} INFO - :: retrieving :: org.apache.spark#spark-submit-parent-0b4ccc8c-14d9-43a9-a17d-f8d6cc3680a8
+[2026-04-29T01:05:55.742+0000] {subprocess.py:93} INFO - 	confs: [default]
+[2026-04-29T01:05:55.792+0000] {subprocess.py:93} INFO - 	2 artifacts copied, 0 already retrieved (1289kB/52ms)
+[2026-04-29T01:05:57.105+0000] {subprocess.py:93} INFO - 26/04/29 01:05:57 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2026-04-29T01:06:05.553+0000] {subprocess.py:93} INFO - Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+[2026-04-29T01:06:05.677+0000] {subprocess.py:93} INFO - 26/04/29 01:06:05 INFO SparkContext: Running Spark version 4.1.1
+[2026-04-29T01:06:05.680+0000] {subprocess.py:93} INFO - 26/04/29 01:06:05 INFO SparkContext: OS info Linux, 6.8.0-1044-azure, amd64
+[2026-04-29T01:06:05.681+0000] {subprocess.py:93} INFO - 26/04/29 01:06:05 INFO SparkContext: Java version 17.0.18+8-Debian-1deb12u1
+[2026-04-29T01:06:06.109+0000] {subprocess.py:93} INFO - 26/04/29 01:06:06 INFO ResourceUtils: ==============================================================
+[2026-04-29T01:06:06.123+0000] {subprocess.py:93} INFO - 26/04/29 01:06:06 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2026-04-29T01:06:06.127+0000] {subprocess.py:93} INFO - 26/04/29 01:06:06 INFO ResourceUtils: ==============================================================
+[2026-04-29T01:06:06.135+0000] {subprocess.py:93} INFO - 26/04/29 01:06:06 INFO SparkContext: Submitted application: Dynamic ETL Pipeline
+[2026-04-29T01:06:06.646+0000] {subprocess.py:93} INFO - 26/04/29 01:06:06 INFO SecurityManager: Changing view acls to: default
+[2026-04-29T01:06:06.649+0000] {subprocess.py:93} INFO - 26/04/29 01:06:06 INFO SecurityManager: Changing modify acls to: default
+[2026-04-29T01:06:06.650+0000] {subprocess.py:93} INFO - 26/04/29 01:06:06 INFO SecurityManager: Changing view acls groups to: default
+[2026-04-29T01:06:06.650+0000] {subprocess.py:93} INFO - 26/04/29 01:06:06 INFO SecurityManager: Changing modify acls groups to: default
+[2026-04-29T01:06:06.650+0000] {subprocess.py:93} INFO - 26/04/29 01:06:06 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: default groups with view permissions: EMPTY; users with modify permissions: default; groups with modify permissions: EMPTY; RPC SSL disabled
+[2026-04-29T01:06:07.693+0000] {subprocess.py:93} INFO - 26/04/29 01:06:07 INFO Utils: Successfully started service 'sparkDriver' on port 42719.
+[2026-04-29T01:06:07.924+0000] {subprocess.py:93} INFO - 26/04/29 01:06:07 INFO SparkEnv: Registering MapOutputTracker
+[2026-04-29T01:06:08.018+0000] {subprocess.py:93} INFO - 26/04/29 01:06:08 INFO SparkEnv: Registering BlockManagerMaster
+[2026-04-29T01:06:08.120+0000] {subprocess.py:93} INFO - 26/04/29 01:06:08 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2026-04-29T01:06:08.121+0000] {subprocess.py:93} INFO - 26/04/29 01:06:08 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2026-04-29T01:06:08.134+0000] {subprocess.py:93} INFO - 26/04/29 01:06:08 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2026-04-29T01:06:08.371+0000] {subprocess.py:93} INFO - 26/04/29 01:06:08 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-537ff022-eb7a-426d-9e5b-d77ecba4ebc5
+[2026-04-29T01:06:08.525+0000] {subprocess.py:93} INFO - 26/04/29 01:06:08 INFO SparkEnv: Registering OutputCommitCoordinator
+[2026-04-29T01:06:09.536+0000] {subprocess.py:93} INFO - 26/04/29 01:06:09 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[2026-04-29T01:06:10.003+0000] {subprocess.py:93} INFO - 26/04/29 01:06:10 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2026-04-29T01:06:10.247+0000] {subprocess.py:93} INFO - 26/04/29 01:06:10 INFO SparkContext: Added JAR file:///home/***/.ivy2.5.2/jars/org.postgresql_postgresql-42.7.3.jar at spark://c055fe8adf8f:42719/jars/org.postgresql_postgresql-42.7.3.jar with timestamp 1777424765416
+[2026-04-29T01:06:10.247+0000] {subprocess.py:93} INFO - 26/04/29 01:06:10 INFO SparkContext: Added JAR file:///home/***/.ivy2.5.2/jars/org.checkerframework_checker-qual-3.42.0.jar at spark://c055fe8adf8f:42719/jars/org.checkerframework_checker-qual-3.42.0.jar with timestamp 1777424765416
+[2026-04-29T01:06:10.287+0000] {subprocess.py:93} INFO - 26/04/29 01:06:10 INFO SparkContext: Added file file:///home/***/.ivy2.5.2/jars/org.postgresql_postgresql-42.7.3.jar at file:///home/***/.ivy2.5.2/jars/org.postgresql_postgresql-42.7.3.jar with timestamp 1777424765416
+[2026-04-29T01:06:10.313+0000] {subprocess.py:93} INFO - 26/04/29 01:06:10 INFO Utils: Copying /home/***/.ivy2.5.2/jars/org.postgresql_postgresql-42.7.3.jar to /tmp/spark-34652b4d-72bc-4cf9-b66e-75946a2cf739/userFiles-e4333b10-f264-4581-8c45-23697ecf0c42/org.postgresql_postgresql-42.7.3.jar
+[2026-04-29T01:06:10.859+0000] {subprocess.py:93} INFO - 26/04/29 01:06:10 INFO SparkContext: Added file file:///home/***/.ivy2.5.2/jars/org.checkerframework_checker-qual-3.42.0.jar at file:///home/***/.ivy2.5.2/jars/org.checkerframework_checker-qual-3.42.0.jar with timestamp 1777424765416
+[2026-04-29T01:06:10.867+0000] {subprocess.py:93} INFO - 26/04/29 01:06:10 INFO Utils: Copying /home/***/.ivy2.5.2/jars/org.checkerframework_checker-qual-3.42.0.jar to /tmp/spark-34652b4d-72bc-4cf9-b66e-75946a2cf739/userFiles-e4333b10-f264-4581-8c45-23697ecf0c42/org.checkerframework_checker-qual-3.42.0.jar
+[2026-04-29T01:06:11.034+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2026-04-29T01:06:11.040+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO ResourceProfile: Limiting resource is cpu
+[2026-04-29T01:06:11.040+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2026-04-29T01:06:11.069+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO SecurityManager: Changing view acls to: default
+[2026-04-29T01:06:11.071+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO SecurityManager: Changing modify acls to: default
+[2026-04-29T01:06:11.072+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO SecurityManager: Changing view acls groups to: default
+[2026-04-29T01:06:11.072+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO SecurityManager: Changing modify acls groups to: default
+[2026-04-29T01:06:11.072+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: default groups with view permissions: EMPTY; users with modify permissions: default; groups with modify permissions: EMPTY; RPC SSL disabled
+[2026-04-29T01:06:11.478+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO Executor: Starting executor ID driver on host c055fe8adf8f
+[2026-04-29T01:06:11.480+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO Executor: OS info Linux, 6.8.0-1044-azure, amd64
+[2026-04-29T01:06:11.488+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO Executor: Java version 17.0.18+8-Debian-1deb12u1
+[2026-04-29T01:06:11.530+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[2026-04-29T01:06:11.535+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@385a329 for default.
+[2026-04-29T01:06:11.562+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO Executor: Fetching file:///home/***/.ivy2.5.2/jars/org.checkerframework_checker-qual-3.42.0.jar with timestamp 1777424765416
+[2026-04-29T01:06:11.582+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO Utils: /home/***/.ivy2.5.2/jars/org.checkerframework_checker-qual-3.42.0.jar has been previously copied to /tmp/spark-34652b4d-72bc-4cf9-b66e-75946a2cf739/userFiles-e4333b10-f264-4581-8c45-23697ecf0c42/org.checkerframework_checker-qual-3.42.0.jar
+[2026-04-29T01:06:11.599+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO Executor: Fetching file:///home/***/.ivy2.5.2/jars/org.postgresql_postgresql-42.7.3.jar with timestamp 1777424765416
+[2026-04-29T01:06:11.617+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO Utils: /home/***/.ivy2.5.2/jars/org.postgresql_postgresql-42.7.3.jar has been previously copied to /tmp/spark-34652b4d-72bc-4cf9-b66e-75946a2cf739/userFiles-e4333b10-f264-4581-8c45-23697ecf0c42/org.postgresql_postgresql-42.7.3.jar
+[2026-04-29T01:06:11.645+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO Executor: Fetching spark://c055fe8adf8f:42719/jars/org.postgresql_postgresql-42.7.3.jar with timestamp 1777424765416
+[2026-04-29T01:06:11.841+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO TransportClientFactory: Successfully created connection to c055fe8adf8f/172.18.0.4:42719 after 132 ms (0 ms spent in bootstraps)
+[2026-04-29T01:06:11.856+0000] {subprocess.py:93} INFO - 26/04/29 01:06:11 INFO Utils: Fetching spark://c055fe8adf8f:42719/jars/org.postgresql_postgresql-42.7.3.jar to /tmp/spark-34652b4d-72bc-4cf9-b66e-75946a2cf739/userFiles-e4333b10-f264-4581-8c45-23697ecf0c42/fetchFileTemp10941879293581237595.tmp
+[2026-04-29T01:06:12.496+0000] {subprocess.py:93} INFO - 26/04/29 01:06:12 INFO Utils: /tmp/spark-34652b4d-72bc-4cf9-b66e-75946a2cf739/userFiles-e4333b10-f264-4581-8c45-23697ecf0c42/fetchFileTemp10941879293581237595.tmp has been previously copied to /tmp/spark-34652b4d-72bc-4cf9-b66e-75946a2cf739/userFiles-e4333b10-f264-4581-8c45-23697ecf0c42/org.postgresql_postgresql-42.7.3.jar
+[2026-04-29T01:06:12.530+0000] {subprocess.py:93} INFO - 26/04/29 01:06:12 INFO Executor: Adding file:/tmp/spark-34652b4d-72bc-4cf9-b66e-75946a2cf739/userFiles-e4333b10-f264-4581-8c45-23697ecf0c42/org.postgresql_postgresql-42.7.3.jar to class loader default
+[2026-04-29T01:06:12.532+0000] {subprocess.py:93} INFO - 26/04/29 01:06:12 INFO Executor: Fetching spark://c055fe8adf8f:42719/jars/org.checkerframework_checker-qual-3.42.0.jar with timestamp 1777424765416
+[2026-04-29T01:06:12.539+0000] {subprocess.py:93} INFO - 26/04/29 01:06:12 INFO Utils: Fetching spark://c055fe8adf8f:42719/jars/org.checkerframework_checker-qual-3.42.0.jar to /tmp/spark-34652b4d-72bc-4cf9-b66e-75946a2cf739/userFiles-e4333b10-f264-4581-8c45-23697ecf0c42/fetchFileTemp3543623626359970050.tmp
+[2026-04-29T01:06:12.551+0000] {subprocess.py:93} INFO - 26/04/29 01:06:12 INFO Utils: /tmp/spark-34652b4d-72bc-4cf9-b66e-75946a2cf739/userFiles-e4333b10-f264-4581-8c45-23697ecf0c42/fetchFileTemp3543623626359970050.tmp has been previously copied to /tmp/spark-34652b4d-72bc-4cf9-b66e-75946a2cf739/userFiles-e4333b10-f264-4581-8c45-23697ecf0c42/org.checkerframework_checker-qual-3.42.0.jar
+[2026-04-29T01:06:12.619+0000] {subprocess.py:93} INFO - 26/04/29 01:06:12 INFO Executor: Adding file:/tmp/spark-34652b4d-72bc-4cf9-b66e-75946a2cf739/userFiles-e4333b10-f264-4581-8c45-23697ecf0c42/org.checkerframework_checker-qual-3.42.0.jar to class loader default
+[2026-04-29T01:06:12.690+0000] {subprocess.py:93} INFO - 26/04/29 01:06:12 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 33071.
+[2026-04-29T01:06:12.714+0000] {subprocess.py:93} INFO - 26/04/29 01:06:12 INFO NettyBlockTransferService: Server created on c055fe8adf8f:33071
+[2026-04-29T01:06:12.743+0000] {subprocess.py:93} INFO - 26/04/29 01:06:12 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2026-04-29T01:06:12.941+0000] {subprocess.py:93} INFO - 26/04/29 01:06:12 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, c055fe8adf8f, 33071, None)
+[2026-04-29T01:06:13.008+0000] {subprocess.py:93} INFO - 26/04/29 01:06:13 INFO BlockManagerMasterEndpoint: Registering block manager c055fe8adf8f:33071 with 434.4 MiB RAM, BlockManagerId(driver, c055fe8adf8f, 33071, None)
+[2026-04-29T01:06:13.024+0000] {subprocess.py:93} INFO - 26/04/29 01:06:13 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, c055fe8adf8f, 33071, None)
+[2026-04-29T01:06:13.039+0000] {subprocess.py:93} INFO - 26/04/29 01:06:13 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, c055fe8adf8f, 33071, None)
+[2026-04-29T01:06:19.396+0000] {subprocess.py:93} INFO - 📥 Reading from: /opt/***/project/data/input_file
+[2026-04-29T01:06:29.047+0000] {subprocess.py:93} INFO - 📊 Columns after normalization:
+[2026-04-29T01:06:29.051+0000] {subprocess.py:93} INFO - ['account_no', 'transaction_date', 'transaction_details', 'chqno', 'value_date', 'withdrawal_amt', 'deposit_amt', 'balance_amt', 'source_file']
+[2026-04-29T01:06:30.876+0000] {subprocess.py:93} INFO - +-------------+----------------+--------------------------------+-----+----------+--------------+-----------+--------------+----------------+
+[2026-04-29T01:06:30.878+0000] {subprocess.py:93} INFO - |account_no   |transaction_date|transaction_details             |chqno|value_date|withdrawal_amt|deposit_amt|balance_amt   |source_file     |
+[2026-04-29T01:06:30.883+0000] {subprocess.py:93} INFO - +-------------+----------------+--------------------------------+-----+----------+--------------+-----------+--------------+----------------+
+[2026-04-29T01:06:30.885+0000] {subprocess.py:93} INFO - |409000611074'|16-Aug-17       |INDO GIBL Indiaforensic STL13071|NULL |16-Aug-17 | 230,013.00   |NULL       | 7,090,937.00 |transactions.csv|
+[2026-04-29T01:06:30.889+0000] {subprocess.py:93} INFO - |409000611074'|16-Aug-17       |INDO GIBL Indiaforensic STL14071|NULL |16-Aug-17 | 367,900.00   |NULL       | 6,723,037.00 |transactions.csv|
+[2026-04-29T01:06:30.889+0000] {subprocess.py:93} INFO - |409000611074'|16-Aug-17       |INDO GIBL Indiaforensic STL15071|NULL |16-Aug-17 | 108,000.00   |NULL       | 6,615,037.00 |transactions.csv|
+[2026-04-29T01:06:30.892+0000] {subprocess.py:93} INFO - |409000611074'|16-Aug-17       |INDO GIBL Indiaforensic STL16071|NULL |16-Aug-17 | 64,800.00    |NULL       | 6,550,237.00 |transactions.csv|
+[2026-04-29T01:06:30.893+0000] {subprocess.py:93} INFO - |409000611074'|16-Aug-17       |INDO GIBL Indiaforensic STL17071|NULL |16-Aug-17 | 141,000.00   |NULL       | 6,409,237.00 |transactions.csv|
+[2026-04-29T01:06:30.897+0000] {subprocess.py:93} INFO - +-------------+----------------+--------------------------------+-----+----------+--------------+-----------+--------------+----------------+
+[2026-04-29T01:06:30.897+0000] {subprocess.py:93} INFO - only showing top 5 rows
+[2026-04-29T01:06:30.897+0000] {subprocess.py:93} INFO - 🧼 Cleaning data...
+[2026-04-29T01:06:34.433+0000] {subprocess.py:93} INFO - 🚨 Identifying bad records...
+[2026-04-29T01:06:45.357+0000] {subprocess.py:93} INFO - ✅ Good records: 10
+[2026-04-29T01:06:45.358+0000] {subprocess.py:93} INFO - ❌ Bad records: 0
+[2026-04-29T01:06:45.358+0000] {subprocess.py:93} INFO - 💾 Writing bad data...
+[2026-04-29T01:06:54.717+0000] {subprocess.py:93} INFO - ℹ️ No bad records to write
+[2026-04-29T01:06:54.719+0000] {subprocess.py:93} INFO - 🧠 Handling schema evolution...
+[2026-04-29T01:06:56.702+0000] {subprocess.py:93} INFO - 🛢️ Writing to PostgreSQL...
+[2026-04-29T01:07:00.847+0000] {subprocess.py:93} INFO - 🎉 ETL Completed Successfully
+[2026-04-29T01:07:01.567+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-04-29T01:07:01.572+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-29T01:07:01.601+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=batch_spark_csv_pipeline, task_id=run_spark_job, execution_date=20260429T010539, start_date=20260429T010543, end_date=20260429T010701
+[2026-04-29T01:07:01.663+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-04-29T01:07:01.676+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-29T01:07:01.678+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
