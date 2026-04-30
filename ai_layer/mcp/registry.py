@@ -1,6 +1,7 @@
-from mcp.tools import get_total_records, get_recent_records
+from mcp.tools import total_deposits, total_withdrawals, top_transactions
 
 TOOLS = {
-    "total_records": get_total_records,
-    "recent_records": get_recent_records
+    "total_deposits": total_deposits,
+    "total_withdrawals": total_withdrawals,
+    "top_transactions": top_transactions
 }

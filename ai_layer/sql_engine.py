@@ -1,12 +1,14 @@
 from mcp.registry import TOOLS
 
+
 def handle_sql(route):
-    if route == "tool_total":
-        result = TOOLS["total_records"]()
-        return f"Total records: {result}"
+    if route == "tool_deposits":
+        return f"Total Deposits: {TOOLS['total_deposits']()}"
 
-    if route == "tool_recent":
-        result = TOOLS["recent_records"]()
-        return f"Recent records: {result}"
+    if route == "tool_withdrawals":
+        return f"Total Withdrawals: {TOOLS['total_withdrawals']()}"
 
-    return "SQL route not supported"
+    if route == "tool_top":
+        return TOOLS["top_transactions"]()
+
+    return "Unknown tool route"

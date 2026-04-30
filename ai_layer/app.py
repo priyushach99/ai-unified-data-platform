@@ -7,19 +7,27 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "MCP AI Layer Running"}
+    return {"message": "Hybrid Transaction Query Layer Running"}
+
 
 @app.get("/ask")
 def ask(q: str):
-    route = route_query(q)
 
-    if route.startswith("tool"):
-        answer = handle_sql(route)
-    else:
-        answer = rag_answer(q)
+    try:
+        route = route_query(q)
 
-    return {
-        "question": q,
-        "route": route,
-        "answer": answer
-    }
+        if route.startswith("tool"):
+            answer = handle_sql(route)
+        else:
+            answer = rag_answer(q)
+
+        return {
+            "query": q,
+            "route": route,
+            "answer": answer
+        }
+
+    except Exception as e:
+        return {
+            "error": str(e)
+        }
