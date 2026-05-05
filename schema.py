@@ -14,3 +14,4 @@ def get_schema():
     StructField("deposit_amt", StringType(), True),
     StructField("balance_amt", StringType(), True),
     ])
+    

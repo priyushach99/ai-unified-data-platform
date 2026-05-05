@@ -6,7 +6,10 @@ import datetime
 from functools import reduce
 
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, concat, to_date, regexp_replace, when, lit, trim
+from pyspark.sql.functions import (
+    col, concat, to_date, regexp_replace,
+    when, lit, trim, current_date
+)
 
 from schema import get_schema
 from db_utils import (
@@ -16,6 +19,9 @@ from db_utils import (
     get_db_columns,
     add_missing_columns
 )
+
+from insight_store import generate_insights_from_df, save_insights
+from ai_insight_engine.insight_engine import generate_ai_insights
 
 # =========================
 # CONFIG
@@ -75,7 +81,6 @@ def read_input_files(path):
     if not dfs:
         raise Exception("❌ No valid input files found")
 
-    # ✅ Handles 1 or many files safely
     df_final = reduce(
         lambda df1, df2: df1.unionByName(df2, allowMissingColumns=True),
         dfs
@@ -85,6 +90,7 @@ def read_input_files(path):
     df_final = map_columns(df_final)
 
     return df_final
+
 
 def normalize_columns(df):
     for c in df.columns:
@@ -98,6 +104,7 @@ def normalize_columns(df):
 
     return df
 
+
 def map_columns(df):
 
     column_mapping = {
@@ -105,7 +112,7 @@ def map_columns(df):
         "transaction_date": "transaction_date",
         "transaction_details": "transaction_details",
         "chqno": "chqno",
-        "chqno_": "chqno",   # safety
+        "chqno_": "chqno",
         "chq_no": "chqno",
         "withdrawal_amt": "withdrawal_amt",
         "deposit_amt": "deposit_amt",
@@ -119,57 +126,46 @@ def map_columns(df):
 
     return df
 
+
 # =========================
 # CLEAN & CAST
 # =========================
 
-from pyspark.sql.functions import (
-    col, trim, regexp_replace, when, lit,
-    to_date, expr
-)
+from pyspark.sql.functions import expr
 
 def clean_and_cast(df):
 
-    # =========================
-    # STEP 1: Remove junk chars
-    # =========================
     for c in df.columns:
         df = df.withColumn(
             c,
             trim(
                 regexp_replace(
-                    regexp_replace(col(c), r"[\"']", ""),   # remove quotes
-                    r"\s+", " "                             # normalize spaces
+                    regexp_replace(col(c), r"[\"']", ""),
+                    r"\s+", " "
                 )
             )
         )
 
-    # =========================
-    # STEP 2: Numeric cleaning
-    # =========================
     numeric_cols = ["withdrawal_amt", "deposit_amt", "balance_amt"]
 
     for c in numeric_cols:
         df = df.withColumn(
             c,
-            regexp_replace(col(c), ",", "")  # remove commas
+            regexp_replace(col(c), ",", "")
         )
 
-        # safe cast using try_cast
         df = df.withColumn(
             f"{c}_clean",
             expr(f"try_cast({c} as double)")
         )
 
-    # =========================
-    # STEP 3: Date cleaning
-    # =========================
     df = df.withColumn(
         "transaction_date_clean",
         expr("try_to_date(transaction_date, 'dd-MMM-yy')")
     )
 
     return df
+
 
 # =========================
 # ERROR HANDLING
@@ -194,6 +190,7 @@ def add_error_column(df):
         .otherwise(None)
     )
 
+
 def split_data(df):
 
     bad_df = df.filter(col("error_reason").isNotNull())
@@ -201,19 +198,29 @@ def split_data(df):
 
     return good_df, bad_df
 
-def finalize_good_data(df):
+
+# =========================
+# FINAL TRANSFORMATION
+# =========================
+
+
+def finalize_good_data(df, ingestion_type=None, source_file=None):
 
     return df \
         .withColumn("transaction_date", col("transaction_date_clean")) \
         .withColumn("withdrawal_amt", col("withdrawal_amt_clean")) \
         .withColumn("deposit_amt", col("deposit_amt_clean")) \
         .withColumn("balance_amt", col("balance_amt_clean")) \
+        .withColumn("ingestion_type", lit(ingestion_type)) \
+        .withColumn("source_file", lit(source_file)) \
+        .withColumn("source_date", current_date()) \
         .drop(
             "transaction_date_clean",
             "withdrawal_amt_clean",
             "deposit_amt_clean",
             "balance_amt_clean"
         )
+
 
 # =========================
 # SCHEMA EVOLUTION
@@ -232,6 +239,7 @@ def handle_schema_evolution(df):
         print(f"➕ Adding new columns to DB: {new_cols}")
         add_missing_columns(TABLE_NAME, new_cols)
 
+
 # =========================
 # WRITE BAD DATA
 # =========================
@@ -245,13 +253,11 @@ def write_bad_data(df):
     ts = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     output_path = f"{BAD_DATA_PATH}/bad_records_{ts}.csv"
 
-    # coalesce to 1 file
     df.coalesce(1).write \
         .mode("overwrite") \
         .option("header", True) \
         .csv(f"{BAD_DATA_PATH}/temp_bad_{ts}")
 
-    # Rename part file to proper name
     temp_dir = f"{BAD_DATA_PATH}/temp_bad_{ts}"
     for file in os.listdir(temp_dir):
         if file.startswith("part-") and file.endswith(".csv"):
@@ -260,11 +266,11 @@ def write_bad_data(df):
                 output_path
             )
 
-    # remove temp folder
     import shutil
     shutil.rmtree(temp_dir)
 
     print(f"❌ Bad records written to: {output_path}")
+
 
 # =========================
 # WRITE TO POSTGRES
@@ -285,7 +291,9 @@ def write_to_postgres(df):
         "withdrawal_amt",
         "deposit_amt",
         "balance_amt",
-        "ingestion_type"
+        "ingestion_type",
+        "source_file",
+        "source_date"
     ]
 
     available_columns = [c for c in expected_columns if c in df.columns]
@@ -304,9 +312,11 @@ def write_to_postgres(df):
             .option("driver", "org.postgresql.Driver") \
             .mode("append") \
             .save()
+
     except Exception as exc:
         print(f"❌ Postgres write failed: {exc}")
         raise
+
 
 # =========================
 # MAIN
@@ -331,17 +341,12 @@ def main():
 
     good_df, bad_df = split_data(df_with_errors)
 
-    good_df = good_df.withColumn(
-        "ingestion_type",
-        concat(lit("csv spark job processing - "), col("source_file"))
-    )
+    good_df = finalize_good_data(good_df,ingestion_type="Spark batch processing",source_file=INPUT_PATH)
 
     bad_df = bad_df.withColumn(
         "ingestion_type",
-        concat(lit("csv spark job processing - "), col("source_file"))
+        lit("Spark batch processing")
     )
-
-    good_df = finalize_good_data(good_df)
 
     good_count = good_df.cache().count()
     bad_count = bad_df.count()
@@ -361,9 +366,39 @@ def main():
         print("🛢️ Writing to PostgreSQL...")
         write_to_postgres(good_df)
 
+        # 🔥 FINAL CHANGE: INSIGHT GENERATION (correct place)
+        print("📊 Generating base insights...")
+
+        insight_json = generate_insights_from_df(good_df)
+
+        print("🤖 Generating AI summary...")
+
+        raw_transactions = []
+
+        for r in insight_json["insights"]:
+            raw_transactions.append({
+                "transaction_date": str(r["transaction_date"]),
+                "deposit": r.get("total_deposit", 0),
+                "withdrawal": r.get("total_withdrawal", 0),
+                "balance": r.get("avg_balance", 0),
+                "source": "spark"
+            })
+
+        insights = generate_ai_insights(
+            source_date=insight_json["source_date"],
+            raw_transactions=raw_transactions   # ✅ correct
+        )
+
+        final_output = {
+            **insight_json,
+            "ai_summary": insights.get("ai_insights"),
+            "mode": insights.get("mode")
+        }
+
+        save_insights(final_output, "spark_batch")
+
     print("🎉 ETL Completed Successfully")
 
-# =========================
 
 if __name__ == "__main__":
     main()

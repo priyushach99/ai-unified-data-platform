@@ -15,6 +15,9 @@ from spark_dynamic_pipeline import (
     write_to_postgres
 )
 
+from insight_store import generate_insights_from_df, save_insights
+from ai_insight_engine.insight_engine import generate_ai_insights
+
 # =========================
 # CONFIG
 # =========================
@@ -25,11 +28,13 @@ TOPIC = "transactions"
 CHECKPOINT_PATH = "checkpoint/main"
 BAD_DATA_PATH = "data/bad_records"
 
+TOPIC = "transactions"
+
 # For local testing, remove old checkpoint offsets so the stream replays existing Kafka data.
 # In production, set this to False once the stream has a stable checkpoint state.
 RESET_CHECKPOINTS = True
 
-ENABLE_DEBUG_CONSOLE = True     # 🔥 toggle debug output
+ENABLE_DEBUG_CONSOLE = False     # 🔥 toggle debug output
 ENABLE_IDLE_TIMEOUT = True      # 🔥 auto stop for testing
 IDLE_TIMEOUT = 300               # seconds
 
@@ -107,8 +112,7 @@ def process_batch(batch_df, batch_id):
     global last_data_time
 
     try:
-        total_count = batch_df.count()
-        if total_count == 0:
+        if batch_df.rdd.isEmpty():
             return
 
         good_df = batch_df.filter(col("error_reason").isNull()).drop("error_reason")
@@ -118,17 +122,68 @@ def process_batch(batch_df, batch_id):
         bad_error = None
 
         if not good_df.rdd.isEmpty():
-            good_count = good_df.count()
+            
             last_data_time = time.time()
-            final_df = finalize_good_data(good_df)
+
+            final_df = finalize_good_data(good_df,ingestion_type="kafka_streaming",source_file=TOPIC)
+
+            # =========================
+            # 1. Write to Postgres
+            # =========================
             try:
                 write_to_postgres(final_df)
             except Exception as exc:
                 good_error = exc
                 print(f"❌ Failed to write good batch {batch_id} to Postgres: {exc}")
 
+            # =========================
+            # 2. Generate insights
+            # =========================
+            try:
+                insight_json = generate_insights_from_df(final_df)
+
+                if insight_json:
+
+                    raw_transactions = []
+
+                    for r in insight_json["insights"]:
+                        raw_transactions.append({
+                            "transaction_date": str(r["transaction_date"]),
+                            "deposit": r.get("total_deposit", 0),
+                            "withdrawal": r.get("total_withdrawal", 0),
+                            "balance": r.get("avg_balance", 0),
+                            "source": "kafka"
+                        })
+
+                    # =========================
+                    # 3. AI Summary
+                    # =========================
+                    insights = generate_ai_insights(
+                        source_date=insight_json["source_date"],
+                        raw_transactions=raw_transactions   # ✅ correct
+                    )
+
+                    # =========================
+                    # 4. Final JSON merge
+                    # =========================
+                    final_output = {
+                        **insight_json,
+                        "ai_summary": insights.get("ai_insights"),
+                        "mode": insights.get("mode")
+                    }
+
+                    # =========================
+                    # 5. Save JSON
+                    # =========================
+                    save_insights(final_output, "kafka_stream")
+
+                    print(f"📊 Insights + AI generated for batch {batch_id}")
+
+            except Exception as e:
+                print(f"⚠️ Insight generation failed batch {batch_id}: {e}")
+
         if not bad_df.rdd.isEmpty():
-            bad_count = bad_df.count()
+            
             last_data_time = time.time()
             ts = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
             temp_path = os.path.join(BAD_DATA_PATH, f"kafka_bad_rec_{ts}_tmp")

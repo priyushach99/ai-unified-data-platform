@@ -1,0 +1,14 @@
+{
+  "source_date": "2026-05-05",
+  "ai_summary": "LLM unavailable. Using deterministic rule-based insights.",
+  "rule_summary": {
+    "total_transactions": 9,
+    "total_deposit": 4500000.0,
+    "total_withdrawal": 133900.0,
+    "avg_balance": 6151788.89,
+    "anomaly": "normal",
+    "confidence": 0.9
+  },
+  "mode": "fallback",
+  "error": "GitHub Model Error: Unauthorized\n"
+}
