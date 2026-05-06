@@ -1,0 +1,2 @@
+account_no,transaction_date,transaction_details,chqno,value_date,withdrawal_amt,deposit_amt,balance_amt,withdrawal_amt_clean,deposit_amt_clean,balance_amt_clean,transaction_date_clean,ingestion_type
+409000362497,6-Sep-17,INDO GIBL Indiaforensic STL31081,"",,52723.00,"",2270453.00,52723.0,,2270453.0,,streaming

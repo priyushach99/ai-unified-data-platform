@@ -1,5 +1,5 @@
 # insight_engine.py
-
+import json
 import hashlib
 from .github_client import call_github_model
 from .rule_engine import rule_based_insights
@@ -10,7 +10,12 @@ from .cache_store import get_cache, set_cache
 # CACHE KEY
 # -------------------------
 def make_cache_key(source_date, data):
-    raw = f"{source_date}_{len(data)}"
+    # Include transaction_id or the full row to guarantee uniqueness
+    fingerprint = "_".join(
+        f"{r.get('transaction_id', '')}:{r.get('transaction_date')}:{r.get('total_withdrawal', 0)}:{r.get('total_deposit', 0)}"
+        for r in sorted(data, key=lambda x: (x.get('transaction_date', ''), x.get('transaction_id', '')))
+    )
+    raw = f"{source_date}_{fingerprint}"
     return hashlib.md5(raw.encode()).hexdigest()
 
 

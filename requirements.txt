@@ -8,8 +8,6 @@ python-dotenv
 
 # --- Data Processing ---
 pyspark
-psycopg2-binary
-python-dotenv
 pandas
 numpy
 

@@ -2,6 +2,7 @@ import os
 import shutil
 import datetime
 import time
+import json
 from threading import Thread
 
 from pyspark.sql import SparkSession
@@ -143,6 +144,36 @@ def process_batch(batch_df, batch_id):
                 insight_json = generate_insights_from_df(final_df)
 
                 if insight_json:
+
+                    # ✅ FIX: Load existing insight file and merge before generating AI summary
+                    insight_file = f"insights/insight_kafka_stream_{insight_json['source_date']}.json"
+                    
+                    if os.path.exists(insight_file):
+                        with open(insight_file, "r") as f:
+                            existing = json.load(f)
+                        existing_by_date = {r["transaction_date"]: r for r in existing.get("insights", [])}
+                    else:
+                        existing_by_date = {}
+
+                    # Merge current batch into existing
+                    for r in insight_json["insights"]:
+                        date = r["transaction_date"]
+                        if date in existing_by_date:
+                            ex = existing_by_date[date]
+                            n_old = ex["total_transactions"]
+                            n_new = r["total_transactions"]
+                            ex["total_deposit"]     += r.get("total_deposit", 0)
+                            ex["total_withdrawal"]  += r.get("total_withdrawal", 0)
+                            ex["avg_balance"]        = (
+                                (ex["avg_balance"] * n_old + r["avg_balance"] * n_new)
+                                / (n_old + n_new)
+                            )
+                            ex["total_transactions"] = n_old + n_new
+                        else:
+                            existing_by_date[date] = r
+
+                    # Replace insights with merged result
+                    insight_json["insights"] = list(existing_by_date.values())
 
                     raw_transactions = []
 

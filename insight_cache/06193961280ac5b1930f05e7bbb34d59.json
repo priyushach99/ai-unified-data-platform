@@ -1,0 +1,13 @@
+{
+  "source_date": "2026-05-06",
+  "ai_summary": "### Behavioral Patterns\n\nThe transaction data reveals a significant withdrawal of $18,000.00 with no corresponding deposits. This behavior indicates a potential pattern of high withdrawal activity, especially given the average balance of $8,348,100.00. The absence of deposits alongside a substantial withdrawal could suggest either a planned expenditure or a potential liquidity issue that warrants further investigation.\n\n### Spark vs Kafka Split\n\nIn this analysis, we observe:\n- Total transactions: **1**\n- Spark batch transactions: **0**\n- Kafka streaming transactions: **1**\n\nThis indicates that all transactions are being processed in real-time through Kafka, with no historical batch processing occurring via Spark.\n\n### Flagged Transaction Types\n\nGiven the single transaction on **2017-08-16**, there is no repeated transaction type or clustering by date to flag. However, the singular high withdrawal of $18,000.00 is noteworthy and should be monitored for any future similar activities.\n\n### Actionable Risk Flags\n\n1. **High Withdrawal Alert**: The withdrawal of **$18,000.00** is significantly high compared to typical transaction volumes for accounts with an average balance of **$8,348,100.00**. This should trigger an alert for further investigation into the purpose of this withdrawal.\n   \n2. **Zero Deposit Activity**: The absence of deposits alongside a large withdrawal raises a red flag. This could indicate potential financial distress or unusual activity that requires scrutiny.\n\n3. **Anomaly Status**: The transaction is classified as **high_withdrawal** with a confidence level of **0.55**. While this confidence level is moderate, it suggests that there may be underlying issues that need to be explored further.\n\n### Conclusion\n\nThe dual Spark+Kafka architecture enables both historical batch analysis (Spark) AND real-time risk detection (Kafka). In this case, the reliance on Kafka for processing the single transaction allows for immediate identification of high-risk activities, while Spark could be utilized for analyzing historical trends and patterns in future transactions.",
+  "rule_summary": {
+    "total_transactions": 1,
+    "total_deposit": 0.0,
+    "total_withdrawal": 18000.0,
+    "avg_balance": 8348100.0,
+    "anomaly": "high_withdrawal",
+    "confidence": 0.55
+  },
+  "mode": "llm"
+}

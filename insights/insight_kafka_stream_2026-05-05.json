@@ -8,6 +8,13 @@
       "total_deposit": 0.0,
       "total_withdrawal": 133900.0,
       "avg_balance": 8366100.0
+    },
+    {
+      "transaction_date": "2017-09-25",
+      "total_transactions": 1,
+      "total_deposit": 0.0,
+      "total_withdrawal": 77251.0,
+      "avg_balance": 2193202.0
     }
   ]
 }
