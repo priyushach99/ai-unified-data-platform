@@ -1,0 +1,89 @@
+version: '3.8'
+
+x-airflow-common: &airflow-common
+  build:
+    context: .
+    dockerfile: Dockerfile
+  env_file:
+    - ../.env                          # reads DB_HOST, DB_NAME, DB_USER, GITHUB_TOKEN
+  environment:
+    # Airflow internals
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'false'
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow-postgres/airflow
+    AIRFLOW__WEBSERVER__SECRET_KEY: 'mcp-unified-platform-secret'
+    # DB_PASSWORD comes from your terminal export — passed through here
+    DB_PASSWORD: ${DB_PASSWORD}
+    # Spark + Java paths — using host mounts
+    SPARK_HOME: /home/airflow/.local/lib/python3.11/site-packages/pyspark
+    JAVA_HOME: /usr/lib/jvm/temurin-17-jdk-amd64
+    PYTHONPATH: /home/airflow/.local/bin:/home/airflow/.local/lib/python3.11/site-packages/pyspark/bin:/usr/lib/jvm/temurin-17-jdk-amd64/bin:/usr/local/bin:/usr/bin:/bin
+    PATH: /home/airflow/.local/bin:/home/airflow/.local/lib/python3.11/site-packages/pyspark/bin:/usr/lib/jvm/temurin-17-jdk-amd64/bin:/usr/local/bin:/usr/bin:/bin
+  volumes:
+    - ./dags:/opt/airflow/dags
+    - ./logs:/opt/airflow/logs
+    - ./plugins:/opt/airflow/plugins
+    # Project root — so DAG can call spark_dynamic_pipeline.py and ai_insight_engine
+    - /workspaces/mcp-ai-unified-data-platform:/opt/project
+    # Host Java
+    # Host Python (so container can run your project's modules with correct deps)
+    - /usr/local/python/3.12.1:/usr/local/python/3.12.1
+  depends_on:
+    airflow-postgres:
+      condition: service_healthy
+
+services:
+  airflow-postgres:
+    image: postgres:15
+    container_name: airflow-postgres
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      retries: 5
+    volumes:
+      - airflow-pg-data:/var/lib/postgresql/data
+
+  airflow-init:
+    <<: *airflow-common
+    container_name: airflow-init
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        export PATH=/home/airflow/.local/bin:$$PATH &&
+        airflow db migrate &&
+        airflow users create \
+          --username admin \
+          --firstname Admin \
+          --lastname User \
+          --role Admin \
+          --email admin@example.com \
+          --password admin
+    restart: on-failure
+
+  airflow-webserver:
+    <<: *airflow-common
+    container_name: airflow-webserver
+    command: webserver
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    restart: unless-stopped
+
+  airflow-scheduler:
+    <<: *airflow-common
+    container_name: airflow-scheduler
+    command: scheduler
+    restart: unless-stopped
+
+volumes:
+  airflow-pg-data:

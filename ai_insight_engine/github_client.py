@@ -29,7 +29,7 @@ def call_github_model(prompt: str) -> str:
             {
                 "role": "system",
                 "content": (
-                    "You are a forensic financial analyst specializing in banking data pipelines. "
+                    "You are a financial analyst specializing in banking data pipelines. "
                     "When analyzing transactions: identify behavioral patterns, flag repeated transaction descriptions, "
                     "comment on data pipeline health (Spark vs Kafka convergence), and give actionable risk flags. "
                     "Be specific with numbers. Never make generic statements that could apply to any dataset."
