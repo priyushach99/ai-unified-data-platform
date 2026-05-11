@@ -1,0 +1,773 @@
+account_no,transaction_date,transaction_details,chqno,value_date,withdrawal_amt,deposit_amt,balance_amt,source_file,withdrawal_amt_clean,deposit_amt_clean,balance_amt_clean,transaction_date_clean,error_reason,ingestion_type
+409000611074,5-Jul-17,TRF FROM Indiaforensic SERVICES,,5-Jul-17,,1000000.00,2000000.00,transactions.csv,,1000000.0,2000000.0,,Invalid Date,Spark batch processing
+409000611074,1-Aug-17,TRF FRM Indiaforensic SERVICES,,1-Aug-17,,3000000.00,5500000.00,transactions.csv,,3000000.0,5500000.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL01081,,6-Sep-17,40500.00,,5593018.00,transactions.csv,40500.0,,5593018.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL02081,,6-Sep-17,242300.00,,5350718.00,transactions.csv,242300.0,,5350718.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL03081,,6-Sep-17,90100.00,,5260618.00,transactions.csv,90100.0,,5260618.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL04081,,6-Sep-17,113250.00,,5147368.00,transactions.csv,113250.0,,5147368.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL05081,,6-Sep-17,12500.00,,5134868.00,transactions.csv,12500.0,,5134868.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL06081,,6-Sep-17,40000.00,,5094868.00,transactions.csv,40000.0,,5094868.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL07081,,6-Sep-17,206900.00,,4887968.00,transactions.csv,206900.0,,4887968.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL08081,,6-Sep-17,276000.00,,4611968.00,transactions.csv,276000.0,,4611968.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL09081,,6-Sep-17,171000.00,,4440968.00,transactions.csv,171000.0,,4440968.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL10081,,6-Sep-17,40100.00,,4400868.00,transactions.csv,40100.0,,4400868.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL11081,,6-Sep-17,189800.00,,4211068.00,transactions.csv,189800.0,,4211068.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL12081,,6-Sep-17,55800.00,,4155268.00,transactions.csv,55800.0,,4155268.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL13081,,6-Sep-17,95400.00,,4059868.00,transactions.csv,95400.0,,4059868.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL14081,,6-Sep-17,271323.00,,3788545.00,transactions.csv,271323.0,,3788545.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL16081,,6-Sep-17,200600.00,,3587945.00,transactions.csv,200600.0,,3587945.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL17081,,6-Sep-17,176900.00,,3411045.00,transactions.csv,176900.0,,3411045.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL18081,,6-Sep-17,150050.00,,3260995.00,transactions.csv,150050.0,,3260995.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL19081,,6-Sep-17,82500.00,,3178495.00,transactions.csv,82500.0,,3178495.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL20081,,6-Sep-17,14800.00,,3163695.00,transactions.csv,14800.0,,3163695.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL21081,,6-Sep-17,150600.00,,3013095.00,transactions.csv,150600.0,,3013095.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL22081,,6-Sep-17,203325.00,,2809770.00,transactions.csv,203325.0,,2809770.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL23081,,6-Sep-17,123900.00,,2685870.00,transactions.csv,123900.0,,2685870.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL24081,,6-Sep-17,33863.00,,2652007.00,transactions.csv,33863.0,,2652007.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL25081,,6-Sep-17,32000.00,,2620007.00,transactions.csv,32000.0,,2620007.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL26081,,6-Sep-17,8299.00,,2611708.00,transactions.csv,8299.0,,2611708.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL28081,,6-Sep-17,52219.00,,2559489.00,transactions.csv,52219.0,,2559489.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL29081,,6-Sep-17,96450.00,,2463039.00,transactions.csv,96450.0,,2463039.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL30081,,6-Sep-17,139863.00,,2323176.00,transactions.csv,139863.0,,2323176.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-17,INDO GIBL Indiaforensic STL31081,,6-Sep-17,52723.00,,2270453.00,transactions.csv,52723.0,,2270453.0,,Invalid Date,Spark batch processing
+409000611074,3-Oct-17,INDO GIBL Indiaforensic STL28091,,3-Oct-17,12106.00,,1178872.00,transactions.csv,12106.0,,1178872.0,,Invalid Date,Spark batch processing
+409000611074,3-Oct-17,INDO GIBL Indiaforensic STL29091,,3-Oct-17,12611.00,,1166261.00,transactions.csv,12611.0,,1166261.0,,Invalid Date,Spark batch processing
+409000611074,3-Oct-17,INDO GIBL Indiaforensic STL30091,,3-Oct-17,9375.00,,1156886.00,transactions.csv,9375.0,,1156886.0,,Invalid Date,Spark batch processing
+409000611074,4-Oct-17,INDO GIBL Indiaforensic STL03101,,4-Oct-17,125200.00,,1031686.00,transactions.csv,125200.0,,1031686.0,,Invalid Date,Spark batch processing
+409000611074,5-Oct-17,INDO GIBL Indiaforensic STL04101,,5-Oct-17,61400.00,,970286.00,transactions.csv,61400.0,,970286.0,,Invalid Date,Spark batch processing
+409000611074,6-Oct-17,INDO GIBL Indiaforensic STL05101,,6-Oct-17,143700.00,,826586.00,transactions.csv,143700.0,,826586.0,,Invalid Date,Spark batch processing
+409000611074,1-Nov-17,INDO GIBL Indiaforensic STL31101,,1-Nov-17,80000.00,,695312.00,transactions.csv,80000.0,,695312.0,,Invalid Date,Spark batch processing
+409000611074,2-Nov-17,INDO GIBL Indiaforensic STL01111,,2-Nov-17,46250.00,,649062.00,transactions.csv,46250.0,,649062.0,,Invalid Date,Spark batch processing
+409000611074,3-Nov-17,INDO GIBL Indiaforensic STL02111,,3-Nov-17,42825.00,,606237.00,transactions.csv,42825.0,,606237.0,,Invalid Date,Spark batch processing
+409000611074,6-Nov-17,INDO GIBL Indiaforensic STL03111,,6-Nov-17,179463.00,,426774.00,transactions.csv,179463.0,,426774.0,,Invalid Date,Spark batch processing
+409000611074,6-Nov-17,INDO GIBL Indiaforensic STL04111,,6-Nov-17,18949.00,,407825.00,transactions.csv,18949.0,,407825.0,,Invalid Date,Spark batch processing
+409000611074,6-Nov-17,INDO GIBL Indiaforensic STL05111,,6-Nov-17,91441.00,,316384.00,transactions.csv,91441.0,,316384.0,,Invalid Date,Spark batch processing
+409000611074,7-Nov-17,INDO GIBL Indiaforensic STL06111,,7-Nov-17,147750.00,,168634.00,transactions.csv,147750.0,,168634.0,,Invalid Date,Spark batch processing
+409000611074,8-Nov-17,FDRL/INTERNAL FUND TRANSFE,,8-Nov-17,,500000.00,668634.00,transactions.csv,,500000.0,668634.0,,Invalid Date,Spark batch processing
+409000611074,8-Nov-17,FDRL/INTERNAL FUND TRANSFE,,8-Nov-17,,500000.00,1168634.00,transactions.csv,,500000.0,1168634.0,,Invalid Date,Spark batch processing
+409000611074,8-Nov-17,INDO GIBL Indiaforensic STL07111,,8-Nov-17,110188.00,,1058446.00,transactions.csv,110188.0,,1058446.0,,Invalid Date,Spark batch processing
+409000611074,9-Nov-17,INDO GIBL Indiaforensic STL08111,,9-Nov-17,61870.00,,996576.00,transactions.csv,61870.0,,996576.0,,Invalid Date,Spark batch processing
+409000611074,2-Dec-17,INDO GIBL Indiaforensic STL30111,,2-Dec-17,67850.00,,597209.00,transactions.csv,67850.0,,597209.0,,Invalid Date,Spark batch processing
+409000611074,2-Dec-17,INDO GIBL Indiaforensic STL01121,,2-Dec-17,19800.00,,577409.00,transactions.csv,19800.0,,577409.0,,Invalid Date,Spark batch processing
+409000611074,4-Dec-17,INDO GIBL Indiaforensic STL02121,,4-Dec-17,10000.00,,567409.00,transactions.csv,10000.0,,567409.0,,Invalid Date,Spark batch processing
+409000611074,4-Dec-17,INDO GIBL Indiaforensic STL03121,,4-Dec-17,24500.00,,542909.00,transactions.csv,24500.0,,542909.0,,Invalid Date,Spark batch processing
+409000611074,5-Dec-17,INDO GIBL Indiaforensic STL04121,,5-Dec-17,41700.00,,501209.00,transactions.csv,41700.0,,501209.0,,Invalid Date,Spark batch processing
+409000611074,6-Dec-17,FDRL/INTERNAL FUND TRANSFE,,6-Dec-17,,500000.00,1001209.00,transactions.csv,,500000.0,1001209.0,,Invalid Date,Spark batch processing
+409000611074,6-Dec-17,INDO GIBL Indiaforensic STL05121,,6-Dec-17,218050.00,,783159.00,transactions.csv,218050.0,,783159.0,,Invalid Date,Spark batch processing
+409000611074,7-Dec-17,INDO GIBL Indiaforensic STL06121,,7-Dec-17,186400.00,,596759.00,transactions.csv,186400.0,,596759.0,,Invalid Date,Spark batch processing
+409000611074,8-Dec-17,INDO GIBL Indiaforensic STL07121,,8-Dec-17,171330.00,,425429.00,transactions.csv,171330.0,,425429.0,,Invalid Date,Spark batch processing
+409000611074,1-Jan-18,INDO GIBL Indiaforensic STL31121,,1-Jan-18,14000.00,,697823.00,transactions.csv,14000.0,,697823.0,,Invalid Date,Spark batch processing
+409000611074,1-Jan-18,INDO GIBL Indiaforensic STL30121,,1-Jan-18,54250.00,,643573.00,transactions.csv,54250.0,,643573.0,,Invalid Date,Spark batch processing
+409000611074,2-Jan-18,INDO GIBL Indiaforensic STL01011,,2-Jan-18,147500.00,,496073.00,transactions.csv,147500.0,,496073.0,,Invalid Date,Spark batch processing
+409000611074,3-Jan-18,FDRL/INTERNAL FUND TRANSFE,,3-Jan-18,,500000.00,996073.00,transactions.csv,,500000.0,996073.0,,Invalid Date,Spark batch processing
+409000611074,3-Jan-18,INDO GIBL Indiaforensic STL02011,,3-Jan-18,323500.00,,672573.00,transactions.csv,323500.0,,672573.0,,Invalid Date,Spark batch processing
+409000611074,4-Jan-18,INDO GIBL Indiaforensic STL03011,,4-Jan-18,180300.00,,492273.00,transactions.csv,180300.0,,492273.0,,Invalid Date,Spark batch processing
+409000611074,5-Jan-18,FDRL/INTERNAL FUND TRANSFE,,5-Jan-18,,500000.00,992273.00,transactions.csv,,500000.0,992273.0,,Invalid Date,Spark batch processing
+409000611074,5-Jan-18,FDRL/INTERNAL FUND TRANSFE,,5-Jan-18,,500000.00,1492273.00,transactions.csv,,500000.0,1492273.0,,Invalid Date,Spark batch processing
+409000611074,5-Jan-18,INDO GIBL Indiaforensic STL04011,,5-Jan-18,222800.00,,1269473.00,transactions.csv,222800.0,,1269473.0,,Invalid Date,Spark batch processing
+409000611074,6-Jan-18,INDO GIBL Indiaforensic STL05011,,6-Jan-18,145450.00,,1124023.00,transactions.csv,145450.0,,1124023.0,,Invalid Date,Spark batch processing
+409000611074,9-Jan-18,INDO GIBL Indiaforensic STL06011,,9-Jan-18,182000.00,,942023.00,transactions.csv,182000.0,,942023.0,,Invalid Date,Spark batch processing
+409000611074,9-Jan-18,INDO GIBL Indiaforensic STL07011,,9-Jan-18,205075.00,,736948.00,transactions.csv,205075.0,,736948.0,,Invalid Date,Spark batch processing
+409000611074,9-Jan-18,INDO GIBL Indiaforensic STL08011,,9-Jan-18,170500.00,,566448.00,transactions.csv,170500.0,,566448.0,,Invalid Date,Spark batch processing
+409000611074,9-Jan-18,FDRL/INTERNAL FUND TRANSFE,,9-Jan-18,,500000.00,1066448.00,transactions.csv,,500000.0,1066448.0,,Invalid Date,Spark batch processing
+409000611074,1-Feb-18,INDO GIBL Indiaforensic STL31011,,1-Feb-18,196150.00,,254645.00,transactions.csv,196150.0,,254645.0,,Invalid Date,Spark batch processing
+409000611074,2-Feb-18,FDRL/INTERNAL FUND TRANSFE,,2-Feb-18,,500000.00,754645.00,transactions.csv,,500000.0,754645.0,,Invalid Date,Spark batch processing
+409000611074,2-Feb-18,FDRL/INTERNAL FUND TRANSFE,,2-Feb-18,,500000.00,1254645.00,transactions.csv,,500000.0,1254645.0,,Invalid Date,Spark batch processing
+409000611074,2-Feb-18,FDRL/INTERNAL FUND TRANSFE,,2-Feb-18,,500000.00,1754645.00,transactions.csv,,500000.0,1754645.0,,Invalid Date,Spark batch processing
+409000611074,3-Feb-18,INDO GIBL Indiaforensic STL02021,,3-Feb-18,119675.00,,1634970.00,transactions.csv,119675.0,,1634970.0,,Invalid Date,Spark batch processing
+409000611074,3-Feb-18,INDO GIBL Indiaforensic STL01021,,3-Feb-18,137775.00,,1497195.00,transactions.csv,137775.0,,1497195.0,,Invalid Date,Spark batch processing
+409000611074,7-Feb-18,INDO GIBL Indiaforensic STL03021,,7-Feb-18,61500.00,,1435695.00,transactions.csv,61500.0,,1435695.0,,Invalid Date,Spark batch processing
+409000611074,7-Feb-18,INDO GIBL Indiaforensic STL05021,,7-Feb-18,138350.00,,1297345.00,transactions.csv,138350.0,,1297345.0,,Invalid Date,Spark batch processing
+409000611074,7-Feb-18,INDO GIBL Indiaforensic STL06021,,7-Feb-18,239400.00,,1057945.00,transactions.csv,239400.0,,1057945.0,,Invalid Date,Spark batch processing
+409000611074,8-Feb-18,FDRL/INTERNAL FUND TRANSFE,,8-Feb-18,,500000.00,1557945.00,transactions.csv,,500000.0,1557945.0,,Invalid Date,Spark batch processing
+409000611074,8-Feb-18,FDRL/INTERNAL FUND TRANSFE,,8-Feb-18,,500000.00,2057945.00,transactions.csv,,500000.0,2057945.0,,Invalid Date,Spark batch processing
+409000611074,9-Feb-18,INDO GIBL Indiaforensic STL07021,,9-Feb-18,271124.00,,1786821.00,transactions.csv,271124.0,,1786821.0,,Invalid Date,Spark batch processing
+409000611074,9-Feb-18,INDO GIBL Indiaforensic STL08021,,9-Feb-18,300799.00,,1486022.00,transactions.csv,300799.0,,1486022.0,,Invalid Date,Spark batch processing
+409000611074,1-Mar-18,FDRL/INTERNAL FUND TRANSFE,,1-Mar-18,,500000.00,1751116.00,transactions.csv,,500000.0,1751116.0,,Invalid Date,Spark batch processing
+409000611074,1-Mar-18,FDRL/INTERNAL FUND TRANSFE,,1-Mar-18,,500000.00,2251116.00,transactions.csv,,500000.0,2251116.0,,Invalid Date,Spark batch processing
+409000611074,5-Mar-18,INDO GIBL Indiaforensic STL03031,,5-Mar-18,155500.00,,2095616.00,transactions.csv,155500.0,,2095616.0,,Invalid Date,Spark batch processing
+409000611074,7-Mar-18,INDO GIBL Indiaforensic STL28021,,7-Mar-18,244350.00,,1851266.00,transactions.csv,244350.0,,1851266.0,,Invalid Date,Spark batch processing
+409000611074,7-Mar-18,INDO GIBL Indiaforensic STL01031,,7-Mar-18,202799.00,,1648467.00,transactions.csv,202799.0,,1648467.0,,Invalid Date,Spark batch processing
+409000611074,7-Mar-18,INDO GIBL Indiaforensic STL03031,,7-Mar-18,155500.00,,1492967.00,transactions.csv,155500.0,,1492967.0,,Invalid Date,Spark batch processing
+409000611074,7-Mar-18,INDO GIBL Indiaforensic STL05031,,7-Mar-18,153300.00,,1339667.00,transactions.csv,153300.0,,1339667.0,,Invalid Date,Spark batch processing
+409000611074,7-Mar-18,INDO GIBL Indiaforensic STL06031,,7-Mar-18,350150.00,,989517.00,transactions.csv,350150.0,,989517.0,,Invalid Date,Spark batch processing
+409000611074,8-Mar-18,INDO GIBL Indiaforensic STL07031,,8-Mar-18,371900.00,,617617.00,transactions.csv,371900.0,,617617.0,,Invalid Date,Spark batch processing
+409000611074,9-Mar-18,INDO GIBL Indiaforensic STL08031,,9-Mar-18,345930.00,,271687.00,transactions.csv,345930.0,,271687.0,,Invalid Date,Spark batch processing
+409000611074,9-Mar-18,FDRL/INTERNAL FUND TRANSFE,,9-Mar-18,,500000.00,771687.00,transactions.csv,,500000.0,771687.0,,Invalid Date,Spark batch processing
+409000611074,9-Mar-18,FDRL/INTERNAL FUND TRANSFE,,9-Mar-18,,500000.00,1271687.00,transactions.csv,,500000.0,1271687.0,,Invalid Date,Spark batch processing
+409000611074,5-Apr-18,FDRL/INTERNAL FUND TRANSFE,,5-Apr-18,,500000.00,1825809.00,transactions.csv,,500000.0,1825809.0,,Invalid Date,Spark batch processing
+409000611074,5-Apr-18,FDRL/INTERNAL FUND TRANSFE,,5-Apr-18,,500000.00,2325809.00,transactions.csv,,500000.0,2325809.0,,Invalid Date,Spark batch processing
+409000611074,6-Apr-18,INDO GIBL Indiaforensic STL31031,,6-Apr-18,150950.00,,2174859.00,transactions.csv,150950.0,,2174859.0,,Invalid Date,Spark batch processing
+409000611074,6-Apr-18,INDO GIBL Indiaforensic STL01041,,6-Apr-18,20000.00,,2154859.00,transactions.csv,20000.0,,2154859.0,,Invalid Date,Spark batch processing
+409000611074,6-Apr-18,INDO GIBL Indiaforensic STL02041,,6-Apr-18,26400.00,,2128459.00,transactions.csv,26400.0,,2128459.0,,Invalid Date,Spark batch processing
+409000611074,6-Apr-18,INDO GIBL Indiaforensic STL03041,,6-Apr-18,109650.00,,2018809.00,transactions.csv,109650.0,,2018809.0,,Invalid Date,Spark batch processing
+409000611074,6-Apr-18,INDO GIBL Indiaforensic STL04041,,6-Apr-18,318100.00,,1700709.00,transactions.csv,318100.0,,1700709.0,,Invalid Date,Spark batch processing
+409000611074,6-Apr-18,INDO GIBL Indiaforensic STL05041,,6-Apr-18,309200.00,,1391509.00,transactions.csv,309200.0,,1391509.0,,Invalid Date,Spark batch processing
+409000611074,7-Apr-18,INDO GIBL Indiaforensic STL06041,,7-Apr-18,303600.00,,1087909.00,transactions.csv,303600.0,,1087909.0,,Invalid Date,Spark batch processing
+409000611074,9-Apr-18,INDO GIBL Indiaforensic STL07041,,9-Apr-18,48800.00,,1039109.00,transactions.csv,48800.0,,1039109.0,,Invalid Date,Spark batch processing
+409000611074,9-Apr-18,FDRL/INTERNAL FUND TRANSFE,,9-Apr-18,,500000.00,1539109.00,transactions.csv,,500000.0,1539109.0,,Invalid Date,Spark batch processing
+409000611074,1-May-18,FDRL/INTERNAL FUND TRANSFE,,1-May-18,,500000.00,1837842.00,transactions.csv,,500000.0,1837842.0,,Invalid Date,Spark batch processing
+409000611074,2-May-18,INDO GIBL Indiaforensic STL27041,,2-May-18,229949.00,,1607893.00,transactions.csv,229949.0,,1607893.0,,Invalid Date,Spark batch processing
+409000611074,2-May-18,INDO GIBL Indiaforensic STL28041,,2-May-18,160300.00,,1447593.00,transactions.csv,160300.0,,1447593.0,,Invalid Date,Spark batch processing
+409000611074,2-May-18,INDO GIBL Indiaforensic STL29041,,2-May-18,76000.00,,1371593.00,transactions.csv,76000.0,,1371593.0,,Invalid Date,Spark batch processing
+409000611074,2-May-18,INDO GIBL Indiaforensic STL30041,,2-May-18,60449.00,,1311144.00,transactions.csv,60449.0,,1311144.0,,Invalid Date,Spark batch processing
+409000611074,2-May-18,INDO GIBL Indiaforensic STL01051,,2-May-18,259075.00,,1052069.00,transactions.csv,259075.0,,1052069.0,,Invalid Date,Spark batch processing
+409000611074,2-May-18,FDRL/INTERNAL FUND TRANSFE,,2-May-18,,500000.00,1552069.00,transactions.csv,,500000.0,1552069.0,,Invalid Date,Spark batch processing
+409000611074,3-May-18,INDO GIBL Indiaforensic STL02051,,3-May-18,206700.00,,1345369.00,transactions.csv,206700.0,,1345369.0,,Invalid Date,Spark batch processing
+409000611074,3-May-18,FDRL/INTERNAL FUND TRANSFE,,3-May-18,,500000.00,1845369.00,transactions.csv,,500000.0,1845369.0,,Invalid Date,Spark batch processing
+409000611074,4-May-18,INDO GIBL Indiaforensic STL03051,,4-May-18,237000.00,,1608369.00,transactions.csv,237000.0,,1608369.0,,Invalid Date,Spark batch processing
+409000611074,5-May-18,INDO GIBL Indiaforensic STL04051,,5-May-18,272000.00,,1336369.00,transactions.csv,272000.0,,1336369.0,,Invalid Date,Spark batch processing
+409000611074,7-May-18,INDO GIBL Indiaforensic STL05051,,7-May-18,387749.00,,948620.00,transactions.csv,387749.0,,948620.0,,Invalid Date,Spark batch processing
+409000611074,7-May-18,INDO GIBL Indiaforensic STL06051,,7-May-18,101050.00,,847570.00,transactions.csv,101050.0,,847570.0,,Invalid Date,Spark batch processing
+409000611074,7-May-18,FDRL/INTERNAL FUND TRANSFE,,7-May-18,,500000.00,1347570.00,transactions.csv,,500000.0,1347570.0,,Invalid Date,Spark batch processing
+409000611074,8-May-18,INDO GIBL Indiaforensic STL07051,,8-May-18,392900.00,,954670.00,transactions.csv,392900.0,,954670.0,,Invalid Date,Spark batch processing
+409000611074,9-May-18,INDO GIBL Indiaforensic STL08051,,9-May-18,290350.00,,664320.00,transactions.csv,290350.0,,664320.0,,Invalid Date,Spark batch processing
+409000611074,9-May-18,FDRL/INTERNAL FUND TRANSFE,,9-May-18,,500000.00,1164320.00,transactions.csv,,500000.0,1164320.0,,Invalid Date,Spark batch processing
+409000611074,9-May-18,FDRL/INTERNAL FUND TRANSFE,,9-May-18,,500000.00,1664320.00,transactions.csv,,500000.0,1664320.0,,Invalid Date,Spark batch processing
+409000611074,1-Jun-18,FDRL/INTERNAL FUND TRANSFE,,1-Jun-18,,500000.00,1626157.00,transactions.csv,,500000.0,1626157.0,,Invalid Date,Spark batch processing
+409000611074,1-Jun-18,INDO GIBL Indiaforensic STL31051,,1-Jun-18,78000.00,,1548157.00,transactions.csv,78000.0,,1548157.0,,Invalid Date,Spark batch processing
+409000611074,2-Jun-18,INDO GIBL Indiaforensic STL01061,,2-Jun-18,353500.00,,1194657.00,transactions.csv,353500.0,,1194657.0,,Invalid Date,Spark batch processing
+409000611074,4-Jun-18,FDRL/INTERNAL FUND TRANSFE,,4-Jun-18,,500000.00,1694657.00,transactions.csv,,500000.0,1694657.0,,Invalid Date,Spark batch processing
+409000611074,4-Jun-18,INDO GIBL Indiaforensic STL02061,,4-Jun-18,402850.00,,1291807.00,transactions.csv,402850.0,,1291807.0,,Invalid Date,Spark batch processing
+409000611074,5-Jun-18,INDO GIBL Indiaforensic STL04061,,5-Jun-18,578750.00,,713057.00,transactions.csv,578750.0,,713057.0,,Invalid Date,Spark batch processing
+409000611074,6-Jun-18,INDO GIBL Indiaforensic STL05061,,6-Jun-18,251200.00,,461857.00,transactions.csv,251200.0,,461857.0,,Invalid Date,Spark batch processing
+409000611074,6-Jun-18,FDRL/INTERNAL FUND TRANSFE,,6-Jun-18,,500000.00,961857.00,transactions.csv,,500000.0,961857.0,,Invalid Date,Spark batch processing
+409000611074,6-Jun-18,FDRL/INTERNAL FUND TRANSFE,,6-Jun-18,,500000.00,1461857.00,transactions.csv,,500000.0,1461857.0,,Invalid Date,Spark batch processing
+409000611074,7-Jun-18,INDO GIBL Indiaforensic STL06061,,7-Jun-18,217075.00,,1244782.00,transactions.csv,217075.0,,1244782.0,,Invalid Date,Spark batch processing
+409000611074,8-Jun-18,INDO GIBL Indiaforensic STL07061,,8-Jun-18,491005.00,,753777.00,transactions.csv,491005.0,,753777.0,,Invalid Date,Spark batch processing
+409000611074,2-Jul-18,FDRL/INTERNAL FUND TRANSFE,,2-Jul-18,,500000.00,1797576.00,transactions.csv,,500000.0,1797576.0,,Invalid Date,Spark batch processing
+409000611074,2-Jul-18,Indfor INCOME INDO REMI30061,,2-Jul-18,960.00,,1796616.00,transactions.csv,960.0,,1796616.0,,Invalid Date,Spark batch processing
+409000611074,2-Jul-18,INDO GIBL Indiaforensic STL30061,,2-Jul-18,200250.00,,1596366.00,transactions.csv,200250.0,,1596366.0,,Invalid Date,Spark batch processing
+409000611074,2-Jul-18,Indfor INCOME INDO REMI01071,,2-Jul-18,120.00,,1596246.00,transactions.csv,120.0,,1596246.0,,Invalid Date,Spark batch processing
+409000611074,2-Jul-18,INDO GIBL Indiaforensic STL01071,,2-Jul-18,10000.00,,1586246.00,transactions.csv,10000.0,,1586246.0,,Invalid Date,Spark batch processing
+409000611074,4-Jul-18,Indfor INCOME INDO REMI02071,,4-Jul-18,2280.00,,1583966.00,transactions.csv,2280.0,,1583966.0,,Invalid Date,Spark batch processing
+409000611074,4-Jul-18,INDO GIBL Indiaforensic STL02071,,4-Jul-18,282208.00,,1301758.00,transactions.csv,282208.0,,1301758.0,,Invalid Date,Spark batch processing
+409000611074,4-Jul-18,FDRL/INTERNAL FUND TRANSFE,,4-Jul-18,,500000.00,1801758.00,transactions.csv,,500000.0,1801758.0,,Invalid Date,Spark batch processing
+409000611074,4-Jul-18,Indfor INCOME INDO REMI03071,,4-Jul-18,2280.00,,1799478.00,transactions.csv,2280.0,,1799478.0,,Invalid Date,Spark batch processing
+409000611074,4-Jul-18,INDO GIBL Indiaforensic STL03071,,4-Jul-18,323700.00,,1475778.00,transactions.csv,323700.0,,1475778.0,,Invalid Date,Spark batch processing
+409000611074,5-Jul-18,Indfor INCOME INDO REMI04071,,5-Jul-18,3840.00,,1471938.00,transactions.csv,3840.0,,1471938.0,,Invalid Date,Spark batch processing
+409000611074,5-Jul-18,INDO GIBL Indiaforensic STL04071,,5-Jul-18,528300.00,,943638.00,transactions.csv,528300.0,,943638.0,,Invalid Date,Spark batch processing
+409000611074,6-Jul-18,Indfor INCOME INDO REMI05071,,6-Jul-18,2520.00,,941118.00,transactions.csv,2520.0,,941118.0,,Invalid Date,Spark batch processing
+409000611074,6-Jul-18,INDO GIBL Indiaforensic STL05071,,6-Jul-18,431899.00,,509219.00,transactions.csv,431899.0,,509219.0,,Invalid Date,Spark batch processing
+409000611074,6-Jul-18,FDRL/INTERNAL FUND TRANSFE,,6-Jul-18,,500000.00,1009219.00,transactions.csv,,500000.0,1009219.0,,Invalid Date,Spark batch processing
+409000611074,7-Jul-18,Indfor INCOME INDO REMI06071,,7-Jul-18,2640.00,,1006579.00,transactions.csv,2640.0,,1006579.0,,Invalid Date,Spark batch processing
+409000611074,7-Jul-18,INDO GIBL Indiaforensic STL06071,,7-Jul-18,295000.00,,711579.00,transactions.csv,295000.0,,711579.0,,Invalid Date,Spark batch processing
+409000611074,7-Jul-18,FDRL/INTERNAL FUND TRANSFE,,7-Jul-18,,500000.00,1211579.00,transactions.csv,,500000.0,1211579.0,,Invalid Date,Spark batch processing
+409000611074,9-Jul-18,Indfor INCOME INDO REMI08071,,9-Jul-18,120.00,,1211459.00,transactions.csv,120.0,,1211459.0,,Invalid Date,Spark batch processing
+409000611074,9-Jul-18,INDO GIBL Indiaforensic STL08071,,9-Jul-18,30700.00,,1180759.00,transactions.csv,30700.0,,1180759.0,,Invalid Date,Spark batch processing
+409000611074,9-Jul-18,Indfor INCOME INDO REMI07071,,9-Jul-18,1200.00,,1179559.00,transactions.csv,1200.0,,1179559.0,,Invalid Date,Spark batch processing
+409000611074,9-Jul-18,INDO GIBL Indiaforensic STL07071,,9-Jul-18,213225.00,,966334.00,transactions.csv,213225.0,,966334.0,,Invalid Date,Spark batch processing
+409000611074,9-Jul-18,FDRL/INTERNAL FUND TRANSFE,,9-Jul-18,,500000.00,1466334.00,transactions.csv,,500000.0,1466334.0,,Invalid Date,Spark batch processing
+409000611074,1-Aug-18,Indfor INCOME INDO REMI31071,,1-Aug-18,2760.00,,1464891.00,transactions.csv,2760.0,,1464891.0,,Invalid Date,Spark batch processing
+409000611074,1-Aug-18,INDO GIBL Indiaforensic STL31071,,1-Aug-18,372350.00,,1092541.00,transactions.csv,372350.0,,1092541.0,,Invalid Date,Spark batch processing
+409000611074,1-Aug-18,FDRL/INTERNAL FUND TRANSFE,,1-Aug-18,,300000.00,1392541.00,transactions.csv,,300000.0,1392541.0,,Invalid Date,Spark batch processing
+409000611074,2-Aug-18,Indfor INCOME INDO REMI01081,,2-Aug-18,1080.00,,1391461.00,transactions.csv,1080.0,,1391461.0,,Invalid Date,Spark batch processing
+409000611074,2-Aug-18,INDO GIBL Indiaforensic STL01081,,2-Aug-18,145500.00,,1245961.00,transactions.csv,145500.0,,1245961.0,,Invalid Date,Spark batch processing
+409000611074,2-Aug-18,FDRL/INTERNAL FUND TRANSFE,,2-Aug-18,,300000.00,1545961.00,transactions.csv,,300000.0,1545961.0,,Invalid Date,Spark batch processing
+409000611074,3-Aug-18,Indfor INCOME INDO REMI02081,,3-Aug-18,840.00,,1545121.00,transactions.csv,840.0,,1545121.0,,Invalid Date,Spark batch processing
+409000611074,3-Aug-18,INDO GIBL Indiaforensic STL02081,,3-Aug-18,110550.00,,1434571.00,transactions.csv,110550.0,,1434571.0,,Invalid Date,Spark batch processing
+409000611074,4-Aug-18,Indfor INCOME INDO REMI03081,,4-Aug-18,1200.00,,1433371.00,transactions.csv,1200.0,,1433371.0,,Invalid Date,Spark batch processing
+409000611074,4-Aug-18,INDO GIBL Indiaforensic STL03081,,4-Aug-18,220801.00,,1212570.00,transactions.csv,220801.0,,1212570.0,,Invalid Date,Spark batch processing
+409000611074,6-Aug-18,Indfor INCOME INDO REMI04081,,6-Aug-18,1560.00,,1211010.00,transactions.csv,1560.0,,1211010.0,,Invalid Date,Spark batch processing
+409000611074,6-Aug-18,INDO GIBL Indiaforensic STL04081,,6-Aug-18,269850.00,,941160.00,transactions.csv,269850.0,,941160.0,,Invalid Date,Spark batch processing
+409000611074,6-Aug-18,Indfor INCOME INDO REMI05081,,6-Aug-18,240.00,,940920.00,transactions.csv,240.0,,940920.0,,Invalid Date,Spark batch processing
+409000611074,6-Aug-18,INDO GIBL Indiaforensic STL05081,,6-Aug-18,17500.00,,923420.00,transactions.csv,17500.0,,923420.0,,Invalid Date,Spark batch processing
+409000611074,7-Aug-18,FDRL/INTERNAL FUND TRANSFE,,7-Aug-18,,500000.00,1423420.00,transactions.csv,,500000.0,1423420.0,,Invalid Date,Spark batch processing
+409000611074,7-Aug-18,Indfor INCOME INDO REMI06081,,7-Aug-18,3720.00,,1419700.00,transactions.csv,3720.0,,1419700.0,,Invalid Date,Spark batch processing
+409000611074,7-Aug-18,INDO GIBL Indiaforensic STL06081,,7-Aug-18,457050.00,,962650.00,transactions.csv,457050.0,,962650.0,,Invalid Date,Spark batch processing
+409000611074,7-Aug-18,FDRL/INTERNAL FUND TRANSFE,,7-Aug-18,,300000.00,1262650.00,transactions.csv,,300000.0,1262650.0,,Invalid Date,Spark batch processing
+409000611074,7-Aug-18,FDRL/INTERNAL FUND TRANSFE,,7-Aug-18,,300000.00,1562650.00,transactions.csv,,300000.0,1562650.0,,Invalid Date,Spark batch processing
+409000611074,8-Aug-18,Indfor INCOME INDO REMI07081,,8-Aug-18,3840.00,,1558810.00,transactions.csv,3840.0,,1558810.0,,Invalid Date,Spark batch processing
+409000611074,8-Aug-18,INDO GIBL Indiaforensic STL07081,,8-Aug-18,662025.00,,896785.00,transactions.csv,662025.0,,896785.0,,Invalid Date,Spark batch processing
+409000611074,8-Aug-18,FDRL/INTERNAL FUND TRANSFE,,8-Aug-18,,500000.00,1396785.00,transactions.csv,,500000.0,1396785.0,,Invalid Date,Spark batch processing
+409000611074,9-Aug-18,Indfor INCOME INDO REMI08081,,9-Aug-18,3480.00,,1393305.00,transactions.csv,3480.0,,1393305.0,,Invalid Date,Spark batch processing
+409000611074,9-Aug-18,INDO GIBL Indiaforensic STL08081,,9-Aug-18,556450.00,,836855.00,transactions.csv,556450.0,,836855.0,,Invalid Date,Spark batch processing
+409000611074,9-Aug-18,FDRL/INTERNAL FUND TRANSFE,,9-Aug-18,,500000.00,1336855.00,transactions.csv,,500000.0,1336855.0,,Invalid Date,Spark batch processing
+409000611074,1-Sep-18,Indfor INCOME INDO REMI31081,,1-Sep-18,3000.00,,1406084.00,transactions.csv,3000.0,,1406084.0,,Invalid Date,Spark batch processing
+409000611074,1-Sep-18,INDO WEIZ STL310818,,1-Sep-18,414101.00,,991983.00,transactions.csv,414101.0,,991983.0,,Invalid Date,Spark batch processing
+409000611074,1-Sep-18,FDRL/INTERNAL FUND TRANSFE,,1-Sep-18,,500000.00,1491983.00,transactions.csv,,500000.0,1491983.0,,Invalid Date,Spark batch processing
+409000611074,3-Sep-18,Indfor INCOME INDO REMI01091,,3-Sep-18,1440.00,,1490543.00,transactions.csv,1440.0,,1490543.0,,Invalid Date,Spark batch processing
+409000611074,3-Sep-18,INDO GIBL Indiaforensic STL01091,,3-Sep-18,236300.00,,1254243.00,transactions.csv,236300.0,,1254243.0,,Invalid Date,Spark batch processing
+409000611074,3-Sep-18,Indfor INCOME INDO REMI02091,,3-Sep-18,120.00,,1254123.00,transactions.csv,120.0,,1254123.0,,Invalid Date,Spark batch processing
+409000611074,3-Sep-18,INDO GIBL Indiaforensic STL02091,,3-Sep-18,9800.00,,1244323.00,transactions.csv,9800.0,,1244323.0,,Invalid Date,Spark batch processing
+409000611074,4-Sep-18,Indfor INCOME INDO REMI03091,,4-Sep-18,1920.00,,1242403.00,transactions.csv,1920.0,,1242403.0,,Invalid Date,Spark batch processing
+409000611074,4-Sep-18,INDO GIBL Indiaforensic STL03091,,4-Sep-18,228025.00,,1014378.00,transactions.csv,228025.0,,1014378.0,,Invalid Date,Spark batch processing
+409000611074,4-Sep-18,FDRL/INTERNAL FUND TRANSFE,,4-Sep-18,,500000.00,1514378.00,transactions.csv,,500000.0,1514378.0,,Invalid Date,Spark batch processing
+409000611074,5-Sep-18,Indfor INCOME INDO REMI04091,,5-Sep-18,2880.00,,1511498.00,transactions.csv,2880.0,,1511498.0,,Invalid Date,Spark batch processing
+409000611074,5-Sep-18,INDO WEIZ STL040918,,5-Sep-18,368300.00,,1143198.00,transactions.csv,368300.0,,1143198.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-18,Indfor INCOME INDO REMI05091,,6-Sep-18,2880.00,,1140318.00,transactions.csv,2880.0,,1140318.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-18,INDO GIBL Indiaforensic STL05091,,6-Sep-18,406628.00,,733690.00,transactions.csv,406628.0,,733690.0,,Invalid Date,Spark batch processing
+409000611074,6-Sep-18,FDRL/INTERNAL FUND TRANSFE,,6-Sep-18,,500000.00,1233690.00,transactions.csv,,500000.0,1233690.0,,Invalid Date,Spark batch processing
+409000611074,7-Sep-18,Indfor INCOME INDO REMI06091,,7-Sep-18,2760.00,,1230930.00,transactions.csv,2760.0,,1230930.0,,Invalid Date,Spark batch processing
+409000611074,7-Sep-18,INDO GIBL Indiaforensic STL06091,,7-Sep-18,377198.00,,853732.00,transactions.csv,377198.0,,853732.0,,Invalid Date,Spark batch processing
+409000611074,1-Oct-18,FDRL/INTERNAL FUND TRANSFE,,1-Oct-18,,500000.00,1297287.00,transactions.csv,,500000.0,1297287.0,,Invalid Date,Spark batch processing
+409000611074,1-Oct-18,Indfor INCOME INDO REMI29091,,1-Oct-18,2040.00,,1295247.00,transactions.csv,2040.0,,1295247.0,,Invalid Date,Spark batch processing
+409000611074,1-Oct-18,INDO GIBL Indiaforensic STL29091,,1-Oct-18,333800.00,,961447.00,transactions.csv,333800.0,,961447.0,,Invalid Date,Spark batch processing
+409000611074,1-Oct-18,Indfor INCOME INDO REMI30091,,1-Oct-18,120.00,,961327.00,transactions.csv,120.0,,961327.0,,Invalid Date,Spark batch processing
+409000611074,1-Oct-18,INDO GIBL Indiaforensic STL30091,,1-Oct-18,5000.00,,956327.00,transactions.csv,5000.0,,956327.0,,Invalid Date,Spark batch processing
+409000611074,3-Oct-18,FDRL/INTERNAL FUND TRANSFE,,3-Oct-18,,500000.00,1456327.00,transactions.csv,,500000.0,1456327.0,,Invalid Date,Spark batch processing
+409000611074,3-Oct-18,Indfor INCOME INDO REMI01101,,3-Oct-18,3720.00,,1452607.00,transactions.csv,3720.0,,1452607.0,,Invalid Date,Spark batch processing
+409000611074,3-Oct-18,INDO GIBL Indiaforensic STL01101,,3-Oct-18,529105.00,,923502.00,transactions.csv,529105.0,,923502.0,,Invalid Date,Spark batch processing
+409000611074,3-Oct-18,Indfor INCOME INDO REMI02101,,3-Oct-18,1200.00,,922302.00,transactions.csv,1200.0,,922302.0,,Invalid Date,Spark batch processing
+409000611074,3-Oct-18,INDO GIBL Indiaforensic STL02101,,3-Oct-18,225300.00,,697002.00,transactions.csv,225300.0,,697002.0,,Invalid Date,Spark batch processing
+409000611074,3-Oct-18,FDRL/INTERNAL FUND TRANSFE,,3-Oct-18,,500000.00,1197002.00,transactions.csv,,500000.0,1197002.0,,Invalid Date,Spark batch processing
+409000611074,3-Oct-18,FDRL/INTERNAL FUND TRANSFE,,3-Oct-18,,500000.00,1697002.00,transactions.csv,,500000.0,1697002.0,,Invalid Date,Spark batch processing
+409000611074,4-Oct-18,Indfor INCOME INDO REMI03101,,4-Oct-18,3120.00,,1693882.00,transactions.csv,3120.0,,1693882.0,,Invalid Date,Spark batch processing
+409000611074,4-Oct-18,INDO GIBL Indiaforensic STL03101,,4-Oct-18,545402.00,,1148480.00,transactions.csv,545402.0,,1148480.0,,Invalid Date,Spark batch processing
+409000611074,5-Oct-18,Indfor INCOME INDO REMI04101,,5-Oct-18,1440.00,,1147040.00,transactions.csv,1440.0,,1147040.0,,Invalid Date,Spark batch processing
+409000611074,5-Oct-18,INDO GIBL Indiaforensic STL04101,,5-Oct-18,156313.00,,990727.00,transactions.csv,156313.0,,990727.0,,Invalid Date,Spark batch processing
+409000611074,6-Oct-18,Indfor INCOME INDO REMI05101,,6-Oct-18,1320.00,,989407.00,transactions.csv,1320.0,,989407.0,,Invalid Date,Spark batch processing
+409000611074,6-Oct-18,INDO GIBL Indiaforensic STL05101,,6-Oct-18,230751.00,,758656.00,transactions.csv,230751.0,,758656.0,,Invalid Date,Spark batch processing
+409000611074,6-Oct-18,FDRL/INTERNAL FUND TRANSFE,,6-Oct-18,,500000.00,1258656.00,transactions.csv,,500000.0,1258656.0,,Invalid Date,Spark batch processing
+409000611074,8-Oct-18,Indfor INCOME INDO REMI07101,,8-Oct-18,480.00,,1258176.00,transactions.csv,480.0,,1258176.0,,Invalid Date,Spark batch processing
+409000611074,8-Oct-18,INDO GIBL Indiaforensic STL07101,,8-Oct-18,56000.00,,1202176.00,transactions.csv,56000.0,,1202176.0,,Invalid Date,Spark batch processing
+409000611074,8-Oct-18,Indfor INCOME INDO REMI06101,,8-Oct-18,2280.00,,1199896.00,transactions.csv,2280.0,,1199896.0,,Invalid Date,Spark batch processing
+409000611074,8-Oct-18,INDO GIBL Indiaforensic STL06101,,8-Oct-18,282452.00,,917444.00,transactions.csv,282452.0,,917444.0,,Invalid Date,Spark batch processing
+409000611074,8-Oct-18,FDRL/INTERNAL FUND TRANSFE,,8-Oct-18,,500000.00,1417444.00,transactions.csv,,500000.0,1417444.0,,Invalid Date,Spark batch processing
+409000611074,9-Oct-18,Indfor INCOME INDO REMI08101,,9-Oct-18,4080.00,,1413364.00,transactions.csv,4080.0,,1413364.0,,Invalid Date,Spark batch processing
+409000611074,9-Oct-18,INDO GIBL Indiaforensic STL08101,,9-Oct-18,530352.00,,883012.00,transactions.csv,530352.0,,883012.0,,Invalid Date,Spark batch processing
+409000611074,9-Oct-18,FDRL/INTERNAL FUND TRANSFE,,9-Oct-18,,500000.00,1383012.00,transactions.csv,,500000.0,1383012.0,,Invalid Date,Spark batch processing
+409000611074,1-Nov-18,Indfor INCOME INDO REMI31101,,1-Nov-18,1920.00,,1309607.00,transactions.csv,1920.0,,1309607.0,,Invalid Date,Spark batch processing
+409000611074,1-Nov-18,INDO GIBL Indiaforensic STL31101,,1-Nov-18,239305.00,,1070302.00,transactions.csv,239305.0,,1070302.0,,Invalid Date,Spark batch processing
+409000611074,2-Nov-18,Indfor INCOME INDO REMI01111,,2-Nov-18,1680.00,,1068622.00,transactions.csv,1680.0,,1068622.0,,Invalid Date,Spark batch processing
+409000611074,2-Nov-18,INDO GIBL Indiaforensic STL01111,,2-Nov-18,192675.00,,875947.00,transactions.csv,192675.0,,875947.0,,Invalid Date,Spark batch processing
+409000611074,3-Nov-18,Indfor INCOME INDO REMI02111,,3-Nov-18,2640.00,,873307.00,transactions.csv,2640.0,,873307.0,,Invalid Date,Spark batch processing
+409000611074,3-Nov-18,INDO GIBL Indiaforensic STL02111,,3-Nov-18,369251.00,,504056.00,transactions.csv,369251.0,,504056.0,,Invalid Date,Spark batch processing
+409000611074,3-Nov-18,FDRL/INTERNAL FUND TRANSFE,,3-Nov-18,,500000.00,1004056.00,transactions.csv,,500000.0,1004056.0,,Invalid Date,Spark batch processing
+409000611074,5-Nov-18,Indfor INCOME INDO REMI03111,,5-Nov-18,2280.00,,1001776.00,transactions.csv,2280.0,,1001776.0,,Invalid Date,Spark batch processing
+409000611074,5-Nov-18,INDO GIBL Indiaforensic STL03111,,5-Nov-18,323726.00,,678050.00,transactions.csv,323726.0,,678050.0,,Invalid Date,Spark batch processing
+409000611074,5-Nov-18,Indfor INCOME INDO REMI04111,,5-Nov-18,840.00,,677210.00,transactions.csv,840.0,,677210.0,,Invalid Date,Spark batch processing
+409000611074,5-Nov-18,INDO GIBL Indiaforensic STL04111,,5-Nov-18,129000.00,,548210.00,transactions.csv,129000.0,,548210.0,,Invalid Date,Spark batch processing
+409000611074,5-Nov-18,FDRL/INTERNAL FUND TRANSFE,,5-Nov-18,,500000.00,1048210.00,transactions.csv,,500000.0,1048210.0,,Invalid Date,Spark batch processing
+409000611074,6-Nov-18,FDRL/INTERNAL FUND TRANSFE,,6-Nov-18,,500000.00,1548210.00,transactions.csv,,500000.0,1548210.0,,Invalid Date,Spark batch processing
+409000611074,6-Nov-18,Indfor INCOME INDO REMI05111,,6-Nov-18,4920.00,,1543290.00,transactions.csv,4920.0,,1543290.0,,Invalid Date,Spark batch processing
+409000611074,6-Nov-18,INDO GIBL Indiaforensic STL05111,,6-Nov-18,807502.00,,735788.00,transactions.csv,807502.0,,735788.0,,Invalid Date,Spark batch processing
+409000611074,6-Nov-18,FDRL/INTERNAL FUND TRANSFE,,6-Nov-18,,500000.00,1235788.00,transactions.csv,,500000.0,1235788.0,,Invalid Date,Spark batch processing
+409000611074,8-Nov-18,FDRL/INTERNAL FUND TRANSFE,,8-Nov-18,,500000.00,1735788.00,transactions.csv,,500000.0,1735788.0,,Invalid Date,Spark batch processing
+409000611074,9-Nov-18,Indfor INCOME INDO REMI06111,,9-Nov-18,4920.00,,1730868.00,transactions.csv,4920.0,,1730868.0,,Invalid Date,Spark batch processing
+409000611074,9-Nov-18,INDO GIBL Indiaforensic STL06111,,9-Nov-18,780026.00,,950842.00,transactions.csv,780026.0,,950842.0,,Invalid Date,Spark batch processing
+409000611074,9-Nov-18,Indfor INCOME INDO REMI07111,,9-Nov-18,1320.00,,949522.00,transactions.csv,1320.0,,949522.0,,Invalid Date,Spark batch processing
+409000611074,9-Nov-18,INDO GIBL Indiaforensic STL07111,,9-Nov-18,153513.00,,796009.00,transactions.csv,153513.0,,796009.0,,Invalid Date,Spark batch processing
+409000611074,9-Nov-18,Indfor INCOME INDO REMI08111,,9-Nov-18,600.00,,795409.00,transactions.csv,600.0,,795409.0,,Invalid Date,Spark batch processing
+409000611074,9-Nov-18,INDO GIBL Indiaforensic STL08111,,9-Nov-18,102725.00,,692684.00,transactions.csv,102725.0,,692684.0,,Invalid Date,Spark batch processing
+409000611074,9-Nov-18,FDRL/INTERNAL FUND TRANSFE,,9-Nov-18,,500000.00,1192684.00,transactions.csv,,500000.0,1192684.0,,Invalid Date,Spark batch processing
+409000611074,1-Dec-18,Indfor INCOME INDO REMI30111,,1-Dec-18,3360.00,,1323401.00,transactions.csv,3360.0,,1323401.0,,Invalid Date,Spark batch processing
+409000611074,1-Dec-18,INDO GIBL Indiaforensic STL30111,,1-Dec-18,510703.00,,812698.00,transactions.csv,510703.0,,812698.0,,Invalid Date,Spark batch processing
+409000611074,1-Dec-18,FDRL/INTERNAL FUND TRANSFE,,1-Dec-18,,400000.00,1212698.00,transactions.csv,,400000.0,1212698.0,,Invalid Date,Spark batch processing
+409000611074,3-Dec-18,Indfor INCOME INDO REMI02121,,3-Dec-18,120.00,,1212578.00,transactions.csv,120.0,,1212578.0,,Invalid Date,Spark batch processing
+409000611074,3-Dec-18,INDO GIBL Indiaforensic STL02121,,3-Dec-18,5000.00,,1207578.00,transactions.csv,5000.0,,1207578.0,,Invalid Date,Spark batch processing
+409000611074,3-Dec-18,Indfor INCOME INDO REMI01121,,3-Dec-18,840.00,,1206738.00,transactions.csv,840.0,,1206738.0,,Invalid Date,Spark batch processing
+409000611074,3-Dec-18,INDO GIBL Indiaforensic STL01121,,3-Dec-18,135500.00,,1071238.00,transactions.csv,135500.0,,1071238.0,,Invalid Date,Spark batch processing
+409000611074,3-Dec-18,FDRL/INTERNAL FUND TRANSFE,,3-Dec-18,,500000.00,1571238.00,transactions.csv,,500000.0,1571238.0,,Invalid Date,Spark batch processing
+409000611074,4-Dec-18,Indfor INCOME INDO REMI03121,,4-Dec-18,1560.00,,1569678.00,transactions.csv,1560.0,,1569678.0,,Invalid Date,Spark batch processing
+409000611074,4-Dec-18,INDO GIBL Indiaforensic STL03121,,4-Dec-18,244750.00,,1324928.00,transactions.csv,244750.0,,1324928.0,,Invalid Date,Spark batch processing
+409000611074,5-Dec-18,Indfor INCOME INDO REMI04121,,5-Dec-18,1920.00,,1323008.00,transactions.csv,1920.0,,1323008.0,,Invalid Date,Spark batch processing
+409000611074,5-Dec-18,INDO GIBL Indiaforensic STL04121,,5-Dec-18,233851.00,,1089157.00,transactions.csv,233851.0,,1089157.0,,Invalid Date,Spark batch processing
+409000611074,6-Dec-18,FDRL/INTERNAL FUND TRANSFE,,6-Dec-18,,500000.00,1589157.00,transactions.csv,,500000.0,1589157.0,,Invalid Date,Spark batch processing
+409000611074,6-Dec-18,Indfor INCOME INDO REMI05121,,6-Dec-18,2760.00,,1586397.00,transactions.csv,2760.0,,1586397.0,,Invalid Date,Spark batch processing
+409000611074,6-Dec-18,INDO GIBL Indiaforensic STL05121,,6-Dec-18,437150.00,,1149247.00,transactions.csv,437150.0,,1149247.0,,Invalid Date,Spark batch processing
+409000611074,7-Dec-18,Indfor INCOME INDO REMI06121,,7-Dec-18,2640.00,,1146607.00,transactions.csv,2640.0,,1146607.0,,Invalid Date,Spark batch processing
+409000611074,7-Dec-18,INDO GIBL Indiaforensic STL06121,,7-Dec-18,397925.00,,748682.00,transactions.csv,397925.0,,748682.0,,Invalid Date,Spark batch processing
+409000611074,7-Dec-18,FDRL/INTERNAL FUND TRANSFE,,7-Dec-18,,500000.00,1248682.00,transactions.csv,,500000.0,1248682.0,,Invalid Date,Spark batch processing
+409000611074,7-Dec-18,FDRL/INTERNAL FUND TRANSFE,,7-Dec-18,,500000.00,1748682.00,transactions.csv,,500000.0,1748682.0,,Invalid Date,Spark batch processing
+409000611074,1-Jan-19,Indfor INCOME INDO REMI31121,,1-Jan-19,4560.00,,1703261.00,transactions.csv,4560.0,,1703261.0,,Invalid Date,Spark batch processing
+409000611074,1-Jan-19,INDO GIBL Indiaforensic STL31121,,1-Jan-19,776077.00,,927184.00,transactions.csv,776077.0,,927184.0,,Invalid Date,Spark batch processing
+409000611074,1-Jan-19,FDRL/INTERNAL FUND TRANSFE,,1-Jan-19,,300000.00,1227184.00,transactions.csv,,300000.0,1227184.0,,Invalid Date,Spark batch processing
+409000611074,1-Jan-19,FDRL/INTERNAL FUND TRANSFE,,1-Jan-19,,300000.00,1527184.00,transactions.csv,,300000.0,1527184.0,,Invalid Date,Spark batch processing
+409000611074,2-Jan-19,Indfor INCOME INDO REMI01011,,2-Jan-19,2400.00,,1524784.00,transactions.csv,2400.0,,1524784.0,,Invalid Date,Spark batch processing
+409000611074,2-Jan-19,INDO GIBL Indiaforensic STL01011,,2-Jan-19,408376.00,,1116408.00,transactions.csv,408376.0,,1116408.0,,Invalid Date,Spark batch processing
+409000611074,2-Jan-19,FDRL/INTERNAL FUND TRANSFE,,2-Jan-19,,400000.00,1516408.00,transactions.csv,,400000.0,1516408.0,,Invalid Date,Spark batch processing
+409000611074,3-Jan-19,Indfor INCOME INDO REMI02011,,3-Jan-19,5160.00,,1511248.00,transactions.csv,5160.0,,1511248.0,,Invalid Date,Spark batch processing
+409000611074,3-Jan-19,INDO GIBL Indiaforensic STL02011,,3-Jan-19,826831.00,,684417.00,transactions.csv,826831.0,,684417.0,,Invalid Date,Spark batch processing
+409000611074,3-Jan-19,FDRL/INTERNAL FUND TRANSFE,,3-Jan-19,,400000.00,1084417.00,transactions.csv,,400000.0,1084417.0,,Invalid Date,Spark batch processing
+409000611074,3-Jan-19,FDRL/INTERNAL FUND TRANSFE,,3-Jan-19,,400000.00,1484417.00,transactions.csv,,400000.0,1484417.0,,Invalid Date,Spark batch processing
+409000611074,4-Jan-19,Indfor INCOME INDO REMI03011,,4-Jan-19,3240.00,,1481177.00,transactions.csv,3240.0,,1481177.0,,Invalid Date,Spark batch processing
+409000611074,4-Jan-19,INDO GIBL Indiaforensic STL03011,,4-Jan-19,601604.00,,879573.00,transactions.csv,601604.0,,879573.0,,Invalid Date,Spark batch processing
+409000611074,4-Jan-19,FDRL/INTERNAL FUND TRANSFE,,4-Jan-19,,400000.00,1279573.00,transactions.csv,,400000.0,1279573.0,,Invalid Date,Spark batch processing
+409000611074,4-Jan-19,FDRL/INTERNAL FUND TRANSFE,,4-Jan-19,,300000.00,1579573.00,transactions.csv,,300000.0,1579573.0,,Invalid Date,Spark batch processing
+409000611074,5-Jan-19,Indfor INCOME INDO REMI04011,,5-Jan-19,2160.00,,1577413.00,transactions.csv,2160.0,,1577413.0,,Invalid Date,Spark batch processing
+409000611074,5-Jan-19,INDO GIBL Indiaforensic STL04011,,5-Jan-19,218276.00,,1359137.00,transactions.csv,218276.0,,1359137.0,,Invalid Date,Spark batch processing
+409000611074,7-Jan-19,Indfor INCOME INDO REMI06011,,7-Jan-19,240.00,,1358897.00,transactions.csv,240.0,,1358897.0,,Invalid Date,Spark batch processing
+409000611074,7-Jan-19,INDO GIBL Indiaforensic STL06011,,7-Jan-19,17500.00,,1341397.00,transactions.csv,17500.0,,1341397.0,,Invalid Date,Spark batch processing
+409000611074,7-Jan-19,Indfor INCOME INDO REMI05011,,7-Jan-19,2760.00,,1338637.00,transactions.csv,2760.0,,1338637.0,,Invalid Date,Spark batch processing
+409000611074,7-Jan-19,INDO GIBL Indiaforensic STL05011,,7-Jan-19,377441.00,,961196.00,transactions.csv,377441.0,,961196.0,,Invalid Date,Spark batch processing
+409000611074,8-Jan-19,FDRL/INTERNAL FUND TRANSFE,,8-Jan-19,,300000.00,1261196.00,transactions.csv,,300000.0,1261196.0,,Invalid Date,Spark batch processing
+409000611074,8-Jan-19,FDRL/INTERNAL FUND TRANSFE,,8-Jan-19,,300000.00,1561196.00,transactions.csv,,300000.0,1561196.0,,Invalid Date,Spark batch processing
+409000611074,8-Jan-19,Indfor INCOME INDO REMI07011,,8-Jan-19,3960.00,,1557236.00,transactions.csv,3960.0,,1557236.0,,Invalid Date,Spark batch processing
+409000611074,8-Jan-19,INDO GIBL Indiaforensic STL07011,,8-Jan-19,613279.00,,943957.00,transactions.csv,613279.0,,943957.0,,Invalid Date,Spark batch processing
+409000611074,8-Jan-19,FDRL/INTERNAL FUND TRANSFE,,8-Jan-19,,300000.00,1243957.00,transactions.csv,,300000.0,1243957.0,,Invalid Date,Spark batch processing
+409000611074,9-Jan-19,Indfor INCOME INDO REMI08011,,9-Jan-19,3720.00,,1240237.00,transactions.csv,3720.0,,1240237.0,,Invalid Date,Spark batch processing
+409000611074,9-Jan-19,INDO GIBL Indiaforensic STL08011,,9-Jan-19,674030.00,,566207.00,transactions.csv,674030.0,,566207.0,,Invalid Date,Spark batch processing
+409000611074,9-Jan-19,FDRL/INTERNAL FUND TRANSFE,,9-Jan-19,,400000.00,966207.00,transactions.csv,,400000.0,966207.0,,Invalid Date,Spark batch processing
+409000611074,9-Jan-19,FDRL/INTERNAL FUND TRANSFE,,9-Jan-19,,400000.00,1366207.00,transactions.csv,,400000.0,1366207.0,,Invalid Date,Spark batch processing
+409000611074,1-Feb-19,Indfor INCOME INDO REMI31011,,1-Feb-19,720.00,,1195051.00,transactions.csv,720.0,,1195051.0,,Invalid Date,Spark batch processing
+409000611074,1-Feb-19,INDO GIBL Indiaforensic STL31011,,1-Feb-19,132851.00,,1062200.00,transactions.csv,132851.0,,1062200.0,,Invalid Date,Spark batch processing
+409000611074,8-Feb-19,FDRL/INTERNAL FUND TRANSFE,,8-Feb-19,600000.00,,462200.00,transactions.csv,600000.0,,462200.0,,Invalid Date,Spark batch processing
+409000493201,5-Sep-16,TRF FROM Indiaforensic SERVICES,,5-Sep-16,,500000.00,962200.00,transactions.csv,,500000.0,962200.0,,Invalid Date,Spark batch processing
+409000493201,6-Sep-16,BBPS SETTLEMENT DT 30/08/,,6-Sep-16,802.77,,961397.23,transactions.csv,802.77,,961397.23,,Invalid Date,Spark batch processing
+409000493201,6-Sep-16,BBPS SETTLEMENT DT 31/08/,,6-Sep-16,239.89,,961157.34,transactions.csv,239.89,,961157.34,,Invalid Date,Spark batch processing
+409000493201,6-Sep-16,BBPS SETTLEMENT DT 01/09/,,6-Sep-16,1193.54,,959963.80,transactions.csv,1193.54,,959963.8,,Invalid Date,Spark batch processing
+409000493201,1-Nov-16,BBPS SETTLEMENT FOR DT 31,,1-Nov-16,1015.71,,958644.77,transactions.csv,1015.71,,958644.77,,Invalid Date,Spark batch processing
+409000493201,3-Nov-16,BBPS SETTLEMENT FOR DT 03,,3-Nov-16,1925.33,,956719.44,transactions.csv,1925.33,,956719.44,,Invalid Date,Spark batch processing
+409000493201,4-Nov-16,BBPS SETTLEMENT FOR DT 04,,4-Nov-16,2284.09,,954435.35,transactions.csv,2284.09,,954435.35,,Invalid Date,Spark batch processing
+409000493201,5-Nov-16,BBPS SETTLEMENT FOR DT 05,,5-Nov-16,689.30,,953746.05,transactions.csv,689.3,,953746.05,,Invalid Date,Spark batch processing
+409000493201,7-Nov-16,BBPS SETTLEMENT FOR DTD 0,,7-Nov-16,199.30,,953546.75,transactions.csv,199.3,,953546.75,,Invalid Date,Spark batch processing
+409000493201,3-Jan-17,BBPS SETTLEMENT FOR DT 03,,3-Jan-17,8.15,,945580.99,transactions.csv,8.15,,945580.99,,Invalid Date,Spark batch processing
+409000493201,4-Jan-17,BBPS SETTLEMENT FOR DT 04,,4-Jan-17,1758.02,,943822.97,transactions.csv,1758.02,,943822.97,,Invalid Date,Spark batch processing
+409000493201,1-Feb-17,BBPS SETTLEMENT FOR DT 01,,1-Feb-17,4642.19,,856233.14,transactions.csv,4642.19,,856233.14,,Invalid Date,Spark batch processing
+409000493201,2-Feb-17,BBPS SETTLEMENT FOR DT 02,,2-Feb-17,2442.44,,853790.70,transactions.csv,2442.44,,853790.7,,Invalid Date,Spark batch processing
+409000493201,3-Feb-17,BBPS SETTLEMENT FOR DT 03,,3-Feb-17,2338.45,,851452.25,transactions.csv,2338.45,,851452.25,,Invalid Date,Spark batch processing
+409000493201,4-Feb-17,BBPS SETTLEMENT FOR DT 04,,4-Feb-17,7.57,,851444.68,transactions.csv,7.57,,851444.68,,Invalid Date,Spark batch processing
+409000493201,6-Feb-17,BBPS SETTLEMENT FOR DT 06,,6-Feb-17,10449.24,,840995.44,transactions.csv,10449.24,,840995.44,,Invalid Date,Spark batch processing
+409000493201,7-Feb-17,BBPS SETTLEMENT FOR DT 07,,7-Feb-17,2852.05,,838143.39,transactions.csv,2852.05,,838143.39,,Invalid Date,Spark batch processing
+409000493201,8-Feb-17,BBPS SETTLEMENT FOR DT 08,,8-Feb-17,6777.18,,831366.21,transactions.csv,6777.18,,831366.21,,Invalid Date,Spark batch processing
+409000493201,9-Feb-17,BBPS SETTLEMENT FOR DT 09,,9-Feb-17,2.10,,831364.11,transactions.csv,2.1,,831364.11,,Invalid Date,Spark batch processing
+409000493201,1-Mar-17,BBPS SETTLEMENT FOR DT 01,,1-Mar-17,20337.85,,666772.85,transactions.csv,20337.85,,666772.85,,Invalid Date,Spark batch processing
+409000493201,2-Mar-17,BBPS SETTLEMENT FOR DT 02,,2-Mar-17,21616.66,,645156.19,transactions.csv,21616.66,,645156.19,,Invalid Date,Spark batch processing
+409000493201,3-Mar-17,BBPS SETTLEMENT FOR DT 03,,3-Mar-17,8082.01,,637074.18,transactions.csv,8082.01,,637074.18,,Invalid Date,Spark batch processing
+409000493201,4-Mar-17,BBPS SETTLEMENT 04032017,,4-Mar-17,12695.55,,624378.63,transactions.csv,12695.55,,624378.63,,Invalid Date,Spark batch processing
+409000493201,6-Mar-17,BBPS SETTLEMENT 06032017,,6-Mar-17,68860.48,,555518.15,transactions.csv,68860.48,,555518.15,,Invalid Date,Spark batch processing
+409000493201,7-Mar-17,BBPS SETTLEMENT 07032017,,7-Mar-17,73209.78,,482308.37,transactions.csv,73209.78,,482308.37,,Invalid Date,Spark batch processing
+409000493201,9-Mar-17,TRF FROM Indiaforensic SERVICES,,9-Mar-17,,500000.00,982308.37,transactions.csv,,500000.0,982308.37,,Invalid Date,Spark batch processing
+409000493201,9-Mar-17,BBPS SETTLEMENT OX01 09.,,9-Mar-17,35996.01,,946312.36,transactions.csv,35996.01,,946312.36,,Invalid Date,Spark batch processing
+409000493201,9-Mar-17,BBPS SETTLEMENT FOR OX01,,9-Mar-17,73844.12,,872468.24,transactions.csv,73844.12,,872468.24,,Invalid Date,Spark batch processing
+409000493201,3-Apr-17,TRF FROM Indiaforensic SERVICES,,3-Apr-17,,200000.00,887979.41,transactions.csv,,200000.0,887979.41,,Invalid Date,Spark batch processing
+409000493201,3-Apr-17,BBPS SETTLEMENT 03042017,,3-Apr-17,348756.64,,539222.77,transactions.csv,348756.64,,539222.77,,Invalid Date,Spark batch processing
+409000493201,3-Apr-17,TRF FRM Indiaforensic SERVICES,,3-Apr-17,,100000.00,639222.77,transactions.csv,,100000.0,639222.77,,Invalid Date,Spark batch processing
+409000493201,4-Apr-17,BBPS SETTLEMENT 04042017,,4-Apr-17,58178.96,,581043.81,transactions.csv,58178.96,,581043.81,,Invalid Date,Spark batch processing
+409000493201,4-Apr-17,TRF FRM Indiaforensic SERVICES,,4-Apr-17,,100000.00,681043.81,transactions.csv,,100000.0,681043.81,,Invalid Date,Spark batch processing
+409000493201,5-Apr-17,BBPS OX01 SETTLEMENT 05.0,,5-Apr-17,72560.62,,608483.19,transactions.csv,72560.62,,608483.19,,Invalid Date,Spark batch processing
+409000493201,5-Apr-17,TRF FRM Indiaforensic SERVICES,,5-Apr-17,,50000.00,658483.19,transactions.csv,,50000.0,658483.19,,Invalid Date,Spark batch processing
+409000493201,6-Apr-17,BBPS SETTLEMENT FOR DT 06,,6-Apr-17,92843.96,,565639.23,transactions.csv,92843.96,,565639.23,,Invalid Date,Spark batch processing
+409000493201,6-Apr-17,TRF FRM Indiaforensic SERVICES,,6-Apr-17,,100000.00,665639.23,transactions.csv,,100000.0,665639.23,,Invalid Date,Spark batch processing
+409000493201,7-Apr-17,BBPS OX01 SETTLEMENT 07.0,,7-Apr-17,77750.54,,587888.69,transactions.csv,77750.54,,587888.69,,Invalid Date,Spark batch processing
+409000493201,7-Apr-17,TRF FRM Indiaforensic SERVICES,,7-Apr-17,,50000.00,637888.69,transactions.csv,,50000.0,637888.69,,Invalid Date,Spark batch processing
+409000493201,7-Apr-17,TRF FROM Indiaforensic SERVICES,,7-Apr-17,,500000.00,1137888.69,transactions.csv,,500000.0,1137888.69,,Invalid Date,Spark batch processing
+409000493201,1-May-17,BBPS SETTLEMENT 01052017,,1-May-17,36802.24,,746177.03,transactions.csv,36802.24,,746177.03,,Invalid Date,Spark batch processing
+409000493201,2-May-17,BBPS SETTLEMENT 02052017,,2-May-17,27621.17,,718555.86,transactions.csv,27621.17,,718555.86,,Invalid Date,Spark batch processing
+409000493201,3-May-17,BBPS SETTLEMENT 03052017,,3-May-17,36178.03,,682377.83,transactions.csv,36178.03,,682377.83,,Invalid Date,Spark batch processing
+409000493201,4-May-17,BBPS SETTLEMENT 04052017,,4-May-17,44830.92,,637546.91,transactions.csv,44830.92,,637546.91,,Invalid Date,Spark batch processing
+409000493201,5-May-17,BBPS SETTLEMENT 05052017,,5-May-17,54274.88,,583272.03,transactions.csv,54274.88,,583272.03,,Invalid Date,Spark batch processing
+409000493201,5-May-17,FDRL/INTERNAL FUND TRANSFE,,5-May-17,,100000.00,683272.03,transactions.csv,,100000.0,683272.03,,Invalid Date,Spark batch processing
+409000493201,6-May-17,BBPS SETTLEMENT 06052017,,6-May-17,56535.19,,626736.84,transactions.csv,56535.19,,626736.84,,Invalid Date,Spark batch processing
+409000493201,8-May-17,BBPS SETTLEMENT FOR DT 08,,8-May-17,76276.17,,550460.67,transactions.csv,76276.17,,550460.67,,Invalid Date,Spark batch processing
+409000493201,8-May-17,FDRL/INTERNAL FUND TRANSFE,,8-May-17,,100000.00,650460.67,transactions.csv,,100000.0,650460.67,,Invalid Date,Spark batch processing
+409000493201,9-May-17,BBPS SETTLEMENT 09052017,,9-May-17,92354.75,,558105.92,transactions.csv,92354.75,,558105.92,,Invalid Date,Spark batch processing
+409000493201,9-May-17,BBPS OX01 SETTLEMENT 20.0,,9-May-17,60288.54,,497817.38,transactions.csv,60288.54,,497817.38,,Invalid Date,Spark batch processing
+409000493201,9-May-17,REV BBPS OX01 SETTLEMENT,,9-May-17,,47216.93,545034.31,transactions.csv,,47216.93,545034.31,,Invalid Date,Spark batch processing
+409000493201,1-Jun-17,BBPS SETTLEMENT 01062017,,1-Jun-17,76825.54,,1028036.11,transactions.csv,76825.54,,1028036.11,,Invalid Date,Spark batch processing
+409000493201,2-Jun-17,BBPS STMT FOR DTD 01JUN17,,2-Jun-17,98256.42,,929779.69,transactions.csv,98256.42,,929779.69,,Invalid Date,Spark batch processing
+409000493201,3-Jun-17,BBPS SETMNT FOR DT 020620,,3-Jun-17,99989.44,,829790.25,transactions.csv,99989.44,,829790.25,,Invalid Date,Spark batch processing
+409000493201,5-Jun-17,FDRL/INTERNAL FUND TRANSFE,,5-Jun-17,,200000.00,1029790.25,transactions.csv,,200000.0,1029790.25,,Invalid Date,Spark batch processing
+409000493201,5-Jun-17,BBPS SETMNT FOR DT 030620,,5-Jun-17,77700.46,,952089.79,transactions.csv,77700.46,,952089.79,,Invalid Date,Spark batch processing
+409000493201,6-Jun-17,BBPS SETMNT FOR DT 050620,,6-Jun-17,54678.20,,897411.59,transactions.csv,54678.2,,897411.59,,Invalid Date,Spark batch processing
+409000493201,7-Jun-17,BBPS SETMNT FOR DT 060620,,7-Jun-17,89160.28,,808251.31,transactions.csv,89160.28,,808251.31,,Invalid Date,Spark batch processing
+409000493201,8-Jun-17,BBPS SETMNT FOR DT 070620,,8-Jun-17,53804.99,,754446.32,transactions.csv,53804.99,,754446.32,,Invalid Date,Spark batch processing
+409000493201,9-Jun-17,BBPS SETMNT FOR DT 080620,,9-Jun-17,92193.60,,662252.72,transactions.csv,92193.6,,662252.72,,Invalid Date,Spark batch processing
+409000493201,1-Jul-17,BBPS SETMNT FOR DT 010720,,1-Jul-17,79105.87,,1026260.93,transactions.csv,79105.87,,1026260.93,,Invalid Date,Spark batch processing
+409000493201,3-Jul-17,BBPS SETMNT FOR DT 030720,,3-Jul-17,129069.18,,897191.75,transactions.csv,129069.18,,897191.75,,Invalid Date,Spark batch processing
+409000493201,3-Jul-17,REV SWITCHING FEE + SERVI,,3-Jul-17,,1671.63,898863.38,transactions.csv,,1671.63,898863.38,,Invalid Date,Spark batch processing
+409000493201,4-Jul-17,BBPS SETMNT FOR DT 040720,,4-Jul-17,131864.31,,766999.07,transactions.csv,131864.31,,766999.07,,Invalid Date,Spark batch processing
+409000493201,5-Jul-17,BBPS SETMNT FOR DT 050720,,5-Jul-17,64350.32,,702648.75,transactions.csv,64350.32,,702648.75,,Invalid Date,Spark batch processing
+409000493201,6-Jul-17,BBPS SETMNT FOR DT 060720,,6-Jul-17,158111.18,,544537.57,transactions.csv,158111.18,,544537.57,,Invalid Date,Spark batch processing
+409000493201,7-Jul-17,BBPS SETMNT FOR DT 070720,,7-Jul-17,39166.52,,505371.05,transactions.csv,39166.52,,505371.05,,Invalid Date,Spark batch processing
+409000493201,7-Jul-17,FDRL/INTERNAL FUND TRANSFE,,7-Jul-17,,200000.00,705371.05,transactions.csv,,200000.0,705371.05,,Invalid Date,Spark batch processing
+409000493201,1-Aug-17,BBPS SETMNT FOR DT 010820,,1-Aug-17,99288.60,,930255.31,transactions.csv,99288.6,,930255.31,,Invalid Date,Spark batch processing
+409000493201,2-Aug-17,BBPS SETMNT FOR DT 020820,,2-Aug-17,158804.40,,771450.91,transactions.csv,158804.4,,771450.91,,Invalid Date,Spark batch processing
+409000493201,2-Aug-17,FDRL/INTERNAL FUND TRANSFE,,2-Aug-17,,200000.00,971450.91,transactions.csv,,200000.0,971450.91,,Invalid Date,Spark batch processing
+409000493201,3-Aug-17,BBPS SETMNT FOR DT 030820,,3-Aug-17,52393.37,,919057.54,transactions.csv,52393.37,,919057.54,,Invalid Date,Spark batch processing
+409000493201,4-Aug-17,BBPS SETMNT FOR DT 040820,,4-Aug-17,109234.48,,809823.06,transactions.csv,109234.48,,809823.06,,Invalid Date,Spark batch processing
+409000493201,4-Aug-17,FDRL/INTERNAL FUND TRANSFE,,4-Aug-17,,50000.00,859823.06,transactions.csv,,50000.0,859823.06,,Invalid Date,Spark batch processing
+409000493201,4-Aug-17,FDRL/INTERNAL FUND TRANSFE,,4-Aug-17,,50000.00,909823.06,transactions.csv,,50000.0,909823.06,,Invalid Date,Spark batch processing
+409000493201,4-Aug-17,FDRL/INTERNAL FUND TRANSFE,,4-Aug-17,,50000.00,959823.06,transactions.csv,,50000.0,959823.06,,Invalid Date,Spark batch processing
+409000493201,4-Aug-17,FDRL/INTERNAL FUND TRANSFE,,4-Aug-17,,50000.00,1009823.06,transactions.csv,,50000.0,1009823.06,,Invalid Date,Spark batch processing
+409000493201,4-Aug-17,FDRL/INTERNAL FUND TRANSFE,,4-Aug-17,,50000.00,1059823.06,transactions.csv,,50000.0,1059823.06,,Invalid Date,Spark batch processing
+409000493201,4-Aug-17,FDRL/INTERNAL FUND TRANSFE,,4-Aug-17,,50000.00,1109823.06,transactions.csv,,50000.0,1109823.06,,Invalid Date,Spark batch processing
+409000493201,4-Aug-17,FDRL/INTERNAL FUND TRANSFE,,4-Aug-17,,50000.00,1159823.06,transactions.csv,,50000.0,1159823.06,,Invalid Date,Spark batch processing
+409000493201,4-Aug-17,FDRL/INTERNAL FUND TRANSFE,,4-Aug-17,,50000.00,1209823.06,transactions.csv,,50000.0,1209823.06,,Invalid Date,Spark batch processing
+409000493201,4-Aug-17,FDRL/INTERNAL FUND TRANSFE,,4-Aug-17,,50000.00,1259823.06,transactions.csv,,50000.0,1259823.06,,Invalid Date,Spark batch processing
+409000493201,4-Aug-17,FDRL/INTERNAL FUND TRANSFE,,4-Aug-17,,50000.00,1309823.06,transactions.csv,,50000.0,1309823.06,,Invalid Date,Spark batch processing
+409000493201,4-Aug-17,FDRL/INTERNAL FUND TRANSFE,,4-Aug-17,,50000.00,1359823.06,transactions.csv,,50000.0,1359823.06,,Invalid Date,Spark batch processing
+409000493201,4-Aug-17,FDRL/INTERNAL FUND TRANSFE,,4-Aug-17,,50000.00,1409823.06,transactions.csv,,50000.0,1409823.06,,Invalid Date,Spark batch processing
+409000493201,4-Aug-17,FDRL/INTERNAL FUND TRANSFE,,4-Aug-17,,50000.00,1459823.06,transactions.csv,,50000.0,1459823.06,,Invalid Date,Spark batch processing
+409000493201,4-Aug-17,FDRL/INTERNAL FUND TRANSFE,,4-Aug-17,,50000.00,1509823.06,transactions.csv,,50000.0,1509823.06,,Invalid Date,Spark batch processing
+409000493201,4-Aug-17,FDRL/INTERNAL FUND TRANSFE,,4-Aug-17,,50000.00,1559823.06,transactions.csv,,50000.0,1559823.06,,Invalid Date,Spark batch processing
+409000493201,4-Aug-17,FDRL/INTERNAL FUND TRANSFE,,4-Aug-17,,50000.00,1609823.06,transactions.csv,,50000.0,1609823.06,,Invalid Date,Spark batch processing
+409000493201,5-Aug-17,BBPS SETTMT DTD 050817,,5-Aug-17,174658.14,,1435164.92,transactions.csv,174658.14,,1435164.92,,Invalid Date,Spark batch processing
+409000493201,7-Aug-17,BBPS SETMNT FOR DT 070820,,7-Aug-17,126978.66,,1308186.26,transactions.csv,126978.66,,1308186.26,,Invalid Date,Spark batch processing
+409000493201,8-Aug-17,BBPS SETMNT FOR DT 080820,,8-Aug-17,12646.88,,1295539.38,transactions.csv,12646.88,,1295539.38,,Invalid Date,Spark batch processing
+409000493201,9-Aug-17,BBPS SETMNT FOR DT 090820,,9-Aug-17,234382.52,,1061156.86,transactions.csv,234382.52,,1061156.86,,Invalid Date,Spark batch processing
+409000493201,1-Sep-17,BBPS SETMNT FOR DT 010920,,1-Sep-17,95113.98,,999331.88,transactions.csv,95113.98,,999331.88,,Invalid Date,Spark batch processing
+409000493201,1-Sep-17,TRF FROM Indiaforensic SERVICES,,1-Sep-17,,300000.00,1299331.88,transactions.csv,,300000.0,1299331.88,,Invalid Date,Spark batch processing
+409000493201,4-Sep-17,BBPS SETMNT FOR DT 040920,,4-Sep-17,215378.07,,1083953.81,transactions.csv,215378.07,,1083953.81,,Invalid Date,Spark batch processing
+409000493201,5-Sep-17,BBPS SETMNT FOR DT 050920,,5-Sep-17,139586.04,,944367.77,transactions.csv,139586.04,,944367.77,,Invalid Date,Spark batch processing
+409000493201,5-Sep-17,TRF FROM Indiaforensic SERVICES,,5-Sep-17,,200000.00,1144367.77,transactions.csv,,200000.0,1144367.77,,Invalid Date,Spark batch processing
+409000493201,6-Sep-17,BBPS SETMNT FOR DT 060920,,6-Sep-17,51906.35,,1092461.42,transactions.csv,51906.35,,1092461.42,,Invalid Date,Spark batch processing
+409000493201,7-Sep-17,BBPS SETMNT FOR DT 070920,,7-Sep-17,103643.52,,988817.90,transactions.csv,103643.52,,988817.9,,Invalid Date,Spark batch processing
+409000493201,8-Sep-17,BBPS SETMNT FOR DT 080920,,8-Sep-17,103607.47,,885210.43,transactions.csv,103607.47,,885210.43,,Invalid Date,Spark batch processing
+409000493201,8-Sep-17,TRF FROM Indiaforensic SERVICES,,8-Sep-17,,700000.00,1585210.43,transactions.csv,,700000.0,1585210.43,,Invalid Date,Spark batch processing
+409000493201,3-Oct-17,BBPS SETMNT FOR DT 031020,,3-Oct-17,270162.95,,1580337.85,transactions.csv,270162.95,,1580337.85,,Invalid Date,Spark batch processing
+409000493201,4-Oct-17,BBPS SETMNT FOR DT 041020,,4-Oct-17,181195.86,,1399141.99,transactions.csv,181195.86,,1399141.99,,Invalid Date,Spark batch processing
+409000493201,5-Oct-17,BBPS SETMNT FOR DT 051020,,5-Oct-17,161169.73,,1237972.26,transactions.csv,161169.73,,1237972.26,,Invalid Date,Spark batch processing
+409000493201,6-Oct-17,BBPS SETMNT FOR DT 061020,,6-Oct-17,89091.32,,1148880.94,transactions.csv,89091.32,,1148880.94,,Invalid Date,Spark batch processing
+409000493201,7-Oct-17,BBPS SETMNT FOR DT 071020,,7-Oct-17,178893.40,,969987.54,transactions.csv,178893.4,,969987.54,,Invalid Date,Spark batch processing
+409000493201,9-Oct-17,BBPS SETMNT FOR DT 091020,,9-Oct-17,214144.33,,755843.21,transactions.csv,214144.33,,755843.21,,Invalid Date,Spark batch processing
+409000493201,9-Oct-17,FDRL/INTERNAL FUND TRANSFE,,9-Oct-17,,300000.00,1055843.21,transactions.csv,,300000.0,1055843.21,,Invalid Date,Spark batch processing
+409000493201,1-Nov-17,BBPS SETMNT FOR DT 011120,,1-Nov-17,131475.17,,1116752.40,transactions.csv,131475.17,,1116752.4,,Invalid Date,Spark batch processing
+409000493201,2-Nov-17,BBPS SETMNT FOR DT 021120,,2-Nov-17,126718.38,,990034.02,transactions.csv,126718.38,,990034.02,,Invalid Date,Spark batch processing
+409000493201,2-Nov-17,FDRL/INTERNAL FUND TRANSFE,,2-Nov-17,,300000.00,1290034.02,transactions.csv,,300000.0,1290034.02,,Invalid Date,Spark batch processing
+409000493201,3-Nov-17,BBPS SETMNT FOR DT 031120,,3-Nov-17,111962.51,,1178071.51,transactions.csv,111962.51,,1178071.51,,Invalid Date,Spark batch processing
+409000493201,3-Nov-17,FDRL/INTERNAL FUND TRANSFE,,3-Nov-17,,300000.00,1478071.51,transactions.csv,,300000.0,1478071.51,,Invalid Date,Spark batch processing
+409000493201,4-Nov-17,BBPS SETMNT FOR DT 041120,,4-Nov-17,110902.77,,1367168.74,transactions.csv,110902.77,,1367168.74,,Invalid Date,Spark batch processing
+409000493201,6-Nov-17,BBPS SETMNT FOR DT 061120,,6-Nov-17,150019.78,,1217148.96,transactions.csv,150019.78,,1217148.96,,Invalid Date,Spark batch processing
+409000493201,7-Nov-17,BBPS SETMNT FOR DT 071120,,7-Nov-17,147817.96,,1069331.00,transactions.csv,147817.96,,1069331.0,,Invalid Date,Spark batch processing
+409000493201,8-Nov-17,BBPS SETMNT FOR DT 081120,,8-Nov-17,159473.08,,909857.92,transactions.csv,159473.08,,909857.92,,Invalid Date,Spark batch processing
+409000493201,9-Nov-17,BBPS SETMNT FOR DT 091120,,9-Nov-17,131508.96,,778348.96,transactions.csv,131508.96,,778348.96,,Invalid Date,Spark batch processing
+409000493201,9-Nov-17,FDRL/INTERNAL FUND TRANSFE,,9-Nov-17,,300000.00,1078348.96,transactions.csv,,300000.0,1078348.96,,Invalid Date,Spark batch processing
+409000493201,1-Dec-17,BBPS SETMNT FOR DT 011220,,1-Dec-17,97833.76,,730156.32,transactions.csv,97833.76,,730156.32,,Invalid Date,Spark batch processing
+409000493201,2-Dec-17,BBPS SETMNT FOR DT 021220,,2-Dec-17,100187.20,,629969.12,transactions.csv,100187.2,,629969.12,,Invalid Date,Spark batch processing
+409000493201,2-Dec-17,FDRL/INTERNAL FUND TRANSFE,,2-Dec-17,,200000.00,829969.12,transactions.csv,,200000.0,829969.12,,Invalid Date,Spark batch processing
+409000493201,2-Dec-17,FDRL/INTERNAL FUND TRANSFE,,2-Dec-17,,200000.00,1029969.12,transactions.csv,,200000.0,1029969.12,,Invalid Date,Spark batch processing
+409000493201,4-Dec-17,BBPS SETMNT FOR DT 041220,,4-Dec-17,138532.32,,891436.80,transactions.csv,138532.32,,891436.8,,Invalid Date,Spark batch processing
+409000493201,5-Dec-17,FDRL/INTERNAL FUND TRANSFE,,5-Dec-17,,300000.00,1191436.80,transactions.csv,,300000.0,1191436.8,,Invalid Date,Spark batch processing
+409000493201,5-Dec-17,BBPS SETMNT FOR DT 051220,,5-Dec-17,144026.13,,1047410.67,transactions.csv,144026.13,,1047410.67,,Invalid Date,Spark batch processing
+409000493201,5-Dec-17,FDRL/INTERNAL FUND TRANSFE,,5-Dec-17,,300000.00,1347410.67,transactions.csv,,300000.0,1347410.67,,Invalid Date,Spark batch processing
+409000493201,6-Dec-17,BBPS SETMNT FOR DT 061220,,6-Dec-17,119401.28,,1228009.39,transactions.csv,119401.28,,1228009.39,,Invalid Date,Spark batch processing
+409000493201,7-Dec-17,BBPS SETMNT FOR DT 071220,,7-Dec-17,127675.25,,1100334.14,transactions.csv,127675.25,,1100334.14,,Invalid Date,Spark batch processing
+409000493201,8-Dec-17,BBPS SETMNT FOR DT 081220,,8-Dec-17,209118.73,,891215.41,transactions.csv,209118.73,,891215.41,,Invalid Date,Spark batch processing
+409000493201,8-Dec-17,FDRL/INTERNAL FUND TRANSFE,,8-Dec-17,,200000.00,1091215.41,transactions.csv,,200000.0,1091215.41,,Invalid Date,Spark batch processing
+409000493201,8-Dec-17,FDRL/INTERNAL FUND TRANSFE,,8-Dec-17,,200000.00,1291215.41,transactions.csv,,200000.0,1291215.41,,Invalid Date,Spark batch processing
+409000493201,1-Jan-18,BBPS SETMNT FOR DT 010120,,1-Jan-18,199758.22,,1376759.21,transactions.csv,199758.22,,1376759.21,,Invalid Date,Spark batch processing
+409000493201,2-Jan-18,BBPS SETMNT FOR DT 020120,,2-Jan-18,61493.58,,1315265.63,transactions.csv,61493.58,,1315265.63,,Invalid Date,Spark batch processing
+409000493201,2-Jan-18,FDRL/INTERNAL FUND TRANSFE,,2-Jan-18,,200000.00,1515265.63,transactions.csv,,200000.0,1515265.63,,Invalid Date,Spark batch processing
+409000493201,2-Jan-18,FDRL/INTERNAL FUND TRANSFE,,2-Jan-18,,200000.00,1715265.63,transactions.csv,,200000.0,1715265.63,,Invalid Date,Spark batch processing
+409000493201,3-Jan-18,BBPS SETMNT FOR DT 030120,,3-Jan-18,131874.52,,1583391.11,transactions.csv,131874.52,,1583391.11,,Invalid Date,Spark batch processing
+409000493201,4-Jan-18,BBPS SETMNT FOR DT 040120,,4-Jan-18,107971.83,,1475419.28,transactions.csv,107971.83,,1475419.28,,Invalid Date,Spark batch processing
+409000493201,5-Jan-18,BBPS SETMNT FOR DT 050120,,5-Jan-18,119145.09,,1356274.19,transactions.csv,119145.09,,1356274.19,,Invalid Date,Spark batch processing
+409000493201,6-Jan-18,BBPS SETMNT FOR DT 060120,,6-Jan-18,115908.12,,1240366.07,transactions.csv,115908.12,,1240366.07,,Invalid Date,Spark batch processing
+409000493201,8-Jan-18,BBPS SETMNT FOR DT 080120,,8-Jan-18,174434.50,,1065931.57,transactions.csv,174434.5,,1065931.57,,Invalid Date,Spark batch processing
+409000493201,8-Jan-18,FDRL/INTERNAL FUND TRANSFE,,8-Jan-18,,200000.00,1265931.57,transactions.csv,,200000.0,1265931.57,,Invalid Date,Spark batch processing
+409000493201,8-Jan-18,FDRL/INTERNAL FUND TRANSFE,,8-Jan-18,,200000.00,1465931.57,transactions.csv,,200000.0,1465931.57,,Invalid Date,Spark batch processing
+409000493201,9-Jan-18,BBPS SETMNT FOR DT 090012,,9-Jan-18,165694.99,,1300236.58,transactions.csv,165694.99,,1300236.58,,Invalid Date,Spark batch processing
+409000493201,1-Feb-18,BBPS SETMNT FOR DT 010220,,1-Feb-18,78571.00,,936840.27,transactions.csv,78571.0,,936840.27,,Invalid Date,Spark batch processing
+409000493201,2-Feb-18,BBPS SETMNT FOR DT 020220,,2-Feb-18,87199.44,,849640.83,transactions.csv,87199.44,,849640.83,,Invalid Date,Spark batch processing
+409000493201,2-Feb-18,FDRL/INTERNAL FUND TRANSFE,,2-Feb-18,,200000.00,1049640.83,transactions.csv,,200000.0,1049640.83,,Invalid Date,Spark batch processing
+409000493201,2-Feb-18,FDRL/INTERNAL FUND TRANSFE,,2-Feb-18,,300000.00,1349640.83,transactions.csv,,300000.0,1349640.83,,Invalid Date,Spark batch processing
+409000493201,3-Feb-18,BBPS SETMNT FOR DT 030220,,3-Feb-18,38505.91,,1311134.92,transactions.csv,38505.91,,1311134.92,,Invalid Date,Spark batch processing
+409000493201,5-Feb-18,BBPS SETMNT FOR DT 050220,,5-Feb-18,70066.41,,1241068.51,transactions.csv,70066.41,,1241068.51,,Invalid Date,Spark batch processing
+409000493201,6-Feb-18,BBPS DT 06022018,,6-Feb-18,87969.60,,1153098.91,transactions.csv,87969.6,,1153098.91,,Invalid Date,Spark batch processing
+409000493201,7-Feb-18,BBPS DT 07022018,,7-Feb-18,91827.28,,1061271.63,transactions.csv,91827.28,,1061271.63,,Invalid Date,Spark batch processing
+409000493201,8-Feb-18,BBPS DT 08022018,,8-Feb-18,55919.43,,1005352.20,transactions.csv,55919.43,,1005352.2,,Invalid Date,Spark batch processing
+409000493201,9-Feb-18,BBPS DT 09022018,,9-Feb-18,153450.94,,851901.26,transactions.csv,153450.94,,851901.26,,Invalid Date,Spark batch processing
+409000493201,9-Feb-18,FDRL/INTERNAL FUND TRANSFE,,9-Feb-18,,200000.00,1051901.26,transactions.csv,,200000.0,1051901.26,,Invalid Date,Spark batch processing
+409000493201,9-Feb-18,FDRL/INTERNAL FUND TRANSFE,,9-Feb-18,,300000.00,1351901.26,transactions.csv,,300000.0,1351901.26,,Invalid Date,Spark batch processing
+409000493201,1-Mar-18,BBPS DT 01032018,,1-Mar-18,92260.68,,804941.41,transactions.csv,92260.68,,804941.41,,Invalid Date,Spark batch processing
+409000493201,1-Mar-18,FDRL/INTERNAL FUND TRANSFE,,1-Mar-18,,300000.00,1104941.41,transactions.csv,,300000.0,1104941.41,,Invalid Date,Spark batch processing
+409000493201,1-Mar-18,FDRL/INTERNAL FUND TRANSFE,,1-Mar-18,,200000.00,1304941.41,transactions.csv,,200000.0,1304941.41,,Invalid Date,Spark batch processing
+409000493201,2-Mar-18,BBPS DT 02032018,,2-Mar-18,22018.40,,1282923.01,transactions.csv,22018.4,,1282923.01,,Invalid Date,Spark batch processing
+409000493201,3-Mar-18,BBPS DT 03032018,,3-Mar-18,,35851.19,1318774.20,transactions.csv,,35851.19,1318774.2,,Invalid Date,Spark batch processing
+409000493201,5-Mar-18,BBPS DT 05032018,,5-Mar-18,77952.12,,1240822.08,transactions.csv,77952.12,,1240822.08,,Invalid Date,Spark batch processing
+409000493201,6-Mar-18,BBPS DT 06032018,,6-Mar-18,78194.25,,1162627.83,transactions.csv,78194.25,,1162627.83,,Invalid Date,Spark batch processing
+409000493201,7-Mar-18,BBPS SETTELET DTD 07.03.2,,7-Mar-18,133276.73,,1029351.10,transactions.csv,133276.73,,1029351.1,,Invalid Date,Spark batch processing
+409000493201,8-Mar-18,BBPS DT 08032018,,8-Mar-18,208169.53,,821181.57,transactions.csv,208169.53,,821181.57,,Invalid Date,Spark batch processing
+409000493201,9-Mar-18,BBPS DT 09032018,,9-Mar-18,205372.21,,615809.36,transactions.csv,205372.21,,615809.36,,Invalid Date,Spark batch processing
+409000493201,9-Mar-18,FDRL/INTERNAL FUND TRANSFE,,9-Mar-18,,200000.00,815809.36,transactions.csv,,200000.0,815809.36,,Invalid Date,Spark batch processing
+409000493201,9-Mar-18,FDRL/INTERNAL FUND TRANSFE,,9-Mar-18,,200000.00,1015809.36,transactions.csv,,200000.0,1015809.36,,Invalid Date,Spark batch processing
+409000493201,3-Apr-18,BBPS DT 03042018,,3-Apr-18,62142.89,,1150545.06,transactions.csv,62142.89,,1150545.06,,Invalid Date,Spark batch processing
+409000493201,3-Apr-18,BBPS DT 02042018,,3-Apr-18,54010.29,,1096534.77,transactions.csv,54010.29,,1096534.77,,Invalid Date,Spark batch processing
+409000493201,4-Apr-18,BBPS DT 04042018,,4-Apr-18,40282.34,,1056252.43,transactions.csv,40282.34,,1056252.43,,Invalid Date,Spark batch processing
+409000493201,5-Apr-18,BBPS DT 05042018,,5-Apr-18,118388.47,,937863.96,transactions.csv,118388.47,,937863.96,,Invalid Date,Spark batch processing
+409000493201,5-Apr-18,FDRL/INTERNAL FUND TRANSFE,,5-Apr-18,,200000.00,1137863.96,transactions.csv,,200000.0,1137863.96,,Invalid Date,Spark batch processing
+409000493201,6-Apr-18,BBPS DT 06042018,,6-Apr-18,123743.72,,1014120.24,transactions.csv,123743.72,,1014120.24,,Invalid Date,Spark batch processing
+409000493201,7-Apr-18,BBPS DT 07042018,,7-Apr-18,197932.71,,816187.53,transactions.csv,197932.71,,816187.53,,Invalid Date,Spark batch processing
+409000493201,9-Apr-18,BBPS DT 09042018,,9-Apr-18,235573.75,,580613.78,transactions.csv,235573.75,,580613.78,,Invalid Date,Spark batch processing
+409000493201,9-Apr-18,FDRL/INTERNAL FUND TRANSFE,,9-Apr-18,,300000.00,880613.78,transactions.csv,,300000.0,880613.78,,Invalid Date,Spark batch processing
+409000493201,9-Apr-18,FDRL/INTERNAL FUND TRANSFE,,9-Apr-18,,300000.00,1180613.78,transactions.csv,,300000.0,1180613.78,,Invalid Date,Spark batch processing
+409000493201,1-May-18,BBPS DT 01052018,,1-May-18,154816.50,,722722.58,transactions.csv,154816.5,,722722.58,,Invalid Date,Spark batch processing
+409000493201,1-May-18,FDRL/INTERNAL FUND TRANSFE,,1-May-18,,200000.00,922722.58,transactions.csv,,200000.0,922722.58,,Invalid Date,Spark batch processing
+409000493201,1-May-18,FDRL/INTERNAL FUND TRANSFE,,1-May-18,,200000.00,1122722.58,transactions.csv,,200000.0,1122722.58,,Invalid Date,Spark batch processing
+409000493201,2-May-18,BBPS DT 02052018,,2-May-18,183929.92,,938792.66,transactions.csv,183929.92,,938792.66,,Invalid Date,Spark batch processing
+409000493201,3-May-18,BBPS DT 03052018,,3-May-18,187650.10,,751142.56,transactions.csv,187650.1,,751142.56,,Invalid Date,Spark batch processing
+409000493201,3-May-18,FDRL/INTERNAL FUND TRANSFE,,3-May-18,,300000.00,1051142.56,transactions.csv,,300000.0,1051142.56,,Invalid Date,Spark batch processing
+409000493201,4-May-18,BBPS DT 04052018,,4-May-18,139069.50,,912073.06,transactions.csv,139069.5,,912073.06,,Invalid Date,Spark batch processing
+409000493201,4-May-18,FDRL/INTERNAL FUND TRANSFE,,4-May-18,,200000.00,1112073.06,transactions.csv,,200000.0,1112073.06,,Invalid Date,Spark batch processing
+409000493201,4-May-18,FDRL/INTERNAL FUND TRANSFE,,4-May-18,,300000.00,1412073.06,transactions.csv,,300000.0,1412073.06,,Invalid Date,Spark batch processing
+409000493201,5-May-18,BBPS DT 05052018,,5-May-18,107985.24,,1304087.82,transactions.csv,107985.24,,1304087.82,,Invalid Date,Spark batch processing
+409000493201,7-May-18,BBPS DT 06052018,,7-May-18,190194.70,,1113893.12,transactions.csv,190194.7,,1113893.12,,Invalid Date,Spark batch processing
+409000493201,7-May-18,BBPS DT 07052018,,7-May-18,68538.04,,1045355.08,transactions.csv,68538.04,,1045355.08,,Invalid Date,Spark batch processing
+409000493201,8-May-18,BBPS DT 08052018,,8-May-18,242380.79,,802974.29,transactions.csv,242380.79,,802974.29,,Invalid Date,Spark batch processing
+409000493201,8-May-18,FDRL/INTERNAL FUND TRANSFE,,8-May-18,,300000.00,1102974.29,transactions.csv,,300000.0,1102974.29,,Invalid Date,Spark batch processing
+409000493201,9-May-18,BBPS DT 09052018,,9-May-18,129549.64,,973424.65,transactions.csv,129549.64,,973424.65,,Invalid Date,Spark batch processing
+409000493201,9-May-18,FDRL/INTERNAL FUND TRANSFE,,9-May-18,,300000.00,1273424.65,transactions.csv,,300000.0,1273424.65,,Invalid Date,Spark batch processing
+409000493201,1-Jun-18,BBPS DT 01062018,,1-Jun-18,34285.36,,1049359.58,transactions.csv,34285.36,,1049359.58,,Invalid Date,Spark batch processing
+409000493201,2-Jun-18,BBPS DT 02062018,,2-Jun-18,65093.04,,984266.54,transactions.csv,65093.04,,984266.54,,Invalid Date,Spark batch processing
+409000493201,4-Jun-18,BBPS DT 03062018,,4-Jun-18,38019.06,,946247.48,transactions.csv,38019.06,,946247.48,,Invalid Date,Spark batch processing
+409000493201,4-Jun-18,BBPS DT 04062018,,4-Jun-18,,14181.98,960429.46,transactions.csv,,14181.98,960429.46,,Invalid Date,Spark batch processing
+409000493201,5-Jun-18,BBPS DT 05062018,,5-Jun-18,78982.56,,881446.90,transactions.csv,78982.56,,881446.9,,Invalid Date,Spark batch processing
+409000493201,6-Jun-18,BBPS DT 06062018,,6-Jun-18,64415.11,,817031.79,transactions.csv,64415.11,,817031.79,,Invalid Date,Spark batch processing
+409000493201,7-Jun-18,BBPS DT 07062018,,7-Jun-18,97510.32,,719521.47,transactions.csv,97510.32,,719521.47,,Invalid Date,Spark batch processing
+409000493201,8-Jun-18,BBPS DT 08062018,,8-Jun-18,25366.64,,694154.83,transactions.csv,25366.64,,694154.83,,Invalid Date,Spark batch processing
+409000493201,2-Jul-18,BBPS DT 01072018,,2-Jul-18,22571.88,,1106463.27,transactions.csv,22571.88,,1106463.27,,Invalid Date,Spark batch processing
+409000493201,2-Jul-18,BBPS DT 02072018,,2-Jul-18,,55900.40,1162363.67,transactions.csv,,55900.4,1162363.67,,Invalid Date,Spark batch processing
+409000493201,3-Jul-18,BBPS DT 03072018,,3-Jul-18,,44892.38,1207256.05,transactions.csv,,44892.38,1207256.05,,Invalid Date,Spark batch processing
+409000493201,4-Jul-18,BBPS DT 04072018,,4-Jul-18,6904.87,,1200351.18,transactions.csv,6904.87,,1200351.18,,Invalid Date,Spark batch processing
+409000493201,5-Jul-18,BBPS DT 05072018,,5-Jul-18,,17198.35,1217549.53,transactions.csv,,17198.35,1217549.53,,Invalid Date,Spark batch processing
+409000493201,6-Jul-18,BBPS DT 06072018,,6-Jul-18,29872.95,,1187676.58,transactions.csv,29872.95,,1187676.58,,Invalid Date,Spark batch processing
+409000493201,7-Jul-18,BBPS DT 07072018,,7-Jul-18,,12990.47,1200667.05,transactions.csv,,12990.47,1200667.05,,Invalid Date,Spark batch processing
+409000493201,9-Jul-18,BBPS DT 09072018,,9-Jul-18,,67657.57,1268324.62,transactions.csv,,67657.57,1268324.62,,Invalid Date,Spark batch processing
+409000493201,9-Jul-18,BBPS DT 08072018,,9-Jul-18,29077.09,,1239247.53,transactions.csv,29077.09,,1239247.53,,Invalid Date,Spark batch processing
+409000493201,1-Aug-18,BBPS DT 01082018,,1-Aug-18,30347.75,,1029594.94,transactions.csv,30347.75,,1029594.94,,Invalid Date,Spark batch processing
+409000493201,2-Aug-18,BBPS DT 02082018,,2-Aug-18,,20224.88,1049819.82,transactions.csv,,20224.88,1049819.82,,Invalid Date,Spark batch processing
+409000493201,3-Aug-18,BBPS DT 03082018,,3-Aug-18,4795.33,,1045024.49,transactions.csv,4795.33,,1045024.49,,Invalid Date,Spark batch processing
+409000493201,4-Aug-18,BBPS DT 04082018,,4-Aug-18,14728.37,,1030296.12,transactions.csv,14728.37,,1030296.12,,Invalid Date,Spark batch processing
+409000493201,6-Aug-18,BBPS DT 05082018,,6-Aug-18,,62024.88,1092321.00,transactions.csv,,62024.88,1092321.0,,Invalid Date,Spark batch processing
+409000493201,6-Aug-18,BBPS DT 06082018,,6-Aug-18,,66966.06,1159287.06,transactions.csv,,66966.06,1159287.06,,Invalid Date,Spark batch processing
+409000493201,7-Aug-18,BBPS DT 07082018,,7-Aug-18,35934.87,,1123352.19,transactions.csv,35934.87,,1123352.19,,Invalid Date,Spark batch processing
+409000493201,8-Aug-18,BBPS DT 08082018,,8-Aug-18,10667.64,,1112684.55,transactions.csv,10667.64,,1112684.55,,Invalid Date,Spark batch processing
+409000493201,9-Aug-18,BBPS DT 09082018,,9-Aug-18,,5322.89,1118007.44,transactions.csv,,5322.89,1118007.44,,Invalid Date,Spark batch processing
+409000493201,1-Sep-18,BBPS DT 01092018,,1-Sep-18,,93996.73,1804706.06,transactions.csv,,93996.73,1804706.06,,Invalid Date,Spark batch processing
+409000493201,3-Sep-18,BBPS DT 02092018,,3-Sep-18,,159127.05,1963833.11,transactions.csv,,159127.05,1963833.11,,Invalid Date,Spark batch processing
+409000493201,3-Sep-18,BBPS DT 03092018,,3-Sep-18,,233904.54,2197737.65,transactions.csv,,233904.54,2197737.65,,Invalid Date,Spark batch processing
+409000493201,3-Sep-18,TRF TO Indiaforensic SERVICES I,,3-Sep-18,1000000.00,,1197737.65,transactions.csv,1000000.0,,1197737.65,,Invalid Date,Spark batch processing
+409000493201,4-Sep-18,BBPS DT 04092018,,4-Sep-18,,148802.00,1346539.65,transactions.csv,,148802.0,1346539.65,,Invalid Date,Spark batch processing
+409000493201,5-Sep-18,BBPS DT 05092018,,5-Sep-18,,79407.40,1425947.05,transactions.csv,,79407.4,1425947.05,,Invalid Date,Spark batch processing
+409000493201,6-Sep-18,BBPS DT 06092018,,6-Sep-18,,102541.01,1528488.06,transactions.csv,,102541.01,1528488.06,,Invalid Date,Spark batch processing
+409000493201,7-Sep-18,BBPS DT 07092018,,7-Sep-18,,121975.46,1650463.52,transactions.csv,,121975.46,1650463.52,,Invalid Date,Spark batch processing
+409000493201,7-Sep-18,TRF TO Indiaforensic SERVICES I,,7-Sep-18,1000000.00,,650463.52,transactions.csv,1000000.0,,650463.52,,Invalid Date,Spark batch processing
+409000493201,1-Oct-18,BBPS DT 30092018,,1-Oct-18,,244133.61,800516.05,transactions.csv,,244133.61,800516.05,,Invalid Date,Spark batch processing
+409000493201,1-Oct-18,BBPS DT 01102018,,1-Oct-18,,254293.54,1054809.59,transactions.csv,,254293.54,1054809.59,,Invalid Date,Spark batch processing
+409000493201,3-Oct-18,BBPS DT 02102018,,3-Oct-18,,202370.40,1257179.99,transactions.csv,,202370.4,1257179.99,,Invalid Date,Spark batch processing
+409000493201,3-Oct-18,BBPS DT 03102018,,3-Oct-18,,314101.50,1571281.49,transactions.csv,,314101.5,1571281.49,,Invalid Date,Spark batch processing
+409000493201,4-Oct-18,BBPS DT 04102018,,4-Oct-18,,233096.74,1804378.23,transactions.csv,,233096.74,1804378.23,,Invalid Date,Spark batch processing
+409000493201,4-Oct-18,TRF TO Indiaforensic SERVICES I,,4-Oct-18,1000000.00,,804378.23,transactions.csv,1000000.0,,804378.23,,Invalid Date,Spark batch processing
+409000493201,5-Oct-18,BBPS DT 05102018,,5-Oct-18,,250778.13,1055156.36,transactions.csv,,250778.13,1055156.36,,Invalid Date,Spark batch processing
+409000493201,5-Oct-18,TRF TO Indiaforensic SERVICES I,,5-Oct-18,400000.00,,655156.36,transactions.csv,400000.0,,655156.36,,Invalid Date,Spark batch processing
+409000493201,6-Oct-18,BBPS DT 06102018,,6-Oct-18,,235850.74,891007.10,transactions.csv,,235850.74,891007.1,,Invalid Date,Spark batch processing
+409000493201,8-Oct-18,BBPS DT 07102018,,8-Oct-18,,276293.62,1167300.72,transactions.csv,,276293.62,1167300.72,,Invalid Date,Spark batch processing
+409000493201,8-Oct-18,BBPS DT 08102018,,8-Oct-18,,358259.54,1525560.26,transactions.csv,,358259.54,1525560.26,,Invalid Date,Spark batch processing
+409000493201,9-Oct-18,BBPS DT 09102018,,9-Oct-18,,130070.96,1655631.22,transactions.csv,,130070.96,1655631.22,,Invalid Date,Spark batch processing
+409000493201,9-Oct-18,TRF TO Indiaforensic SERVICES I,,9-Oct-18,800000.00,,855631.22,transactions.csv,800000.0,,855631.22,,Invalid Date,Spark batch processing
+409000493201,1-Nov-18,BBPS DT 01112018,,1-Nov-18,,290256.64,1136564.71,transactions.csv,,290256.64,1136564.71,,Invalid Date,Spark batch processing
+409000493201,2-Nov-18,BBPS DT 02112018,,2-Nov-18,,355637.06,1492201.77,transactions.csv,,355637.06,1492201.77,,Invalid Date,Spark batch processing
+409000493201,3-Nov-18,BBPS DT 03112018,,3-Nov-18,,282568.29,1774770.06,transactions.csv,,282568.29,1774770.06,,Invalid Date,Spark batch processing
+409000493201,5-Nov-18,BBPS DT 04112018,,5-Nov-18,,354950.17,2129720.23,transactions.csv,,354950.17,2129720.23,,Invalid Date,Spark batch processing
+409000493201,5-Nov-18,BBPS DT 05112018,,5-Nov-18,,545436.19,2675156.42,transactions.csv,,545436.19,2675156.42,,Invalid Date,Spark batch processing
+409000493201,6-Nov-18,BBPS DT 06112018,,6-Nov-18,,182964.60,2858121.02,transactions.csv,,182964.6,2858121.02,,Invalid Date,Spark batch processing
+409000493201,6-Nov-18,TRF TO Indiaforensic SERVICES I,,6-Nov-18,2000000.00,,858121.02,transactions.csv,2000000.0,,858121.02,,Invalid Date,Spark batch processing
+409000493201,7-Nov-18,BBPS DT 07112018,,7-Nov-18,,471757.52,1329878.54,transactions.csv,,471757.52,1329878.54,,Invalid Date,Spark batch processing
+409000493201,8-Nov-18,BBPS DT 08112018,,8-Nov-18,,375507.73,1705386.27,transactions.csv,,375507.73,1705386.27,,Invalid Date,Spark batch processing
+409000493201,9-Nov-18,BBPS DT 09112018,,9-Nov-18,,506473.63,2211859.90,transactions.csv,,506473.63,2211859.9,,Invalid Date,Spark batch processing
+409000493201,1-Dec-18,BBPS DT 01122008,,1-Dec-18,,268923.12,1204061.61,transactions.csv,,268923.12,1204061.61,,Invalid Date,Spark batch processing
+409000493201,3-Dec-18,BBPS DT 02122008,,3-Dec-18,,271416.97,1475478.58,transactions.csv,,271416.97,1475478.58,,Invalid Date,Spark batch processing
+409000493201,3-Dec-18,BBPS DT 03122008,,3-Dec-18,,291149.66,1766628.24,transactions.csv,,291149.66,1766628.24,,Invalid Date,Spark batch processing
+409000493201,3-Dec-18,TRF TO Indiaforensic SERVICES I,,3-Dec-18,1200000.00,,566628.24,transactions.csv,1200000.0,,566628.24,,Invalid Date,Spark batch processing
+409000493201,4-Dec-18,BBPS DT 04122008,,4-Dec-18,,360370.52,926998.76,transactions.csv,,360370.52,926998.76,,Invalid Date,Spark batch processing
+409000493201,5-Dec-18,BBPS DT 05122008,,5-Dec-18,,315346.66,1242345.42,transactions.csv,,315346.66,1242345.42,,Invalid Date,Spark batch processing
+409000493201,5-Dec-18,FDRL/INTERNAL FUND TRANSFE,,5-Dec-18,,200000.00,1442345.42,transactions.csv,,200000.0,1442345.42,,Invalid Date,Spark batch processing
+409000493201,5-Dec-18,FDRL/INTERNAL FUND TRANSFE,,5-Dec-18,,300000.00,1742345.42,transactions.csv,,300000.0,1742345.42,,Invalid Date,Spark batch processing
+409000493201,5-Dec-18,TRF TO Indiaforensic SERVICES I,,5-Dec-18,500000.00,,1242345.42,transactions.csv,500000.0,,1242345.42,,Invalid Date,Spark batch processing
+409000493201,6-Dec-18,BBPS DT 06122008,,6-Dec-18,,403296.60,1645642.02,transactions.csv,,403296.6,1645642.02,,Invalid Date,Spark batch processing
+409000493201,7-Dec-18,BBPS DT 06122008,,7-Dec-18,,615753.17,2261395.19,transactions.csv,,615753.17,2261395.19,,Invalid Date,Spark batch processing
+409000493201,7-Dec-18,TRF TO Indiaforensic SERVICES I,,7-Dec-18,1500000.00,,761395.19,transactions.csv,1500000.0,,761395.19,,Invalid Date,Spark batch processing
+409000493201,1-Jan-19,BBPS DT 01012019,,1-Jan-19,160965.27,,699361.65,transactions.csv,160965.27,,699361.65,,Invalid Date,Spark batch processing
+409000493201,2-Jan-19,BBPS DT 02012019,,2-Jan-19,38298.74,,661062.91,transactions.csv,38298.74,,661062.91,,Invalid Date,Spark batch processing
+409000493201,3-Jan-19,FDRL/INTERNAL FUND TRANSFE,,3-Jan-19,,100000.00,761062.91,transactions.csv,,100000.0,761062.91,,Invalid Date,Spark batch processing
+409000493201,3-Jan-19,BBPS DT 03012019,,3-Jan-19,94509.56,,666553.35,transactions.csv,94509.56,,666553.35,,Invalid Date,Spark batch processing
+409000493201,4-Jan-19,FDRL/INTERNAL FUND TRANSFE,,4-Jan-19,,100000.00,766553.35,transactions.csv,,100000.0,766553.35,,Invalid Date,Spark batch processing
+409000493201,4-Jan-19,FDRL/INTERNAL FUND TRANSFE,,4-Jan-19,,200000.00,966553.35,transactions.csv,,200000.0,966553.35,,Invalid Date,Spark batch processing
+409000493201,4-Jan-19,BBPS DT 04012019,,4-Jan-19,124836.90,,841716.45,transactions.csv,124836.9,,841716.45,,Invalid Date,Spark batch processing
+409000493201,5-Jan-19,BBPS DT 05012019,,5-Jan-19,82438.52,,759277.93,transactions.csv,82438.52,,759277.93,,Invalid Date,Spark batch processing
+409000493201,7-Jan-19,BBPS DT 06012019,,7-Jan-19,146158.69,,613119.24,transactions.csv,146158.69,,613119.24,,Invalid Date,Spark batch processing
+409000493201,7-Jan-19,BBPS DT 07012019,,7-Jan-19,90624.51,,522494.73,transactions.csv,90624.51,,522494.73,,Invalid Date,Spark batch processing
+409000493201,7-Jan-19,FDRL/INTERNAL FUND TRANSFE,,7-Jan-19,,100000.00,622494.73,transactions.csv,,100000.0,622494.73,,Invalid Date,Spark batch processing
+409000493201,8-Jan-19,FDRL/INTERNAL FUND TRANSFE,,8-Jan-19,,200000.00,822494.73,transactions.csv,,200000.0,822494.73,,Invalid Date,Spark batch processing
+409000493201,8-Jan-19,BBPS DT 08012019,,8-Jan-19,200263.25,,622231.48,transactions.csv,200263.25,,622231.48,,Invalid Date,Spark batch processing
+409000493201,9-Jan-19,BBPS DT 09012019,,9-Jan-19,155967.41,,466264.07,transactions.csv,155967.41,,466264.07,,Invalid Date,Spark batch processing
+409000493201,9-Jan-19,FDRL/INTERNAL FUND TRANSFE,,9-Jan-19,,200000.00,666264.07,transactions.csv,,200000.0,666264.07,,Invalid Date,Spark batch processing
+409000493201,1-Feb-19,BBPS DT 01022019,,1-Feb-19,194258.69,,570427.73,transactions.csv,194258.69,,570427.73,,Invalid Date,Spark batch processing
+409000493201,1-Feb-19,FDRL/INTERNAL FUND TRANSFE,,1-Feb-19,,200000.00,770427.73,transactions.csv,,200000.0,770427.73,,Invalid Date,Spark batch processing
+409000493201,2-Feb-19,BBPS DT 02022019,,2-Feb-19,99147.70,,671280.03,transactions.csv,99147.7,,671280.03,,Invalid Date,Spark batch processing
+409000493201,4-Feb-19,BBPS DT 03022019,,4-Feb-19,96122.11,,575157.92,transactions.csv,96122.11,,575157.92,,Invalid Date,Spark batch processing
+409000493201,4-Feb-19,BBPS DT 04022019,,4-Feb-19,32352.14,,542805.78,transactions.csv,32352.14,,542805.78,,Invalid Date,Spark batch processing
+409000493201,5-Feb-19,FDRL/INTERNAL FUND TRANSFE,,5-Feb-19,,100000.00,642805.78,transactions.csv,,100000.0,642805.78,,Invalid Date,Spark batch processing
+409000493201,5-Feb-19,FDRL/INTERNAL FUND TRANSFE,,5-Feb-19,,200000.00,842805.78,transactions.csv,,200000.0,842805.78,,Invalid Date,Spark batch processing
+409000493201,5-Feb-19,BBPS DT 05022019,,5-Feb-19,181443.09,,661362.69,transactions.csv,181443.09,,661362.69,,Invalid Date,Spark batch processing
+409000493201,5-Feb-19,FDRL/INTERNAL FUND TRANSFE,,5-Feb-19,,200000.00,861362.69,transactions.csv,,200000.0,861362.69,,Invalid Date,Spark batch processing
+409000493201,6-Feb-19,BBPS DT 06022019,,6-Feb-19,216238.51,,645124.18,transactions.csv,216238.51,,645124.18,,Invalid Date,Spark batch processing
+409000493201,6-Feb-19,FDRL/INTERNAL FUND TRANSFE,,6-Feb-19,,300000.00,945124.18,transactions.csv,,300000.0,945124.18,,Invalid Date,Spark batch processing
+409000493201,7-Feb-19,BBPS DT 07022019,,7-Feb-19,171418.15,,773706.03,transactions.csv,171418.15,,773706.03,,Invalid Date,Spark batch processing
+409000493201,8-Feb-19,BBPS DT 08022019,,8-Feb-19,149942.60,,623763.43,transactions.csv,149942.6,,623763.43,,Invalid Date,Spark batch processing
+409000493201,8-Feb-19,FDRL/INTERNAL FUND TRANSFE,,8-Feb-19,,300000.00,923763.43,transactions.csv,,300000.0,923763.43,,Invalid Date,Spark batch processing
+409000493201,1-Mar-19,BBPS DT 01032019,,1-Mar-19,118475.77,,532468.61,transactions.csv,118475.77,,532468.61,,Invalid Date,Spark batch processing
+409000493201,2-Mar-19,FDRL/INTERNAL FUND TRANSFE,,2-Mar-19,,300000.00,832468.61,transactions.csv,,300000.0,832468.61,,Invalid Date,Spark batch processing
+409000493201,2-Mar-19,BBPS DT 02032019,,2-Mar-19,16440.61,,816028.00,transactions.csv,16440.61,,816028.0,,Invalid Date,Spark batch processing
+409000493201,4-Mar-19,BBPS DT 03032019,,4-Mar-19,59110.48,,756917.52,transactions.csv,59110.48,,756917.52,,Invalid Date,Spark batch processing
+409000493201,4-Mar-19,BBPS DT 04032019,,4-Mar-19,3002.37,,753915.15,transactions.csv,3002.37,,753915.15,,Invalid Date,Spark batch processing
+409000493201,5-Mar-19,BBPS DT 05032019,,5-Mar-19,10331.83,,743583.32,transactions.csv,10331.83,,743583.32,,Invalid Date,Spark batch processing
+409000425051,2-Mar-16,NEFT/SBIN116062424445/DEE,,2-Mar-16,,21000.00,807583.32,transactions.csv,,21000.0,807583.32,,Invalid Date,Spark batch processing
+409000425051,6-Apr-16,NEFT/SD1290309312/VIDYART,,6-Apr-16,,1000.00,828583.32,transactions.csv,,1000.0,828583.32,,Invalid Date,Spark batch processing
+409000425051,7-Apr-16,NEFT/BARBH16098696964/MOT,,7-Apr-16,,1000.00,829583.32,transactions.csv,,1000.0,829583.32,,Invalid Date,Spark batch processing
+409000425051,8-Apr-16,NEFT/SAA33261155/SANJEET,,8-Apr-16,,1000.00,830583.32,transactions.csv,,1000.0,830583.32,,Invalid Date,Spark batch processing
+409000425051,5-May-16,NEFT/BKIDN16126554823/NAS,,5-May-16,,21000.00,897583.32,transactions.csv,,21000.0,897583.32,,Invalid Date,Spark batch processing
+409000425051,6-May-16,NEFT/SBIN216127966232/RAV,,6-May-16,,20994.28,918577.60,transactions.csv,,20994.28,918577.6,,Invalid Date,Spark batch processing
+409000425051,7-Jun-16,NEFT/SBIN616159262965/dee,,7-Jun-16,,1000.00,1107577.60,transactions.csv,,1000.0,1107577.6,,Invalid Date,Spark batch processing
+409000425051,8-Jun-16,NEFT/SBIN616160853986/MOH,,8-Jun-16,,1000.00,1108577.60,transactions.csv,,1000.0,1108577.6,,Invalid Date,Spark batch processing
+409000425051,8-Jun-16,NEFT/SBIN616160853413/ABB,,8-Jun-16,,1000.00,1109577.60,transactions.csv,,1000.0,1109577.6,,Invalid Date,Spark batch processing
+409000425051,9-Jun-16,NEFT/BKIDN16161554131/DEE,,9-Jun-16,,21000.00,1130577.60,transactions.csv,,21000.0,1130577.6,,Invalid Date,Spark batch processing
+409000425051,1-Jul-16,6.18311E+11,,1-Jul-16,,1000.00,1326577.60,transactions.csv,,1000.0,1326577.6,,Invalid Date,Spark batch processing
+409000425051,1-Jul-16,6.18316E+11,,1-Jul-16,,2000.00,1328577.60,transactions.csv,,2000.0,1328577.6,,Invalid Date,Spark batch processing
+409000425051,1-Jul-16,6.18318E+11,,1-Jul-16,,2000.00,1330577.60,transactions.csv,,2000.0,1330577.6,,Invalid Date,Spark batch processing
+409000425051,3-Jul-16,6.18519E+11,,3-Jul-16,,2000.00,1332577.60,transactions.csv,,2000.0,1332577.6,,Invalid Date,Spark batch processing
+409000425051,4-Jul-16,NEFT/SAA205977061/PRAVEEN,,4-Jul-16,,1000.00,1333577.60,transactions.csv,,1000.0,1333577.6,,Invalid Date,Spark batch processing
+409000425051,4-Jul-16,NEFT/SBIN516186067895/Mrs,,4-Jul-16,,21000.00,1354577.60,transactions.csv,,21000.0,1354577.6,,Invalid Date,Spark batch processing
+409000425051,5-Jul-16,NEFT/SBIN616187051242/MO,,5-Jul-16,,21000.00,1375577.60,transactions.csv,,21000.0,1375577.6,,Invalid Date,Spark batch processing
+409000425051,6-Jul-16,6.18814E+11,,6-Jul-16,,5000.00,1380577.60,transactions.csv,,5000.0,1380577.6,,Invalid Date,Spark batch processing
+409000425051,1-Aug-16,6.21414E+11,,1-Aug-16,,10000.00,669578.60,transactions.csv,,10000.0,669578.6,,Invalid Date,Spark batch processing
+409000425051,2-Aug-16,NEFT/BARBH16215547124/MAN,,2-Aug-16,,1000.00,670578.60,transactions.csv,,1000.0,670578.6,,Invalid Date,Spark batch processing
+409000425051,3-Aug-16,6.21614E+11,,3-Aug-16,,1000.00,671578.60,transactions.csv,,1000.0,671578.6,,Invalid Date,Spark batch processing
+409000425051,3-Aug-16,6.21614E+11,,3-Aug-16,,1000.00,672578.60,transactions.csv,,1000.0,672578.6,,Invalid Date,Spark batch processing
+409000425051,3-Aug-16,NEFT/BKIDN16216653709/AMR,,3-Aug-16,,1000.00,673578.60,transactions.csv,,1000.0,673578.6,,Invalid Date,Spark batch processing
+409000425051,3-Aug-16,6.21614E+11,,3-Aug-16,,1000.00,674578.60,transactions.csv,,1000.0,674578.6,,Invalid Date,Spark batch processing
+409000425051,3-Aug-16,6.21615E+11,,3-Aug-16,,1000.00,675578.60,transactions.csv,,1000.0,675578.6,,Invalid Date,Spark batch processing
+409000425051,3-Aug-16,NEFT/SBIN516216068416/KUN,,3-Aug-16,,12000.00,687578.60,transactions.csv,,12000.0,687578.6,,Invalid Date,Spark batch processing
+409000425051,3-Aug-16,6.21615E+11,,3-Aug-16,,1000.00,688578.60,transactions.csv,,1000.0,688578.6,,Invalid Date,Spark batch processing
+409000425051,3-Aug-16,6.21615E+11,,3-Aug-16,,1000.00,689578.60,transactions.csv,,1000.0,689578.6,,Invalid Date,Spark batch processing
+409000425051,3-Aug-16,6.21615E+11,,3-Aug-16,,1000.00,690578.60,transactions.csv,,1000.0,690578.6,,Invalid Date,Spark batch processing
+409000425051,3-Aug-16,6.21615E+11,,3-Aug-16,,1000.00,691578.60,transactions.csv,,1000.0,691578.6,,Invalid Date,Spark batch processing
+409000425051,3-Aug-16,6.21616E+11,,3-Aug-16,,1000.00,692578.60,transactions.csv,,1000.0,692578.6,,Invalid Date,Spark batch processing
+409000425051,3-Aug-16,6.21619E+11,,3-Aug-16,,1000.00,693578.60,transactions.csv,,1000.0,693578.6,,Invalid Date,Spark batch processing
+409000425051,4-Aug-16,6.21714E+11,,4-Aug-16,,1000.00,694578.60,transactions.csv,,1000.0,694578.6,,Invalid Date,Spark batch processing
+409000425051,4-Aug-16,NEFT/BKIDN16217771228/GAY,,4-Aug-16,,11000.00,705578.60,transactions.csv,,11000.0,705578.6,,Invalid Date,Spark batch processing
+409000425051,5-Aug-16,NEFT/PUNBH16218531092/ASH,,5-Aug-16,,1000.00,706578.60,transactions.csv,,1000.0,706578.6,,Invalid Date,Spark batch processing
+409000425051,5-Aug-16,6.21812E+11,,5-Aug-16,,1000.00,707578.60,transactions.csv,,1000.0,707578.6,,Invalid Date,Spark batch processing
+409000425051,6-Aug-16,6.21916E+11,,6-Aug-16,,1000.00,708578.60,transactions.csv,,1000.0,708578.6,,Invalid Date,Spark batch processing
+409000425051,6-Aug-16,6.21917E+11,,6-Aug-16,,1000.00,709578.60,transactions.csv,,1000.0,709578.6,,Invalid Date,Spark batch processing
+409000425051,8-Aug-16,NEFT/CBINH16221A01703/PRA,,8-Aug-16,,11000.00,720578.60,transactions.csv,,11000.0,720578.6,,Invalid Date,Spark batch processing
+409000425051,8-Aug-16,NEFT/SBIN916221237880/Mr,,8-Aug-16,,11000.00,731578.60,transactions.csv,,11000.0,731578.6,,Invalid Date,Spark batch processing
+409000425051,1-Sep-16,NEFT/CBINH16245A00904/HAR,,1-Sep-16,,1000.00,919578.60,transactions.csv,,1000.0,919578.6,,Invalid Date,Spark batch processing
+409000425051,1-Sep-16,NEFT/CBINH16245A00945/RAJ,,1-Sep-16,,1000.00,920578.60,transactions.csv,,1000.0,920578.6,,Invalid Date,Spark batch processing
+409000425051,1-Sep-16,NEFT/SBIN516245435372/ROH,,1-Sep-16,,20000.00,940578.60,transactions.csv,,20000.0,940578.6,,Invalid Date,Spark batch processing
+409000425051,2-Sep-16,6.24614E+11,,2-Sep-16,,5000.00,945578.60,transactions.csv,,5000.0,945578.6,,Invalid Date,Spark batch processing
+409000425051,2-Sep-16,6.24614E+11,,2-Sep-16,,5000.00,950578.60,transactions.csv,,5000.0,950578.6,,Invalid Date,Spark batch processing
+409000425051,2-Sep-16,6.24614E+11,,2-Sep-16,,2000.00,952578.60,transactions.csv,,2000.0,952578.6,,Invalid Date,Spark batch processing
+409000425051,3-Sep-16,NEFT/CBINH16247A05058/SEE,,3-Sep-16,,1000.00,953578.60,transactions.csv,,1000.0,953578.6,,Invalid Date,Spark batch processing
+409000425051,5-Sep-16,NEFT/UTBIN16249526895/MUN,,5-Sep-16,,1000.00,954578.60,transactions.csv,,1000.0,954578.6,,Invalid Date,Spark batch processing
+409000425051,5-Sep-16,NEFT/SBIN816249307265/NAR,,5-Sep-16,,12000.00,966578.60,transactions.csv,,12000.0,966578.6,,Invalid Date,Spark batch processing
+409000425051,7-Sep-16,NEFT/SBIN916251519257/SHU,,7-Sep-16,,21000.00,987578.60,transactions.csv,,21000.0,987578.6,,Invalid Date,Spark batch processing
+409000425051,8-Sep-16,NEFT/CBINH16252A09706/ANI,,8-Sep-16,,1000.00,988578.60,transactions.csv,,1000.0,988578.6,,Invalid Date,Spark batch processing
+409000425051,8-Sep-16,NEFT/BKIDN16252820852/SAN,,8-Sep-16,,12000.00,1000578.60,transactions.csv,,12000.0,1000578.6,,Invalid Date,Spark batch processing
+409000425051,8-Sep-16,NEFT/CBINH16252A09655/MAN,,8-Sep-16,,1000.00,1001578.60,transactions.csv,,1000.0,1001578.6,,Invalid Date,Spark batch processing
+409000425051,8-Sep-16,NEFT/N252160186060982/PAR,,8-Sep-16,,12000.00,1013578.60,transactions.csv,,12000.0,1013578.6,,Invalid Date,Spark batch processing
+409000425051,9-Sep-16,NEFT/SBIN216253660797/RAN,,9-Sep-16,,12000.00,1025578.60,transactions.csv,,12000.0,1025578.6,,Invalid Date,Spark batch processing
+409000425051,9-Sep-16,6.25313E+11,,9-Sep-16,,20000.00,1045578.60,transactions.csv,,20000.0,1045578.6,,Invalid Date,Spark batch processing
+409000425051,9-Sep-16,NEFT/VIJBH16253024948/ANI,,9-Sep-16,,1000.00,1046578.60,transactions.csv,,1000.0,1046578.6,,Invalid Date,Spark batch processing
+409000425051,9-Sep-16,NEFT/BKIDN16253896956/OM,,9-Sep-16,,21000.00,1067578.60,transactions.csv,,21000.0,1067578.6,,Invalid Date,Spark batch processing
+409000425051,9-Sep-16,NEFT/SBIN316253200646/ARB,,9-Sep-16,,12000.00,1079578.60,transactions.csv,,12000.0,1079578.6,,Invalid Date,Spark batch processing
+409000425051,1-Oct-16,NEFT/UTBIN16275043249/IJA,,1-Oct-16,,21000.00,1373572.85,transactions.csv,,21000.0,1373572.85,,Invalid Date,Spark batch processing
+409000425051,3-Oct-16,NEFT/CBINH16277A00957/SAN,,3-Oct-16,,1000.00,1374572.85,transactions.csv,,1000.0,1374572.85,,Invalid Date,Spark batch processing
+409000425051,3-Oct-16,NEFT/CBINH16277A09229/VIK,,3-Oct-16,,11000.00,1385572.85,transactions.csv,,11000.0,1385572.85,,Invalid Date,Spark batch processing
+409000425051,5-Oct-16,6.27913E+11,,5-Oct-16,,11000.00,1396572.85,transactions.csv,,11000.0,1396572.85,,Invalid Date,Spark batch processing
+409000425051,6-Oct-16,6.28016E+11,,6-Oct-16,,5000.00,1401572.85,transactions.csv,,5000.0,1401572.85,,Invalid Date,Spark batch processing
+409000425051,6-Oct-16,6.28016E+11,,6-Oct-16,,5000.00,1406572.85,transactions.csv,,5000.0,1406572.85,,Invalid Date,Spark batch processing
+409000425051,6-Oct-16,6.28019E+11,,6-Oct-16,,2000.00,1408572.85,transactions.csv,,2000.0,1408572.85,,Invalid Date,Spark batch processing
+409000425051,7-Oct-16,6.28114E+11,,7-Oct-16,,5000.00,1413572.85,transactions.csv,,5000.0,1413572.85,,Invalid Date,Spark batch processing
+409000425051,7-Oct-16,TRF TO Indiaforensic SERVICES I,,7-Oct-16,850000.00,,563572.85,transactions.csv,850000.0,,563572.85,,Invalid Date,Spark batch processing
+409000425051,8-Oct-16,6.28211E+11,,8-Oct-16,,5000.00,568572.85,transactions.csv,,5000.0,568572.85,,Invalid Date,Spark batch processing
+409000425051,8-Oct-16,6.28217E+11,,8-Oct-16,,5000.00,573572.85,transactions.csv,,5000.0,573572.85,,Invalid Date,Spark batch processing
+409000425051,8-Oct-16,6.28217E+11,,8-Oct-16,,5000.00,578572.85,transactions.csv,,5000.0,578572.85,,Invalid Date,Spark batch processing
+409000425051,8-Oct-16,6.28217E+11,,8-Oct-16,,1000.00,579572.85,transactions.csv,,1000.0,579572.85,,Invalid Date,Spark batch processing
+409000425051,9-Oct-16,6.28311E+11,,9-Oct-16,,1000.00,580572.85,transactions.csv,,1000.0,580572.85,,Invalid Date,Spark batch processing
+409000425051,2-Nov-16,NEFT/SBIN216307265211/ROH,,2-Nov-16,,1000.00,815572.85,transactions.csv,,1000.0,815572.85,,Invalid Date,Spark batch processing
+409000425051,3-Nov-16,6.30811E+11,,3-Nov-16,,5000.00,820572.85,transactions.csv,,5000.0,820572.85,,Invalid Date,Spark batch processing
+409000425051,3-Nov-16,6.30811E+11,,3-Nov-16,,5000.00,825572.85,transactions.csv,,5000.0,825572.85,,Invalid Date,Spark batch processing
+409000425051,3-Nov-16,6.30811E+11,,3-Nov-16,,2000.00,827572.85,transactions.csv,,2000.0,827572.85,,Invalid Date,Spark batch processing
+409000425051,4-Nov-16,6.30916E+11,,4-Nov-16,,21000.00,848572.85,transactions.csv,,21000.0,848572.85,,Invalid Date,Spark batch processing
+409000425051,4-Nov-16,NEFT/P16110447781189/UPEN,,4-Nov-16,,12000.00,860572.85,transactions.csv,,12000.0,860572.85,,Invalid Date,Spark batch processing
+409000425051,5-Nov-16,6.31011E+11,,5-Nov-16,,1000.00,861572.85,transactions.csv,,1000.0,861572.85,,Invalid Date,Spark batch processing
+409000425051,7-Nov-16,6.31214E+11,,7-Nov-16,,1000.00,862572.85,transactions.csv,,1000.0,862572.85,,Invalid Date,Spark batch processing
+409000425051,7-Nov-16,NEFT/SAA37986382/JITENDRA,,7-Nov-16,,1000.00,863572.85,transactions.csv,,1000.0,863572.85,,Invalid Date,Spark batch processing
+409000425051,7-Nov-16,6.31216E+11,,7-Nov-16,,1000.00,864572.85,transactions.csv,,1000.0,864572.85,,Invalid Date,Spark batch processing
+409000425051,8-Nov-16,NEFT/CBINH16313A08810/JIT,,8-Nov-16,,12000.00,876572.85,transactions.csv,,12000.0,876572.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33611E+11,,1-Dec-16,,5000.00,880582.85,transactions.csv,,5000.0,880582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33611E+11,,1-Dec-16,,3000.00,883582.85,transactions.csv,,3000.0,883582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33611E+11,,1-Dec-16,,5000.00,888582.85,transactions.csv,,5000.0,888582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33611E+11,,1-Dec-16,,3000.00,891582.85,transactions.csv,,3000.0,891582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33612E+11,,1-Dec-16,,5000.00,896582.85,transactions.csv,,5000.0,896582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33612E+11,,1-Dec-16,,3000.00,899582.85,transactions.csv,,3000.0,899582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33613E+11,,1-Dec-16,,5000.00,904582.85,transactions.csv,,5000.0,904582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33613E+11,,1-Dec-16,,3000.00,907582.85,transactions.csv,,3000.0,907582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33614E+11,,1-Dec-16,,5000.00,912582.85,transactions.csv,,5000.0,912582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33614E+11,,1-Dec-16,,3000.00,915582.85,transactions.csv,,3000.0,915582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33614E+11,,1-Dec-16,,5000.00,920582.85,transactions.csv,,5000.0,920582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33614E+11,,1-Dec-16,,3000.00,923582.85,transactions.csv,,3000.0,923582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,NEFT/SBIN816336479938/Mr,,1-Dec-16,,8000.00,931582.85,transactions.csv,,8000.0,931582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33615E+11,,1-Dec-16,,5000.00,936582.85,transactions.csv,,5000.0,936582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33615E+11,,1-Dec-16,,3000.00,939582.85,transactions.csv,,3000.0,939582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33616E+11,,1-Dec-16,,5000.00,944582.85,transactions.csv,,5000.0,944582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33616E+11,,1-Dec-16,,3000.00,947582.85,transactions.csv,,3000.0,947582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,NEFT/SAA38581225/JITENDRA,,1-Dec-16,,7000.00,954582.85,transactions.csv,,7000.0,954582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33617E+11,,1-Dec-16,,5000.00,959582.85,transactions.csv,,5000.0,959582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33617E+11,,1-Dec-16,,3000.00,962582.85,transactions.csv,,3000.0,962582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33617E+11,,1-Dec-16,,5000.00,967582.85,transactions.csv,,5000.0,967582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33617E+11,,1-Dec-16,,3000.00,970582.85,transactions.csv,,3000.0,970582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33617E+11,,1-Dec-16,,5000.00,975582.85,transactions.csv,,5000.0,975582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33617E+11,,1-Dec-16,,3000.00,978582.85,transactions.csv,,3000.0,978582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33618E+11,,1-Dec-16,,5000.00,983582.85,transactions.csv,,5000.0,983582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33618E+11,,1-Dec-16,,3000.00,986582.85,transactions.csv,,3000.0,986582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33619E+11,,1-Dec-16,,8000.00,994582.85,transactions.csv,,8000.0,994582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33618E+11,,1-Dec-16,,5000.00,999582.85,transactions.csv,,5000.0,999582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,6.33618E+11,,1-Dec-16,,3000.00,1002582.85,transactions.csv,,3000.0,1002582.85,,Invalid Date,Spark batch processing
+409000425051,1-Dec-16,NEFT/SAA231927480/KANTNIS,,1-Dec-16,,8000.00,1010582.85,transactions.csv,,8000.0,1010582.85,,Invalid Date,Spark batch processing
+409000425051,2-Dec-16,NEFT/SBIN916336237712/RAK,,2-Dec-16,,8000.00,1018582.85,transactions.csv,,8000.0,1018582.85,,Invalid Date,Spark batch processing
+409000425051,2-Dec-16,NEFT/SBIN916336236043/FAR,,2-Dec-16,,8000.00,1026582.85,transactions.csv,,8000.0,1026582.85,,Invalid Date,Spark batch processing
+409000425051,2-Dec-16,NEFT/SBIN916337969837/Mr,,2-Dec-16,,8000.00,1034582.85,transactions.csv,,8000.0,1034582.85,,Invalid Date,Spark batch processing
+409000425051,2-Dec-16,6.33711E+11,,2-Dec-16,,8000.00,1042582.85,transactions.csv,,8000.0,1042582.85,,Invalid Date,Spark batch processing
+409000425051,2-Dec-16,6.33713E+11,,2-Dec-16,,1.00,1042583.85,transactions.csv,,1.0,1042583.85,,Invalid Date,Spark batch processing
+409000425051,2-Dec-16,6.33713E+11,,2-Dec-16,,1.00,1042584.85,transactions.csv,,1.0,1042584.85,,Invalid Date,Spark batch processing
+409000425051,2-Dec-16,NEFT/SBIN116337379239/ROH,,2-Dec-16,,8000.00,1050584.85,transactions.csv,,8000.0,1050584.85,,Invalid Date,Spark batch processing
+409000425051,2-Dec-16,NEFT/N337160213723440/ANS,,2-Dec-16,,20001.00,1070585.85,transactions.csv,,20001.0,1070585.85,,Invalid Date,Spark batch processing
+409000425051,2-Dec-16,NEFT/SBIN116337455715/Mr,,2-Dec-16,,8000.00,1078585.85,transactions.csv,,8000.0,1078585.85,,Invalid Date,Spark batch processing
+409000425051,2-Dec-16,NEFT/BKIDN16337187796/AJA,,2-Dec-16,,8000.00,1086585.85,transactions.csv,,8000.0,1086585.85,,Invalid Date,Spark batch processing
+409000425051,3-Dec-16,6.33809E+11,,3-Dec-16,,5000.00,1091585.85,transactions.csv,,5000.0,1091585.85,,Invalid Date,Spark batch processing
+409000425051,3-Dec-16,6.33809E+11,,3-Dec-16,,3000.00,1094585.85,transactions.csv,,3000.0,1094585.85,,Invalid Date,Spark batch processing
+409000425051,3-Dec-16,6.3381E+11,,3-Dec-16,,5000.00,1099585.85,transactions.csv,,5000.0,1099585.85,,Invalid Date,Spark batch processing
+409000425051,3-Dec-16,6.3381E+11,,3-Dec-16,,3000.00,1102585.85,transactions.csv,,3000.0,1102585.85,,Invalid Date,Spark batch processing
+409000425051,3-Dec-16,NEFT/SBHY516338879156/JAY,,3-Dec-16,,8500.00,1111085.85,transactions.csv,,8500.0,1111085.85,,Invalid Date,Spark batch processing
+409000425051,3-Dec-16,NEFT/SBIN216338216703/Mr,,3-Dec-16,,8000.00,1119085.85,transactions.csv,,8000.0,1119085.85,,Invalid Date,Spark batch processing
+409000425051,3-Dec-16,6.33816E+11,,3-Dec-16,,5000.00,1124085.85,transactions.csv,,5000.0,1124085.85,,Invalid Date,Spark batch processing
+409000425051,3-Dec-16,6.33816E+11,,3-Dec-16,,3000.00,1127085.85,transactions.csv,,3000.0,1127085.85,,Invalid Date,Spark batch processing
+409000425051,3-Dec-16,6.33816E+11,,3-Dec-16,,5000.00,1132085.85,transactions.csv,,5000.0,1132085.85,,Invalid Date,Spark batch processing
+409000425051,3-Dec-16,6.33816E+11,,3-Dec-16,,3000.00,1135085.85,transactions.csv,,3000.0,1135085.85,,Invalid Date,Spark batch processing
+409000425051,4-Dec-16,6.33913E+11,,4-Dec-16,,5000.00,1140085.85,transactions.csv,,5000.0,1140085.85,,Invalid Date,Spark batch processing
+409000425051,4-Dec-16,6.33913E+11,,4-Dec-16,,3000.00,1143085.85,transactions.csv,,3000.0,1143085.85,,Invalid Date,Spark batch processing
+409000425051,4-Dec-16,6.33913E+11,,4-Dec-16,,5000.00,1148085.85,transactions.csv,,5000.0,1148085.85,,Invalid Date,Spark batch processing
+409000425051,4-Dec-16,6.33913E+11,,4-Dec-16,,3000.00,1151085.85,transactions.csv,,3000.0,1151085.85,,Invalid Date,Spark batch processing
+409000425051,4-Dec-16,6.33915E+11,,4-Dec-16,,5000.00,1156085.85,transactions.csv,,5000.0,1156085.85,,Invalid Date,Spark batch processing
+409000425051,4-Dec-16,6.33914E+11,,4-Dec-16,,3000.00,1159085.85,transactions.csv,,3000.0,1159085.85,,Invalid Date,Spark batch processing
+409000425051,5-Dec-16,6.34017E+11,,5-Dec-16,,1.00,1159086.85,transactions.csv,,1.0,1159086.85,,Invalid Date,Spark batch processing
+409000425051,5-Dec-16,6.34022E+11,,5-Dec-16,,5000.00,1164086.85,transactions.csv,,5000.0,1164086.85,,Invalid Date,Spark batch processing
+409000425051,5-Dec-16,6.34022E+11,,5-Dec-16,,3000.00,1167086.85,transactions.csv,,3000.0,1167086.85,,Invalid Date,Spark batch processing
+409000425051,6-Dec-16,6.34111E+11,,6-Dec-16,,5000.00,1172086.85,transactions.csv,,5000.0,1172086.85,,Invalid Date,Spark batch processing
+409000425051,6-Dec-16,6.34111E+11,,6-Dec-16,,3000.00,1175086.85,transactions.csv,,3000.0,1175086.85,,Invalid Date,Spark batch processing
+409000425051,6-Dec-16,6.34113E+11,,6-Dec-16,,5000.00,1180086.85,transactions.csv,,5000.0,1180086.85,,Invalid Date,Spark batch processing
+409000425051,6-Dec-16,6.34113E+11,,6-Dec-16,,3000.00,1183086.85,transactions.csv,,3000.0,1183086.85,,Invalid Date,Spark batch processing
+409000425051,6-Dec-16,NEFT/CBINH16341A05108/SHA,,6-Dec-16,,8000.00,1191086.85,transactions.csv,,8000.0,1191086.85,,Invalid Date,Spark batch processing
+409000425051,6-Dec-16,NEFT/CBINH16341A05041/AMR,,6-Dec-16,,8000.00,1199086.85,transactions.csv,,8000.0,1199086.85,,Invalid Date,Spark batch processing
+409000425051,7-Dec-16,NEFT/ALLAH16342461607/M/s,,7-Dec-16,,8000.00,1207086.85,transactions.csv,,8000.0,1207086.85,,Invalid Date,Spark batch processing
+409000425051,8-Dec-16,6.34315E+11,,8-Dec-16,,8000.00,1215086.85,transactions.csv,,8000.0,1215086.85,,Invalid Date,Spark batch processing
+409000425051,8-Dec-16,6.34314E+11,,8-Dec-16,,5000.00,1220086.85,transactions.csv,,5000.0,1220086.85,,Invalid Date,Spark batch processing
+409000425051,8-Dec-16,6.34314E+11,,8-Dec-16,,3000.00,1223086.85,transactions.csv,,3000.0,1223086.85,,Invalid Date,Spark batch processing
+409000425051,8-Dec-16,6.34317E+11,,8-Dec-16,,8000.00,1231086.85,transactions.csv,,8000.0,1231086.85,,Invalid Date,Spark batch processing
+409000425051,3-Jan-17,NEFT/BKIDN17003770149/ARJ,,3-Jan-17,,8000.00,1383086.85,transactions.csv,,8000.0,1383086.85,,Invalid Date,Spark batch processing
+409000425051,7-Jan-17,7.00716E+11,,7-Jan-17,,5000.00,1388086.85,transactions.csv,,5000.0,1388086.85,,Invalid Date,Spark batch processing
+409000425051,7-Jan-17,7.00716E+11,,7-Jan-17,,3000.00,1391086.85,transactions.csv,,3000.0,1391086.85,,Invalid Date,Spark batch processing
+409000425051,3-Feb-17,7.03415E+11,,3-Feb-17,,10000.00,1445086.85,transactions.csv,,10000.0,1445086.85,,Invalid Date,Spark batch processing
+409000425051,3-Feb-17,NEFT/SBIN117034378839/ROH,,3-Feb-17,,1000.00,1446086.85,transactions.csv,,1000.0,1446086.85,,Invalid Date,Spark batch processing
+409000425051,6-Feb-17,NEFT/SBIN317037483530/Mr,,6-Feb-17,,5000.00,1451086.85,transactions.csv,,5000.0,1451086.85,,Invalid Date,Spark batch processing
+409000425051,7-Feb-17,NEFT/SBIN417038897386/Mr,,7-Feb-17,,5000.00,1456086.85,transactions.csv,,5000.0,1456086.85,,Invalid Date,Spark batch processing
+409000425051,4-Mar-17,7.06315E+11,,4-Mar-17,,100.00,456186.85,transactions.csv,,100.0,456186.85,,Invalid Date,Spark batch processing
+409000425051,9-Mar-17,NEFT/1164947163/DILIP POP,,9-Mar-17,,25000.00,481186.85,transactions.csv,,25000.0,481186.85,,Invalid Date,Spark batch processing
+409000425051,3-Apr-17,TRF TO Indiaforensic SERVICES I,,3-Apr-17,100000.00,,441237.85,transactions.csv,100000.0,,441237.85,,Invalid Date,Spark batch processing
+409000425051,3-May-17,NEFT/SBIN117123335066/GAY,,3-May-17,,8050.00,549287.85,transactions.csv,,8050.0,549287.85,,Invalid Date,Spark batch processing
+409000425051,6-Jul-17,TRF TO Indiaforensic ONLINE SER,,6-Jul-17,100000.00,,499200.35,transactions.csv,100000.0,,499200.35,,Invalid Date,Spark batch processing
+409000425051,7-Apr-18,IMPS 809712134438 FROM OX,,7-Apr-18,,10000.00,559200.35,transactions.csv,,10000.0,559200.35,,Invalid Date,Spark batch processing

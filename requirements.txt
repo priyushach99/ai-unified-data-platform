@@ -1,0 +1,22 @@
+# --- API ---
+fastapi
+uvicorn
+
+# --- Database ---
+psycopg2-binary
+python-dotenv
+
+# --- Data Processing ---
+pyspark
+pandas
+numpy
+
+# --- AI (Embeddings) ---
+sentence-transformers
+scikit-learn
+
+# --- LLM (Ollama call) ---
+requests
+
+# --- UI ---
+streamlit
