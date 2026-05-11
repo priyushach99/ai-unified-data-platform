@@ -131,3 +131,40 @@ ex["avg_balance"] = (
 5. MD5-Keyed Insight Cache
 LLM calls are rate-limited and costly. Each result is cached using an MD5 key derived from `source_date` + transaction fingerprint. Re-running the pipeline on the same data skips the LLM entirely.
 ---
+
+📁 Project Structure
+```
+ai-unified-data-platform/
+│
+├── spark_dynamic_pipeline.py       # Spark batch ETL — ingest, clean, write, insights
+├── kafka_streaming_pipeline.py     # Kafka streaming — micro-batch processing
+├── schema.py                       # Shared Spark schema definition
+├── db_utils.py                     # JDBC config, schema evolution helpers
+├── insight_store.py                # DataFrame → aggregated insight JSON
+│
+├── ai_insight_engine/
+│   ├── app.py                      # Entry point — merges spark + kafka insight files
+│   ├── insight_engine.py           # Orchestrates rule engine + LLM call + cache
+│   ├── rule_engine.py              # Deterministic aggregation and anomaly detection
+│   ├── github_client.py            # GitHub Models API client (GPT-4o)
+│   └── cache_store.py              # MD5-keyed result cache
+│
+├── dags/
+│   └── batch_ai_pipeline_dag.py    # Airflow DAG — scheduling, retries, archival
+│
+├── data/
+│   ├── input_file/                 # Drop CSV / Parquet files here
+│   └── bad_records/                # Rejected rows — timestamped CSV per run
+│
+├── insights/
+│   ├── insight_spark_batch_{date}.json
+│   ├── insight_kafka_stream_{date}.json
+│   ├── ai_insights_combined_{date}.json
+│   └── archive/                    # Previous day's files auto-moved by Airflow
+│
+├── checkpoint/                     # Spark-managed Kafka stream checkpoint
+├── .env.example
+├── docker-compose.yml
+└── requirements.txt
+```
+---
