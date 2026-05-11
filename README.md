@@ -198,6 +198,7 @@ Every row passes four validation gates before reaching PostgreSQL. Bad records a
 Priyusha - Data Engineer · Master of Science (MS) Student in Information Studies
 
 ![LinkedIn](https://img.shields.io/badge/LinkedIn-Priyusha-0A66C2?style=flat-square&logo=linkedin&logoColor=white)
+
 ![GitHub](https://img.shields.io/badge/GitHub-priyushach99-181717?style=flat-square&logo=github&logoColor=white)
 
 5+ years of experience designing and building data pipelines across batch and streaming systems. This project reflects full-stack data engineering ownership — from raw ingestion to AI-augmented analytics — without relying on managed services.
