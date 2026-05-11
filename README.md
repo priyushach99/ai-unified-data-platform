@@ -14,3 +14,12 @@
 ![LLM](https://img.shields.io/badge/LLM-Token--Efficient%20Prompting-8B5CF6?style=flat-square)
 
 A fully operational data engineering pipeline that processes synthetic banking transactions through dual ingestion paths — Apache Spark batch + Apache Kafka streaming — stores clean data in PostgreSQL, and generates AI-powered financial anomaly summaries via GPT-4o. Orchestrated end-to-end on Apache Airflow.
+
+📌 What This Project Demonstrates
+> This is not a tutorial pipeline. Every component reflects a real engineering decision made to solve a real constraint.
+Challenge Faced	Engineering Decision Made
+LLM prompt hit 8,500 tokens at 225 rows — exceeded GitHub Models 8k limit	Send only aggregated signals to LLM — prompt stays ~800 tokens at any data volume
+Kafka micro-batches would overwrite running daily totals	Weighted-average merge per batch — accuracy accumulates correctly throughout the day
+LLM failures would silently produce empty output	Rule engine always runs first — fallback builds a structured summary from deterministic data
+New CSV columns broke PostgreSQL writes	Schema evolution layer detects new columns and issues `ALTER TABLE ADD COLUMN` automatically
+Re-running pipeline would re-invoke expensive LLM calls	MD5-keyed cache from date + transaction fingerprint — duplicate calls never reach the API
