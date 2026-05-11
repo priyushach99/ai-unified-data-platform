@@ -81,10 +81,11 @@ A fully operational data engineering pipeline that processes synthetic banking t
 1. Token-Efficient LLM Prompt Design
 A naive implementation serializes all rows directly into the prompt string. At 225 grouped rows this produced a 34,286-character prompt (~8,500 tokens), hitting GPT-4o's GitHub Models limit and causing pipeline failure.
 Fix: Send only aggregated signals — rule engine output + top-5 withdrawal days + top-5 deposit days. Prompt size is now constant regardless of transaction volume.
-Volume	Naive Approach	This Pipeline
-728 txns → 225 grouped rows	~8,500 tokens ❌	~800 tokens ✅
-50,000 transactions	~750,000 tokens ❌	~800 tokens ✅
-5,000,000 transactions	Impossible ❌	~800 tokens ✅
+| Volume | Naive Approach | This Pipeline |
+|--------|---------------|--------------|
+| 728 txns → 225 grouped rows | ~8,500 tokens ❌ | ~800 tokens ✅ |
+| 50,000 transactions | ~750,000 tokens ❌ | ~800 tokens ✅ |
+| 5,000,000 transactions | Impossible ❌ | ~800 tokens ✅ |
 ---
 2. Rule Engine as Immutable Ground Truth
 `rule_engine.py` always runs before any LLM call and produces deterministic aggregates. The LLM receives these numbers as fixed facts and is instructed only to narrate — never to recalculate. This prevents hallucinated figures in financial output.
@@ -100,11 +101,19 @@ LLM receives these as GROUND TRUTH — narrates, never recalculates
 If the LLM call fails for any reason, the pipeline falls back to a structured natural-language summary built entirely from rule engine output. The specific error is surfaced in the JSON. No crashes, no empty responses.
 ```json
 {
-  "ai_summary": "AI summary unavailable (GitHub Model Error). 728 transactions processed
-  (Spark: 728, Kafka: 0). Deposits $100,559,619.00, withdrawals $101,055,209.00,
-  net flow $-495,590.00. Avg balance $1,504,911.63. Anomaly: high_withdrawal (confidence: 0.75).",
+  "source_date": "2026-05-10",
+  "ai_summary": "LLM unavailable. Using deterministic rule-based insights.",
+  "rule_summary": {
+    "total_transactions": 67,
+    "total_deposit": 7000000.0,
+    "total_withdrawal": 6445957.0,
+    "avg_balance": 4188171.79,
+    "anomaly": "normal",
+    "confidence": 0.9
+  },
   "mode": "fallback",
-  "error": "tokens_limit_reached"
+  "error": "GitHub Model Error: Unauthorized\n",
+  "note": "Combined insight generated from Spark only. Only Spark pipeline ran today (/opt/project/insights/insight_spark_batch_2026-05-10.json). No Kafka file was available."
 }
 ```
 ---
