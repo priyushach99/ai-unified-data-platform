@@ -1,6 +1,6 @@
-##🏦 AI Unified Data Platform
+## 🏦 AI Unified Data Platform
 
-##Real-Time & Batch Transaction Intelligence
+## Real-Time & Batch Transaction Intelligence
 
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-4.x-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
@@ -78,13 +78,14 @@ A fully operational data engineering pipeline that processes synthetic banking t
 ```
 ---
 ⚙️ Tech Stack
-Layer	Technology	Purpose
-![Spark](https://img.shields.io/badge/-PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)	Apache Spark 4.x	Batch ETL — multi-format ingestion, casting, schema evolution
-![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)	Apache Kafka	Streaming ingestion — real-time transaction feed
-![Streaming](https://img.shields.io/badge/-Structured%20Streaming-E25A1C?style=flat-square&logo=apachespark&logoColor=white)	Spark Structured Streaming	Kafka consumer — foreachBatch, checkpointing, merging
-![Postgres](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)	PostgreSQL	Data sink — JDBC append with live schema evolution
-![Airflow](https://img.shields.io/badge/-Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)	Apache Airflow	DAG orchestration — scheduling, retries, file archival
-![OpenAI](https://img.shields.io/badge/-GPT--4o-412991?style=flat-square&logo=openai&logoColor=white)	GitHub Models / GPT-4o	AI insight generation with token-efficient prompting
-![Python](https://img.shields.io/badge/-Python%203.11-3776AB?style=flat-square&logo=python&logoColor=white)	Python 3.11	Pipeline logic, rule engine, insight merging, caching
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)	Docker Compose	All services containerized — one command startup
+| Layer | Technology | Purpose |
+|------|------------|---------|
+| ![Spark](https://img.shields.io/badge/-PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white) | Apache Spark 4.x | Batch ETL — multi-format ingestion, casting, schema evolution |
+| ![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) | Apache Kafka | Streaming ingestion — real-time transaction feed |
+| ![Streaming](https://img.shields.io/badge/-Structured%20Streaming-E25A1C?style=flat-square&logo=apachespark&logoColor=white) | Spark Structured Streaming | Kafka consumer — foreachBatch, checkpointing, merging |
+| ![Postgres](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) | PostgreSQL | Data sink — JDBC append with live schema evolution |
+| ![Airflow](https://img.shields.io/badge/-Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white) | Apache Airflow | DAG orchestration — scheduling, retries, file archival |
+| ![OpenAI](https://img.shields.io/badge/-GPT--4o-412991?style=flat-square&logo=openai&logoColor=white) | GitHub Models / GPT-4o | AI insight generation with token-efficient prompting |
+| ![Python](https://img.shields.io/badge/-Python%203.11-3776AB?style=flat-square&logo=python&logoColor=white) | Python 3.11 | Pipeline logic, rule engine, insight merging, caching |
+| ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | Docker Compose | All services containerized — one command startup |
 ---
