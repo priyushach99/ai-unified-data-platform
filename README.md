@@ -81,11 +81,13 @@ A fully operational data engineering pipeline that processes synthetic banking t
 1. Token-Efficient LLM Prompt Design
 A naive implementation serializes all rows directly into the prompt string. At 225 grouped rows this produced a 34,286-character prompt (~8,500 tokens), hitting GPT-4o's GitHub Models limit and causing pipeline failure.
 Fix: Send only aggregated signals — rule engine output + top-5 withdrawal days + top-5 deposit days. Prompt size is now constant regardless of transaction volume.
+
 | Volume | Naive Approach | This Pipeline |
 |--------|---------------|--------------|
 | 728 txns → 225 grouped rows | ~8,500 tokens ❌ | ~800 tokens ✅ |
 | 50,000 transactions | ~750,000 tokens ❌ | ~800 tokens ✅ |
 | 5,000,000 transactions | Impossible ❌ | ~800 tokens ✅ |
+
 ---
 2. Rule Engine as Immutable Ground Truth
 `rule_engine.py` always runs before any LLM call and produces deterministic aggregates. The LLM receives these numbers as fixed facts and is instructed only to narrate — never to recalculate. This prevents hallucinated figures in financial output.
