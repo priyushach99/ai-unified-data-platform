@@ -168,3 +168,14 @@ ai-unified-data-platform/
 └── requirements.txt
 ```
 ---
+
+🚨 Data Quality — Bad Record Handling
+Every row passes four validation gates before reaching PostgreSQL. Bad records are written to a timestamped CSV with the `error_reason` column populated. Neither path blocks the other.
+Validation Rule	Error Label
+`transaction_date` cannot be parsed as `dd-MMM-yy`	`Invalid Date`
+`account_no` is blank or whitespace	`Missing Account`
+`withdrawal_amt` is non-empty but non-numeric	`Invalid Withdrawal Amt`
+`deposit_amt` is non-empty but non-numeric	`Invalid Deposit Amt`
+
+---
+
