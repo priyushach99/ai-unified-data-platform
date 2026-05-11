@@ -77,15 +77,46 @@ A fully operational data engineering pipeline that processes synthetic banking t
 ╚════════════════════════════════════════════════════════════╝
 ```
 ---
-⚙️ Tech Stack
-| Layer | Technology | Purpose |
-|------|------------|---------|
-| ![Spark](https://img.shields.io/badge/-PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white) | Apache Spark 4.x | Batch ETL — multi-format ingestion, casting, schema evolution |
-| ![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) | Apache Kafka | Streaming ingestion — real-time transaction feed |
-| ![Streaming](https://img.shields.io/badge/-Structured%20Streaming-E25A1C?style=flat-square&logo=apachespark&logoColor=white) | Spark Structured Streaming | Kafka consumer — foreachBatch, checkpointing, merging |
-| ![Postgres](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) | PostgreSQL | Data sink — JDBC append with live schema evolution |
-| ![Airflow](https://img.shields.io/badge/-Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white) | Apache Airflow | DAG orchestration — scheduling, retries, file archival |
-| ![OpenAI](https://img.shields.io/badge/-GPT--4o-412991?style=flat-square&logo=openai&logoColor=white) | GitHub Models / GPT-4o | AI insight generation with token-efficient prompting |
-| ![Python](https://img.shields.io/badge/-Python%203.11-3776AB?style=flat-square&logo=python&logoColor=white) | Python 3.11 | Pipeline logic, rule engine, insight merging, caching |
-| ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | Docker Compose | All services containerized — one command startup |
+🔬 Key Engineering Decisions
+1. Token-Efficient LLM Prompt Design
+A naive implementation serializes all rows directly into the prompt string. At 225 grouped rows this produced a 34,286-character prompt (~8,500 tokens), hitting GPT-4o's GitHub Models limit and causing pipeline failure.
+Fix: Send only aggregated signals — rule engine output + top-5 withdrawal days + top-5 deposit days. Prompt size is now constant regardless of transaction volume.
+Volume	Naive Approach	This Pipeline
+728 txns → 225 grouped rows	~8,500 tokens ❌	~800 tokens ✅
+50,000 transactions	~750,000 tokens ❌	~800 tokens ✅
+5,000,000 transactions	Impossible ❌	~800 tokens ✅
+---
+2. Rule Engine as Immutable Ground Truth
+`rule_engine.py` always runs before any LLM call and produces deterministic aggregates. The LLM receives these numbers as fixed facts and is instructed only to narrate — never to recalculate. This prevents hallucinated figures in financial output.
+```
+raw_transactions
+      ↓
+rule_engine.py  →  { total_txns, deposits, withdrawals, anomaly, confidence }
+      ↓
+LLM receives these as GROUND TRUTH — narrates, never recalculates
+```
+---
+3. Graceful Fallback — Never Silent Failure
+If the LLM call fails for any reason, the pipeline falls back to a structured natural-language summary built entirely from rule engine output. The specific error is surfaced in the JSON. No crashes, no empty responses.
+```json
+{
+  "ai_summary": "AI summary unavailable (GitHub Model Error). 728 transactions processed
+  (Spark: 728, Kafka: 0). Deposits $100,559,619.00, withdrawals $101,055,209.00,
+  net flow $-495,590.00. Avg balance $1,504,911.63. Anomaly: high_withdrawal (confidence: 0.75).",
+  "mode": "fallback",
+  "error": "tokens_limit_reached"
+}
+```
+---
+4. Incremental Kafka Insight Merging
+Kafka micro-batches arrive every 10 seconds. A naive approach overwrites the daily insight file on each batch. Instead, batches are merged using a weighted-average balance calculation so daily totals accumulate correctly.
+```python
+ex["avg_balance"] = (
+    (ex["avg_balance"] * n_old + r["avg_balance"] * n_new)
+    / (n_old + n_new)
+)
+```
+---
+5. MD5-Keyed Insight Cache
+LLM calls are rate-limited and costly. Each result is cached using an MD5 key derived from `source_date` + transaction fingerprint. Re-running the pipeline on the same data skips the LLM entirely.
 ---
