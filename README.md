@@ -186,9 +186,10 @@ Every row passes four validation gates before reaching PostgreSQL. Bad records a
 
 ---
 
-## 🎥 Demo Video
+## Screenshots
 
-[![▶ Watch Demo](assets/Project_Demo.gif)](assets/Project_Demo.mp4)
+<img src="assets/AI_insight_streamlit.png" width="800"/>
+<img src="assets/Airflow_DAG.png" width="800"/>
 
 ---
 
