@@ -15,15 +15,6 @@
 
 A fully operational data engineering pipeline that processes synthetic banking transactions through dual ingestion paths — Apache Spark batch + Apache Kafka streaming — stores clean data in PostgreSQL, and generates AI-powered financial anomaly summaries via GPT-4o. Orchestrated end-to-end on Apache Airflow.
 
-📌 What This Project Demonstrates
-> Every component reflects a real engineering decision made to solve a real constraint.
-Challenge Faced	Engineering Decision Made
-LLM prompt hit 8,500 tokens at 225 rows — exceeded GitHub Models 8k limit	Send only aggregated signals to LLM — prompt stays ~800 tokens at any data volume
-Kafka micro-batches would overwrite running daily totals	Weighted-average merge per batch — accuracy accumulates correctly throughout the day
-LLM failures would silently produce empty output	Rule engine always runs first — fallback builds a structured summary from deterministic data
-New CSV columns broke PostgreSQL writes	Schema evolution layer detects new columns and issues `ALTER TABLE ADD COLUMN` automatically
-Re-running pipeline would re-invoke expensive LLM calls	MD5-keyed cache from date + transaction fingerprint — duplicate calls never reach the API
-
 ---
 🏗️ Architecture
 ```
@@ -85,3 +76,15 @@ Re-running pipeline would re-invoke expensive LLM calls	MD5-keyed cache from dat
 ║  Retries: 2 × 5 min delay   |   SLA: 1 hr                  ║
 ╚════════════════════════════════════════════════════════════╝
 ```
+---
+⚙️ Tech Stack
+Layer	Technology	Purpose
+![Spark](https://img.shields.io/badge/-PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)	Apache Spark 4.x	Batch ETL — multi-format ingestion, casting, schema evolution
+![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)	Apache Kafka	Streaming ingestion — real-time transaction feed
+![Streaming](https://img.shields.io/badge/-Structured%20Streaming-E25A1C?style=flat-square&logo=apachespark&logoColor=white)	Spark Structured Streaming	Kafka consumer — foreachBatch, checkpointing, merging
+![Postgres](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)	PostgreSQL	Data sink — JDBC append with live schema evolution
+![Airflow](https://img.shields.io/badge/-Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)	Apache Airflow	DAG orchestration — scheduling, retries, file archival
+![OpenAI](https://img.shields.io/badge/-GPT--4o-412991?style=flat-square&logo=openai&logoColor=white)	GitHub Models / GPT-4o	AI insight generation with token-efficient prompting
+![Python](https://img.shields.io/badge/-Python%203.11-3776AB?style=flat-square&logo=python&logoColor=white)	Python 3.11	Pipeline logic, rule engine, insight merging, caching
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)	Docker Compose	All services containerized — one command startup
+---
