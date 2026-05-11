@@ -16,10 +16,72 @@
 A fully operational data engineering pipeline that processes synthetic banking transactions through dual ingestion paths — Apache Spark batch + Apache Kafka streaming — stores clean data in PostgreSQL, and generates AI-powered financial anomaly summaries via GPT-4o. Orchestrated end-to-end on Apache Airflow.
 
 📌 What This Project Demonstrates
-> This is not a tutorial pipeline. Every component reflects a real engineering decision made to solve a real constraint.
+> Every component reflects a real engineering decision made to solve a real constraint.
 Challenge Faced	Engineering Decision Made
 LLM prompt hit 8,500 tokens at 225 rows — exceeded GitHub Models 8k limit	Send only aggregated signals to LLM — prompt stays ~800 tokens at any data volume
 Kafka micro-batches would overwrite running daily totals	Weighted-average merge per batch — accuracy accumulates correctly throughout the day
 LLM failures would silently produce empty output	Rule engine always runs first — fallback builds a structured summary from deterministic data
 New CSV columns broke PostgreSQL writes	Schema evolution layer detects new columns and issues `ALTER TABLE ADD COLUMN` automatically
 Re-running pipeline would re-invoke expensive LLM calls	MD5-keyed cache from date + transaction fingerprint — duplicate calls never reach the API
+
+---
+🏗️ Architecture
+```
+╔══════════════════════════════════════════════════════════════╗
+║                       DATA SOURCES                           ║
+║      CSV / Parquet Files            Kafka Topic              ║
+║          (historical)                (real-time)             ║
+╚══════════╦═══════════════════════════════════╦═══════════════╝
+           ║                                   ║
+┌──────────▼──────────┐           ┌────────────▼────────────┐
+│  Spark Batch ETL    │           │ Spark Structured        │
+│                     │           │ Streaming               │
+│ • Multi-format read │           │ • foreachBatch()        │
+│ • Column normalize  │           │ • 10s micro-batches     │
+│ • Type casting      │           │ • Checkpoint recovery   │
+│ • Bad record split  │           │ • Idle auto-stop        │
+└──────────┬──────────┘           └────────────┬────────────┘
+           ║                                   ║
+╔══════════▼═══════════════════════════════════▼═════════════╗
+║               Shared Transformation Layer                  ║
+║  clean_and_cast → add_error_column → finalize_good_data    ║
+╚══════════╦═══════════════════════════════════╦═════════════╝
+           ║                                   ║
+┌──────────▼──────────┐           ┌────────────▼────────────┐
+│    PostgreSQL       │           │  Bad Records Store      │
+│ • Schema evolution  │           │  timestamped CSV        │
+│ • JDBC append       │           │  error_reason column    │
+└──────────┬──────────┘           └─────────────────────────┘
+           ║
+╔══════════▼═════════════════════════════════════════════════╗
+║                 Insight Generation Layer                   ║
+║  generate_insights_from_df()                               ║
+║    → insight_spark_batch_{date}.json                       ║
+║    → insight_kafka_stream_{date}.json                      ║
+╚══════════╦═════════════════════════════════════════════════╝
+           ║
+╔══════════▼═════════════════════════════════════════════════╗
+║                   AI Insight Engine                        ║
+║                                                            ║
+║  rule_engine.py    →  deterministic ground truth           ║
+║        ↓                                                   ║
+║  insight_engine.py →  aggregated prompt (~800 tokens)      ║
+║        ↓                                                   ║
+║  github_client.py  →  GPT-4o via GitHub Models             ║
+║        ↓                                                   ║
+║  cache_store.py    →  MD5-keyed, no duplicate LLM calls    ║
+║        ↓                                                   ║
+║  ai_insights_combined_{date}.json                          ║
+╚══════════╦═════════════════════════════════════════════════╝
+           ║
+╔══════════▼═════════════════════════════════════════════════╗
+║              Apache Airflow Orchestration                  ║
+║                                                            ║
+║  spark_batch_processing                                    ║
+║       └──→ ai_combined_insights                            ║
+║                 └──→ archive_insight_files                 ║
+║                                                            ║
+║  Schedule: Daily 06:00 UTC                                 ║
+║  Retries: 2 × 5 min delay   |   SLA: 1 hr                  ║
+╚════════════════════════════════════════════════════════════╝
+```
