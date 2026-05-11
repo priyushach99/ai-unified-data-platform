@@ -1,0 +1,6698 @@
+{
+  "source_date": "2026-05-11",
+  "generated_at": "2026-05-11",
+  "insights": [
+    {
+      "transaction_date": "2017-08-11",
+      "total_transactions": 23,
+      "total_deposit": 2283214.0,
+      "total_withdrawal": 799797.04,
+      "avg_balance": 1147183.433478261
+    },
+    {
+      "transaction_date": "2017-09-11",
+      "total_transactions": 14,
+      "total_deposit": 1519843.0,
+      "total_withdrawal": 2465550.54,
+      "avg_balance": 1139966.0635714286
+    },
+    {
+      "transaction_date": "2016-03-01",
+      "total_transactions": 3,
+      "total_deposit": 571761.0,
+      "total_withdrawal": 280868.0,
+      "avg_balance": 849608.6666666666
+    },
+    {
+      "transaction_date": "2018-05-28",
+      "total_transactions": 8,
+      "total_deposit": 853022.28,
+      "total_withdrawal": 491231.38999999996,
+      "avg_balance": 1069261.335
+    },
+    {
+      "transaction_date": "2018-08-10",
+      "total_transactions": 4,
+      "total_deposit": 1010564.32,
+      "total_withdrawal": 339130.0,
+      "avg_balance": 1364649.19
+    },
+    {
+      "transaction_date": "2017-01-06",
+      "total_transactions": 9,
+      "total_deposit": 1398156.0,
+      "total_withdrawal": 791161.0,
+      "avg_balance": 297968.8888888889
+    },
+    {
+      "transaction_date": "2016-04-25",
+      "total_transactions": 10,
+      "total_deposit": 990644.0,
+      "total_withdrawal": 517183.0,
+      "avg_balance": 635691.6640000001
+    },
+    {
+      "transaction_date": "2018-03-17",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 321907.83999999997,
+      "avg_balance": 1217751.96
+    },
+    {
+      "transaction_date": "2016-10-03",
+      "total_transactions": 6,
+      "total_deposit": 520434.0,
+      "total_withdrawal": 265321.0,
+      "avg_balance": 389731.6666666667
+    },
+    {
+      "transaction_date": "2016-08-15",
+      "total_transactions": 8,
+      "total_deposit": 745395.0,
+      "total_withdrawal": 1256819.0,
+      "avg_balance": 558651.0
+    },
+    {
+      "transaction_date": "2016-08-31",
+      "total_transactions": 6,
+      "total_deposit": 684504.0,
+      "total_withdrawal": 3453.0,
+      "avg_balance": 381944.60000000003
+    },
+    {
+      "transaction_date": "2016-07-26",
+      "total_transactions": 9,
+      "total_deposit": 1128330.0,
+      "total_withdrawal": 856921.0,
+      "avg_balance": 926416.7555555555
+    },
+    {
+      "transaction_date": "2016-05-03",
+      "total_transactions": 8,
+      "total_deposit": 1317205.0,
+      "total_withdrawal": 1270843.0,
+      "avg_balance": 336752.875
+    },
+    {
+      "transaction_date": "2018-06-26",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 309548.56,
+      "avg_balance": 1397236.545
+    },
+    {
+      "transaction_date": "2017-02-26",
+      "total_transactions": 6,
+      "total_deposit": 2033027.0,
+      "total_withdrawal": 0.0,
+      "avg_balance": 1561952.5
+    },
+    {
+      "transaction_date": "2017-01-27",
+      "total_transactions": 6,
+      "total_deposit": 475502.0,
+      "total_withdrawal": 382892.49,
+      "avg_balance": 770529.9933333333
+    },
+    {
+      "transaction_date": "2017-09-28",
+      "total_transactions": 12,
+      "total_deposit": 1612704.0,
+      "total_withdrawal": 1850906.02,
+      "avg_balance": 28403.984166666673
+    },
+    {
+      "transaction_date": "2016-01-28",
+      "total_transactions": 9,
+      "total_deposit": 939058.0,
+      "total_withdrawal": 1596969.0,
+      "avg_balance": 712401.2222222222
+    },
+    {
+      "transaction_date": "2018-06-30",
+      "total_transactions": 3,
+      "total_deposit": 0.0,
+      "total_withdrawal": 189622.0,
+      "avg_balance": 1300079.05
+    },
+    {
+      "transaction_date": "2017-01-24",
+      "total_transactions": 6,
+      "total_deposit": 1165119.0,
+      "total_withdrawal": 607908.0,
+      "avg_balance": 1204590.2416666667
+    },
+    {
+      "transaction_date": "2016-11-08",
+      "total_transactions": 11,
+      "total_deposit": 1920423.0,
+      "total_withdrawal": 751827.0,
+      "avg_balance": 1186124.6363636365
+    },
+    {
+      "transaction_date": "2016-12-19",
+      "total_transactions": 6,
+      "total_deposit": 506344.0,
+      "total_withdrawal": 688749.0,
+      "avg_balance": 941742.8333333334
+    },
+    {
+      "transaction_date": "2016-07-17",
+      "total_transactions": 9,
+      "total_deposit": 1012557.0,
+      "total_withdrawal": 868872.0,
+      "avg_balance": 891288.1777777778
+    },
+    {
+      "transaction_date": "2017-09-29",
+      "total_transactions": 11,
+      "total_deposit": 1617700.0,
+      "total_withdrawal": 1404296.01,
+      "avg_balance": 845084.5272727273
+    },
+    {
+      "transaction_date": "2016-08-23",
+      "total_transactions": 12,
+      "total_deposit": 709229.0,
+      "total_withdrawal": 1671820.0,
+      "avg_balance": 298317.4666666667
+    },
+    {
+      "transaction_date": "2017-06-29",
+      "total_transactions": 12,
+      "total_deposit": 1891660.0,
+      "total_withdrawal": 1315026.93,
+      "avg_balance": 1068513.2966666666
+    },
+    {
+      "transaction_date": "2016-07-03",
+      "total_transactions": 7,
+      "total_deposit": 441140.0,
+      "total_withdrawal": 415131.0,
+      "avg_balance": 761618.7142857143
+    },
+    {
+      "transaction_date": "2017-02-16",
+      "total_transactions": 8,
+      "total_deposit": 922742.0,
+      "total_withdrawal": 858739.7,
+      "avg_balance": 306697.49375
+    },
+    {
+      "transaction_date": "2017-07-31",
+      "total_transactions": 8,
+      "total_deposit": 738650.0,
+      "total_withdrawal": 953993.3,
+      "avg_balance": 722773.11375
+    },
+    {
+      "transaction_date": "2018-03-23",
+      "total_transactions": 4,
+      "total_deposit": 700000.0,
+      "total_withdrawal": 369300.91000000003,
+      "avg_balance": 1274860.32
+    },
+    {
+      "transaction_date": "2017-12-02",
+      "total_transactions": 9,
+      "total_deposit": 519174.0,
+      "total_withdrawal": 2061771.0,
+      "avg_balance": -117538.33333333333
+    },
+    {
+      "transaction_date": "2016-02-04",
+      "total_transactions": 4,
+      "total_deposit": 18404.0,
+      "total_withdrawal": 560310.0,
+      "avg_balance": 271063.0
+    },
+    {
+      "transaction_date": "2016-05-26",
+      "total_transactions": 4,
+      "total_deposit": 639980.0,
+      "total_withdrawal": 132389.0,
+      "avg_balance": 935609.0
+    },
+    {
+      "transaction_date": "2016-06-02",
+      "total_transactions": 5,
+      "total_deposit": 1433371.0,
+      "total_withdrawal": 137217.0,
+      "avg_balance": 1111873.6
+    },
+    {
+      "transaction_date": "2017-10-23",
+      "total_transactions": 9,
+      "total_deposit": 829097.0,
+      "total_withdrawal": 588617.14,
+      "avg_balance": 742759.2144444444
+    },
+    {
+      "transaction_date": "2017-08-18",
+      "total_transactions": 12,
+      "total_deposit": 2551345.0,
+      "total_withdrawal": 911053.94,
+      "avg_balance": 550890.1816666666
+    },
+    {
+      "transaction_date": "2017-08-14",
+      "total_transactions": 6,
+      "total_deposit": 1077863.0,
+      "total_withdrawal": 742440.0800000001,
+      "avg_balance": 237803.2683333333
+    },
+    {
+      "transaction_date": "2019-01-28",
+      "total_transactions": 9,
+      "total_deposit": 600000.0,
+      "total_withdrawal": 781521.82,
+      "avg_balance": 976467.5266666667
+    },
+    {
+      "transaction_date": "2017-12-25",
+      "total_transactions": 8,
+      "total_deposit": 475738.0,
+      "total_withdrawal": 1181080.0,
+      "avg_balance": 237236.75
+    },
+    {
+      "transaction_date": "2017-04-09",
+      "total_transactions": 5,
+      "total_deposit": 812688.0,
+      "total_withdrawal": 785656.0,
+      "avg_balance": 1515296.0
+    },
+    {
+      "transaction_date": "2018-08-31",
+      "total_transactions": 4,
+      "total_deposit": 508238.05,
+      "total_withdrawal": 362705.0,
+      "avg_balance": 1324596.5825
+    },
+    {
+      "transaction_date": "2019-01-30",
+      "total_transactions": 4,
+      "total_deposit": 200000.0,
+      "total_withdrawal": 646010.45,
+      "avg_balance": 946810.4550000001
+    },
+    {
+      "transaction_date": "2017-03-28",
+      "total_transactions": 11,
+      "total_deposit": 2254907.0,
+      "total_withdrawal": 1751324.8,
+      "avg_balance": 736802.2118181818
+    },
+    {
+      "transaction_date": "2017-02-28",
+      "total_transactions": 7,
+      "total_deposit": 432606.0,
+      "total_withdrawal": 1076520.89,
+      "avg_balance": 613759.6714285715
+    },
+    {
+      "transaction_date": "2017-09-21",
+      "total_transactions": 8,
+      "total_deposit": 846023.0,
+      "total_withdrawal": 1438200.7,
+      "avg_balance": 698224.21375
+    },
+    {
+      "transaction_date": "2016-09-23",
+      "total_transactions": 9,
+      "total_deposit": 428137.0,
+      "total_withdrawal": 1098789.0,
+      "avg_balance": 944050.7999999999
+    },
+    {
+      "transaction_date": "2016-01-13",
+      "total_transactions": 6,
+      "total_deposit": 1437745.0,
+      "total_withdrawal": 469455.0,
+      "avg_balance": 273791.5
+    },
+    {
+      "transaction_date": "2018-01-23",
+      "total_transactions": 6,
+      "total_deposit": 300000.0,
+      "total_withdrawal": 852008.66,
+      "avg_balance": 813863.11
+    },
+    {
+      "transaction_date": "2018-04-18",
+      "total_transactions": 5,
+      "total_deposit": 1000000.0,
+      "total_withdrawal": 881854.52,
+      "avg_balance": 1076026.1539999999
+    },
+    {
+      "transaction_date": "2016-09-30",
+      "total_transactions": 13,
+      "total_deposit": 817192.0,
+      "total_withdrawal": 1410296.0,
+      "avg_balance": 965288.273076923
+    },
+    {
+      "transaction_date": "2016-06-16",
+      "total_transactions": 11,
+      "total_deposit": 1008727.0,
+      "total_withdrawal": 577217.0,
+      "avg_balance": 740197.1272727271
+    },
+    {
+      "transaction_date": "2016-01-01",
+      "total_transactions": 5,
+      "total_deposit": 275314.0,
+      "total_withdrawal": 1135121.0,
+      "avg_balance": 177482.8
+    },
+    {
+      "transaction_date": "2016-04-22",
+      "total_transactions": 10,
+      "total_deposit": 680511.0,
+      "total_withdrawal": 949490.0,
+      "avg_balance": 672697.1
+    },
+    {
+      "transaction_date": "2017-08-10",
+      "total_transactions": 8,
+      "total_deposit": 616340.0,
+      "total_withdrawal": 1194832.13,
+      "avg_balance": 457198.71625
+    },
+    {
+      "transaction_date": "2018-02-26",
+      "total_transactions": 8,
+      "total_deposit": 1000000.0,
+      "total_withdrawal": 1016362.73,
+      "avg_balance": 943292.275
+    },
+    {
+      "transaction_date": "2017-06-30",
+      "total_transactions": 3,
+      "total_deposit": 91210.0,
+      "total_withdrawal": 331378.44,
+      "avg_balance": 953554.6
+    },
+    {
+      "transaction_date": "2017-12-08",
+      "total_transactions": 6,
+      "total_deposit": 1161396.0,
+      "total_withdrawal": 284438.0,
+      "avg_balance": -117849.66666666667
+    },
+    {
+      "transaction_date": "2016-01-19",
+      "total_transactions": 6,
+      "total_deposit": 683631.0,
+      "total_withdrawal": 990883.0,
+      "avg_balance": 450075.8333333333
+    },
+    {
+      "transaction_date": "2017-08-19",
+      "total_transactions": 4,
+      "total_deposit": 862952.0,
+      "total_withdrawal": 662001.98,
+      "avg_balance": 504873.1525
+    },
+    {
+      "transaction_date": "2018-09-18",
+      "total_transactions": 3,
+      "total_deposit": 0.0,
+      "total_withdrawal": 557176.73,
+      "avg_balance": 1199190.4833333334
+    },
+    {
+      "transaction_date": "2016-05-09",
+      "total_transactions": 4,
+      "total_deposit": 445160.0,
+      "total_withdrawal": 1112464.0,
+      "avg_balance": 1182023.25
+    },
+    {
+      "transaction_date": "2017-07-06",
+      "total_transactions": 13,
+      "total_deposit": 2188762.0,
+      "total_withdrawal": 1653844.0,
+      "avg_balance": 904364.2307692308
+    },
+    {
+      "transaction_date": "2016-07-19",
+      "total_transactions": 9,
+      "total_deposit": 964578.0,
+      "total_withdrawal": 238474.0,
+      "avg_balance": 1265390.111111111
+    },
+    {
+      "transaction_date": "2017-01-30",
+      "total_transactions": 7,
+      "total_deposit": 1036750.0,
+      "total_withdrawal": 737048.19,
+      "avg_balance": 648931.967142857
+    },
+    {
+      "transaction_date": "2018-09-24",
+      "total_transactions": 14,
+      "total_deposit": 1513361.85,
+      "total_withdrawal": 1011774.46,
+      "avg_balance": 1129675.6657142858
+    },
+    {
+      "transaction_date": "2017-05-11",
+      "total_transactions": 4,
+      "total_deposit": 30868.0,
+      "total_withdrawal": 383226.53,
+      "avg_balance": 319446.855
+    },
+    {
+      "transaction_date": "2016-09-15",
+      "total_transactions": 6,
+      "total_deposit": 222641.0,
+      "total_withdrawal": 1147761.0,
+      "avg_balance": 972533.8666666666
+    },
+    {
+      "transaction_date": "2018-04-26",
+      "total_transactions": 3,
+      "total_deposit": 1000000.0,
+      "total_withdrawal": 123185.81,
+      "avg_balance": 1274625.95
+    },
+    {
+      "transaction_date": "2016-10-07",
+      "total_transactions": 4,
+      "total_deposit": 259545.0,
+      "total_withdrawal": 475706.0,
+      "avg_balance": 258157.25
+    },
+    {
+      "transaction_date": "2016-12-12",
+      "total_transactions": 13,
+      "total_deposit": 744814.0,
+      "total_withdrawal": 694665.0,
+      "avg_balance": 725264.3153846153
+    },
+    {
+      "transaction_date": "2016-02-08",
+      "total_transactions": 4,
+      "total_deposit": 268435.0,
+      "total_withdrawal": 707766.0,
+      "avg_balance": -77041.75
+    },
+    {
+      "transaction_date": "2019-02-28",
+      "total_transactions": 1,
+      "total_deposit": 0.0,
+      "total_withdrawal": 92031.56,
+      "avg_balance": 650944.38
+    },
+    {
+      "transaction_date": "2017-04-25",
+      "total_transactions": 12,
+      "total_deposit": 1299616.0,
+      "total_withdrawal": 1609609.97,
+      "avg_balance": 276033.2033333333
+    },
+    {
+      "transaction_date": "2017-02-10",
+      "total_transactions": 7,
+      "total_deposit": 1300906.9,
+      "total_withdrawal": 1299447.0,
+      "avg_balance": 310064.1228571428
+    },
+    {
+      "transaction_date": "2016-05-23",
+      "total_transactions": 2,
+      "total_deposit": 180254.0,
+      "total_withdrawal": 384462.0,
+      "avg_balance": 114623.0
+    },
+    {
+      "transaction_date": "2018-01-11",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 380681.29,
+      "avg_balance": 651583.635
+    },
+    {
+      "transaction_date": "2016-09-26",
+      "total_transactions": 15,
+      "total_deposit": 718591.0,
+      "total_withdrawal": 1612555.0,
+      "avg_balance": 563391.6933333332
+    },
+    {
+      "transaction_date": "2016-12-13",
+      "total_transactions": 8,
+      "total_deposit": 375639.0,
+      "total_withdrawal": 1031195.0,
+      "avg_balance": 246738.10625
+    },
+    {
+      "transaction_date": "2017-10-24",
+      "total_transactions": 9,
+      "total_deposit": 994761.0,
+      "total_withdrawal": 844820.25,
+      "avg_balance": 1085506.9644444445
+    },
+    {
+      "transaction_date": "2016-02-03",
+      "total_transactions": 10,
+      "total_deposit": 1053625.0,
+      "total_withdrawal": 1491068.0,
+      "avg_balance": 524583.8
+    },
+    {
+      "transaction_date": "2016-08-26",
+      "total_transactions": 8,
+      "total_deposit": 972972.0,
+      "total_withdrawal": 895092.0,
+      "avg_balance": 982560.25
+    },
+    {
+      "transaction_date": "2017-03-19",
+      "total_transactions": 9,
+      "total_deposit": 988191.0,
+      "total_withdrawal": 651672.0,
+      "avg_balance": 950818.3333333334
+    },
+    {
+      "transaction_date": "2016-03-25",
+      "total_transactions": 5,
+      "total_deposit": 0.0,
+      "total_withdrawal": 1267424.0,
+      "avg_balance": -220159.6
+    },
+    {
+      "transaction_date": "2018-04-16",
+      "total_transactions": 6,
+      "total_deposit": 0.0,
+      "total_withdrawal": 783129.6100000001,
+      "avg_balance": 1417297.7133333331
+    },
+    {
+      "transaction_date": "2018-06-27",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 592082.21,
+      "avg_balance": 1101195.44
+    },
+    {
+      "transaction_date": "2018-07-25",
+      "total_transactions": 6,
+      "total_deposit": 1100000.0,
+      "total_withdrawal": 619094.02,
+      "avg_balance": 1305007.3800000001
+    },
+    {
+      "transaction_date": "2017-05-26",
+      "total_transactions": 10,
+      "total_deposit": 1609205.0,
+      "total_withdrawal": 657528.14,
+      "avg_balance": -50562.216
+    },
+    {
+      "transaction_date": "2016-08-01",
+      "total_transactions": 8,
+      "total_deposit": 803308.0,
+      "total_withdrawal": 706798.0,
+      "avg_balance": 466863.5
+    },
+    {
+      "transaction_date": "2016-09-09",
+      "total_transactions": 9,
+      "total_deposit": 586419.0,
+      "total_withdrawal": 681594.0,
+      "avg_balance": 796310.1111111111
+    },
+    {
+      "transaction_date": "2018-02-22",
+      "total_transactions": 9,
+      "total_deposit": 2000000.0,
+      "total_withdrawal": 864515.35,
+      "avg_balance": 920406.7766666667
+    },
+    {
+      "transaction_date": "2018-01-18",
+      "total_transactions": 1,
+      "total_deposit": 0.0,
+      "total_withdrawal": 164097.27,
+      "avg_balance": 926114.31
+    },
+    {
+      "transaction_date": "2017-11-26",
+      "total_transactions": 9,
+      "total_deposit": 661095.0,
+      "total_withdrawal": 1594738.0,
+      "avg_balance": 524487.3333333334
+    },
+    {
+      "transaction_date": "2016-06-17",
+      "total_transactions": 6,
+      "total_deposit": 181419.0,
+      "total_withdrawal": 947134.0,
+      "avg_balance": 860481.6
+    },
+    {
+      "transaction_date": "2017-11-06",
+      "total_transactions": 10,
+      "total_deposit": 1577836.0,
+      "total_withdrawal": 807449.0,
+      "avg_balance": 481180.5
+    },
+    {
+      "transaction_date": "2017-01-04",
+      "total_transactions": 6,
+      "total_deposit": 446039.0,
+      "total_withdrawal": 962616.0,
+      "avg_balance": 611561.0
+    },
+    {
+      "transaction_date": "2016-09-27",
+      "total_transactions": 9,
+      "total_deposit": 955209.0,
+      "total_withdrawal": 1312713.0,
+      "avg_balance": -131523.19999999998
+    },
+    {
+      "transaction_date": "2018-09-19",
+      "total_transactions": 3,
+      "total_deposit": 156502.39,
+      "total_withdrawal": 536772.0,
+      "avg_balance": 888969.2799999999
+    },
+    {
+      "transaction_date": "2016-08-16",
+      "total_transactions": 9,
+      "total_deposit": 350232.0,
+      "total_withdrawal": 1788790.0,
+      "avg_balance": 30477.333333333332
+    },
+    {
+      "transaction_date": "2017-06-28",
+      "total_transactions": 11,
+      "total_deposit": 1137592.0,
+      "total_withdrawal": 1751979.23,
+      "avg_balance": 333483.9518181818
+    },
+    {
+      "transaction_date": "2017-09-14",
+      "total_transactions": 7,
+      "total_deposit": 1339397.0,
+      "total_withdrawal": 931126.3200000001,
+      "avg_balance": 231822.70714285714
+    },
+    {
+      "transaction_date": "2016-10-23",
+      "total_transactions": 5,
+      "total_deposit": 442908.0,
+      "total_withdrawal": 418767.0,
+      "avg_balance": 851791.6
+    },
+    {
+      "transaction_date": "2017-10-09",
+      "total_transactions": 5,
+      "total_deposit": 1189980.0,
+      "total_withdrawal": 0.0,
+      "avg_balance": 747852.0
+    },
+    {
+      "transaction_date": "2016-04-30",
+      "total_transactions": 7,
+      "total_deposit": 544993.0,
+      "total_withdrawal": 1068170.0,
+      "avg_balance": 566704.8571428572
+    },
+    {
+      "transaction_date": "2017-04-03",
+      "total_transactions": 10,
+      "total_deposit": 1194661.0,
+      "total_withdrawal": 1342736.0,
+      "avg_balance": 272490.7
+    },
+    {
+      "transaction_date": "2017-06-14",
+      "total_transactions": 16,
+      "total_deposit": 1414150.0,
+      "total_withdrawal": 711023.27,
+      "avg_balance": 585651.62375
+    },
+    {
+      "transaction_date": "2018-03-13",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 810108.36,
+      "avg_balance": 1034041.01
+    },
+    {
+      "transaction_date": "2016-07-21",
+      "total_transactions": 10,
+      "total_deposit": 1313055.0,
+      "total_withdrawal": 0.0,
+      "avg_balance": 1168619.3599999999
+    },
+    {
+      "transaction_date": "2017-12-04",
+      "total_transactions": 5,
+      "total_deposit": 572964.0,
+      "total_withdrawal": 207072.0,
+      "avg_balance": 169910.6
+    },
+    {
+      "transaction_date": "2018-12-18",
+      "total_transactions": 4,
+      "total_deposit": 648602.58,
+      "total_withdrawal": 667217.0,
+      "avg_balance": 1190497.5825
+    },
+    {
+      "transaction_date": "2017-08-22",
+      "total_transactions": 6,
+      "total_deposit": 482476.0,
+      "total_withdrawal": 1003094.48,
+      "avg_balance": 244780.79666666663
+    },
+    {
+      "transaction_date": "2016-05-27",
+      "total_transactions": 9,
+      "total_deposit": 1591480.0,
+      "total_withdrawal": 555460.0,
+      "avg_balance": 589462.2888888889
+    },
+    {
+      "transaction_date": "2017-12-03",
+      "total_transactions": 9,
+      "total_deposit": 1463651.0,
+      "total_withdrawal": 529897.0,
+      "avg_balance": 303242.6666666667
+    },
+    {
+      "transaction_date": "2017-11-16",
+      "total_transactions": 10,
+      "total_deposit": 1493467.0,
+      "total_withdrawal": 1041688.84,
+      "avg_balance": 529632.918
+    },
+    {
+      "transaction_date": "2017-08-08",
+      "total_transactions": 5,
+      "total_deposit": 297239.0,
+      "total_withdrawal": 977416.0,
+      "avg_balance": -538714.4
+    },
+    {
+      "transaction_date": "2017-04-29",
+      "total_transactions": 7,
+      "total_deposit": 378942.0,
+      "total_withdrawal": 1454788.43,
+      "avg_balance": 1025004.1814285713
+    },
+    {
+      "transaction_date": "2016-07-02",
+      "total_transactions": 8,
+      "total_deposit": 1276915.0,
+      "total_withdrawal": 1466863.0,
+      "avg_balance": 756549.5
+    },
+    {
+      "transaction_date": "2017-02-07",
+      "total_transactions": 4,
+      "total_deposit": 1545211.0,
+      "total_withdrawal": 0.0,
+      "avg_balance": 193176.25
+    },
+    {
+      "transaction_date": "2018-01-16",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 611939.98,
+      "avg_balance": 1009159.53
+    },
+    {
+      "transaction_date": "2018-11-17",
+      "total_transactions": 6,
+      "total_deposit": 1422009.05,
+      "total_withdrawal": 586076.0,
+      "avg_balance": 1108643.0133333334
+    },
+    {
+      "transaction_date": "2016-08-06",
+      "total_transactions": 5,
+      "total_deposit": 812573.0,
+      "total_withdrawal": 314528.0,
+      "avg_balance": 613263.8
+    },
+    {
+      "transaction_date": "2017-10-27",
+      "total_transactions": 14,
+      "total_deposit": 1507228.0,
+      "total_withdrawal": 1826240.43,
+      "avg_balance": 697801.8142857142
+    },
+    {
+      "transaction_date": "2016-10-20",
+      "total_transactions": 10,
+      "total_deposit": 990686.0,
+      "total_withdrawal": 693674.99,
+      "avg_balance": 431217.603
+    },
+    {
+      "transaction_date": "2018-02-23",
+      "total_transactions": 2,
+      "total_deposit": 500000.0,
+      "total_withdrawal": 110202.4,
+      "avg_balance": 1293999.4649999999
+    },
+    {
+      "transaction_date": "2018-07-18",
+      "total_transactions": 7,
+      "total_deposit": 800000.0,
+      "total_withdrawal": 661886.55,
+      "avg_balance": 1143943.4014285714
+    },
+    {
+      "transaction_date": "2017-03-17",
+      "total_transactions": 9,
+      "total_deposit": 820773.0,
+      "total_withdrawal": 939579.17,
+      "avg_balance": 963312.0244444446
+    },
+    {
+      "transaction_date": "2016-05-07",
+      "total_transactions": 8,
+      "total_deposit": 447946.0,
+      "total_withdrawal": 1337528.0,
+      "avg_balance": 626646.625
+    },
+    {
+      "transaction_date": "2017-10-05",
+      "total_transactions": 6,
+      "total_deposit": 1343610.0,
+      "total_withdrawal": 839810.0,
+      "avg_balance": 1117163.8333333333
+    },
+    {
+      "transaction_date": "2017-01-10",
+      "total_transactions": 7,
+      "total_deposit": 376990.0,
+      "total_withdrawal": 1099298.0,
+      "avg_balance": 1206656.4285714286
+    },
+    {
+      "transaction_date": "2018-09-11",
+      "total_transactions": 3,
+      "total_deposit": 0.0,
+      "total_withdrawal": 604225.74,
+      "avg_balance": 1177457.9533333334
+    },
+    {
+      "transaction_date": "2018-10-15",
+      "total_transactions": 12,
+      "total_deposit": 1949302.8900000001,
+      "total_withdrawal": 1943915.0,
+      "avg_balance": 1329430.6933333331
+    },
+    {
+      "transaction_date": "2019-01-22",
+      "total_transactions": 6,
+      "total_deposit": 1000000.0,
+      "total_withdrawal": 871728.05,
+      "avg_balance": 1153327.695
+    },
+    {
+      "transaction_date": "2016-05-31",
+      "total_transactions": 4,
+      "total_deposit": 359642.0,
+      "total_withdrawal": 284087.0,
+      "avg_balance": 210387.65000000002
+    },
+    {
+      "transaction_date": "2016-04-26",
+      "total_transactions": 10,
+      "total_deposit": 1890276.0,
+      "total_withdrawal": 1345051.0,
+      "avg_balance": 553081.4
+    },
+    {
+      "transaction_date": "2016-05-13",
+      "total_transactions": 13,
+      "total_deposit": 1121719.0,
+      "total_withdrawal": 1817078.0,
+      "avg_balance": 428591.70769230765
+    },
+    {
+      "transaction_date": "2017-10-08",
+      "total_transactions": 8,
+      "total_deposit": 464687.0,
+      "total_withdrawal": 1533196.0,
+      "avg_balance": -65888.875
+    },
+    {
+      "transaction_date": "2016-08-05",
+      "total_transactions": 3,
+      "total_deposit": 558897.0,
+      "total_withdrawal": 497032.0,
+      "avg_balance": 938859.3333333334
+    },
+    {
+      "transaction_date": "2019-01-19",
+      "total_transactions": 6,
+      "total_deposit": 900000.0,
+      "total_withdrawal": 423724.66000000003,
+      "avg_balance": 1102514.6333333335
+    },
+    {
+      "transaction_date": "2019-02-19",
+      "total_transactions": 1,
+      "total_deposit": 0.0,
+      "total_withdrawal": 181484.83,
+      "avg_balance": 514498.22
+    },
+    {
+      "transaction_date": "2017-05-10",
+      "total_transactions": 11,
+      "total_deposit": 868112.0,
+      "total_withdrawal": 1818301.36,
+      "avg_balance": 708482.4436363638
+    },
+    {
+      "transaction_date": "2016-10-24",
+      "total_transactions": 7,
+      "total_deposit": 704854.0,
+      "total_withdrawal": 535471.0,
+      "avg_balance": 444146.5285714286
+    },
+    {
+      "transaction_date": "2016-02-22",
+      "total_transactions": 8,
+      "total_deposit": 680709.0,
+      "total_withdrawal": 1020801.0,
+      "avg_balance": 967500.0
+    },
+    {
+      "transaction_date": "2016-10-27",
+      "total_transactions": 18,
+      "total_deposit": 1846909.0,
+      "total_withdrawal": 942231.15,
+      "avg_balance": 702300.746111111
+    },
+    {
+      "transaction_date": "2018-11-26",
+      "total_transactions": 13,
+      "total_deposit": 1575684.1199999999,
+      "total_withdrawal": 2372482.0,
+      "avg_balance": 1588931.840769231
+    },
+    {
+      "transaction_date": "2016-11-14",
+      "total_transactions": 15,
+      "total_deposit": 383103.0,
+      "total_withdrawal": 192594.0,
+      "avg_balance": 848232.8899999999
+    },
+    {
+      "transaction_date": "2017-05-09",
+      "total_transactions": 6,
+      "total_deposit": 316543.0,
+      "total_withdrawal": 1191019.0,
+      "avg_balance": -47477.333333333336
+    },
+    {
+      "transaction_date": "2017-01-21",
+      "total_transactions": 5,
+      "total_deposit": 1160474.0,
+      "total_withdrawal": 85738.0,
+      "avg_balance": 1257804.4
+    },
+    {
+      "transaction_date": "2018-03-29",
+      "total_transactions": 3,
+      "total_deposit": 500000.0,
+      "total_withdrawal": 117919.02,
+      "avg_balance": 992390.8266666667
+    },
+    {
+      "transaction_date": "2016-03-22",
+      "total_transactions": 12,
+      "total_deposit": 1085759.0,
+      "total_withdrawal": 2034862.0,
+      "avg_balance": 668899.0833333334
+    },
+    {
+      "transaction_date": "2017-07-03",
+      "total_transactions": 8,
+      "total_deposit": 1079040.0,
+      "total_withdrawal": 860353.0,
+      "avg_balance": 1102314.0
+    },
+    {
+      "transaction_date": "2016-08-20",
+      "total_transactions": 10,
+      "total_deposit": 496784.0,
+      "total_withdrawal": 325541.0,
+      "avg_balance": 962468.2999999998
+    },
+    {
+      "transaction_date": "2017-12-19",
+      "total_transactions": 9,
+      "total_deposit": 1998536.0,
+      "total_withdrawal": 1079973.01,
+      "avg_balance": 935359.358888889
+    },
+    {
+      "transaction_date": "2018-07-27",
+      "total_transactions": 4,
+      "total_deposit": 1010227.38,
+      "total_withdrawal": 392840.0,
+      "avg_balance": 1374206.8275000001
+    },
+    {
+      "transaction_date": "2018-12-20",
+      "total_transactions": 6,
+      "total_deposit": 683822.29,
+      "total_withdrawal": 933817.6,
+      "avg_balance": 1007525.8000000002
+    },
+    {
+      "transaction_date": "2018-12-21",
+      "total_transactions": 4,
+      "total_deposit": 586250.63,
+      "total_withdrawal": 428392.0,
+      "avg_balance": 1061521.415
+    },
+    {
+      "transaction_date": "2016-09-05",
+      "total_transactions": 8,
+      "total_deposit": 1809871.0,
+      "total_withdrawal": 226699.0,
+      "avg_balance": 682017.75
+    },
+    {
+      "transaction_date": "2017-04-07",
+      "total_transactions": 12,
+      "total_deposit": 1984374.0,
+      "total_withdrawal": 1188811.0,
+      "avg_balance": 701860.6666666666
+    },
+    {
+      "transaction_date": "2017-07-30",
+      "total_transactions": 6,
+      "total_deposit": 1094672.0,
+      "total_withdrawal": 296219.0,
+      "avg_balance": 429634.5
+    },
+    {
+      "transaction_date": "2018-08-28",
+      "total_transactions": 4,
+      "total_deposit": 458964.83999999997,
+      "total_withdrawal": 522721.0,
+      "avg_balance": 1464860.4825
+    },
+    {
+      "transaction_date": "2017-11-12",
+      "total_transactions": 8,
+      "total_deposit": 1440978.0,
+      "total_withdrawal": 102317.0,
+      "avg_balance": 692592.875
+    },
+    {
+      "transaction_date": "2017-12-31",
+      "total_transactions": 5,
+      "total_deposit": 334112.0,
+      "total_withdrawal": 1054940.0,
+      "avg_balance": 443145.8
+    },
+    {
+      "transaction_date": "2016-05-21",
+      "total_transactions": 5,
+      "total_deposit": 622815.0,
+      "total_withdrawal": 570707.0,
+      "avg_balance": 456859.4
+    },
+    {
+      "transaction_date": "2016-12-15",
+      "total_transactions": 6,
+      "total_deposit": 376743.0,
+      "total_withdrawal": 998771.0,
+      "avg_balance": 55461.333333333336
+    },
+    {
+      "transaction_date": "2018-06-20",
+      "total_transactions": 3,
+      "total_deposit": 500000.0,
+      "total_withdrawal": 835773.98,
+      "avg_balance": 1363083.1633333333
+    },
+    {
+      "transaction_date": "2017-06-08",
+      "total_transactions": 4,
+      "total_deposit": 768675.0,
+      "total_withdrawal": 437205.0,
+      "avg_balance": 541317.5
+    },
+    {
+      "transaction_date": "2016-11-24",
+      "total_transactions": 30,
+      "total_deposit": 985340.0,
+      "total_withdrawal": 559058.5,
+      "avg_balance": 1450761.610333334
+    },
+    {
+      "transaction_date": "2016-05-11",
+      "total_transactions": 8,
+      "total_deposit": 1130480.0,
+      "total_withdrawal": 428440.0,
+      "avg_balance": -60881.3
+    },
+    {
+      "transaction_date": "2017-08-04",
+      "total_transactions": 4,
+      "total_deposit": 519489.0,
+      "total_withdrawal": 257301.0,
+      "avg_balance": 223182.0
+    },
+    {
+      "transaction_date": "2018-01-12",
+      "total_transactions": 7,
+      "total_deposit": 2600000.0,
+      "total_withdrawal": 175473.28,
+      "avg_balance": 1371096.852857143
+    },
+    {
+      "transaction_date": "2017-01-05",
+      "total_transactions": 7,
+      "total_deposit": 330547.0,
+      "total_withdrawal": 1088403.0,
+      "avg_balance": 547878.2857142857
+    },
+    {
+      "transaction_date": "2017-06-01",
+      "total_transactions": 7,
+      "total_deposit": 684292.0,
+      "total_withdrawal": 805055.0,
+      "avg_balance": 425050.5714285714
+    },
+    {
+      "transaction_date": "2017-08-20",
+      "total_transactions": 9,
+      "total_deposit": 609174.0,
+      "total_withdrawal": 1653160.0,
+      "avg_balance": 356055.3333333333
+    },
+    {
+      "transaction_date": "2016-11-30",
+      "total_transactions": 14,
+      "total_deposit": 643252.0,
+      "total_withdrawal": 409584.0,
+      "avg_balance": 856201.1785714283
+    },
+    {
+      "transaction_date": "2016-11-25",
+      "total_transactions": 33,
+      "total_deposit": 1000436.0,
+      "total_withdrawal": 2940354.0,
+      "avg_balance": 576064.4924242424
+    },
+    {
+      "transaction_date": "2016-06-22",
+      "total_transactions": 7,
+      "total_deposit": 339735.0,
+      "total_withdrawal": 914918.0,
+      "avg_balance": 624274.0857142856
+    },
+    {
+      "transaction_date": "2018-03-28",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 307661.64,
+      "avg_balance": 1000738.5900000001
+    },
+    {
+      "transaction_date": "2016-05-28",
+      "total_transactions": 4,
+      "total_deposit": 594557.0,
+      "total_withdrawal": 691845.0,
+      "avg_balance": 642244.5
+    },
+    {
+      "transaction_date": "2017-04-02",
+      "total_transactions": 7,
+      "total_deposit": 885549.0,
+      "total_withdrawal": 1030771.0,
+      "avg_balance": 421381.28571428574
+    },
+    {
+      "transaction_date": "2016-06-19",
+      "total_transactions": 8,
+      "total_deposit": 654581.0,
+      "total_withdrawal": 535700.0,
+      "avg_balance": 865598.375
+    },
+    {
+      "transaction_date": "2017-10-14",
+      "total_transactions": 9,
+      "total_deposit": 1763880.0,
+      "total_withdrawal": 784552.0,
+      "avg_balance": 434240.6666666667
+    },
+    {
+      "transaction_date": "2018-02-27",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 187183.09,
+      "avg_balance": 1192226.555
+    },
+    {
+      "transaction_date": "2017-06-09",
+      "total_transactions": 9,
+      "total_deposit": 1755766.0,
+      "total_withdrawal": 910167.0,
+      "avg_balance": 1161462.0
+    },
+    {
+      "transaction_date": "2016-03-27",
+      "total_transactions": 6,
+      "total_deposit": 1135477.0,
+      "total_withdrawal": 329762.0,
+      "avg_balance": 168756.0
+    },
+    {
+      "transaction_date": "2016-03-11",
+      "total_transactions": 5,
+      "total_deposit": 1023944.0,
+      "total_withdrawal": 45722.0,
+      "avg_balance": 977631.0
+    },
+    {
+      "transaction_date": "2018-01-20",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 490389.03,
+      "avg_balance": 650322.93
+    },
+    {
+      "transaction_date": "2018-05-14",
+      "total_transactions": 8,
+      "total_deposit": 931847.8,
+      "total_withdrawal": 592532.23,
+      "avg_balance": 1247413.4224999999
+    },
+    {
+      "transaction_date": "2018-01-25",
+      "total_transactions": 3,
+      "total_deposit": 600000.0,
+      "total_withdrawal": 108268.42,
+      "avg_balance": 1167732.57
+    },
+    {
+      "transaction_date": "2016-11-19",
+      "total_transactions": 33,
+      "total_deposit": 1285612.0,
+      "total_withdrawal": 1891746.0,
+      "avg_balance": 952645.2424242428
+    },
+    {
+      "transaction_date": "2017-04-12",
+      "total_transactions": 6,
+      "total_deposit": 752719.0,
+      "total_withdrawal": 335533.4,
+      "avg_balance": 802405.9216666667
+    },
+    {
+      "transaction_date": "2016-06-08",
+      "total_transactions": 5,
+      "total_deposit": 359787.0,
+      "total_withdrawal": 605898.0,
+      "avg_balance": 392512.0
+    },
+    {
+      "transaction_date": "2017-04-11",
+      "total_transactions": 7,
+      "total_deposit": 725354.49,
+      "total_withdrawal": 311806.35,
+      "avg_balance": 173996.91
+    },
+    {
+      "transaction_date": "2016-12-21",
+      "total_transactions": 13,
+      "total_deposit": 493245.0,
+      "total_withdrawal": 1786298.15,
+      "avg_balance": 313319.4738461539
+    },
+    {
+      "transaction_date": "2016-12-20",
+      "total_transactions": 7,
+      "total_deposit": 586604.0,
+      "total_withdrawal": 793759.0,
+      "avg_balance": 1806173.7142857143
+    },
+    {
+      "transaction_date": "2017-01-13",
+      "total_transactions": 10,
+      "total_deposit": 1448495.0,
+      "total_withdrawal": 738677.0,
+      "avg_balance": 1149117.9849999999
+    },
+    {
+      "transaction_date": "2017-10-18",
+      "total_transactions": 11,
+      "total_deposit": 1595153.0,
+      "total_withdrawal": 1438407.43,
+      "avg_balance": 1290897.7145454548
+    },
+    {
+      "transaction_date": "2016-06-15",
+      "total_transactions": 4,
+      "total_deposit": 329471.0,
+      "total_withdrawal": 66446.0,
+      "avg_balance": 556863.0
+    },
+    {
+      "transaction_date": "2017-04-05",
+      "total_transactions": 11,
+      "total_deposit": 1432391.0,
+      "total_withdrawal": 673619.0,
+      "avg_balance": 39614.90909090909
+    },
+    {
+      "transaction_date": "2017-03-13",
+      "total_transactions": 9,
+      "total_deposit": 877718.0,
+      "total_withdrawal": 1278981.09,
+      "avg_balance": 758743.17
+    },
+    {
+      "transaction_date": "2017-11-18",
+      "total_transactions": 13,
+      "total_deposit": 1298936.0,
+      "total_withdrawal": 2256206.06,
+      "avg_balance": 1051643.1892307694
+    },
+    {
+      "transaction_date": "2016-07-31",
+      "total_transactions": 10,
+      "total_deposit": 1697822.0,
+      "total_withdrawal": 1592716.0,
+      "avg_balance": 1285029.3
+    },
+    {
+      "transaction_date": "2017-02-08",
+      "total_transactions": 6,
+      "total_deposit": 1271508.0,
+      "total_withdrawal": 416933.0,
+      "avg_balance": 1056649.1666666667
+    },
+    {
+      "transaction_date": "2017-06-15",
+      "total_transactions": 11,
+      "total_deposit": 360060.0,
+      "total_withdrawal": 1735152.51,
+      "avg_balance": 144042.36454545453
+    },
+    {
+      "transaction_date": "2017-04-20",
+      "total_transactions": 5,
+      "total_deposit": 746057.0,
+      "total_withdrawal": 505517.93,
+      "avg_balance": 717704.758
+    },
+    {
+      "transaction_date": "2016-08-03",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 530404.0,
+      "avg_balance": 1029225.0
+    },
+    {
+      "transaction_date": "2016-06-13",
+      "total_transactions": 6,
+      "total_deposit": 533518.0,
+      "total_withdrawal": 979375.0,
+      "avg_balance": 782482.1666666666
+    },
+    {
+      "transaction_date": "2016-04-04",
+      "total_transactions": 5,
+      "total_deposit": 462632.0,
+      "total_withdrawal": 833234.0,
+      "avg_balance": 968427.6
+    },
+    {
+      "transaction_date": "2017-09-24",
+      "total_transactions": 10,
+      "total_deposit": 758157.0,
+      "total_withdrawal": 1010784.0,
+      "avg_balance": -42018.3
+    },
+    {
+      "transaction_date": "2017-02-25",
+      "total_transactions": 2,
+      "total_deposit": 752421.0,
+      "total_withdrawal": 0.0,
+      "avg_balance": 475178.5
+    },
+    {
+      "transaction_date": "2018-05-31",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 350454.87,
+      "avg_balance": 1104900.97
+    },
+    {
+      "transaction_date": "2017-05-21",
+      "total_transactions": 7,
+      "total_deposit": 812771.0,
+      "total_withdrawal": 432061.0,
+      "avg_balance": 955930.7142857143
+    },
+    {
+      "transaction_date": "2016-01-11",
+      "total_transactions": 7,
+      "total_deposit": 1421701.0,
+      "total_withdrawal": 98107.0,
+      "avg_balance": 1357119.4285714286
+    },
+    {
+      "transaction_date": "2016-12-22",
+      "total_transactions": 15,
+      "total_deposit": 823792.0,
+      "total_withdrawal": 1332204.15,
+      "avg_balance": 717023.4373333332
+    },
+    {
+      "transaction_date": "2017-08-21",
+      "total_transactions": 3,
+      "total_deposit": 0.0,
+      "total_withdrawal": 767011.74,
+      "avg_balance": 987438.9566666667
+    },
+    {
+      "transaction_date": "2018-05-24",
+      "total_transactions": 3,
+      "total_deposit": 500000.0,
+      "total_withdrawal": 204037.59,
+      "avg_balance": 1181818.3366666667
+    },
+    {
+      "transaction_date": "2018-08-29",
+      "total_transactions": 4,
+      "total_deposit": 471493.16000000003,
+      "total_withdrawal": 256744.0,
+      "avg_balance": 1524221.5225
+    },
+    {
+      "transaction_date": "2018-02-12",
+      "total_transactions": 1,
+      "total_deposit": 0.0,
+      "total_withdrawal": 171840.28,
+      "avg_balance": 1180060.98
+    },
+    {
+      "transaction_date": "2016-04-18",
+      "total_transactions": 4,
+      "total_deposit": 449021.0,
+      "total_withdrawal": 211830.0,
+      "avg_balance": 1397931.5
+    },
+    {
+      "transaction_date": "2016-08-12",
+      "total_transactions": 17,
+      "total_deposit": 754294.0,
+      "total_withdrawal": 1133254.0,
+      "avg_balance": 780344.1058823528
+    },
+    {
+      "transaction_date": "2016-04-16",
+      "total_transactions": 6,
+      "total_deposit": 756753.0,
+      "total_withdrawal": 182804.0,
+      "avg_balance": 586564.22
+    },
+    {
+      "transaction_date": "2016-03-14",
+      "total_transactions": 5,
+      "total_deposit": 214208.0,
+      "total_withdrawal": 992044.0,
+      "avg_balance": 221676.2
+    },
+    {
+      "transaction_date": "2017-03-16",
+      "total_transactions": 7,
+      "total_deposit": 1069167.0,
+      "total_withdrawal": 425062.25,
+      "avg_balance": 825191.0800000001
+    },
+    {
+      "transaction_date": "2018-05-29",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 506469.35,
+      "avg_balance": 1105985.255
+    },
+    {
+      "transaction_date": "2018-12-24",
+      "total_transactions": 12,
+      "total_deposit": 1000000.0,
+      "total_withdrawal": 862540.4700000001,
+      "avg_balance": 1042145.165
+    },
+    {
+      "transaction_date": "2018-12-29",
+      "total_transactions": 4,
+      "total_deposit": 400000.0,
+      "total_withdrawal": 301645.27,
+      "avg_balance": 1204307.885
+    },
+    {
+      "transaction_date": "2017-12-06",
+      "total_transactions": 13,
+      "total_deposit": 2225150.0,
+      "total_withdrawal": 649519.0,
+      "avg_balance": 628018.4615384615
+    },
+    {
+      "transaction_date": "2017-12-17",
+      "total_transactions": 5,
+      "total_deposit": 1000249.0,
+      "total_withdrawal": 414377.0,
+      "avg_balance": 1077420.6
+    },
+    {
+      "transaction_date": "2016-10-17",
+      "total_transactions": 7,
+      "total_deposit": 328473.0,
+      "total_withdrawal": 1533581.0,
+      "avg_balance": 83383.0
+    },
+    {
+      "transaction_date": "2016-09-22",
+      "total_transactions": 9,
+      "total_deposit": 1442416.0,
+      "total_withdrawal": 339672.0,
+      "avg_balance": 1134659.4888888886
+    },
+    {
+      "transaction_date": "2017-04-27",
+      "total_transactions": 3,
+      "total_deposit": 0.0,
+      "total_withdrawal": 691244.0,
+      "avg_balance": 9087.0
+    },
+    {
+      "transaction_date": "2017-05-27",
+      "total_transactions": 5,
+      "total_deposit": 396497.0,
+      "total_withdrawal": 754596.0,
+      "avg_balance": 476325.4
+    },
+    {
+      "transaction_date": "2016-08-19",
+      "total_transactions": 10,
+      "total_deposit": 1026674.0,
+      "total_withdrawal": 1697975.0,
+      "avg_balance": 401433.42000000004
+    },
+    {
+      "transaction_date": "2017-02-01",
+      "total_transactions": 7,
+      "total_deposit": 194362.0,
+      "total_withdrawal": 1137211.0,
+      "avg_balance": 674083.2857142857
+    },
+    {
+      "transaction_date": "2017-12-13",
+      "total_transactions": 12,
+      "total_deposit": 1795952.0,
+      "total_withdrawal": 1640756.67,
+      "avg_balance": 402023.9533333333
+    },
+    {
+      "transaction_date": "2018-03-16",
+      "total_transactions": 5,
+      "total_deposit": 1000000.0,
+      "total_withdrawal": 277532.0,
+      "avg_balance": 1099015.656
+    },
+    {
+      "transaction_date": "2016-09-14",
+      "total_transactions": 12,
+      "total_deposit": 967559.0,
+      "total_withdrawal": 1265116.0,
+      "avg_balance": 648822.6999999998
+    },
+    {
+      "transaction_date": "2017-09-10",
+      "total_transactions": 8,
+      "total_deposit": 511675.0,
+      "total_withdrawal": 620944.0,
+      "avg_balance": 904173.125
+    },
+    {
+      "transaction_date": "2016-04-11",
+      "total_transactions": 8,
+      "total_deposit": 778073.0,
+      "total_withdrawal": 1031563.0,
+      "avg_balance": 975936.875
+    },
+    {
+      "transaction_date": "2017-01-26",
+      "total_transactions": 9,
+      "total_deposit": 812987.0,
+      "total_withdrawal": 1590068.0,
+      "avg_balance": 302285.8888888889
+    },
+    {
+      "transaction_date": "2018-07-16",
+      "total_transactions": 9,
+      "total_deposit": 104203.77,
+      "total_withdrawal": 753879.64,
+      "avg_balance": 1350219.4011111113
+    },
+    {
+      "transaction_date": "2018-10-26",
+      "total_transactions": 3,
+      "total_deposit": 126310.53,
+      "total_withdrawal": 234003.0,
+      "avg_balance": 956571.2799999999
+    },
+    {
+      "transaction_date": "2016-06-29",
+      "total_transactions": 11,
+      "total_deposit": 517558.0,
+      "total_withdrawal": 514531.0,
+      "avg_balance": 635645.490909091
+    },
+    {
+      "transaction_date": "2018-01-29",
+      "total_transactions": 10,
+      "total_deposit": 1500000.0,
+      "total_withdrawal": 1213050.92,
+      "avg_balance": 1348663.665
+    },
+    {
+      "transaction_date": "2018-03-19",
+      "total_transactions": 3,
+      "total_deposit": 0.0,
+      "total_withdrawal": 284508.98,
+      "avg_balance": 1065886.3133333332
+    },
+    {
+      "transaction_date": "2018-07-20",
+      "total_transactions": 4,
+      "total_deposit": 300000.0,
+      "total_withdrawal": 228039.39,
+      "avg_balance": 1190350.1025
+    },
+    {
+      "transaction_date": "2018-09-15",
+      "total_transactions": 3,
+      "total_deposit": 120905.14,
+      "total_withdrawal": 547071.0,
+      "avg_balance": 1320986.7166666666
+    },
+    {
+      "transaction_date": "2017-06-19",
+      "total_transactions": 7,
+      "total_deposit": 759111.0,
+      "total_withdrawal": 536743.51,
+      "avg_balance": 1402681.9814285713
+    },
+    {
+      "transaction_date": "2017-08-16",
+      "total_transactions": 49,
+      "total_deposit": 4549293.0,
+      "total_withdrawal": 4823427.84,
+      "avg_balance": 4860934.813265307
+    },
+    {
+      "transaction_date": "2017-01-01",
+      "total_transactions": 4,
+      "total_deposit": 164551.0,
+      "total_withdrawal": 595975.0,
+      "avg_balance": 500701.75
+    },
+    {
+      "transaction_date": "2016-03-03",
+      "total_transactions": 7,
+      "total_deposit": 2210483.0,
+      "total_withdrawal": 211507.0,
+      "avg_balance": 1147609.5714285714
+    },
+    {
+      "transaction_date": "2017-04-18",
+      "total_transactions": 6,
+      "total_deposit": 166682.0,
+      "total_withdrawal": 1336988.03,
+      "avg_balance": 273819.10833333334
+    },
+    {
+      "transaction_date": "2017-07-10",
+      "total_transactions": 13,
+      "total_deposit": 1876864.0,
+      "total_withdrawal": 1289161.53,
+      "avg_balance": 746310.966153846
+    },
+    {
+      "transaction_date": "2016-01-05",
+      "total_transactions": 10,
+      "total_deposit": 1149951.0,
+      "total_withdrawal": 1150146.0,
+      "avg_balance": 536148.4
+    },
+    {
+      "transaction_date": "2016-01-06",
+      "total_transactions": 6,
+      "total_deposit": 1523082.0,
+      "total_withdrawal": 80314.0,
+      "avg_balance": 729697.1666666666
+    },
+    {
+      "transaction_date": "2018-08-14",
+      "total_transactions": 4,
+      "total_deposit": 1006597.22,
+      "total_withdrawal": 521135.0,
+      "avg_balance": 1319097.3125
+    },
+    {
+      "transaction_date": "2018-08-24",
+      "total_transactions": 5,
+      "total_deposit": 865456.4,
+      "total_withdrawal": 340531.0,
+      "avg_balance": 1133376.316
+    },
+    {
+      "transaction_date": "2019-02-22",
+      "total_transactions": 1,
+      "total_deposit": 0.0,
+      "total_withdrawal": 61442.29,
+      "avg_balance": 742795.26
+    },
+    {
+      "transaction_date": "2017-06-13",
+      "total_transactions": 9,
+      "total_deposit": 914849.0,
+      "total_withdrawal": 1171661.18,
+      "avg_balance": 1078679.211111111
+    },
+    {
+      "transaction_date": "2017-01-20",
+      "total_transactions": 11,
+      "total_deposit": 1808359.0,
+      "total_withdrawal": 507645.87,
+      "avg_balance": 1099884.6145454545
+    },
+    {
+      "transaction_date": "2017-06-25",
+      "total_transactions": 7,
+      "total_deposit": 1407510.0,
+      "total_withdrawal": 238422.0,
+      "avg_balance": 704343.5714285715
+    },
+    {
+      "transaction_date": "2016-06-27",
+      "total_transactions": 8,
+      "total_deposit": 996190.0,
+      "total_withdrawal": 276353.0,
+      "avg_balance": 747515.1499999999
+    },
+    {
+      "transaction_date": "2017-08-29",
+      "total_transactions": 6,
+      "total_deposit": 646287.0,
+      "total_withdrawal": 624356.2,
+      "avg_balance": 388615.7083333333
+    },
+    {
+      "transaction_date": "2017-11-07",
+      "total_transactions": 5,
+      "total_deposit": 104752.0,
+      "total_withdrawal": 1065714.0,
+      "avg_balance": 889377.8
+    },
+    {
+      "transaction_date": "2018-11-12",
+      "total_transactions": 13,
+      "total_deposit": 1662113.1300000001,
+      "total_withdrawal": 3275725.0,
+      "avg_balance": 1562063.483846154
+    },
+    {
+      "transaction_date": "2016-08-10",
+      "total_transactions": 13,
+      "total_deposit": 482685.0,
+      "total_withdrawal": 1791624.0,
+      "avg_balance": 184069.73846153848
+    },
+    {
+      "transaction_date": "2017-12-10",
+      "total_transactions": 7,
+      "total_deposit": 336357.0,
+      "total_withdrawal": 1233065.0,
+      "avg_balance": 273986.71428571426
+    },
+    {
+      "transaction_date": "2016-04-29",
+      "total_transactions": 4,
+      "total_deposit": 296956.0,
+      "total_withdrawal": 1087041.0,
+      "avg_balance": 481675.0
+    },
+    {
+      "transaction_date": "2018-08-16",
+      "total_transactions": 7,
+      "total_deposit": 687270.43,
+      "total_withdrawal": 778915.0,
+      "avg_balance": 1391072.2128571428
+    },
+    {
+      "transaction_date": "2019-02-21",
+      "total_transactions": 2,
+      "total_deposit": 300000.0,
+      "total_withdrawal": 165058.25,
+      "avg_balance": 654237.55
+    },
+    {
+      "transaction_date": "2016-10-30",
+      "total_transactions": 8,
+      "total_deposit": 744940.0,
+      "total_withdrawal": 773682.0,
+      "avg_balance": 192569.5
+    },
+    {
+      "transaction_date": "2018-04-13",
+      "total_transactions": 6,
+      "total_deposit": 1400000.0,
+      "total_withdrawal": 555139.47,
+      "avg_balance": 1374267.5099999998
+    },
+    {
+      "transaction_date": "2016-01-20",
+      "total_transactions": 5,
+      "total_deposit": 396698.0,
+      "total_withdrawal": 690642.0,
+      "avg_balance": 619568.8
+    },
+    {
+      "transaction_date": "2016-05-05",
+      "total_transactions": 5,
+      "total_deposit": 285080.0,
+      "total_withdrawal": 732960.0,
+      "avg_balance": -420793.8
+    },
+    {
+      "transaction_date": "2018-11-29",
+      "total_transactions": 4,
+      "total_deposit": 426237.52,
+      "total_withdrawal": 1328943.0,
+      "avg_balance": 1219396.6099999999
+    },
+    {
+      "transaction_date": "2017-03-05",
+      "total_transactions": 8,
+      "total_deposit": 1350642.0,
+      "total_withdrawal": 386010.0,
+      "avg_balance": 272488.875
+    },
+    {
+      "transaction_date": "2016-04-19",
+      "total_transactions": 3,
+      "total_deposit": 661279.0,
+      "total_withdrawal": 0.0,
+      "avg_balance": 1135840.0
+    },
+    {
+      "transaction_date": "2017-07-15",
+      "total_transactions": 4,
+      "total_deposit": 17277.0,
+      "total_withdrawal": 532467.9,
+      "avg_balance": 177742.9725
+    },
+    {
+      "transaction_date": "2016-10-06",
+      "total_transactions": 8,
+      "total_deposit": 1032063.0,
+      "total_withdrawal": 1919669.0,
+      "avg_balance": 1156149.875
+    },
+    {
+      "transaction_date": "2016-09-12",
+      "total_transactions": 7,
+      "total_deposit": 889265.0,
+      "total_withdrawal": 40568.0,
+      "avg_balance": 1048101.1714285713
+    },
+    {
+      "transaction_date": "2016-02-11",
+      "total_transactions": 5,
+      "total_deposit": 118205.0,
+      "total_withdrawal": 931892.0,
+      "avg_balance": 486415.6
+    },
+    {
+      "transaction_date": "2017-12-15",
+      "total_transactions": 13,
+      "total_deposit": 1509397.0,
+      "total_withdrawal": 1476177.01,
+      "avg_balance": 639500.5546153847
+    },
+    {
+      "transaction_date": "2018-07-10",
+      "total_transactions": 4,
+      "total_deposit": 500000.0,
+      "total_withdrawal": 905410.03,
+      "avg_balance": 1103328.375
+    },
+    {
+      "transaction_date": "2019-02-11",
+      "total_transactions": 3,
+      "total_deposit": 0.0,
+      "total_withdrawal": 224200.72999999998,
+      "avg_balance": 748575.5133333333
+    },
+    {
+      "transaction_date": "2016-02-09",
+      "total_transactions": 12,
+      "total_deposit": 1299405.0,
+      "total_withdrawal": 1803396.0,
+      "avg_balance": 496938.25
+    },
+    {
+      "transaction_date": "2017-08-07",
+      "total_transactions": 8,
+      "total_deposit": 1056997.0,
+      "total_withdrawal": 1320847.0,
+      "avg_balance": 238373.125
+    },
+    {
+      "transaction_date": "2017-07-26",
+      "total_transactions": 11,
+      "total_deposit": 957154.0,
+      "total_withdrawal": 1036742.9,
+      "avg_balance": 114897.38545454545
+    },
+    {
+      "transaction_date": "2017-03-21",
+      "total_transactions": 12,
+      "total_deposit": 1021647.0,
+      "total_withdrawal": 1447777.55,
+      "avg_balance": 1085084.0875
+    },
+    {
+      "transaction_date": "2016-04-14",
+      "total_transactions": 7,
+      "total_deposit": 853244.0,
+      "total_withdrawal": 1243418.0,
+      "avg_balance": 1306272.2857142857
+    },
+    {
+      "transaction_date": "2017-06-07",
+      "total_transactions": 11,
+      "total_deposit": 753736.0,
+      "total_withdrawal": 1638108.0,
+      "avg_balance": 551432.3636363636
+    },
+    {
+      "transaction_date": "2017-09-20",
+      "total_transactions": 10,
+      "total_deposit": 1329191.0,
+      "total_withdrawal": 1641644.28,
+      "avg_balance": 690153.782
+    },
+    {
+      "transaction_date": "2017-06-02",
+      "total_transactions": 6,
+      "total_deposit": 922741.0,
+      "total_withdrawal": 623384.0,
+      "avg_balance": 858543.5
+    },
+    {
+      "transaction_date": "2017-03-24",
+      "total_transactions": 8,
+      "total_deposit": 1478596.0,
+      "total_withdrawal": 604057.31,
+      "avg_balance": 1144812.60375
+    },
+    {
+      "transaction_date": "2016-01-29",
+      "total_transactions": 13,
+      "total_deposit": 1433521.0,
+      "total_withdrawal": 1972269.0,
+      "avg_balance": 177856.3076923077
+    },
+    {
+      "transaction_date": "2017-04-30",
+      "total_transactions": 4,
+      "total_deposit": 942929.0,
+      "total_withdrawal": 302773.0,
+      "avg_balance": 365152.75
+    },
+    {
+      "transaction_date": "2018-08-17",
+      "total_transactions": 4,
+      "total_deposit": 494982.32,
+      "total_withdrawal": 759945.0,
+      "avg_balance": 1269978.0
+    },
+    {
+      "transaction_date": "2018-12-31",
+      "total_transactions": 9,
+      "total_deposit": 700000.0,
+      "total_withdrawal": 438561.62,
+      "avg_balance": 1185712.3322222221
+    },
+    {
+      "transaction_date": "2016-01-26",
+      "total_transactions": 9,
+      "total_deposit": 1180739.0,
+      "total_withdrawal": 942618.0,
+      "avg_balance": 819823.5555555555
+    },
+    {
+      "transaction_date": "2016-08-13",
+      "total_transactions": 7,
+      "total_deposit": 821422.0,
+      "total_withdrawal": 295712.0,
+      "avg_balance": 665717.8285714285
+    },
+    {
+      "transaction_date": "2016-11-15",
+      "total_transactions": 36,
+      "total_deposit": 1603120.0,
+      "total_withdrawal": 731019.0,
+      "avg_balance": 932001.3555555561
+    },
+    {
+      "transaction_date": "2016-12-03",
+      "total_transactions": 7,
+      "total_deposit": 650629.0,
+      "total_withdrawal": 880356.0,
+      "avg_balance": 395128.0
+    },
+    {
+      "transaction_date": "2016-09-18",
+      "total_transactions": 12,
+      "total_deposit": 1329551.0,
+      "total_withdrawal": 914733.0,
+      "avg_balance": 925116.8666666666
+    },
+    {
+      "transaction_date": "2016-02-15",
+      "total_transactions": 4,
+      "total_deposit": 519645.0,
+      "total_withdrawal": 164081.0,
+      "avg_balance": 323648.5
+    },
+    {
+      "transaction_date": "2016-03-20",
+      "total_transactions": 14,
+      "total_deposit": 2229840.0,
+      "total_withdrawal": 966199.0,
+      "avg_balance": 268174.71428571426
+    },
+    {
+      "transaction_date": "2017-09-18",
+      "total_transactions": 8,
+      "total_deposit": 578105.0,
+      "total_withdrawal": 994449.2,
+      "avg_balance": 319369.47
+    },
+    {
+      "transaction_date": "2017-01-11",
+      "total_transactions": 8,
+      "total_deposit": 1178982.0,
+      "total_withdrawal": 1227273.0,
+      "avg_balance": 51251.5
+    },
+    {
+      "transaction_date": "2016-07-13",
+      "total_transactions": 7,
+      "total_deposit": 977824.0,
+      "total_withdrawal": 767188.0,
+      "avg_balance": 895892.0
+    },
+    {
+      "transaction_date": "2016-09-08",
+      "total_transactions": 8,
+      "total_deposit": 1588585.0,
+      "total_withdrawal": 987524.0,
+      "avg_balance": 617136.75
+    },
+    {
+      "transaction_date": "2018-12-14",
+      "total_transactions": 4,
+      "total_deposit": 967994.77,
+      "total_withdrawal": 422330.0,
+      "avg_balance": 1304340.355
+    },
+    {
+      "transaction_date": "2019-01-31",
+      "total_transactions": 6,
+      "total_deposit": 600000.0,
+      "total_withdrawal": 432637.49,
+      "avg_balance": 885468.2916666666
+    },
+    {
+      "transaction_date": "2017-02-12",
+      "total_transactions": 6,
+      "total_deposit": 1452170.0,
+      "total_withdrawal": 164869.0,
+      "avg_balance": 1318711.0
+    },
+    {
+      "transaction_date": "2016-10-21",
+      "total_transactions": 9,
+      "total_deposit": 813722.0,
+      "total_withdrawal": 980912.85,
+      "avg_balance": 248579.40333333332
+    },
+    {
+      "transaction_date": "2018-06-21",
+      "total_transactions": 3,
+      "total_deposit": 500000.0,
+      "total_withdrawal": 457560.1,
+      "avg_balance": 1314013.1300000001
+    },
+    {
+      "transaction_date": "2018-12-19",
+      "total_transactions": 4,
+      "total_deposit": 593871.01,
+      "total_withdrawal": 620430.0,
+      "avg_balance": 1112186.085
+    },
+    {
+      "transaction_date": "2017-12-28",
+      "total_transactions": 11,
+      "total_deposit": 1089919.0,
+      "total_withdrawal": 1758426.0,
+      "avg_balance": 859658.4554545454
+    },
+    {
+      "transaction_date": "2017-02-24",
+      "total_transactions": 11,
+      "total_deposit": 984361.0,
+      "total_withdrawal": 1702608.8,
+      "avg_balance": 225391.58272727273
+    },
+    {
+      "transaction_date": "2017-01-17",
+      "total_transactions": 9,
+      "total_deposit": 518714.0,
+      "total_withdrawal": 870670.0,
+      "avg_balance": 913533.9177777778
+    },
+    {
+      "transaction_date": "2017-06-18",
+      "total_transactions": 8,
+      "total_deposit": 694598.0,
+      "total_withdrawal": 1432626.0,
+      "avg_balance": 1234134.125
+    },
+    {
+      "transaction_date": "2018-07-24",
+      "total_transactions": 3,
+      "total_deposit": 17711.45,
+      "total_withdrawal": 613940.0,
+      "avg_balance": 1235883.4333333333
+    },
+    {
+      "transaction_date": "2018-12-13",
+      "total_transactions": 5,
+      "total_deposit": 626219.22,
+      "total_withdrawal": 1399735.0,
+      "avg_balance": 1227459.4600000002
+    },
+    {
+      "transaction_date": "2019-01-10",
+      "total_transactions": 6,
+      "total_deposit": 500000.0,
+      "total_withdrawal": 426542.36,
+      "avg_balance": 951914.355
+    },
+    {
+      "transaction_date": "2019-01-17",
+      "total_transactions": 5,
+      "total_deposit": 700000.0,
+      "total_withdrawal": 575416.9,
+      "avg_balance": 1044079.1079999998
+    },
+    {
+      "transaction_date": "2017-11-30",
+      "total_transactions": 15,
+      "total_deposit": 2464607.0,
+      "total_withdrawal": 1688745.97,
+      "avg_balance": 255316.672
+    },
+    {
+      "transaction_date": "2016-05-08",
+      "total_transactions": 7,
+      "total_deposit": 571325.0,
+      "total_withdrawal": 1200722.0,
+      "avg_balance": 450999.85714285716
+    },
+    {
+      "transaction_date": "2018-09-13",
+      "total_transactions": 1,
+      "total_deposit": 60012.23,
+      "total_withdrawal": 0.0,
+      "avg_balance": 1078859.16
+    },
+    {
+      "transaction_date": "2019-02-25",
+      "total_transactions": 5,
+      "total_deposit": 200000.0,
+      "total_withdrawal": 183648.39,
+      "avg_balance": 739309.9720000001
+    },
+    {
+      "transaction_date": "2016-09-01",
+      "total_transactions": 14,
+      "total_deposit": 1506502.0,
+      "total_withdrawal": 2066031.0,
+      "avg_balance": 453830.9285714286
+    },
+    {
+      "transaction_date": "2017-05-28",
+      "total_transactions": 10,
+      "total_deposit": 1080655.0,
+      "total_withdrawal": 1713231.0,
+      "avg_balance": 512470.5
+    },
+    {
+      "transaction_date": "2017-10-16",
+      "total_transactions": 14,
+      "total_deposit": 4210704.0,
+      "total_withdrawal": 734225.26,
+      "avg_balance": 1045539.5457142858
+    },
+    {
+      "transaction_date": "2016-02-25",
+      "total_transactions": 10,
+      "total_deposit": 992431.0,
+      "total_withdrawal": 1015941.0,
+      "avg_balance": 180105.8
+    },
+    {
+      "transaction_date": "2017-10-26",
+      "total_transactions": 12,
+      "total_deposit": 1102018.0,
+      "total_withdrawal": 2232578.03,
+      "avg_balance": 345313.88000000006
+    },
+    {
+      "transaction_date": "2016-03-16",
+      "total_transactions": 6,
+      "total_deposit": 857921.0,
+      "total_withdrawal": 1030732.0,
+      "avg_balance": 761781.8333333334
+    },
+    {
+      "transaction_date": "2016-04-08",
+      "total_transactions": 6,
+      "total_deposit": 953430.0,
+      "total_withdrawal": 549477.0,
+      "avg_balance": 567554.0
+    },
+    {
+      "transaction_date": "2016-12-25",
+      "total_transactions": 4,
+      "total_deposit": 0.0,
+      "total_withdrawal": 397111.0,
+      "avg_balance": -97181.0
+    },
+    {
+      "transaction_date": "2018-05-18",
+      "total_transactions": 2,
+      "total_deposit": 500000.0,
+      "total_withdrawal": 459800.0,
+      "avg_balance": 1143607.0
+    },
+    {
+      "transaction_date": "2019-01-15",
+      "total_transactions": 5,
+      "total_deposit": 600000.0,
+      "total_withdrawal": 694219.16,
+      "avg_balance": 891838.8
+    },
+    {
+      "transaction_date": "2017-09-26",
+      "total_transactions": 16,
+      "total_deposit": 896549.0,
+      "total_withdrawal": 2150835.07,
+      "avg_balance": 1124661.983125
+    },
+    {
+      "transaction_date": "2016-12-31",
+      "total_transactions": 8,
+      "total_deposit": 1153881.0,
+      "total_withdrawal": 581653.0,
+      "avg_balance": 1267600.875
+    },
+    {
+      "transaction_date": "2016-11-21",
+      "total_transactions": 22,
+      "total_deposit": 300489.0,
+      "total_withdrawal": 895360.0,
+      "avg_balance": 1037683.2409090911
+    },
+    {
+      "transaction_date": "2017-05-19",
+      "total_transactions": 10,
+      "total_deposit": 1403435.0,
+      "total_withdrawal": 239854.47999999998,
+      "avg_balance": 837185.6369999999
+    },
+    {
+      "transaction_date": "2017-05-05",
+      "total_transactions": 8,
+      "total_deposit": 1413776.0,
+      "total_withdrawal": 1202031.0,
+      "avg_balance": 1150100.875
+    },
+    {
+      "transaction_date": "2017-12-05",
+      "total_transactions": 2,
+      "total_deposit": 234919.0,
+      "total_withdrawal": 156204.0,
+      "avg_balance": -174803.5
+    },
+    {
+      "transaction_date": "2016-09-25",
+      "total_transactions": 9,
+      "total_deposit": 1096300.0,
+      "total_withdrawal": 598279.0,
+      "avg_balance": 313798.77777777775
+    },
+    {
+      "transaction_date": "2018-07-30",
+      "total_transactions": 7,
+      "total_deposit": 104528.04999999999,
+      "total_withdrawal": 532660.14,
+      "avg_balance": 1404835.1514285714
+    },
+    {
+      "transaction_date": "2018-10-17",
+      "total_transactions": 9,
+      "total_deposit": 1767790.01,
+      "total_withdrawal": 1177708.0,
+      "avg_balance": 1245817.628888889
+    },
+    {
+      "transaction_date": "2018-11-16",
+      "total_transactions": 5,
+      "total_deposit": 879555.15,
+      "total_withdrawal": 1083226.0,
+      "avg_balance": 820584.212
+    },
+    {
+      "transaction_date": "2017-03-20",
+      "total_transactions": 9,
+      "total_deposit": 534590.0,
+      "total_withdrawal": 1511943.96,
+      "avg_balance": 908789.5844444445
+    },
+    {
+      "transaction_date": "2018-05-15",
+      "total_transactions": 4,
+      "total_deposit": 1000000.0,
+      "total_withdrawal": 964980.47,
+      "avg_balance": 1129257.135
+    },
+    {
+      "transaction_date": "2018-10-20",
+      "total_transactions": 3,
+      "total_deposit": 349274.16,
+      "total_withdrawal": 56480.0,
+      "avg_balance": 1234523.4033333333
+    },
+    {
+      "transaction_date": "2016-10-29",
+      "total_transactions": 7,
+      "total_deposit": 952741.0,
+      "total_withdrawal": 514555.0,
+      "avg_balance": -85444.87857142858
+    },
+    {
+      "transaction_date": "2016-08-30",
+      "total_transactions": 12,
+      "total_deposit": 2348416.0,
+      "total_withdrawal": 1000514.0,
+      "avg_balance": 553091.6833333332
+    },
+    {
+      "transaction_date": "2019-02-20",
+      "total_transactions": 4,
+      "total_deposit": 300000.0,
+      "total_withdrawal": 145202.42,
+      "avg_balance": 641897.01
+    },
+    {
+      "transaction_date": "2017-12-24",
+      "total_transactions": 6,
+      "total_deposit": 910631.0,
+      "total_withdrawal": 887651.0,
+      "avg_balance": 1235292.5
+    },
+    {
+      "transaction_date": "2017-08-06",
+      "total_transactions": 6,
+      "total_deposit": 169580.0,
+      "total_withdrawal": 712230.0,
+      "avg_balance": -183516.66666666666
+    },
+    {
+      "transaction_date": "2016-11-06",
+      "total_transactions": 4,
+      "total_deposit": 169155.0,
+      "total_withdrawal": 893742.0,
+      "avg_balance": 1239936.5
+    },
+    {
+      "transaction_date": "2016-04-02",
+      "total_transactions": 6,
+      "total_deposit": 673784.0,
+      "total_withdrawal": 502429.0,
+      "avg_balance": 764458.0
+    },
+    {
+      "transaction_date": "2017-06-06",
+      "total_transactions": 5,
+      "total_deposit": 583590.0,
+      "total_withdrawal": 647175.0,
+      "avg_balance": 1598710.4
+    },
+    {
+      "transaction_date": "2017-11-14",
+      "total_transactions": 11,
+      "total_deposit": 0.0,
+      "total_withdrawal": 1647400.8900000001,
+      "avg_balance": 625526.27
+    },
+    {
+      "transaction_date": "2016-08-07",
+      "total_transactions": 6,
+      "total_deposit": 513945.0,
+      "total_withdrawal": 152550.0,
+      "avg_balance": 102817.16666666667
+    },
+    {
+      "transaction_date": "2017-04-15",
+      "total_transactions": 6,
+      "total_deposit": 272046.0,
+      "total_withdrawal": 938723.55,
+      "avg_balance": 402390.63999999996
+    },
+    {
+      "transaction_date": "2018-06-12",
+      "total_transactions": 4,
+      "total_deposit": 1000000.0,
+      "total_withdrawal": 823110.18,
+      "avg_balance": 1326481.075
+    },
+    {
+      "transaction_date": "2018-01-19",
+      "total_transactions": 3,
+      "total_deposit": 500000.0,
+      "total_withdrawal": 160649.42,
+      "avg_balance": 998798.2233333333
+    },
+    {
+      "transaction_date": "2018-02-13",
+      "total_transactions": 1,
+      "total_deposit": 0.0,
+      "total_withdrawal": 37837.59,
+      "avg_balance": 1142223.39
+    },
+    {
+      "transaction_date": "2017-01-19",
+      "total_transactions": 9,
+      "total_deposit": 414150.0,
+      "total_withdrawal": 825535.49,
+      "avg_balance": 386896.4977777778
+    },
+    {
+      "transaction_date": "2017-11-13",
+      "total_transactions": 10,
+      "total_deposit": 1164267.0,
+      "total_withdrawal": 997464.5800000001,
+      "avg_balance": 888933.9720000001
+    },
+    {
+      "transaction_date": "2017-01-25",
+      "total_transactions": 6,
+      "total_deposit": 945211.0,
+      "total_withdrawal": 725785.0,
+      "avg_balance": 1836663.0
+    },
+    {
+      "transaction_date": "2016-10-26",
+      "total_transactions": 6,
+      "total_deposit": 645939.0,
+      "total_withdrawal": 485783.0,
+      "avg_balance": 1235974.6166666665
+    },
+    {
+      "transaction_date": "2016-03-31",
+      "total_transactions": 8,
+      "total_deposit": 562093.0,
+      "total_withdrawal": 861406.0,
+      "avg_balance": 803980.0
+    },
+    {
+      "transaction_date": "2017-12-09",
+      "total_transactions": 7,
+      "total_deposit": 632219.0,
+      "total_withdrawal": 1459644.0,
+      "avg_balance": -78106.42857142857
+    },
+    {
+      "transaction_date": "2016-09-02",
+      "total_transactions": 6,
+      "total_deposit": 727549.0,
+      "total_withdrawal": 822375.0,
+      "avg_balance": 1015155.8333333334
+    },
+    {
+      "transaction_date": "2017-04-26",
+      "total_transactions": 10,
+      "total_deposit": 2002061.0,
+      "total_withdrawal": 1123197.86,
+      "avg_balance": 1018723.402
+    },
+    {
+      "transaction_date": "2016-07-10",
+      "total_transactions": 7,
+      "total_deposit": 11849.0,
+      "total_withdrawal": 902322.0,
+      "avg_balance": 316788.4285714286
+    },
+    {
+      "transaction_date": "2016-07-16",
+      "total_transactions": 7,
+      "total_deposit": 816532.0,
+      "total_withdrawal": 1002825.0,
+      "avg_balance": 445115.4285714286
+    },
+    {
+      "transaction_date": "2016-02-18",
+      "total_transactions": 7,
+      "total_deposit": 426612.0,
+      "total_withdrawal": 580450.0,
+      "avg_balance": 217697.57142857142
+    },
+    {
+      "transaction_date": "2017-07-11",
+      "total_transactions": 10,
+      "total_deposit": 1430523.0,
+      "total_withdrawal": 560024.83,
+      "avg_balance": 199934.97599999997
+    },
+    {
+      "transaction_date": "2017-02-23",
+      "total_transactions": 7,
+      "total_deposit": 476219.0,
+      "total_withdrawal": 786970.36,
+      "avg_balance": 494049.88714285713
+    },
+    {
+      "transaction_date": "2017-11-22",
+      "total_transactions": 6,
+      "total_deposit": 411216.0,
+      "total_withdrawal": 1094289.17,
+      "avg_balance": 701152.7066666667
+    },
+    {
+      "transaction_date": "2019-02-12",
+      "total_transactions": 2,
+      "total_deposit": 100000.0,
+      "total_withdrawal": 116967.69,
+      "avg_balance": 632595.01
+    },
+    {
+      "transaction_date": "2019-02-14",
+      "total_transactions": 2,
+      "total_deposit": 100000.0,
+      "total_withdrawal": 96638.52,
+      "avg_balance": 645207.26
+    },
+    {
+      "transaction_date": "2016-12-30",
+      "total_transactions": 6,
+      "total_deposit": 898714.0,
+      "total_withdrawal": 418021.15,
+      "avg_balance": 582864.1900000001
+    },
+    {
+      "transaction_date": "2017-09-15",
+      "total_transactions": 11,
+      "total_deposit": 3047029.0,
+      "total_withdrawal": 423395.36,
+      "avg_balance": 766211.5618181818
+    },
+    {
+      "transaction_date": "2017-03-30",
+      "total_transactions": 8,
+      "total_deposit": 925963.0,
+      "total_withdrawal": 409475.72,
+      "avg_balance": 1114888.02
+    },
+    {
+      "transaction_date": "2017-11-05",
+      "total_transactions": 3,
+      "total_deposit": 204158.0,
+      "total_withdrawal": 104001.0,
+      "avg_balance": 222027.66666666666
+    },
+    {
+      "transaction_date": "2016-05-12",
+      "total_transactions": 12,
+      "total_deposit": 2326600.0,
+      "total_withdrawal": 1072019.0,
+      "avg_balance": 683611.7666666666
+    },
+    {
+      "transaction_date": "2017-07-12",
+      "total_transactions": 7,
+      "total_deposit": 222209.0,
+      "total_withdrawal": 1279550.5,
+      "avg_balance": 218076.31285714285
+    },
+    {
+      "transaction_date": "2016-12-17",
+      "total_transactions": 6,
+      "total_deposit": 1085217.0,
+      "total_withdrawal": 1168893.0,
+      "avg_balance": 500596.5
+    },
+    {
+      "transaction_date": "2018-11-15",
+      "total_transactions": 6,
+      "total_deposit": 975417.76,
+      "total_withdrawal": 906860.0,
+      "avg_balance": 995614.2933333333
+    },
+    {
+      "transaction_date": "2016-07-24",
+      "total_transactions": 5,
+      "total_deposit": 438306.0,
+      "total_withdrawal": 584628.0,
+      "avg_balance": 160323.6
+    },
+    {
+      "transaction_date": "2017-11-08",
+      "total_transactions": 5,
+      "total_deposit": 756772.0,
+      "total_withdrawal": 334314.0,
+      "avg_balance": 247522.0
+    },
+    {
+      "transaction_date": "2017-11-29",
+      "total_transactions": 14,
+      "total_deposit": 1974879.0,
+      "total_withdrawal": 983302.71,
+      "avg_balance": 1118643.2892857143
+    },
+    {
+      "transaction_date": "2017-03-29",
+      "total_transactions": 4,
+      "total_deposit": 860794.0,
+      "total_withdrawal": 149362.11,
+      "avg_balance": 1034011.7
+    },
+    {
+      "transaction_date": "2017-02-06",
+      "total_transactions": 10,
+      "total_deposit": 1368022.0,
+      "total_withdrawal": 1573340.0,
+      "avg_balance": 134749.5
+    },
+    {
+      "transaction_date": "2016-12-02",
+      "total_transactions": 7,
+      "total_deposit": 0.0,
+      "total_withdrawal": 1546439.0,
+      "avg_balance": 702160.5714285715
+    },
+    {
+      "transaction_date": "2017-08-17",
+      "total_transactions": 13,
+      "total_deposit": 2807111.0,
+      "total_withdrawal": 871154.24,
+      "avg_balance": 484819.8507692308
+    },
+    {
+      "transaction_date": "2016-02-28",
+      "total_transactions": 9,
+      "total_deposit": 1686972.0,
+      "total_withdrawal": 463718.0,
+      "avg_balance": 1129597.0
+    },
+    {
+      "transaction_date": "2017-12-22",
+      "total_transactions": 10,
+      "total_deposit": 1341624.0,
+      "total_withdrawal": 908418.69,
+      "avg_balance": 835975.286
+    },
+    {
+      "transaction_date": "2016-01-24",
+      "total_transactions": 5,
+      "total_deposit": 271335.0,
+      "total_withdrawal": 959444.0,
+      "avg_balance": 687746.2
+    },
+    {
+      "transaction_date": "2016-08-27",
+      "total_transactions": 7,
+      "total_deposit": 1062798.0,
+      "total_withdrawal": 479079.0,
+      "avg_balance": -1034.0
+    },
+    {
+      "transaction_date": "2016-10-09",
+      "total_transactions": 9,
+      "total_deposit": 260950.0,
+      "total_withdrawal": 2122168.0,
+      "avg_balance": 327775.6666666667
+    },
+    {
+      "transaction_date": "2017-01-23",
+      "total_transactions": 8,
+      "total_deposit": 719675.0,
+      "total_withdrawal": 136648.31,
+      "avg_balance": 1531474.755
+    },
+    {
+      "transaction_date": "2017-10-06",
+      "total_transactions": 8,
+      "total_deposit": 1433821.0,
+      "total_withdrawal": 732991.0,
+      "avg_balance": 993399.0
+    },
+    {
+      "transaction_date": "2016-05-01",
+      "total_transactions": 6,
+      "total_deposit": 926350.0,
+      "total_withdrawal": 695810.0,
+      "avg_balance": 945320.1666666666
+    },
+    {
+      "transaction_date": "2016-08-18",
+      "total_transactions": 11,
+      "total_deposit": 1094757.0,
+      "total_withdrawal": 1462944.0,
+      "avg_balance": 46332.2
+    },
+    {
+      "transaction_date": "2017-01-08",
+      "total_transactions": 3,
+      "total_deposit": 116942.0,
+      "total_withdrawal": 726446.0,
+      "avg_balance": 1139968.0
+    },
+    {
+      "transaction_date": "2017-09-08",
+      "total_transactions": 3,
+      "total_deposit": 523507.0,
+      "total_withdrawal": 442480.0,
+      "avg_balance": 613563.6666666666
+    },
+    {
+      "transaction_date": "2017-04-08",
+      "total_transactions": 5,
+      "total_deposit": 560052.0,
+      "total_withdrawal": 571860.0,
+      "avg_balance": 351164.6
+    },
+    {
+      "transaction_date": "2018-07-31",
+      "total_transactions": 4,
+      "total_deposit": 300000.0,
+      "total_withdrawal": 372769.53,
+      "avg_balance": 1301073.9224999999
+    },
+    {
+      "transaction_date": "2016-12-18",
+      "total_transactions": 7,
+      "total_deposit": 769675.0,
+      "total_withdrawal": 929702.0,
+      "avg_balance": 807953.4285714285
+    },
+    {
+      "transaction_date": "2016-11-07",
+      "total_transactions": 6,
+      "total_deposit": 629575.0,
+      "total_withdrawal": 1436951.0,
+      "avg_balance": 756883.1666666666
+    },
+    {
+      "transaction_date": "2017-06-17",
+      "total_transactions": 5,
+      "total_deposit": 499149.0,
+      "total_withdrawal": 515723.92,
+      "avg_balance": 385161.538
+    },
+    {
+      "transaction_date": "2018-05-23",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 418381.62,
+      "avg_balance": 1140705.3
+    },
+    {
+      "transaction_date": "2016-02-12",
+      "total_transactions": 10,
+      "total_deposit": 1773484.0,
+      "total_withdrawal": 366660.0,
+      "avg_balance": 838705.8
+    },
+    {
+      "transaction_date": "2016-04-20",
+      "total_transactions": 7,
+      "total_deposit": 1679826.0,
+      "total_withdrawal": 26562.0,
+      "avg_balance": 538984.3314285714
+    },
+    {
+      "transaction_date": "2017-09-05",
+      "total_transactions": 1,
+      "total_deposit": 285864.0,
+      "total_withdrawal": 0.0,
+      "avg_balance": -366093.0
+    },
+    {
+      "transaction_date": "2016-09-16",
+      "total_transactions": 5,
+      "total_deposit": 121584.0,
+      "total_withdrawal": 618641.0,
+      "avg_balance": 804169.4400000001
+    },
+    {
+      "transaction_date": "2018-06-19",
+      "total_transactions": 3,
+      "total_deposit": 500000.0,
+      "total_withdrawal": 890107.04,
+      "avg_balance": 1544741.1566666665
+    },
+    {
+      "transaction_date": "2016-11-04",
+      "total_transactions": 10,
+      "total_deposit": 1069199.0,
+      "total_withdrawal": 1407253.0,
+      "avg_balance": 667372.5
+    },
+    {
+      "transaction_date": "2017-03-11",
+      "total_transactions": 8,
+      "total_deposit": 1301402.0,
+      "total_withdrawal": 906212.0,
+      "avg_balance": 587595.125
+    },
+    {
+      "transaction_date": "2017-10-30",
+      "total_transactions": 11,
+      "total_deposit": 1681924.0,
+      "total_withdrawal": 1438799.79,
+      "avg_balance": 483560.14181818184
+    },
+    {
+      "transaction_date": "2017-03-06",
+      "total_transactions": 7,
+      "total_deposit": 1108513.0,
+      "total_withdrawal": 725489.0,
+      "avg_balance": 719624.2857142857
+    },
+    {
+      "transaction_date": "2017-04-23",
+      "total_transactions": 8,
+      "total_deposit": 407413.0,
+      "total_withdrawal": 2006449.0,
+      "avg_balance": 542938.875
+    },
+    {
+      "transaction_date": "2016-12-29",
+      "total_transactions": 7,
+      "total_deposit": 485668.0,
+      "total_withdrawal": 1091406.0,
+      "avg_balance": 1143676.9785714285
+    },
+    {
+      "transaction_date": "2017-02-22",
+      "total_transactions": 15,
+      "total_deposit": 1421674.0,
+      "total_withdrawal": 495718.71,
+      "avg_balance": 1008917.5713333334
+    },
+    {
+      "transaction_date": "2016-08-04",
+      "total_transactions": 8,
+      "total_deposit": 789609.0,
+      "total_withdrawal": 1256702.0,
+      "avg_balance": 62319.375
+    },
+    {
+      "transaction_date": "2016-12-27",
+      "total_transactions": 8,
+      "total_deposit": 762369.0,
+      "total_withdrawal": 800223.0,
+      "avg_balance": 1306276.875
+    },
+    {
+      "transaction_date": "2016-03-02",
+      "total_transactions": 7,
+      "total_deposit": 1061832.0,
+      "total_withdrawal": 1262264.0,
+      "avg_balance": 465040.85714285716
+    },
+    {
+      "transaction_date": "2018-06-18",
+      "total_transactions": 6,
+      "total_deposit": 97619.73999999999,
+      "total_withdrawal": 531158.25,
+      "avg_balance": 1564762.8766666667
+    },
+    {
+      "transaction_date": "2019-02-26",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 80666.77,
+      "avg_balance": 678481.45
+    },
+    {
+      "transaction_date": "2017-03-26",
+      "total_transactions": 6,
+      "total_deposit": 348986.0,
+      "total_withdrawal": 928262.16,
+      "avg_balance": 509751.805
+    },
+    {
+      "transaction_date": "2016-06-14",
+      "total_transactions": 8,
+      "total_deposit": 1422103.0,
+      "total_withdrawal": 660941.0,
+      "avg_balance": 543062.375
+    },
+    {
+      "transaction_date": "2016-12-05",
+      "total_transactions": 6,
+      "total_deposit": 889168.0,
+      "total_withdrawal": 826679.0,
+      "avg_balance": -171022.0
+    },
+    {
+      "transaction_date": "2016-06-05",
+      "total_transactions": 9,
+      "total_deposit": 1584146.0,
+      "total_withdrawal": 922533.0,
+      "avg_balance": 509771.77777777775
+    },
+    {
+      "transaction_date": "2017-05-07",
+      "total_transactions": 6,
+      "total_deposit": 622435.0,
+      "total_withdrawal": 1796847.0,
+      "avg_balance": 392054.3333333333
+    },
+    {
+      "transaction_date": "2017-02-05",
+      "total_transactions": 11,
+      "total_deposit": 1660416.0,
+      "total_withdrawal": 622286.0,
+      "avg_balance": 902719.8181818182
+    },
+    {
+      "transaction_date": "2017-09-22",
+      "total_transactions": 9,
+      "total_deposit": 1767913.0,
+      "total_withdrawal": 368963.19,
+      "avg_balance": 219846.67111111112
+    },
+    {
+      "transaction_date": "2017-01-07",
+      "total_transactions": 3,
+      "total_deposit": 434412.0,
+      "total_withdrawal": 21842.0,
+      "avg_balance": -290835.3333333333
+    },
+    {
+      "transaction_date": "2016-04-13",
+      "total_transactions": 7,
+      "total_deposit": 1044047.0,
+      "total_withdrawal": 449362.0,
+      "avg_balance": 994136.3314285715
+    },
+    {
+      "transaction_date": "2017-11-15",
+      "total_transactions": 11,
+      "total_deposit": 774176.0,
+      "total_withdrawal": 1765377.95,
+      "avg_balance": 482009.54181818175
+    },
+    {
+      "transaction_date": "2016-09-13",
+      "total_transactions": 9,
+      "total_deposit": 1125566.0,
+      "total_withdrawal": 887037.0,
+      "avg_balance": 339296.4
+    },
+    {
+      "transaction_date": "2018-12-27",
+      "total_transactions": 5,
+      "total_deposit": 600000.0,
+      "total_withdrawal": 461316.76,
+      "avg_balance": 1059774.6120000002
+    },
+    {
+      "transaction_date": "2017-11-17",
+      "total_transactions": 11,
+      "total_deposit": 1589429.0,
+      "total_withdrawal": 780714.66,
+      "avg_balance": 688704.1418181817
+    },
+    {
+      "transaction_date": "2017-10-01",
+      "total_transactions": 7,
+      "total_deposit": 0.0,
+      "total_withdrawal": 1043098.0,
+      "avg_balance": -33100.142857142855
+    },
+    {
+      "transaction_date": "2016-10-14",
+      "total_transactions": 9,
+      "total_deposit": 446811.0,
+      "total_withdrawal": 502382.0,
+      "avg_balance": 16590.74444444444
+    },
+    {
+      "transaction_date": "2018-01-17",
+      "total_transactions": 3,
+      "total_deposit": 300000.0,
+      "total_withdrawal": 702537.48,
+      "avg_balance": 801997.7200000001
+    },
+    {
+      "transaction_date": "2018-05-30",
+      "total_transactions": 4,
+      "total_deposit": 800000.0,
+      "total_withdrawal": 451713.7,
+      "avg_balance": 1080128.405
+    },
+    {
+      "transaction_date": "2018-11-28",
+      "total_transactions": 4,
+      "total_deposit": 660361.75,
+      "total_withdrawal": 510886.0,
+      "avg_balance": 1349160.3
+    },
+    {
+      "transaction_date": "2019-02-16",
+      "total_transactions": 2,
+      "total_deposit": 100000.0,
+      "total_withdrawal": 199604.27,
+      "avg_balance": 513186.38
+    },
+    {
+      "transaction_date": "2017-01-12",
+      "total_transactions": 6,
+      "total_deposit": 609062.0,
+      "total_withdrawal": 175865.0,
+      "avg_balance": 423249.2833333334
+    },
+    {
+      "transaction_date": "2016-08-21",
+      "total_transactions": 7,
+      "total_deposit": 1517358.0,
+      "total_withdrawal": 472602.0,
+      "avg_balance": 692081.7999999999
+    },
+    {
+      "transaction_date": "2016-04-09",
+      "total_transactions": 4,
+      "total_deposit": 572634.0,
+      "total_withdrawal": 46791.0,
+      "avg_balance": 988586.0
+    },
+    {
+      "transaction_date": "2016-07-29",
+      "total_transactions": 10,
+      "total_deposit": 236780.0,
+      "total_withdrawal": 1426577.0,
+      "avg_balance": 676814.6199999999
+    },
+    {
+      "transaction_date": "2016-08-22",
+      "total_transactions": 4,
+      "total_deposit": 299048.0,
+      "total_withdrawal": 427431.0,
+      "avg_balance": 1586747.4
+    },
+    {
+      "transaction_date": "2018-09-26",
+      "total_transactions": 4,
+      "total_deposit": 549876.46,
+      "total_withdrawal": 409772.0,
+      "avg_balance": 1226685.1625
+    },
+    {
+      "transaction_date": "2018-11-13",
+      "total_transactions": 5,
+      "total_deposit": 663109.39,
+      "total_withdrawal": 356280.0,
+      "avg_balance": 926759.684
+    },
+    {
+      "transaction_date": "2019-01-14",
+      "total_transactions": 13,
+      "total_deposit": 1000000.0,
+      "total_withdrawal": 1384442.23,
+      "avg_balance": 890098.3215384616
+    },
+    {
+      "transaction_date": "2017-03-18",
+      "total_transactions": 10,
+      "total_deposit": 904963.0,
+      "total_withdrawal": 1654139.0,
+      "avg_balance": 978292.6109999999
+    },
+    {
+      "transaction_date": "2016-09-24",
+      "total_transactions": 9,
+      "total_deposit": 460414.0,
+      "total_withdrawal": 462681.0,
+      "avg_balance": 1150299.0444444444
+    },
+    {
+      "transaction_date": "2018-04-17",
+      "total_transactions": 3,
+      "total_deposit": 200000.0,
+      "total_withdrawal": 793454.3,
+      "avg_balance": 968481.0733333332
+    },
+    {
+      "transaction_date": "2017-07-27",
+      "total_transactions": 9,
+      "total_deposit": 1508192.0,
+      "total_withdrawal": 576966.6,
+      "avg_balance": 1437961.3188888887
+    },
+    {
+      "transaction_date": "2017-09-25",
+      "total_transactions": 27,
+      "total_deposit": 2802624.66,
+      "total_withdrawal": 2595352.38,
+      "avg_balance": 1297473.1014814812
+    },
+    {
+      "transaction_date": "2016-05-02",
+      "total_transactions": 7,
+      "total_deposit": 1177136.0,
+      "total_withdrawal": 952629.0,
+      "avg_balance": 483363.28571428574
+    },
+    {
+      "transaction_date": "2017-02-17",
+      "total_transactions": 8,
+      "total_deposit": 1350080.0,
+      "total_withdrawal": 680864.01,
+      "avg_balance": 800301.7424999999
+    },
+    {
+      "transaction_date": "2018-11-30",
+      "total_transactions": 4,
+      "total_deposit": 735997.77,
+      "total_withdrawal": 249500.0,
+      "avg_balance": 1090780.3725
+    },
+    {
+      "transaction_date": "2016-07-08",
+      "total_transactions": 9,
+      "total_deposit": 842528.0,
+      "total_withdrawal": 1256205.0,
+      "avg_balance": 616089.8888888889
+    },
+    {
+      "transaction_date": "2016-08-29",
+      "total_transactions": 11,
+      "total_deposit": 221487.0,
+      "total_withdrawal": 1829494.0,
+      "avg_balance": 733307.6909090909
+    },
+    {
+      "transaction_date": "2017-08-01",
+      "total_transactions": 5,
+      "total_deposit": 111285.0,
+      "total_withdrawal": 583556.0,
+      "avg_balance": -654921.2
+    },
+    {
+      "transaction_date": "2018-08-21",
+      "total_transactions": 4,
+      "total_deposit": 439601.83,
+      "total_withdrawal": 558951.0,
+      "avg_balance": 1600665.68
+    },
+    {
+      "transaction_date": "2018-09-12",
+      "total_transactions": 4,
+      "total_deposit": 1080279.07,
+      "total_withdrawal": 781737.0,
+      "avg_balance": 1578998.7325
+    },
+    {
+      "transaction_date": "2017-11-03",
+      "total_transactions": 6,
+      "total_deposit": 1137532.0,
+      "total_withdrawal": 941316.0,
+      "avg_balance": 235585.0
+    },
+    {
+      "transaction_date": "2016-01-03",
+      "total_transactions": 8,
+      "total_deposit": 1149294.0,
+      "total_withdrawal": 1493400.0,
+      "avg_balance": 978195.375
+    },
+    {
+      "transaction_date": "2017-10-04",
+      "total_transactions": 6,
+      "total_deposit": 256990.0,
+      "total_withdrawal": 1364727.0,
+      "avg_balance": 600539.5
+    },
+    {
+      "transaction_date": "2016-10-11",
+      "total_transactions": 6,
+      "total_deposit": 683937.0,
+      "total_withdrawal": 820616.0,
+      "avg_balance": 522199.14166666666
+    },
+    {
+      "transaction_date": "2016-07-04",
+      "total_transactions": 4,
+      "total_deposit": 435707.0,
+      "total_withdrawal": 440008.0,
+      "avg_balance": 733100.0
+    },
+    {
+      "transaction_date": "2016-02-29",
+      "total_transactions": 4,
+      "total_deposit": 517077.0,
+      "total_withdrawal": 490661.0,
+      "avg_balance": 269619.32999999996
+    },
+    {
+      "transaction_date": "2018-09-27",
+      "total_transactions": 3,
+      "total_deposit": 67155.84,
+      "total_withdrawal": 257370.0,
+      "avg_balance": 927096.4966666667
+    },
+    {
+      "transaction_date": "2017-09-19",
+      "total_transactions": 7,
+      "total_deposit": 604712.0,
+      "total_withdrawal": 926191.19,
+      "avg_balance": 463488.8128571428
+    },
+    {
+      "transaction_date": "2016-03-24",
+      "total_transactions": 6,
+      "total_deposit": 747479.0,
+      "total_withdrawal": 475842.0,
+      "avg_balance": 424548.1666666667
+    },
+    {
+      "transaction_date": "2018-02-21",
+      "total_transactions": 3,
+      "total_deposit": 0.0,
+      "total_withdrawal": 1230493.53,
+      "avg_balance": 556978.56
+    },
+    {
+      "transaction_date": "2016-08-14",
+      "total_transactions": 10,
+      "total_deposit": 1657980.0,
+      "total_withdrawal": 983122.0,
+      "avg_balance": 734217.2
+    },
+    {
+      "transaction_date": "2017-10-22",
+      "total_transactions": 7,
+      "total_deposit": 1571235.0,
+      "total_withdrawal": 182659.0,
+      "avg_balance": 780444.2857142857
+    },
+    {
+      "transaction_date": "2016-11-23",
+      "total_transactions": 40,
+      "total_deposit": 152002.0,
+      "total_withdrawal": 587257.17,
+      "avg_balance": 1604023.917750001
+    },
+    {
+      "transaction_date": "2018-02-17",
+      "total_transactions": 3,
+      "total_deposit": 0.0,
+      "total_withdrawal": 1088477.16,
+      "avg_balance": 1055834.8
+    },
+    {
+      "transaction_date": "2017-05-22",
+      "total_transactions": 10,
+      "total_deposit": 415506.0,
+      "total_withdrawal": 1091023.04,
+      "avg_balance": 490147.546
+    },
+    {
+      "transaction_date": "2017-02-03",
+      "total_transactions": 8,
+      "total_deposit": 690302.0,
+      "total_withdrawal": 1708178.0,
+      "avg_balance": 333565.0
+    },
+    {
+      "transaction_date": "2017-01-31",
+      "total_transactions": 10,
+      "total_deposit": 838388.0,
+      "total_withdrawal": 1124920.44,
+      "avg_balance": 499976.033
+    },
+    {
+      "transaction_date": "2016-07-12",
+      "total_transactions": 7,
+      "total_deposit": 764913.0,
+      "total_withdrawal": 832606.0,
+      "avg_balance": 1342482.8857142855
+    },
+    {
+      "transaction_date": "2018-10-29",
+      "total_transactions": 11,
+      "total_deposit": 1412198.62,
+      "total_withdrawal": 1481810.0,
+      "avg_balance": 1243398.458181818
+    },
+    {
+      "transaction_date": "2016-12-11",
+      "total_transactions": 9,
+      "total_deposit": 2063132.0,
+      "total_withdrawal": 282762.0,
+      "avg_balance": 1061486.5555555555
+    },
+    {
+      "transaction_date": "2017-08-03",
+      "total_transactions": 5,
+      "total_deposit": 898794.0,
+      "total_withdrawal": 434475.0,
+      "avg_balance": 73561.2
+    },
+    {
+      "transaction_date": "2017-06-22",
+      "total_transactions": 10,
+      "total_deposit": 980349.0,
+      "total_withdrawal": 1810477.39,
+      "avg_balance": 560060.634
+    },
+    {
+      "transaction_date": "2017-10-28",
+      "total_transactions": 6,
+      "total_deposit": 1309816.0,
+      "total_withdrawal": 185179.0,
+      "avg_balance": 944209.3333333334
+    },
+    {
+      "transaction_date": "2018-09-25",
+      "total_transactions": 3,
+      "total_deposit": 0.0,
+      "total_withdrawal": 550535.64,
+      "avg_balance": 1029405.3966666666
+    },
+    {
+      "transaction_date": "2018-09-29",
+      "total_transactions": 4,
+      "total_deposit": 100000.0,
+      "total_withdrawal": 360877.12,
+      "avg_balance": 766574.0
+    },
+    {
+      "transaction_date": "2016-07-30",
+      "total_transactions": 14,
+      "total_deposit": 978198.0,
+      "total_withdrawal": 1118170.0,
+      "avg_balance": 822066.357142857
+    },
+    {
+      "transaction_date": "2016-01-21",
+      "total_transactions": 8,
+      "total_deposit": 1429081.0,
+      "total_withdrawal": 857526.0,
+      "avg_balance": 1185806.75
+    },
+    {
+      "transaction_date": "2017-10-19",
+      "total_transactions": 10,
+      "total_deposit": 924905.0,
+      "total_withdrawal": 1260950.54,
+      "avg_balance": 728042.408
+    },
+    {
+      "transaction_date": "2017-06-03",
+      "total_transactions": 6,
+      "total_deposit": 1964766.0,
+      "total_withdrawal": 0.0,
+      "avg_balance": 1023256.0
+    },
+    {
+      "transaction_date": "2016-04-17",
+      "total_transactions": 8,
+      "total_deposit": 1162884.0,
+      "total_withdrawal": 1386088.0,
+      "avg_balance": 51346.5
+    },
+    {
+      "transaction_date": "2018-06-29",
+      "total_transactions": 4,
+      "total_deposit": 500000.0,
+      "total_withdrawal": 415682.29,
+      "avg_balance": 1244076.5375
+    },
+    {
+      "transaction_date": "2018-02-14",
+      "total_transactions": 1,
+      "total_deposit": 0.0,
+      "total_withdrawal": 29484.1,
+      "avg_balance": 1112739.29
+    },
+    {
+      "transaction_date": "2017-06-11",
+      "total_transactions": 8,
+      "total_deposit": 1002959.0,
+      "total_withdrawal": 1268389.0,
+      "avg_balance": 681502.5
+    },
+    {
+      "transaction_date": "2017-06-10",
+      "total_transactions": 4,
+      "total_deposit": 325796.0,
+      "total_withdrawal": 762957.0,
+      "avg_balance": 299598.0
+    },
+    {
+      "transaction_date": "2016-08-08",
+      "total_transactions": 6,
+      "total_deposit": 1774243.0,
+      "total_withdrawal": 0.0,
+      "avg_balance": 1832309.0
+    },
+    {
+      "transaction_date": "2017-11-25",
+      "total_transactions": 11,
+      "total_deposit": 1273670.0,
+      "total_withdrawal": 1264402.0,
+      "avg_balance": 431860.9090909091
+    },
+    {
+      "transaction_date": "2016-03-04",
+      "total_transactions": 10,
+      "total_deposit": 575255.0,
+      "total_withdrawal": 1048360.0,
+      "avg_balance": 230305.9
+    },
+    {
+      "transaction_date": "2017-04-22",
+      "total_transactions": 10,
+      "total_deposit": 1181802.0,
+      "total_withdrawal": 806730.0,
+      "avg_balance": 437175.3
+    },
+    {
+      "transaction_date": "2017-01-16",
+      "total_transactions": 5,
+      "total_deposit": 462223.0,
+      "total_withdrawal": 460927.41,
+      "avg_balance": 1508150.682
+    },
+    {
+      "transaction_date": "2017-07-18",
+      "total_transactions": 10,
+      "total_deposit": 1806344.0,
+      "total_withdrawal": 1043812.4,
+      "avg_balance": 1630178.619
+    },
+    {
+      "transaction_date": "2016-01-27",
+      "total_transactions": 6,
+      "total_deposit": 217080.0,
+      "total_withdrawal": 725552.0,
+      "avg_balance": 863230.0
+    },
+    {
+      "transaction_date": "2018-02-16",
+      "total_transactions": 9,
+      "total_deposit": 1800000.0,
+      "total_withdrawal": 1287787.77,
+      "avg_balance": 1045595.568888889
+    },
+    {
+      "transaction_date": "2018-07-13",
+      "total_transactions": 6,
+      "total_deposit": 1000000.0,
+      "total_withdrawal": 492211.56,
+      "avg_balance": 1250554.51
+    },
+    {
+      "transaction_date": "2016-11-18",
+      "total_transactions": 20,
+      "total_deposit": 1009520.0,
+      "total_withdrawal": 421749.3,
+      "avg_balance": 1183874.7015000002
+    },
+    {
+      "transaction_date": "2017-12-30",
+      "total_transactions": 10,
+      "total_deposit": 836676.0,
+      "total_withdrawal": 563676.95,
+      "avg_balance": 991761.543
+    },
+    {
+      "transaction_date": "2016-11-01",
+      "total_transactions": 4,
+      "total_deposit": 284976.0,
+      "total_withdrawal": 1138946.0,
+      "avg_balance": 26864.25
+    },
+    {
+      "transaction_date": "2016-07-14",
+      "total_transactions": 5,
+      "total_deposit": 171461.0,
+      "total_withdrawal": 715448.0,
+      "avg_balance": 902363.9199999999
+    },
+    {
+      "transaction_date": "2016-04-01",
+      "total_transactions": 8,
+      "total_deposit": 1188245.0,
+      "total_withdrawal": 534129.0,
+      "avg_balance": 504769.875
+    },
+    {
+      "transaction_date": "2018-07-26",
+      "total_transactions": 4,
+      "total_deposit": 300000.0,
+      "total_withdrawal": 467792.35,
+      "avg_balance": 1279442.4825
+    },
+    {
+      "transaction_date": "2016-01-14",
+      "total_transactions": 8,
+      "total_deposit": 1127861.0,
+      "total_withdrawal": 1249127.0,
+      "avg_balance": 761582.25
+    },
+    {
+      "transaction_date": "2017-12-23",
+      "total_transactions": 14,
+      "total_deposit": 2686069.0,
+      "total_withdrawal": 1151464.0,
+      "avg_balance": 644121.7142857143
+    },
+    {
+      "transaction_date": "2016-08-09",
+      "total_transactions": 10,
+      "total_deposit": 1329922.0,
+      "total_withdrawal": 835980.0,
+      "avg_balance": 408899.0
+    },
+    {
+      "transaction_date": "2017-08-28",
+      "total_transactions": 9,
+      "total_deposit": 1410122.0,
+      "total_withdrawal": 1316656.76,
+      "avg_balance": 450268.9388888889
+    },
+    {
+      "transaction_date": "2016-06-18",
+      "total_transactions": 6,
+      "total_deposit": 796128.0,
+      "total_withdrawal": 571846.0,
+      "avg_balance": -445833.39999999997
+    },
+    {
+      "transaction_date": "2018-06-28",
+      "total_transactions": 5,
+      "total_deposit": 700000.0,
+      "total_withdrawal": 370475.44,
+      "avg_balance": 1388651.576
+    },
+    {
+      "transaction_date": "2019-02-18",
+      "total_transactions": 3,
+      "total_deposit": 300000.0,
+      "total_withdrawal": 167203.33000000002,
+      "avg_balance": 771028.4400000001
+    },
+    {
+      "transaction_date": "2016-06-10",
+      "total_transactions": 12,
+      "total_deposit": 1449355.0,
+      "total_withdrawal": 1806764.0,
+      "avg_balance": 264673.2166666667
+    },
+    {
+      "transaction_date": "2016-10-12",
+      "total_transactions": 7,
+      "total_deposit": 549905.0,
+      "total_withdrawal": 1102617.0,
+      "avg_balance": 710212.4285714285
+    },
+    {
+      "transaction_date": "2016-05-15",
+      "total_transactions": 7,
+      "total_deposit": 409250.0,
+      "total_withdrawal": 962888.0,
+      "avg_balance": 342218.4285714286
+    },
+    {
+      "transaction_date": "2016-03-21",
+      "total_transactions": 5,
+      "total_deposit": 678556.0,
+      "total_withdrawal": 297417.0,
+      "avg_balance": 717057.6
+    },
+    {
+      "transaction_date": "2016-02-21",
+      "total_transactions": 11,
+      "total_deposit": 1704799.0,
+      "total_withdrawal": 1427195.0,
+      "avg_balance": 962506.2727272727
+    },
+    {
+      "transaction_date": "2016-04-07",
+      "total_transactions": 11,
+      "total_deposit": 1413768.0,
+      "total_withdrawal": 1849072.0,
+      "avg_balance": 317553.0
+    },
+    {
+      "transaction_date": "2016-03-26",
+      "total_transactions": 6,
+      "total_deposit": 330294.0,
+      "total_withdrawal": 959125.0,
+      "avg_balance": 178954.16666666666
+    },
+    {
+      "transaction_date": "2017-12-18",
+      "total_transactions": 16,
+      "total_deposit": 3069168.0,
+      "total_withdrawal": 672895.65,
+      "avg_balance": 1036653.6262500001
+    },
+    {
+      "transaction_date": "2016-02-19",
+      "total_transactions": 7,
+      "total_deposit": 896427.0,
+      "total_withdrawal": 588617.0,
+      "avg_balance": 19026.428571428572
+    },
+    {
+      "transaction_date": "2016-11-28",
+      "total_transactions": 15,
+      "total_deposit": 128163.0,
+      "total_withdrawal": 107433.0,
+      "avg_balance": 629480.8033333332
+    },
+    {
+      "transaction_date": "2018-03-26",
+      "total_transactions": 4,
+      "total_deposit": 0.0,
+      "total_withdrawal": 414317.03,
+      "avg_balance": 1416867.9025
+    },
+    {
+      "transaction_date": "2018-12-26",
+      "total_transactions": 9,
+      "total_deposit": 1100000.0,
+      "total_withdrawal": 1329616.78,
+      "avg_balance": 1158978.4699999997
+    },
+    {
+      "transaction_date": "2018-02-15",
+      "total_transactions": 1,
+      "total_deposit": 0.0,
+      "total_withdrawal": 61110.96,
+      "avg_balance": 1051628.33
+    },
+    {
+      "transaction_date": "2016-11-17",
+      "total_transactions": 23,
+      "total_deposit": 1104311.0,
+      "total_withdrawal": 640870.02,
+      "avg_balance": 1183382.0208695657
+    },
+    {
+      "transaction_date": "2016-05-16",
+      "total_transactions": 9,
+      "total_deposit": 201169.0,
+      "total_withdrawal": 606279.0,
+      "avg_balance": 375390.1111111111
+    },
+    {
+      "transaction_date": "2017-06-21",
+      "total_transactions": 7,
+      "total_deposit": 739836.0,
+      "total_withdrawal": 709577.49,
+      "avg_balance": 551365.3028571429
+    },
+    {
+      "transaction_date": "2017-09-23",
+      "total_transactions": 7,
+      "total_deposit": 1017025.0,
+      "total_withdrawal": 929580.0,
+      "avg_balance": 816807.4285714285
+    },
+    {
+      "transaction_date": "2017-03-07",
+      "total_transactions": 5,
+      "total_deposit": 600224.0,
+      "total_withdrawal": 161834.0,
+      "avg_balance": 315223.4
+    },
+    {
+      "transaction_date": "2017-05-30",
+      "total_transactions": 11,
+      "total_deposit": 1561931.0,
+      "total_withdrawal": 1026582.51,
+      "avg_balance": 846475.2354545455
+    },
+    {
+      "transaction_date": "2017-05-14",
+      "total_transactions": 3,
+      "total_deposit": 587639.0,
+      "total_withdrawal": 407124.0,
+      "avg_balance": 1031986.3333333334
+    },
+    {
+      "transaction_date": "2018-05-16",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 792416.22,
+      "avg_balance": 1070750.1600000001
+    },
+    {
+      "transaction_date": "2019-01-16",
+      "total_transactions": 4,
+      "total_deposit": 500000.0,
+      "total_withdrawal": 301089.32999999996,
+      "avg_balance": 1034098.2925
+    },
+    {
+      "transaction_date": "2017-12-29",
+      "total_transactions": 14,
+      "total_deposit": 1966136.0,
+      "total_withdrawal": 1470267.63,
+      "avg_balance": 1026170.3942857143
+    },
+    {
+      "transaction_date": "2017-02-27",
+      "total_transactions": 5,
+      "total_deposit": 491777.0,
+      "total_withdrawal": 329401.82,
+      "avg_balance": 505827.91799999995
+    },
+    {
+      "transaction_date": "2016-09-03",
+      "total_transactions": 6,
+      "total_deposit": 1109669.0,
+      "total_withdrawal": 496457.0,
+      "avg_balance": 525001.5
+    },
+    {
+      "transaction_date": "2016-10-16",
+      "total_transactions": 7,
+      "total_deposit": 740289.0,
+      "total_withdrawal": 435029.0,
+      "avg_balance": 1335988.5714285714
+    },
+    {
+      "transaction_date": "2018-08-30",
+      "total_transactions": 3,
+      "total_deposit": 0.0,
+      "total_withdrawal": 417773.81,
+      "avg_balance": 1532211.4266666668
+    },
+    {
+      "transaction_date": "2017-03-27",
+      "total_transactions": 16,
+      "total_deposit": 1851851.0,
+      "total_withdrawal": 1582212.12,
+      "avg_balance": 313998.65875
+    },
+    {
+      "transaction_date": "2016-06-23",
+      "total_transactions": 5,
+      "total_deposit": 261655.0,
+      "total_withdrawal": 1429397.0,
+      "avg_balance": -345476.2
+    },
+    {
+      "transaction_date": "2016-10-22",
+      "total_transactions": 3,
+      "total_deposit": 0.0,
+      "total_withdrawal": 941479.0,
+      "avg_balance": 128775.66666666667
+    },
+    {
+      "transaction_date": "2016-05-14",
+      "total_transactions": 9,
+      "total_deposit": 1590325.0,
+      "total_withdrawal": 906691.0,
+      "avg_balance": 550520.6666666666
+    },
+    {
+      "transaction_date": "2018-03-14",
+      "total_transactions": 5,
+      "total_deposit": 1300000.0,
+      "total_withdrawal": 725472.39,
+      "avg_balance": 1020307.852
+    },
+    {
+      "transaction_date": "2017-08-27",
+      "total_transactions": 6,
+      "total_deposit": 773538.0,
+      "total_withdrawal": 712408.0,
+      "avg_balance": 1296958.3333333333
+    },
+    {
+      "transaction_date": "2017-10-11",
+      "total_transactions": 15,
+      "total_deposit": 1700894.0,
+      "total_withdrawal": 1406433.42,
+      "avg_balance": 767381.5786666668
+    },
+    {
+      "transaction_date": "2016-12-04",
+      "total_transactions": 10,
+      "total_deposit": 2000550.0,
+      "total_withdrawal": 475614.0,
+      "avg_balance": 654622.1
+    },
+    {
+      "transaction_date": "2016-08-02",
+      "total_transactions": 10,
+      "total_deposit": 1471717.0,
+      "total_withdrawal": 1346308.0,
+      "avg_balance": 132795.3
+    },
+    {
+      "transaction_date": "2017-07-22",
+      "total_transactions": 5,
+      "total_deposit": 480471.0,
+      "total_withdrawal": 1011357.0,
+      "avg_balance": 1074126.6
+    },
+    {
+      "transaction_date": "2017-02-18",
+      "total_transactions": 7,
+      "total_deposit": 1432591.0,
+      "total_withdrawal": 434427.48,
+      "avg_balance": 343895.63714285713
+    },
+    {
+      "transaction_date": "2018-07-17",
+      "total_transactions": 7,
+      "total_deposit": 1100000.0,
+      "total_withdrawal": 821449.8,
+      "avg_balance": 1268007.1942857143
+    },
+    {
+      "transaction_date": "2016-04-12",
+      "total_transactions": 11,
+      "total_deposit": 1692101.0,
+      "total_withdrawal": 450424.0,
+      "avg_balance": 554504.7272727273
+    },
+    {
+      "transaction_date": "2016-07-27",
+      "total_transactions": 7,
+      "total_deposit": 871672.0,
+      "total_withdrawal": 722195.0,
+      "avg_balance": 474012.0
+    },
+    {
+      "transaction_date": "2016-02-13",
+      "total_transactions": 5,
+      "total_deposit": 765094.0,
+      "total_withdrawal": 388350.0,
+      "avg_balance": 1008031.4
+    },
+    {
+      "transaction_date": "2016-02-26",
+      "total_transactions": 6,
+      "total_deposit": 954683.0,
+      "total_withdrawal": 979733.0,
+      "avg_balance": 1061343.8333333333
+    },
+    {
+      "transaction_date": "2016-05-10",
+      "total_transactions": 6,
+      "total_deposit": 752612.0,
+      "total_withdrawal": 584703.0,
+      "avg_balance": 141996.0
+    },
+    {
+      "transaction_date": "2016-09-17",
+      "total_transactions": 10,
+      "total_deposit": 815355.0,
+      "total_withdrawal": 1353248.0,
+      "avg_balance": 487112.16
+    },
+    {
+      "transaction_date": "2018-06-14",
+      "total_transactions": 3,
+      "total_deposit": 1000000.0,
+      "total_withdrawal": 573615.49,
+      "avg_balance": 1719841.82
+    },
+    {
+      "transaction_date": "2018-08-13",
+      "total_transactions": 9,
+      "total_deposit": 212315.27,
+      "total_withdrawal": 672840.0,
+      "avg_balance": 1482939.2566666666
+    },
+    {
+      "transaction_date": "2017-09-04",
+      "total_transactions": 13,
+      "total_deposit": 1935918.0,
+      "total_withdrawal": 1190536.0,
+      "avg_balance": 389008.1538461539
+    },
+    {
+      "transaction_date": "2017-08-31",
+      "total_transactions": 7,
+      "total_deposit": 1339906.0,
+      "total_withdrawal": 380139.38,
+      "avg_balance": 448122.1028571428
+    },
+    {
+      "transaction_date": "2016-05-17",
+      "total_transactions": 6,
+      "total_deposit": 786144.0,
+      "total_withdrawal": 330881.0,
+      "avg_balance": 876293.1999999998
+    },
+    {
+      "transaction_date": "2016-11-27",
+      "total_transactions": 22,
+      "total_deposit": 2336215.0,
+      "total_withdrawal": 1247519.0,
+      "avg_balance": 426121.35454545444
+    },
+    {
+      "transaction_date": "2018-05-19",
+      "total_transactions": 3,
+      "total_deposit": 20256.89,
+      "total_withdrawal": 413708.43,
+      "avg_balance": 1272140.7833333332
+    },
+    {
+      "transaction_date": "2016-10-13",
+      "total_transactions": 10,
+      "total_deposit": 722674.0,
+      "total_withdrawal": 722570.0,
+      "avg_balance": 48049.05499999999
+    },
+    {
+      "transaction_date": "2016-04-03",
+      "total_transactions": 8,
+      "total_deposit": 1088217.0,
+      "total_withdrawal": 483720.0,
+      "avg_balance": 704811.75
+    },
+    {
+      "transaction_date": "2017-05-08",
+      "total_transactions": 4,
+      "total_deposit": 558369.0,
+      "total_withdrawal": 323144.0,
+      "avg_balance": 836667.5
+    },
+    {
+      "transaction_date": "2018-12-28",
+      "total_transactions": 6,
+      "total_deposit": 900000.0,
+      "total_withdrawal": 829638.84,
+      "avg_balance": 1008437.2116666669
+    },
+    {
+      "transaction_date": "2017-06-26",
+      "total_transactions": 7,
+      "total_deposit": 931523.0,
+      "total_withdrawal": 795290.0,
+      "avg_balance": 784011.4285714285
+    },
+    {
+      "transaction_date": "2017-05-06",
+      "total_transactions": 13,
+      "total_deposit": 1703272.0,
+      "total_withdrawal": 1327406.0,
+      "avg_balance": 928464.8461538461
+    },
+    {
+      "transaction_date": "2018-11-22",
+      "total_transactions": 9,
+      "total_deposit": 1426704.94,
+      "total_withdrawal": 1485114.0,
+      "avg_balance": 1209065.5933333333
+    },
+    {
+      "transaction_date": "2016-02-02",
+      "total_transactions": 3,
+      "total_deposit": 0.0,
+      "total_withdrawal": 622082.0,
+      "avg_balance": -381727.6666666667
+    },
+    {
+      "transaction_date": "2016-11-26",
+      "total_transactions": 23,
+      "total_deposit": 1353576.0,
+      "total_withdrawal": 548045.0,
+      "avg_balance": 540859.0326086954
+    },
+    {
+      "transaction_date": "2016-12-06",
+      "total_transactions": 9,
+      "total_deposit": 1602982.0,
+      "total_withdrawal": 245053.0,
+      "avg_balance": 1226698.888888889
+    },
+    {
+      "transaction_date": "2017-01-09",
+      "total_transactions": 6,
+      "total_deposit": 560342.0,
+      "total_withdrawal": 789092.0,
+      "avg_balance": 240510.5
+    },
+    {
+      "transaction_date": "2017-12-26",
+      "total_transactions": 11,
+      "total_deposit": 763628.0,
+      "total_withdrawal": 1750614.45,
+      "avg_balance": 837973.3663636365
+    },
+    {
+      "transaction_date": "2016-03-10",
+      "total_transactions": 7,
+      "total_deposit": 983308.0,
+      "total_withdrawal": 446933.0,
+      "avg_balance": 8713.714285714286
+    },
+    {
+      "transaction_date": "2016-11-02",
+      "total_transactions": 8,
+      "total_deposit": 1152895.0,
+      "total_withdrawal": 1722203.0,
+      "avg_balance": 739012.125
+    },
+    {
+      "transaction_date": "2016-12-14",
+      "total_transactions": 10,
+      "total_deposit": 1692475.0,
+      "total_withdrawal": 1027160.0,
+      "avg_balance": 372911.27
+    },
+    {
+      "transaction_date": "2016-06-24",
+      "total_transactions": 6,
+      "total_deposit": 396468.0,
+      "total_withdrawal": 1205594.0,
+      "avg_balance": 334247.93333333335
+    },
+    {
+      "transaction_date": "2017-09-27",
+      "total_transactions": 8,
+      "total_deposit": 509279.0,
+      "total_withdrawal": 1310536.9,
+      "avg_balance": 1156072.0825
+    },
+    {
+      "transaction_date": "2018-01-15",
+      "total_transactions": 5,
+      "total_deposit": 0.0,
+      "total_withdrawal": 1097434.95,
+      "avg_balance": 1749949.4079999998
+    },
+    {
+      "transaction_date": "2016-02-07",
+      "total_transactions": 9,
+      "total_deposit": 930554.0,
+      "total_withdrawal": 1516086.0,
+      "avg_balance": 640440.5555555555
+    },
+    {
+      "transaction_date": "2017-11-01",
+      "total_transactions": 9,
+      "total_deposit": 377182.0,
+      "total_withdrawal": 1749349.0,
+      "avg_balance": 164881.55555555556
+    },
+    {
+      "transaction_date": "2016-09-19",
+      "total_transactions": 9,
+      "total_deposit": 1331171.0,
+      "total_withdrawal": 270721.0,
+      "avg_balance": 846797.0444444442
+    },
+    {
+      "transaction_date": "2016-10-10",
+      "total_transactions": 7,
+      "total_deposit": 1188467.0,
+      "total_withdrawal": 280830.0,
+      "avg_balance": 1093783.2857142857
+    },
+    {
+      "transaction_date": "2016-08-11",
+      "total_transactions": 12,
+      "total_deposit": 841609.0,
+      "total_withdrawal": 1323671.0,
+      "avg_balance": 675941.6
+    },
+    {
+      "transaction_date": "2017-06-16",
+      "total_transactions": 8,
+      "total_deposit": 1342555.0,
+      "total_withdrawal": 599039.51,
+      "avg_balance": 669736.6525000001
+    },
+    {
+      "transaction_date": "2018-08-20",
+      "total_transactions": 6,
+      "total_deposit": 231532.12,
+      "total_withdrawal": 283180.0,
+      "avg_balance": 1511415.7283333335
+    },
+    {
+      "transaction_date": "2018-10-19",
+      "total_transactions": 5,
+      "total_deposit": 336915.95,
+      "total_withdrawal": 271402.0,
+      "avg_balance": 1274550.81
+    },
+    {
+      "transaction_date": "2017-10-17",
+      "total_transactions": 21,
+      "total_deposit": 987960.0,
+      "total_withdrawal": 2588116.59,
+      "avg_balance": 892810.9595238096
+    },
+    {
+      "transaction_date": "2017-05-23",
+      "total_transactions": 5,
+      "total_deposit": 489709.0,
+      "total_withdrawal": 323090.44,
+      "avg_balance": 809711.554
+    },
+    {
+      "transaction_date": "2016-01-17",
+      "total_transactions": 5,
+      "total_deposit": 293017.0,
+      "total_withdrawal": 706769.0,
+      "avg_balance": -12828.0
+    },
+    {
+      "transaction_date": "2017-07-23",
+      "total_transactions": 6,
+      "total_deposit": 765283.0,
+      "total_withdrawal": 865675.0,
+      "avg_balance": 111469.5
+    },
+    {
+      "transaction_date": "2016-10-19",
+      "total_transactions": 8,
+      "total_deposit": 15407.0,
+      "total_withdrawal": 912041.3400000001,
+      "avg_balance": 668090.3537499999
+    },
+    {
+      "transaction_date": "2017-12-07",
+      "total_transactions": 4,
+      "total_deposit": 768036.0,
+      "total_withdrawal": 518921.0,
+      "avg_balance": 850998.75
+    },
+    {
+      "transaction_date": "2018-10-10",
+      "total_transactions": 3,
+      "total_deposit": 200021.22,
+      "total_withdrawal": 317003.0,
+      "avg_balance": 1167584.48
+    },
+    {
+      "transaction_date": "2018-10-12",
+      "total_transactions": 4,
+      "total_deposit": 763821.96,
+      "total_withdrawal": 603331.0,
+      "avg_balance": 1196605.2425
+    },
+    {
+      "transaction_date": "2019-01-18",
+      "total_transactions": 4,
+      "total_deposit": 500000.0,
+      "total_withdrawal": 763019.71,
+      "avg_balance": 1038881.64
+    },
+    {
+      "transaction_date": "2017-04-06",
+      "total_transactions": 8,
+      "total_deposit": 1006370.0,
+      "total_withdrawal": 1648121.0,
+      "avg_balance": 382668.75
+    },
+    {
+      "transaction_date": "2016-06-09",
+      "total_transactions": 7,
+      "total_deposit": 1435532.0,
+      "total_withdrawal": 100425.0,
+      "avg_balance": 862409.1428571428
+    },
+    {
+      "transaction_date": "2016-01-12",
+      "total_transactions": 5,
+      "total_deposit": 669082.0,
+      "total_withdrawal": 451730.0,
+      "avg_balance": 747828.4
+    },
+    {
+      "transaction_date": "2018-10-16",
+      "total_transactions": 4,
+      "total_deposit": 651770.46,
+      "total_withdrawal": 785736.0,
+      "avg_balance": 1140567.83
+    },
+    {
+      "transaction_date": "2017-05-03",
+      "total_transactions": 9,
+      "total_deposit": 531676.0,
+      "total_withdrawal": 1211093.0,
+      "avg_balance": 238441.77777777778
+    },
+    {
+      "transaction_date": "2017-03-10",
+      "total_transactions": 10,
+      "total_deposit": 1353904.0,
+      "total_withdrawal": 1422938.62,
+      "avg_balance": 404769.24700000003
+    },
+    {
+      "transaction_date": "2016-07-11",
+      "total_transactions": 10,
+      "total_deposit": 1107126.0,
+      "total_withdrawal": 510063.0,
+      "avg_balance": 1109033.42
+    },
+    {
+      "transaction_date": "2017-05-04",
+      "total_transactions": 10,
+      "total_deposit": 452135.0,
+      "total_withdrawal": 2188760.0,
+      "avg_balance": 748030.2
+    },
+    {
+      "transaction_date": "2016-11-10",
+      "total_transactions": 14,
+      "total_deposit": 271689.0,
+      "total_withdrawal": 400869.0,
+      "avg_balance": 873665.5357142856
+    },
+    {
+      "transaction_date": "2018-10-11",
+      "total_transactions": 5,
+      "total_deposit": 742343.5700000001,
+      "total_withdrawal": 1188671.0,
+      "avg_balance": 1220325.6039999998
+    },
+    {
+      "transaction_date": "2017-02-21",
+      "total_transactions": 10,
+      "total_deposit": 1380270.0,
+      "total_withdrawal": 632468.18,
+      "avg_balance": 754636.328
+    },
+    {
+      "transaction_date": "2017-10-13",
+      "total_transactions": 8,
+      "total_deposit": 979084.0,
+      "total_withdrawal": 451170.77,
+      "avg_balance": 1044694.7125000001
+    },
+    {
+      "transaction_date": "2018-01-22",
+      "total_transactions": 3,
+      "total_deposit": 1000000.0,
+      "total_withdrawal": 153880.37,
+      "avg_balance": 958628.4966666667
+    },
+    {
+      "transaction_date": "2018-09-28",
+      "total_transactions": 5,
+      "total_deposit": 777871.0700000001,
+      "total_withdrawal": 829041.0,
+      "avg_balance": 1083123.424
+    },
+    {
+      "transaction_date": "2019-01-29",
+      "total_transactions": 6,
+      "total_deposit": 700000.0,
+      "total_withdrawal": 658321.85,
+      "avg_balance": 1062186.3216666668
+    },
+    {
+      "transaction_date": "2016-01-08",
+      "total_transactions": 7,
+      "total_deposit": 450119.0,
+      "total_withdrawal": 571642.0,
+      "avg_balance": 1050347.4285714286
+    },
+    {
+      "transaction_date": "2016-05-04",
+      "total_transactions": 5,
+      "total_deposit": 832172.0,
+      "total_withdrawal": 370527.0,
+      "avg_balance": 964292.0
+    },
+    {
+      "transaction_date": "2017-10-10",
+      "total_transactions": 8,
+      "total_deposit": 457795.0,
+      "total_withdrawal": 1648541.66,
+      "avg_balance": 1373034.94375
+    },
+    {
+      "transaction_date": "2018-04-12",
+      "total_transactions": 4,
+      "total_deposit": 800000.0,
+      "total_withdrawal": 838917.29,
+      "avg_balance": 1101837.245
+    },
+    {
+      "transaction_date": "2018-07-12",
+      "total_transactions": 6,
+      "total_deposit": 1000000.0,
+      "total_withdrawal": 1055343.12,
+      "avg_balance": 1183808.1566666665
+    },
+    {
+      "transaction_date": "2018-09-10",
+      "total_transactions": 12,
+      "total_deposit": 1850354.08,
+      "total_withdrawal": 783741.0,
+      "avg_balance": 967611.2658333333
+    },
+    {
+      "transaction_date": "2018-10-18",
+      "total_transactions": 2,
+      "total_deposit": 253166.77,
+      "total_withdrawal": 400000.0,
+      "avg_balance": 883848.1000000001
+    },
+    {
+      "transaction_date": "2017-03-23",
+      "total_transactions": 8,
+      "total_deposit": 1053638.0,
+      "total_withdrawal": 709464.9,
+      "avg_balance": 361428.6875
+    },
+    {
+      "transaction_date": "2017-03-03",
+      "total_transactions": 2,
+      "total_deposit": 394799.0,
+      "total_withdrawal": 0.0,
+      "avg_balance": 187639.0
+    },
+    {
+      "transaction_date": "2017-12-14",
+      "total_transactions": 6,
+      "total_deposit": 400000.0,
+      "total_withdrawal": 1028283.36,
+      "avg_balance": 972574.54
+    },
+    {
+      "transaction_date": "2017-07-17",
+      "total_transactions": 10,
+      "total_deposit": 1746433.0,
+      "total_withdrawal": 716022.3,
+      "avg_balance": 824354.3589999999
+    },
+    {
+      "transaction_date": "2016-02-23",
+      "total_transactions": 10,
+      "total_deposit": 709089.0,
+      "total_withdrawal": 988155.0,
+      "avg_balance": 807503.8640000001
+    },
+    {
+      "transaction_date": "2017-12-20",
+      "total_transactions": 7,
+      "total_deposit": 500000.0,
+      "total_withdrawal": 2432645.67,
+      "avg_balance": -192349.49142857143
+    },
+    {
+      "transaction_date": "2017-12-11",
+      "total_transactions": 12,
+      "total_deposit": 1861555.0,
+      "total_withdrawal": 1064540.03,
+      "avg_balance": 983406.0316666667
+    },
+    {
+      "transaction_date": "2016-02-17",
+      "total_transactions": 6,
+      "total_deposit": 810670.0,
+      "total_withdrawal": 505400.0,
+      "avg_balance": 555293.8333333334
+    },
+    {
+      "transaction_date": "2018-10-31",
+      "total_transactions": 5,
+      "total_deposit": 557953.44,
+      "total_withdrawal": 277122.0,
+      "avg_balance": 1013403.6140000001
+    },
+    {
+      "transaction_date": "2018-11-21",
+      "total_transactions": 1,
+      "total_deposit": 295177.19,
+      "total_withdrawal": 0.0,
+      "avg_balance": 898203.73
+    },
+    {
+      "transaction_date": "2017-05-02",
+      "total_transactions": 2,
+      "total_deposit": 635973.0,
+      "total_withdrawal": 0.0,
+      "avg_balance": 32525.0
+    },
+    {
+      "transaction_date": "2018-10-22",
+      "total_transactions": 8,
+      "total_deposit": 1224723.67,
+      "total_withdrawal": 1535420.0,
+      "avg_balance": 1229927.05875
+    },
+    {
+      "transaction_date": "2017-12-12",
+      "total_transactions": 15,
+      "total_deposit": 2775018.0,
+      "total_withdrawal": 2220362.27,
+      "avg_balance": 773143.7479999999
+    },
+    {
+      "transaction_date": "2017-06-05",
+      "total_transactions": 9,
+      "total_deposit": 309616.0,
+      "total_withdrawal": 1907881.0,
+      "avg_balance": 807151.3333333334
+    },
+    {
+      "transaction_date": "2017-03-22",
+      "total_transactions": 4,
+      "total_deposit": 392483.0,
+      "total_withdrawal": 307860.4,
+      "avg_balance": 54708.69999999998
+    },
+    {
+      "transaction_date": "2018-04-19",
+      "total_transactions": 3,
+      "total_deposit": 500000.0,
+      "total_withdrawal": 630578.3200000001,
+      "avg_balance": 878425.7566666667
+    },
+    {
+      "transaction_date": "2016-07-18",
+      "total_transactions": 11,
+      "total_deposit": 1548697.0,
+      "total_withdrawal": 1142356.0,
+      "avg_balance": 747761.5636363636
+    },
+    {
+      "transaction_date": "2016-11-05",
+      "total_transactions": 2,
+      "total_deposit": 55714.0,
+      "total_withdrawal": 145488.0,
+      "avg_balance": 800852.0
+    },
+    {
+      "transaction_date": "2017-08-30",
+      "total_transactions": 9,
+      "total_deposit": 852004.0,
+      "total_withdrawal": 619388.01,
+      "avg_balance": 667136.5822222222
+    },
+    {
+      "transaction_date": "2017-07-09",
+      "total_transactions": 9,
+      "total_deposit": 1363129.0,
+      "total_withdrawal": 968602.0,
+      "avg_balance": 682985.8888888889
+    },
+    {
+      "transaction_date": "2018-10-30",
+      "total_transactions": 5,
+      "total_deposit": 515113.17,
+      "total_withdrawal": 367535.0,
+      "avg_balance": 841425.1259999999
+    },
+    {
+      "transaction_date": "2016-12-10",
+      "total_transactions": 7,
+      "total_deposit": 901194.0,
+      "total_withdrawal": 724515.0,
+      "avg_balance": 346312.12142857147
+    },
+    {
+      "transaction_date": "2016-09-10",
+      "total_transactions": 8,
+      "total_deposit": 543578.0,
+      "total_withdrawal": 167533.0,
+      "avg_balance": 978639.9749999999
+    },
+    {
+      "transaction_date": "2017-05-17",
+      "total_transactions": 13,
+      "total_deposit": 1818472.0,
+      "total_withdrawal": 886861.67,
+      "avg_balance": 922761.356923077
+    },
+    {
+      "transaction_date": "2018-05-17",
+      "total_transactions": 4,
+      "total_deposit": 1013011.68,
+      "total_withdrawal": 403100.0,
+      "avg_balance": 1215331.5
+    },
+    {
+      "transaction_date": "2018-09-20",
+      "total_transactions": 2,
+      "total_deposit": 661689.3200000001,
+      "total_withdrawal": 0.0,
+      "avg_balance": 1036280.0800000001
+    },
+    {
+      "transaction_date": "2017-04-24",
+      "total_transactions": 9,
+      "total_deposit": 1538264.0,
+      "total_withdrawal": 681576.66,
+      "avg_balance": 1066906.49
+    },
+    {
+      "transaction_date": "2016-05-30",
+      "total_transactions": 9,
+      "total_deposit": 1309129.0,
+      "total_withdrawal": 1639348.0,
+      "avg_balance": 885452.8888888889
+    },
+    {
+      "transaction_date": "2016-11-29",
+      "total_transactions": 29,
+      "total_deposit": 2128643.0,
+      "total_withdrawal": 1027636.0,
+      "avg_balance": 758700.4982758623
+    },
+    {
+      "transaction_date": "2016-03-28",
+      "total_transactions": 10,
+      "total_deposit": 838752.0,
+      "total_withdrawal": 1069105.0,
+      "avg_balance": 854689.6
+    },
+    {
+      "transaction_date": "2017-07-25",
+      "total_transactions": 9,
+      "total_deposit": 939655.0,
+      "total_withdrawal": 488715.6,
+      "avg_balance": 636240.5088888889
+    },
+    {
+      "transaction_date": "2017-06-23",
+      "total_transactions": 6,
+      "total_deposit": 917344.0,
+      "total_withdrawal": 737962.04,
+      "avg_balance": 1227447.2716666667
+    },
+    {
+      "transaction_date": "2016-04-15",
+      "total_transactions": 8,
+      "total_deposit": 1415135.0,
+      "total_withdrawal": 603845.0,
+      "avg_balance": 267324.125
+    },
+    {
+      "transaction_date": "2018-04-30",
+      "total_transactions": 4,
+      "total_deposit": 200000.0,
+      "total_withdrawal": 375782.98000000004,
+      "avg_balance": 795533.855
+    },
+    {
+      "transaction_date": "2017-11-10",
+      "total_transactions": 11,
+      "total_deposit": 2033980.0,
+      "total_withdrawal": 1117243.52,
+      "avg_balance": 1131533.6254545453
+    },
+    {
+      "transaction_date": "2017-09-12",
+      "total_transactions": 5,
+      "total_deposit": 115405.0,
+      "total_withdrawal": 777279.74,
+      "avg_balance": 203991.22999999998
+    },
+    {
+      "transaction_date": "2017-07-04",
+      "total_transactions": 9,
+      "total_deposit": 1231653.0,
+      "total_withdrawal": 1267239.0,
+      "avg_balance": 781275.6666666666
+    },
+    {
+      "transaction_date": "2017-07-21",
+      "total_transactions": 9,
+      "total_deposit": 1811784.0,
+      "total_withdrawal": 461475.38,
+      "avg_balance": 346600.6122222222
+    },
+    {
+      "transaction_date": "2017-01-22",
+      "total_transactions": 3,
+      "total_deposit": 277964.0,
+      "total_withdrawal": 464458.0,
+      "avg_balance": 1059452.6666666667
+    },
+    {
+      "transaction_date": "2017-02-02",
+      "total_transactions": 4,
+      "total_deposit": 560828.0,
+      "total_withdrawal": 163259.0,
+      "avg_balance": 1232468.5
+    },
+    {
+      "transaction_date": "2016-12-09",
+      "total_transactions": 4,
+      "total_deposit": 436955.0,
+      "total_withdrawal": 790238.0,
+      "avg_balance": 802885.5
+    },
+    {
+      "transaction_date": "2017-03-02",
+      "total_transactions": 12,
+      "total_deposit": 1877885.0,
+      "total_withdrawal": 1913419.0,
+      "avg_balance": 449527.4166666667
+    },
+    {
+      "transaction_date": "2017-09-16",
+      "total_transactions": 14,
+      "total_deposit": 648622.0,
+      "total_withdrawal": 2696269.51,
+      "avg_balance": 320356.57714285713
+    },
+    {
+      "transaction_date": "2017-08-25",
+      "total_transactions": 5,
+      "total_deposit": 177576.0,
+      "total_withdrawal": 1066254.22,
+      "avg_balance": 245217.642
+    },
+    {
+      "transaction_date": "2016-04-28",
+      "total_transactions": 5,
+      "total_deposit": 1304888.0,
+      "total_withdrawal": 0.0,
+      "avg_balance": 856002.8
+    },
+    {
+      "transaction_date": "2017-09-02",
+      "total_transactions": 6,
+      "total_deposit": 996912.0,
+      "total_withdrawal": 786187.0,
+      "avg_balance": 1241594.0
+    },
+    {
+      "transaction_date": "2016-03-15",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 633968.0,
+      "avg_balance": -22796.0
+    },
+    {
+      "transaction_date": "2016-04-24",
+      "total_transactions": 12,
+      "total_deposit": 2310264.0,
+      "total_withdrawal": 1341564.0,
+      "avg_balance": 800702.0833333334
+    },
+    {
+      "transaction_date": "2016-01-30",
+      "total_transactions": 4,
+      "total_deposit": 538081.0,
+      "total_withdrawal": 634702.0,
+      "avg_balance": 929132.25
+    },
+    {
+      "transaction_date": "2018-03-15",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 607665.87,
+      "avg_balance": 1017471.88
+    },
+    {
+      "transaction_date": "2019-02-13",
+      "total_transactions": 2,
+      "total_deposit": 100000.0,
+      "total_withdrawal": 90749.23,
+      "avg_balance": 641845.78
+    },
+    {
+      "transaction_date": "2017-11-04",
+      "total_transactions": 8,
+      "total_deposit": 1059698.0,
+      "total_withdrawal": 1211488.0,
+      "avg_balance": 87367.625
+    },
+    {
+      "transaction_date": "2017-03-12",
+      "total_transactions": 8,
+      "total_deposit": 1393069.0,
+      "total_withdrawal": 285929.0,
+      "avg_balance": 695781.875
+    },
+    {
+      "transaction_date": "2016-04-23",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 305395.0,
+      "avg_balance": 402229.0
+    },
+    {
+      "transaction_date": "2017-10-12",
+      "total_transactions": 5,
+      "total_deposit": 1179635.0,
+      "total_withdrawal": 115110.46,
+      "avg_balance": 556525.334
+    },
+    {
+      "transaction_date": "2017-05-24",
+      "total_transactions": 6,
+      "total_deposit": 513637.0,
+      "total_withdrawal": 906329.81,
+      "avg_balance": 361288.28833333333
+    },
+    {
+      "transaction_date": "2017-07-24",
+      "total_transactions": 5,
+      "total_deposit": 1133079.0,
+      "total_withdrawal": 621113.78,
+      "avg_balance": 327489.678
+    },
+    {
+      "transaction_date": "2018-07-23",
+      "total_transactions": 8,
+      "total_deposit": 387065.32,
+      "total_withdrawal": 388695.0,
+      "avg_balance": 1558249.0150000001
+    },
+    {
+      "transaction_date": "2017-01-15",
+      "total_transactions": 7,
+      "total_deposit": 1218845.0,
+      "total_withdrawal": 1093115.0,
+      "avg_balance": 990080.7142857143
+    },
+    {
+      "transaction_date": "2016-03-08",
+      "total_transactions": 8,
+      "total_deposit": 2263986.0,
+      "total_withdrawal": 279540.0,
+      "avg_balance": 859288.75
+    },
+    {
+      "transaction_date": "2016-12-16",
+      "total_transactions": 10,
+      "total_deposit": 24000.0,
+      "total_withdrawal": 1388074.0,
+      "avg_balance": 800741.225
+    },
+    {
+      "transaction_date": "2017-05-25",
+      "total_transactions": 11,
+      "total_deposit": 1803334.0,
+      "total_withdrawal": 1184192.4,
+      "avg_balance": 362878.4072727273
+    },
+    {
+      "transaction_date": "2016-06-26",
+      "total_transactions": 2,
+      "total_deposit": 399793.0,
+      "total_withdrawal": 361894.0,
+      "avg_balance": 406839.0
+    },
+    {
+      "transaction_date": "2017-09-17",
+      "total_transactions": 7,
+      "total_deposit": 956228.0,
+      "total_withdrawal": 505951.0,
+      "avg_balance": 854008.4285714285
+    },
+    {
+      "transaction_date": "2017-10-03",
+      "total_transactions": 5,
+      "total_deposit": 723100.0,
+      "total_withdrawal": 582391.0,
+      "avg_balance": 599541.8
+    },
+    {
+      "transaction_date": "2017-07-05",
+      "total_transactions": 6,
+      "total_deposit": 510013.0,
+      "total_withdrawal": 821461.0,
+      "avg_balance": 134434.16666666666
+    },
+    {
+      "transaction_date": "2018-12-12",
+      "total_transactions": 5,
+      "total_deposit": 1361675.8900000001,
+      "total_withdrawal": 362110.0,
+      "avg_balance": 1374956.886
+    },
+    {
+      "transaction_date": "2017-07-07",
+      "total_transactions": 8,
+      "total_deposit": 626047.0,
+      "total_withdrawal": 1416031.0,
+      "avg_balance": 794235.75
+    },
+    {
+      "transaction_date": "2018-09-21",
+      "total_transactions": 3,
+      "total_deposit": 192331.28,
+      "total_withdrawal": 500117.0,
+      "avg_balance": 995039.8133333334
+    },
+    {
+      "transaction_date": "2018-12-15",
+      "total_transactions": 3,
+      "total_deposit": 474113.93,
+      "total_withdrawal": 425785.0,
+      "avg_balance": 1427291.1166666665
+    },
+    {
+      "transaction_date": "2019-01-24",
+      "total_transactions": 5,
+      "total_deposit": 700000.0,
+      "total_withdrawal": 601490.26,
+      "avg_balance": 1144340.864
+    },
+    {
+      "transaction_date": "2016-03-06",
+      "total_transactions": 4,
+      "total_deposit": 461159.0,
+      "total_withdrawal": 677166.0,
+      "avg_balance": 824656.75
+    },
+    {
+      "transaction_date": "2016-05-19",
+      "total_transactions": 6,
+      "total_deposit": 784908.0,
+      "total_withdrawal": 661654.0,
+      "avg_balance": 545071.9333333333
+    },
+    {
+      "transaction_date": "2017-08-15",
+      "total_transactions": 8,
+      "total_deposit": 925025.0,
+      "total_withdrawal": 1019516.0,
+      "avg_balance": 855356.625
+    },
+    {
+      "transaction_date": "2016-07-07",
+      "total_transactions": 7,
+      "total_deposit": 965907.0,
+      "total_withdrawal": 889486.0,
+      "avg_balance": 1159238.857142857
+    },
+    {
+      "transaction_date": "2016-07-23",
+      "total_transactions": 8,
+      "total_deposit": 712939.0,
+      "total_withdrawal": 1964294.0,
+      "avg_balance": 145205.325
+    },
+    {
+      "transaction_date": "2016-02-10",
+      "total_transactions": 6,
+      "total_deposit": 833751.0,
+      "total_withdrawal": 860704.0,
+      "avg_balance": 753806.8333333334
+    },
+    {
+      "transaction_date": "2016-07-01",
+      "total_transactions": 8,
+      "total_deposit": 928296.0,
+      "total_withdrawal": 835767.0,
+      "avg_balance": 1055170.75
+    },
+    {
+      "transaction_date": "2017-11-20",
+      "total_transactions": 11,
+      "total_deposit": 1622191.0,
+      "total_withdrawal": 1770634.91,
+      "avg_balance": 308255.65454545454
+    },
+    {
+      "transaction_date": "2016-01-22",
+      "total_transactions": 4,
+      "total_deposit": 1159434.0,
+      "total_withdrawal": 447917.0,
+      "avg_balance": 803253.25
+    },
+    {
+      "transaction_date": "2016-02-24",
+      "total_transactions": 6,
+      "total_deposit": 944143.0,
+      "total_withdrawal": 261747.0,
+      "avg_balance": 865910.8333333334
+    },
+    {
+      "transaction_date": "2017-07-19",
+      "total_transactions": 8,
+      "total_deposit": 677287.0,
+      "total_withdrawal": 1209778.56,
+      "avg_balance": 263571.0325
+    },
+    {
+      "transaction_date": "2017-05-18",
+      "total_transactions": 9,
+      "total_deposit": 1588671.0,
+      "total_withdrawal": 716624.4,
+      "avg_balance": 599999.0977777778
+    },
+    {
+      "transaction_date": "2018-06-13",
+      "total_transactions": 5,
+      "total_deposit": 1000000.0,
+      "total_withdrawal": 766755.35,
+      "avg_balance": 1090928.59
+    },
+    {
+      "transaction_date": "2018-10-23",
+      "total_transactions": 4,
+      "total_deposit": 467929.89,
+      "total_withdrawal": 439438.0,
+      "avg_balance": 1147773.4425
+    },
+    {
+      "transaction_date": "2018-12-10",
+      "total_transactions": 10,
+      "total_deposit": 1149034.61,
+      "total_withdrawal": 1721129.0,
+      "avg_balance": 1392976.837
+    },
+    {
+      "transaction_date": "2017-08-09",
+      "total_transactions": 6,
+      "total_deposit": 435092.0,
+      "total_withdrawal": 1222040.0,
+      "avg_balance": 368799.5
+    },
+    {
+      "transaction_date": "2017-11-11",
+      "total_transactions": 8,
+      "total_deposit": 718372.0,
+      "total_withdrawal": 439347.0,
+      "avg_balance": 612342.75
+    },
+    {
+      "transaction_date": "2016-01-02",
+      "total_transactions": 9,
+      "total_deposit": 826520.0,
+      "total_withdrawal": 492359.0,
+      "avg_balance": 1009214.4444444445
+    },
+    {
+      "transaction_date": "2017-07-02",
+      "total_transactions": 6,
+      "total_deposit": 787976.0,
+      "total_withdrawal": 942545.0,
+      "avg_balance": 180271.0
+    },
+    {
+      "transaction_date": "2017-05-12",
+      "total_transactions": 11,
+      "total_deposit": 1533718.0,
+      "total_withdrawal": 960573.0,
+      "avg_balance": 715337.2581818182
+    },
+    {
+      "transaction_date": "2018-02-28",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 236135.02,
+      "avg_balance": 1074159.045
+    },
+    {
+      "transaction_date": "2018-05-10",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 448150.95,
+      "avg_balance": 1244796.85
+    },
+    {
+      "transaction_date": "2019-02-15",
+      "total_transactions": 2,
+      "total_deposit": 100000.0,
+      "total_withdrawal": 132416.61,
+      "avg_balance": 612790.65
+    },
+    {
+      "transaction_date": "2017-05-20",
+      "total_transactions": 10,
+      "total_deposit": 1548067.0,
+      "total_withdrawal": 1091704.51,
+      "avg_balance": 369812.925
+    },
+    {
+      "transaction_date": "2017-07-01",
+      "total_transactions": 12,
+      "total_deposit": 1804433.0,
+      "total_withdrawal": 1294986.0,
+      "avg_balance": 365947.4166666667
+    },
+    {
+      "transaction_date": "2017-03-31",
+      "total_transactions": 6,
+      "total_deposit": 387158.0,
+      "total_withdrawal": 538346.67,
+      "avg_balance": 206902.44499999998
+    },
+    {
+      "transaction_date": "2016-09-06",
+      "total_transactions": 4,
+      "total_deposit": 518600.0,
+      "total_withdrawal": 663406.0,
+      "avg_balance": 584994.5
+    },
+    {
+      "transaction_date": "2017-01-28",
+      "total_transactions": 8,
+      "total_deposit": 525579.0,
+      "total_withdrawal": 1525569.0,
+      "avg_balance": 1049117.125
+    },
+    {
+      "transaction_date": "2017-07-16",
+      "total_transactions": 11,
+      "total_deposit": 2290156.0,
+      "total_withdrawal": 580297.0,
+      "avg_balance": 794373.2727272727
+    },
+    {
+      "transaction_date": "2016-03-17",
+      "total_transactions": 5,
+      "total_deposit": 524873.0,
+      "total_withdrawal": 350937.0,
+      "avg_balance": 457721.6
+    },
+    {
+      "transaction_date": "2017-03-09",
+      "total_transactions": 5,
+      "total_deposit": 359312.0,
+      "total_withdrawal": 586639.0,
+      "avg_balance": 880785.0
+    },
+    {
+      "transaction_date": "2016-08-17",
+      "total_transactions": 9,
+      "total_deposit": 1100491.0,
+      "total_withdrawal": 512492.0,
+      "avg_balance": 489172.35555555555
+    },
+    {
+      "transaction_date": "2016-01-31",
+      "total_transactions": 6,
+      "total_deposit": 126398.0,
+      "total_withdrawal": 903528.0,
+      "avg_balance": 1220091.1666666667
+    },
+    {
+      "transaction_date": "2016-04-05",
+      "total_transactions": 3,
+      "total_deposit": 446975.0,
+      "total_withdrawal": 0.0,
+      "avg_balance": 260032.33333333334
+    },
+    {
+      "transaction_date": "2017-01-02",
+      "total_transactions": 3,
+      "total_deposit": 3049.0,
+      "total_withdrawal": 83321.0,
+      "avg_balance": 1448865.0
+    },
+    {
+      "transaction_date": "2017-09-09",
+      "total_transactions": 3,
+      "total_deposit": 552946.0,
+      "total_withdrawal": 229063.0,
+      "avg_balance": 69948.0
+    },
+    {
+      "transaction_date": "2018-08-23",
+      "total_transactions": 10,
+      "total_deposit": 1451710.46,
+      "total_withdrawal": 2254681.0,
+      "avg_balance": 1454979.602
+    },
+    {
+      "transaction_date": "2019-01-25",
+      "total_transactions": 4,
+      "total_deposit": 300000.0,
+      "total_withdrawal": 407521.63,
+      "avg_balance": 1312582.0075
+    },
+    {
+      "transaction_date": "2018-04-23",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 249201.12,
+      "avg_balance": 994718.64
+    },
+    {
+      "transaction_date": "2017-02-20",
+      "total_transactions": 11,
+      "total_deposit": 1857680.0,
+      "total_withdrawal": 1150584.0,
+      "avg_balance": 876844.0
+    },
+    {
+      "transaction_date": "2016-09-21",
+      "total_transactions": 11,
+      "total_deposit": 794063.0,
+      "total_withdrawal": 1547280.0,
+      "avg_balance": 707094.5636363636
+    },
+    {
+      "transaction_date": "2016-08-24",
+      "total_transactions": 10,
+      "total_deposit": 21000.0,
+      "total_withdrawal": 2021206.0,
+      "avg_balance": 760041.2399999999
+    },
+    {
+      "transaction_date": "2016-06-21",
+      "total_transactions": 8,
+      "total_deposit": 1167851.0,
+      "total_withdrawal": 989278.0,
+      "avg_balance": 621443.75
+    },
+    {
+      "transaction_date": "2016-10-08",
+      "total_transactions": 6,
+      "total_deposit": 1284523.0,
+      "total_withdrawal": 461572.0,
+      "avg_balance": -428747.6666666667
+    },
+    {
+      "transaction_date": "2016-02-05",
+      "total_transactions": 6,
+      "total_deposit": 666957.0,
+      "total_withdrawal": 656643.0,
+      "avg_balance": 277359.0
+    },
+    {
+      "transaction_date": "2017-07-29",
+      "total_transactions": 4,
+      "total_deposit": 482097.0,
+      "total_withdrawal": 125092.78,
+      "avg_balance": 517944.3025
+    },
+    {
+      "transaction_date": "2018-03-22",
+      "total_transactions": 5,
+      "total_deposit": 1000000.0,
+      "total_withdrawal": 826196.0,
+      "avg_balance": 1052404.71
+    },
+    {
+      "transaction_date": "2017-08-12",
+      "total_transactions": 7,
+      "total_deposit": 1875748.0,
+      "total_withdrawal": 166394.0,
+      "avg_balance": 586299.5714285715
+    },
+    {
+      "transaction_date": "2016-04-06",
+      "total_transactions": 9,
+      "total_deposit": 619674.0,
+      "total_withdrawal": 1669493.0,
+      "avg_balance": 906983.1111111111
+    },
+    {
+      "transaction_date": "2017-01-18",
+      "total_transactions": 6,
+      "total_deposit": 524161.0,
+      "total_withdrawal": 446714.44,
+      "avg_balance": 520817.02
+    },
+    {
+      "transaction_date": "2017-02-19",
+      "total_transactions": 8,
+      "total_deposit": 1129955.0,
+      "total_withdrawal": 1239554.0,
+      "avg_balance": 508049.125
+    },
+    {
+      "transaction_date": "2017-03-04",
+      "total_transactions": 11,
+      "total_deposit": 2091012.0,
+      "total_withdrawal": 581239.0,
+      "avg_balance": 1325218.0909090908
+    },
+    {
+      "transaction_date": "2017-09-13",
+      "total_transactions": 6,
+      "total_deposit": 626392.0,
+      "total_withdrawal": 716000.88,
+      "avg_balance": 173070.045
+    },
+    {
+      "transaction_date": "2018-02-19",
+      "total_transactions": 2,
+      "total_deposit": 500000.0,
+      "total_withdrawal": 88031.13,
+      "avg_balance": 1186677.135
+    },
+    {
+      "transaction_date": "2018-10-24",
+      "total_transactions": 4,
+      "total_deposit": 576371.19,
+      "total_withdrawal": 434190.0,
+      "avg_balance": 1065091.74
+    },
+    {
+      "transaction_date": "2017-07-13",
+      "total_transactions": 8,
+      "total_deposit": 133476.0,
+      "total_withdrawal": 1728846.76,
+      "avg_balance": -314373.94625
+    },
+    {
+      "transaction_date": "2017-02-15",
+      "total_transactions": 7,
+      "total_deposit": 816030.0,
+      "total_withdrawal": 1082926.66,
+      "avg_balance": 473893.52142857143
+    },
+    {
+      "transaction_date": "2016-05-24",
+      "total_transactions": 2,
+      "total_deposit": 825643.0,
+      "total_withdrawal": 0.0,
+      "avg_balance": 1118105.5
+    },
+    {
+      "transaction_date": "2017-11-02",
+      "total_transactions": 8,
+      "total_deposit": 1598590.0,
+      "total_withdrawal": 761073.0,
+      "avg_balance": 815958.25
+    },
+    {
+      "transaction_date": "2017-10-21",
+      "total_transactions": 17,
+      "total_deposit": 2258373.0,
+      "total_withdrawal": 1322698.3,
+      "avg_balance": 912185.1217647059
+    },
+    {
+      "transaction_date": "2017-11-28",
+      "total_transactions": 10,
+      "total_deposit": 677210.0,
+      "total_withdrawal": 1404629.48,
+      "avg_balance": 1106147.952
+    },
+    {
+      "transaction_date": "2016-03-30",
+      "total_transactions": 8,
+      "total_deposit": 328515.0,
+      "total_withdrawal": 1061168.0,
+      "avg_balance": 148055.66499999998
+    },
+    {
+      "transaction_date": "2016-12-08",
+      "total_transactions": 8,
+      "total_deposit": 1315800.0,
+      "total_withdrawal": 843207.0,
+      "avg_balance": 148851.5
+    },
+    {
+      "transaction_date": "2016-10-28",
+      "total_transactions": 2,
+      "total_deposit": 307607.0,
+      "total_withdrawal": 0.0,
+      "avg_balance": 643907.425
+    },
+    {
+      "transaction_date": "2018-11-23",
+      "total_transactions": 2,
+      "total_deposit": 823446.49,
+      "total_withdrawal": 0.0,
+      "avg_balance": 1478592.08
+    },
+    {
+      "transaction_date": "2017-02-13",
+      "total_transactions": 6,
+      "total_deposit": 801389.0,
+      "total_withdrawal": 789566.7,
+      "avg_balance": 538174.7183333334
+    },
+    {
+      "transaction_date": "2016-07-06",
+      "total_transactions": 6,
+      "total_deposit": 1273242.0,
+      "total_withdrawal": 440453.0,
+      "avg_balance": 578331.5
+    },
+    {
+      "transaction_date": "2017-09-07",
+      "total_transactions": 9,
+      "total_deposit": 756454.0,
+      "total_withdrawal": 1551019.0,
+      "avg_balance": 723967.7777777778
+    },
+    {
+      "transaction_date": "2016-07-20",
+      "total_transactions": 9,
+      "total_deposit": 824093.0,
+      "total_withdrawal": 1017895.0,
+      "avg_balance": 977440.8222222222
+    },
+    {
+      "transaction_date": "2016-06-03",
+      "total_transactions": 2,
+      "total_deposit": 154808.0,
+      "total_withdrawal": 44836.0,
+      "avg_balance": -193248.5
+    },
+    {
+      "transaction_date": "2016-06-30",
+      "total_transactions": 9,
+      "total_deposit": 386789.0,
+      "total_withdrawal": 533850.0,
+      "avg_balance": 942107.311111111
+    },
+    {
+      "transaction_date": "2016-03-13",
+      "total_transactions": 6,
+      "total_deposit": 1289200.0,
+      "total_withdrawal": 296447.0,
+      "avg_balance": 769089.1666666666
+    },
+    {
+      "transaction_date": "2017-04-16",
+      "total_transactions": 7,
+      "total_deposit": 681434.0,
+      "total_withdrawal": 574203.0,
+      "avg_balance": 832309.4285714285
+    },
+    {
+      "transaction_date": "2017-10-15",
+      "total_transactions": 2,
+      "total_deposit": 428022.0,
+      "total_withdrawal": 374116.0,
+      "avg_balance": 1212553.0
+    },
+    {
+      "transaction_date": "2018-05-25",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 220724.03999999998,
+      "avg_balance": 1178324.4849999999
+    },
+    {
+      "transaction_date": "2018-06-25",
+      "total_transactions": 7,
+      "total_deposit": 555573.29,
+      "total_withdrawal": 414816.25999999995,
+      "avg_balance": 1478925.5042857141
+    },
+    {
+      "transaction_date": "2019-01-23",
+      "total_transactions": 5,
+      "total_deposit": 700000.0,
+      "total_withdrawal": 796145.12,
+      "avg_balance": 1123340.368
+    },
+    {
+      "transaction_date": "2019-02-27",
+      "total_transactions": 2,
+      "total_deposit": 200000.0,
+      "total_withdrawal": 135504.16,
+      "avg_balance": 642975.94
+    },
+    {
+      "transaction_date": "2016-03-07",
+      "total_transactions": 5,
+      "total_deposit": 836025.0,
+      "total_withdrawal": 352521.0,
+      "avg_balance": 1069897.8
+    },
+    {
+      "transaction_date": "2016-12-24",
+      "total_transactions": 8,
+      "total_deposit": 1142659.0,
+      "total_withdrawal": 692842.0,
+      "avg_balance": 330777.125
+    },
+    {
+      "transaction_date": "2016-03-05",
+      "total_transactions": 7,
+      "total_deposit": 803784.0,
+      "total_withdrawal": 1692432.0,
+      "avg_balance": 198519.7142857143
+    },
+    {
+      "transaction_date": "2016-06-28",
+      "total_transactions": 7,
+      "total_deposit": 356190.0,
+      "total_withdrawal": 557392.0,
+      "avg_balance": 390417.0857142857
+    },
+    {
+      "transaction_date": "2016-01-23",
+      "total_transactions": 7,
+      "total_deposit": 1482403.0,
+      "total_withdrawal": 528106.0,
+      "avg_balance": 379394.85714285716
+    },
+    {
+      "transaction_date": "2017-01-03",
+      "total_transactions": 5,
+      "total_deposit": 387705.0,
+      "total_withdrawal": 627339.0,
+      "avg_balance": 50767.2
+    },
+    {
+      "transaction_date": "2017-10-29",
+      "total_transactions": 6,
+      "total_deposit": 387491.0,
+      "total_withdrawal": 794658.0,
+      "avg_balance": 1193151.0
+    },
+    {
+      "transaction_date": "2016-10-05",
+      "total_transactions": 3,
+      "total_deposit": 209062.0,
+      "total_withdrawal": 67632.0,
+      "avg_balance": -787819.0
+    },
+    {
+      "transaction_date": "2017-05-29",
+      "total_transactions": 4,
+      "total_deposit": 218147.0,
+      "total_withdrawal": 720776.89,
+      "avg_balance": 327795.8825
+    },
+    {
+      "transaction_date": "2018-03-31",
+      "total_transactions": 6,
+      "total_deposit": 700000.0,
+      "total_withdrawal": 545061.21,
+      "avg_balance": 1115803.8516666668
+    },
+    {
+      "transaction_date": "2017-04-19",
+      "total_transactions": 9,
+      "total_deposit": 1863367.0,
+      "total_withdrawal": 442555.93,
+      "avg_balance": 1361069.3022222223
+    },
+    {
+      "transaction_date": "2016-02-06",
+      "total_transactions": 6,
+      "total_deposit": 942540.0,
+      "total_withdrawal": 578103.0,
+      "avg_balance": 888503.6666666666
+    },
+    {
+      "transaction_date": "2016-03-12",
+      "total_transactions": 8,
+      "total_deposit": 856860.0,
+      "total_withdrawal": 1482002.0,
+      "avg_balance": 88539.75
+    },
+    {
+      "transaction_date": "2017-09-30",
+      "total_transactions": 5,
+      "total_deposit": 882100.0,
+      "total_withdrawal": 414094.0,
+      "avg_balance": 439019.2
+    },
+    {
+      "transaction_date": "2018-05-11",
+      "total_transactions": 3,
+      "total_deposit": 500000.0,
+      "total_withdrawal": 430012.26,
+      "avg_balance": 1168475.48
+    },
+    {
+      "transaction_date": "2017-04-13",
+      "total_transactions": 9,
+      "total_deposit": 529597.0,
+      "total_withdrawal": 1178935.14,
+      "avg_balance": 394637.4877777778
+    },
+    {
+      "transaction_date": "2018-12-11",
+      "total_transactions": 4,
+      "total_deposit": 745690.74,
+      "total_withdrawal": 781411.0,
+      "avg_balance": 1338202.135
+    },
+    {
+      "transaction_date": "2018-04-24",
+      "total_transactions": 4,
+      "total_deposit": 700000.0,
+      "total_withdrawal": 212480.4,
+      "avg_balance": 1103769.45
+    },
+    {
+      "transaction_date": "2016-01-04",
+      "total_transactions": 8,
+      "total_deposit": 617754.0,
+      "total_withdrawal": 1035283.0,
+      "avg_balance": 368409.125
+    },
+    {
+      "transaction_date": "2016-05-20",
+      "total_transactions": 7,
+      "total_deposit": 1363231.0,
+      "total_withdrawal": 277845.0,
+      "avg_balance": 583480.2285714286
+    },
+    {
+      "transaction_date": "2017-07-28",
+      "total_transactions": 14,
+      "total_deposit": 1482470.0,
+      "total_withdrawal": 507953.3,
+      "avg_balance": 1233505.9235714285
+    },
+    {
+      "transaction_date": "2017-04-04",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 555861.0,
+      "avg_balance": 442021.5
+    },
+    {
+      "transaction_date": "2018-04-25",
+      "total_transactions": 5,
+      "total_deposit": 0.0,
+      "total_withdrawal": 1216791.79,
+      "avg_balance": 1101959.932
+    },
+    {
+      "transaction_date": "2016-07-05",
+      "total_transactions": 9,
+      "total_deposit": 894494.0,
+      "total_withdrawal": 2026086.0,
+      "avg_balance": 320649.6666666667
+    },
+    {
+      "transaction_date": "2017-03-25",
+      "total_transactions": 8,
+      "total_deposit": 549761.0,
+      "total_withdrawal": 1781093.0,
+      "avg_balance": 328006.25
+    },
+    {
+      "transaction_date": "2016-10-31",
+      "total_transactions": 9,
+      "total_deposit": 1670426.0,
+      "total_withdrawal": 421572.0,
+      "avg_balance": 714114.1888888888
+    },
+    {
+      "transaction_date": "2017-03-01",
+      "total_transactions": 9,
+      "total_deposit": 209704.0,
+      "total_withdrawal": 835056.0,
+      "avg_balance": 216942.88888888888
+    },
+    {
+      "transaction_date": "2016-06-12",
+      "total_transactions": 6,
+      "total_deposit": 214856.0,
+      "total_withdrawal": 958300.0,
+      "avg_balance": 621781.3333333334
+    },
+    {
+      "transaction_date": "2018-07-21",
+      "total_transactions": 4,
+      "total_deposit": 1021731.12,
+      "total_withdrawal": 715699.0,
+      "avg_balance": 1203083.3825
+    },
+    {
+      "transaction_date": "2018-09-17",
+      "total_transactions": 9,
+      "total_deposit": 1113977.87,
+      "total_withdrawal": 1137908.84,
+      "avg_balance": 1599664.0744444444
+    },
+    {
+      "transaction_date": "2017-06-12",
+      "total_transactions": 14,
+      "total_deposit": 1516857.0,
+      "total_withdrawal": 1350968.6400000001,
+      "avg_balance": 843805.707142857
+    },
+    {
+      "transaction_date": "2016-11-13",
+      "total_transactions": 14,
+      "total_deposit": 503092.0,
+      "total_withdrawal": 2693043.0,
+      "avg_balance": 261244.05000000002
+    },
+    {
+      "transaction_date": "2016-12-28",
+      "total_transactions": 11,
+      "total_deposit": 1614753.0,
+      "total_withdrawal": 1427983.0,
+      "avg_balance": 341244.1818181818
+    },
+    {
+      "transaction_date": "2017-02-11",
+      "total_transactions": 3,
+      "total_deposit": 0.0,
+      "total_withdrawal": 838990.0,
+      "avg_balance": 266558.3333333333
+    },
+    {
+      "transaction_date": "2017-07-20",
+      "total_transactions": 10,
+      "total_deposit": 1411713.0,
+      "total_withdrawal": 1044301.08,
+      "avg_balance": 705922.865
+    },
+    {
+      "transaction_date": "2017-07-08",
+      "total_transactions": 6,
+      "total_deposit": 742760.0,
+      "total_withdrawal": 672515.0,
+      "avg_balance": 393618.3333333333
+    },
+    {
+      "transaction_date": "2016-02-14",
+      "total_transactions": 6,
+      "total_deposit": 516432.0,
+      "total_withdrawal": 643806.0,
+      "avg_balance": 736647.0
+    },
+    {
+      "transaction_date": "2016-05-29",
+      "total_transactions": 7,
+      "total_deposit": 454844.0,
+      "total_withdrawal": 508894.0,
+      "avg_balance": 491279.85714285716
+    },
+    {
+      "transaction_date": "2016-11-12",
+      "total_transactions": 9,
+      "total_deposit": 867429.0,
+      "total_withdrawal": 711024.0,
+      "avg_balance": 283002.63333333336
+    },
+    {
+      "transaction_date": "2017-04-28",
+      "total_transactions": 5,
+      "total_deposit": 199485.0,
+      "total_withdrawal": 533503.88,
+      "avg_balance": 1282206.94
+    },
+    {
+      "transaction_date": "2018-08-18",
+      "total_transactions": 5,
+      "total_deposit": 1077676.77,
+      "total_withdrawal": 619288.0,
+      "avg_balance": 1201029.954
+    },
+    {
+      "transaction_date": "2016-06-11",
+      "total_transactions": 6,
+      "total_deposit": 790696.0,
+      "total_withdrawal": 513651.0,
+      "avg_balance": -595199.5
+    },
+    {
+      "transaction_date": "2016-09-28",
+      "total_transactions": 17,
+      "total_deposit": 322363.0,
+      "total_withdrawal": 1601641.0,
+      "avg_balance": 711599.1294117646
+    },
+    {
+      "transaction_date": "2018-04-21",
+      "total_transactions": 6,
+      "total_deposit": 1600000.0,
+      "total_withdrawal": 320747.82999999996,
+      "avg_balance": 1011159.4849999999
+    },
+    {
+      "transaction_date": "2017-05-31",
+      "total_transactions": 8,
+      "total_deposit": 691653.0,
+      "total_withdrawal": 197821.37,
+      "avg_balance": 822094.91875
+    },
+    {
+      "transaction_date": "2018-04-10",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 553095.7,
+      "avg_balance": 1083313.54
+    },
+    {
+      "transaction_date": "2018-05-22",
+      "total_transactions": 3,
+      "total_deposit": 500000.0,
+      "total_withdrawal": 466796.52,
+      "avg_balance": 1184074.74
+    },
+    {
+      "transaction_date": "2018-02-20",
+      "total_transactions": 1,
+      "total_deposit": 0.0,
+      "total_withdrawal": 80144.06,
+      "avg_balance": 974191.21
+    },
+    {
+      "transaction_date": "2017-10-20",
+      "total_transactions": 11,
+      "total_deposit": 1007350.0,
+      "total_withdrawal": 1980579.71,
+      "avg_balance": 222389.67
+    },
+    {
+      "transaction_date": "2016-05-25",
+      "total_transactions": 5,
+      "total_deposit": 665784.0,
+      "total_withdrawal": 353406.0,
+      "avg_balance": 704720.2
+    },
+    {
+      "transaction_date": "2018-11-19",
+      "total_transactions": 6,
+      "total_deposit": 981714.8200000001,
+      "total_withdrawal": 268843.0,
+      "avg_balance": 1463258.79
+    },
+    {
+      "transaction_date": "2016-01-15",
+      "total_transactions": 8,
+      "total_deposit": 899340.0,
+      "total_withdrawal": 918889.0,
+      "avg_balance": 981399.0
+    },
+    {
+      "transaction_date": "2016-12-01",
+      "total_transactions": 6,
+      "total_deposit": 622073.0,
+      "total_withdrawal": 194260.0,
+      "avg_balance": 728756.5
+    },
+    {
+      "transaction_date": "2016-01-25",
+      "total_transactions": 4,
+      "total_deposit": 551200.0,
+      "total_withdrawal": 494424.0,
+      "avg_balance": 289149.0
+    },
+    {
+      "transaction_date": "2018-10-25",
+      "total_transactions": 4,
+      "total_deposit": 295669.35,
+      "total_withdrawal": 757721.0,
+      "avg_balance": 1142464.905
+    },
+    {
+      "transaction_date": "2017-02-09",
+      "total_transactions": 4,
+      "total_deposit": 449220.0,
+      "total_withdrawal": 561761.0,
+      "avg_balance": 293684.25
+    },
+    {
+      "transaction_date": "2016-10-04",
+      "total_transactions": 6,
+      "total_deposit": 370837.0,
+      "total_withdrawal": 723911.0,
+      "avg_balance": 432859.6666666667
+    },
+    {
+      "transaction_date": "2017-08-02",
+      "total_transactions": 4,
+      "total_deposit": 950050.0,
+      "total_withdrawal": 662543.0,
+      "avg_balance": 1036986.0
+    },
+    {
+      "transaction_date": "2016-02-20",
+      "total_transactions": 5,
+      "total_deposit": 659951.0,
+      "total_withdrawal": 484095.0,
+      "avg_balance": 153750.6
+    },
+    {
+      "transaction_date": "2016-06-25",
+      "total_transactions": 4,
+      "total_deposit": 212018.0,
+      "total_withdrawal": 597773.0,
+      "avg_balance": 556461.25
+    },
+    {
+      "transaction_date": "2018-04-11",
+      "total_transactions": 4,
+      "total_deposit": 800000.0,
+      "total_withdrawal": 324035.3,
+      "avg_balance": 1286945.8900000001
+    },
+    {
+      "transaction_date": "2018-07-11",
+      "total_transactions": 4,
+      "total_deposit": 500000.0,
+      "total_withdrawal": 504300.79,
+      "avg_balance": 1039645.4275
+    },
+    {
+      "transaction_date": "2018-11-14",
+      "total_transactions": 6,
+      "total_deposit": 870836.7,
+      "total_withdrawal": 1304956.0,
+      "avg_balance": 1291586.3733333333
+    },
+    {
+      "transaction_date": "2016-02-01",
+      "total_transactions": 8,
+      "total_deposit": 1269974.0,
+      "total_withdrawal": 890965.0,
+      "avg_balance": 903110.125
+    },
+    {
+      "transaction_date": "2017-05-16",
+      "total_transactions": 15,
+      "total_deposit": 1504942.0,
+      "total_withdrawal": 1769818.92,
+      "avg_balance": 417143.3746666666
+    },
+    {
+      "transaction_date": "2017-08-23",
+      "total_transactions": 5,
+      "total_deposit": 491595.0,
+      "total_withdrawal": 324341.9,
+      "avg_balance": 467756.89800000004
+    },
+    {
+      "transaction_date": "2017-09-01",
+      "total_transactions": 6,
+      "total_deposit": 502335.0,
+      "total_withdrawal": 649579.0,
+      "avg_balance": 86971.16666666667
+    },
+    {
+      "transaction_date": "2016-11-20",
+      "total_transactions": 16,
+      "total_deposit": 431838.0,
+      "total_withdrawal": 771539.0,
+      "avg_balance": 1196598.5218749999
+    },
+    {
+      "transaction_date": "2018-06-11",
+      "total_transactions": 10,
+      "total_deposit": 1682132.09,
+      "total_withdrawal": 1026883.44,
+      "avg_balance": 1183767.9740000002
+    },
+    {
+      "transaction_date": "2017-11-19",
+      "total_transactions": 9,
+      "total_deposit": 582040.0,
+      "total_withdrawal": 2006485.0,
+      "avg_balance": 881371.5555555555
+    },
+    {
+      "transaction_date": "2016-11-11",
+      "total_transactions": 13,
+      "total_deposit": 730009.0,
+      "total_withdrawal": 1537291.0,
+      "avg_balance": 454674.69999999995
+    },
+    {
+      "transaction_date": "2016-01-16",
+      "total_transactions": 10,
+      "total_deposit": 531256.0,
+      "total_withdrawal": 1522211.0,
+      "avg_balance": 385548.4
+    },
+    {
+      "transaction_date": "2016-07-22",
+      "total_transactions": 9,
+      "total_deposit": 53721.0,
+      "total_withdrawal": 1183721.0,
+      "avg_balance": 786575.3777777778
+    },
+    {
+      "transaction_date": "2017-11-21",
+      "total_transactions": 13,
+      "total_deposit": 1450297.0,
+      "total_withdrawal": 1224966.14,
+      "avg_balance": 636789.0630769231
+    },
+    {
+      "transaction_date": "2018-01-24",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 362110.83999999997,
+      "avg_balance": 616322.995
+    },
+    {
+      "transaction_date": "2018-03-27",
+      "total_transactions": 3,
+      "total_deposit": 200000.0,
+      "total_withdrawal": 376264.79,
+      "avg_balance": 1040264.5466666665
+    },
+    {
+      "transaction_date": "2018-07-19",
+      "total_transactions": 5,
+      "total_deposit": 400000.0,
+      "total_withdrawal": 697444.01,
+      "avg_balance": 1576099.96
+    },
+    {
+      "transaction_date": "2016-08-25",
+      "total_transactions": 12,
+      "total_deposit": 612353.0,
+      "total_withdrawal": 1292367.0,
+      "avg_balance": 934795.6499999999
+    },
+    {
+      "transaction_date": "2017-12-16",
+      "total_transactions": 7,
+      "total_deposit": 148170.0,
+      "total_withdrawal": 1167111.18,
+      "avg_balance": 570269.9842857142
+    },
+    {
+      "transaction_date": "2016-04-21",
+      "total_transactions": 9,
+      "total_deposit": 1505489.0,
+      "total_withdrawal": 1497044.0,
+      "avg_balance": 468059.59111111116
+    },
+    {
+      "transaction_date": "2016-03-09",
+      "total_transactions": 5,
+      "total_deposit": 364390.0,
+      "total_withdrawal": 1140104.0,
+      "avg_balance": 562151.6
+    },
+    {
+      "transaction_date": "2016-01-10",
+      "total_transactions": 4,
+      "total_deposit": 302574.0,
+      "total_withdrawal": 338748.0,
+      "avg_balance": 910590.0
+    },
+    {
+      "transaction_date": "2018-06-15",
+      "total_transactions": 3,
+      "total_deposit": 1000000.0,
+      "total_withdrawal": 589926.44,
+      "avg_balance": 1492023.0066666666
+    },
+    {
+      "transaction_date": "2016-05-22",
+      "total_transactions": 8,
+      "total_deposit": 1298983.0,
+      "total_withdrawal": 323835.0,
+      "avg_balance": 409436.0
+    },
+    {
+      "transaction_date": "2017-10-02",
+      "total_transactions": 9,
+      "total_deposit": 1613510.0,
+      "total_withdrawal": 776246.0,
+      "avg_balance": 465502.44444444444
+    },
+    {
+      "transaction_date": "2016-01-18",
+      "total_transactions": 4,
+      "total_deposit": 446914.0,
+      "total_withdrawal": 734081.0,
+      "avg_balance": 946288.75
+    },
+    {
+      "transaction_date": "2017-09-03",
+      "total_transactions": 12,
+      "total_deposit": 1401709.0,
+      "total_withdrawal": 1744110.0,
+      "avg_balance": 339596.0
+    },
+    {
+      "transaction_date": "2017-11-09",
+      "total_transactions": 6,
+      "total_deposit": 521407.0,
+      "total_withdrawal": 914831.0,
+      "avg_balance": 988787.3333333334
+    },
+    {
+      "transaction_date": "2017-10-31",
+      "total_transactions": 9,
+      "total_deposit": 608171.0,
+      "total_withdrawal": 1237602.99,
+      "avg_balance": 616540.5077777778
+    },
+    {
+      "transaction_date": "2018-04-27",
+      "total_transactions": 7,
+      "total_deposit": 1100000.0,
+      "total_withdrawal": 1429495.79,
+      "avg_balance": 1168273.4628571433
+    },
+    {
+      "transaction_date": "2018-08-27",
+      "total_transactions": 8,
+      "total_deposit": 740727.51,
+      "total_withdrawal": 303660.0,
+      "avg_balance": 1423629.4375
+    },
+    {
+      "transaction_date": "2019-01-11",
+      "total_transactions": 5,
+      "total_deposit": 800000.0,
+      "total_withdrawal": 519422.82,
+      "avg_balance": 1221632.1779999998
+    },
+    {
+      "transaction_date": "2017-03-14",
+      "total_transactions": 10,
+      "total_deposit": 2096648.0,
+      "total_withdrawal": 509719.13,
+      "avg_balance": 872306.54
+    },
+    {
+      "transaction_date": "2016-09-20",
+      "total_transactions": 6,
+      "total_deposit": 834992.0,
+      "total_withdrawal": 768277.0,
+      "avg_balance": 911389.3666666666
+    },
+    {
+      "transaction_date": "2016-09-29",
+      "total_transactions": 18,
+      "total_deposit": 1733982.25,
+      "total_withdrawal": 1405175.0,
+      "avg_balance": 809738.586111111
+    },
+    {
+      "transaction_date": "2016-07-28",
+      "total_transactions": 8,
+      "total_deposit": 659201.0,
+      "total_withdrawal": 2360157.0,
+      "avg_balance": 383632.025
+    },
+    {
+      "transaction_date": "2016-02-16",
+      "total_transactions": 11,
+      "total_deposit": 1698432.0,
+      "total_withdrawal": 534431.0,
+      "avg_balance": 586753.0
+    },
+    {
+      "transaction_date": "2017-07-14",
+      "total_transactions": 8,
+      "total_deposit": 943308.0,
+      "total_withdrawal": 800315.64,
+      "avg_balance": 46353.421250000014
+    },
+    {
+      "transaction_date": "2017-06-04",
+      "total_transactions": 11,
+      "total_deposit": 1025856.0,
+      "total_withdrawal": 1603217.0,
+      "avg_balance": 500471.8181818182
+    },
+    {
+      "transaction_date": "2016-02-27",
+      "total_transactions": 3,
+      "total_deposit": 419992.0,
+      "total_withdrawal": 121975.0,
+      "avg_balance": -386910.3333333333
+    },
+    {
+      "transaction_date": "2017-03-08",
+      "total_transactions": 4,
+      "total_deposit": 470305.0,
+      "total_withdrawal": 400503.0,
+      "avg_balance": 56974.75
+    },
+    {
+      "transaction_date": "2017-04-17",
+      "total_transactions": 10,
+      "total_deposit": 1286538.0,
+      "total_withdrawal": 1341173.16,
+      "avg_balance": 772905.9209999999
+    },
+    {
+      "transaction_date": "2016-10-25",
+      "total_transactions": 7,
+      "total_deposit": 823479.0,
+      "total_withdrawal": 398653.0,
+      "avg_balance": 435686.2428571429
+    },
+    {
+      "transaction_date": "2016-10-18",
+      "total_transactions": 7,
+      "total_deposit": 1136744.0,
+      "total_withdrawal": 47848.99,
+      "avg_balance": 1218610.972857143
+    },
+    {
+      "transaction_date": "2016-01-07",
+      "total_transactions": 4,
+      "total_deposit": 43439.0,
+      "total_withdrawal": 814337.0,
+      "avg_balance": 581029.5
+    },
+    {
+      "transaction_date": "2018-01-30",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 324387.45,
+      "avg_balance": 843469.6
+    },
+    {
+      "transaction_date": "2018-11-27",
+      "total_transactions": 5,
+      "total_deposit": 988502.1699999999,
+      "total_withdrawal": 620257.0,
+      "avg_balance": 1238543.69
+    },
+    {
+      "transaction_date": "2016-10-01",
+      "total_transactions": 7,
+      "total_deposit": 953131.0,
+      "total_withdrawal": 1646226.0,
+      "avg_balance": 345717.0
+    },
+    {
+      "transaction_date": "2016-12-23",
+      "total_transactions": 6,
+      "total_deposit": 1423919.0,
+      "total_withdrawal": 499.17,
+      "avg_balance": 633671.8816666667
+    },
+    {
+      "transaction_date": "2016-01-09",
+      "total_transactions": 8,
+      "total_deposit": 1490498.0,
+      "total_withdrawal": 359657.0,
+      "avg_balance": 84753.25
+    },
+    {
+      "transaction_date": "2017-04-10",
+      "total_transactions": 5,
+      "total_deposit": 564193.0,
+      "total_withdrawal": 412513.9,
+      "avg_balance": 652270.558
+    },
+    {
+      "transaction_date": "2016-09-07",
+      "total_transactions": 5,
+      "total_deposit": 584836.0,
+      "total_withdrawal": 533864.0,
+      "avg_balance": 375980.4
+    },
+    {
+      "transaction_date": "2016-04-10",
+      "total_transactions": 4,
+      "total_deposit": 445884.0,
+      "total_withdrawal": 565813.0,
+      "avg_balance": 1079083.5
+    },
+    {
+      "transaction_date": "2016-05-18",
+      "total_transactions": 13,
+      "total_deposit": 1149155.0,
+      "total_withdrawal": 1946219.0,
+      "avg_balance": 236322.46153846153
+    },
+    {
+      "transaction_date": "2017-12-01",
+      "total_transactions": 11,
+      "total_deposit": 1526435.0,
+      "total_withdrawal": 603738.0,
+      "avg_balance": 267991.2727272727
+    },
+    {
+      "transaction_date": "2016-06-01",
+      "total_transactions": 7,
+      "total_deposit": 1377308.0,
+      "total_withdrawal": 728727.0,
+      "avg_balance": 242002.57142857142
+    },
+    {
+      "transaction_date": "2017-08-24",
+      "total_transactions": 7,
+      "total_deposit": 1433509.0,
+      "total_withdrawal": 802029.06,
+      "avg_balance": 261124.5514285714
+    },
+    {
+      "transaction_date": "2018-12-17",
+      "total_transactions": 9,
+      "total_deposit": 1830911.4,
+      "total_withdrawal": 2324440.0,
+      "avg_balance": 1795691.1822222222
+    },
+    {
+      "transaction_date": "2017-11-24",
+      "total_transactions": 15,
+      "total_deposit": 1429519.0,
+      "total_withdrawal": 1941875.29,
+      "avg_balance": 710623.3219999999
+    },
+    {
+      "transaction_date": "2017-06-27",
+      "total_transactions": 6,
+      "total_deposit": 1032895.0,
+      "total_withdrawal": 935362.73,
+      "avg_balance": 601103.5883333333
+    },
+    {
+      "transaction_date": "2019-01-21",
+      "total_transactions": 7,
+      "total_deposit": 300000.0,
+      "total_withdrawal": 388759.81,
+      "avg_balance": 1320593.4557142856
+    },
+    {
+      "transaction_date": "2018-03-21",
+      "total_transactions": 3,
+      "total_deposit": 171840.28,
+      "total_withdrawal": 224942.37,
+      "avg_balance": 937306.9033333333
+    },
+    {
+      "transaction_date": "2016-06-04",
+      "total_transactions": 10,
+      "total_deposit": 831489.0,
+      "total_withdrawal": 1130299.0,
+      "avg_balance": 588562.7
+    },
+    {
+      "transaction_date": "2016-06-20",
+      "total_transactions": 6,
+      "total_deposit": 729937.0,
+      "total_withdrawal": 87554.0,
+      "avg_balance": 1270783.6666666667
+    },
+    {
+      "transaction_date": "2016-09-04",
+      "total_transactions": 9,
+      "total_deposit": 1051870.0,
+      "total_withdrawal": 730441.0,
+      "avg_balance": 158012.77777777778
+    },
+    {
+      "transaction_date": "2017-01-14",
+      "total_transactions": 6,
+      "total_deposit": 1192628.0,
+      "total_withdrawal": 712741.0,
+      "avg_balance": 474777.6666666667
+    },
+    {
+      "transaction_date": "2017-05-01",
+      "total_transactions": 7,
+      "total_deposit": 1025770.0,
+      "total_withdrawal": 802996.0,
+      "avg_balance": -132628.85714285713
+    },
+    {
+      "transaction_date": "2016-10-15",
+      "total_transactions": 9,
+      "total_deposit": 1181136.0,
+      "total_withdrawal": 520734.0,
+      "avg_balance": 149128.96666666667
+    },
+    {
+      "transaction_date": "2016-12-26",
+      "total_transactions": 2,
+      "total_deposit": 309287.0,
+      "total_withdrawal": 199406.0,
+      "avg_balance": 1261246.5
+    },
+    {
+      "transaction_date": "2018-03-12",
+      "total_transactions": 9,
+      "total_deposit": 1700000.0,
+      "total_withdrawal": 1109305.98,
+      "avg_balance": 1025139.3888888889
+    },
+    {
+      "transaction_date": "2017-08-26",
+      "total_transactions": 8,
+      "total_deposit": 922869.0,
+      "total_withdrawal": 1741606.0,
+      "avg_balance": 646707.375
+    },
+    {
+      "transaction_date": "2016-04-27",
+      "total_transactions": 5,
+      "total_deposit": 970401.0,
+      "total_withdrawal": 574437.0,
+      "avg_balance": 113993.6
+    },
+    {
+      "transaction_date": "2017-04-01",
+      "total_transactions": 12,
+      "total_deposit": 774397.0,
+      "total_withdrawal": 1284026.0,
+      "avg_balance": 595043.8333333334
+    },
+    {
+      "transaction_date": "2017-06-24",
+      "total_transactions": 5,
+      "total_deposit": 760636.0,
+      "total_withdrawal": 1061280.0,
+      "avg_balance": 331272.0
+    },
+    {
+      "transaction_date": "2016-07-25",
+      "total_transactions": 15,
+      "total_deposit": 546911.0,
+      "total_withdrawal": 930001.0,
+      "avg_balance": 1275812.6266666665
+    },
+    {
+      "transaction_date": "2016-11-03",
+      "total_transactions": 7,
+      "total_deposit": 685396.0,
+      "total_withdrawal": 807978.0,
+      "avg_balance": -736128.7142857143
+    },
+    {
+      "transaction_date": "2018-06-22",
+      "total_transactions": 4,
+      "total_deposit": 1200000.0,
+      "total_withdrawal": 469528.77,
+      "avg_balance": 1181632.31
+    },
+    {
+      "transaction_date": "2018-09-14",
+      "total_transactions": 6,
+      "total_deposit": 1125122.85,
+      "total_withdrawal": 651846.0,
+      "avg_balance": 1103285.0016666667
+    },
+    {
+      "transaction_date": "2017-05-15",
+      "total_transactions": 11,
+      "total_deposit": 649226.0,
+      "total_withdrawal": 1416342.19,
+      "avg_balance": 32667.132727272725
+    },
+    {
+      "transaction_date": "2016-06-07",
+      "total_transactions": 8,
+      "total_deposit": 722852.0,
+      "total_withdrawal": 376991.0,
+      "avg_balance": 131616.375
+    },
+    {
+      "transaction_date": "2016-09-11",
+      "total_transactions": 8,
+      "total_deposit": 1499201.0,
+      "total_withdrawal": 1453102.0,
+      "avg_balance": 1025915.25
+    },
+    {
+      "transaction_date": "2016-08-28",
+      "total_transactions": 8,
+      "total_deposit": 1474936.0,
+      "total_withdrawal": 826376.0,
+      "avg_balance": 368644.575
+    },
+    {
+      "transaction_date": "2016-05-06",
+      "total_transactions": 5,
+      "total_deposit": 616170.0,
+      "total_withdrawal": 977548.0,
+      "avg_balance": 854679.8
+    },
+    {
+      "transaction_date": "2018-01-31",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 220732.93,
+      "avg_balance": 733103.135
+    },
+    {
+      "transaction_date": "2018-11-20",
+      "total_transactions": 6,
+      "total_deposit": 1136410.6400000001,
+      "total_withdrawal": 2316775.0,
+      "avg_balance": 1351962.5133333334
+    },
+    {
+      "transaction_date": "2017-02-14",
+      "total_transactions": 6,
+      "total_deposit": 412304.0,
+      "total_withdrawal": 905262.0,
+      "avg_balance": 1330805.0
+    },
+    {
+      "transaction_date": "2017-12-27",
+      "total_transactions": 16,
+      "total_deposit": 2310110.0,
+      "total_withdrawal": 1117882.7,
+      "avg_balance": 647872.964375
+    },
+    {
+      "transaction_date": "2016-03-18",
+      "total_transactions": 8,
+      "total_deposit": 965529.0,
+      "total_withdrawal": 123823.0,
+      "avg_balance": 170081.375
+    },
+    {
+      "transaction_date": "2016-12-07",
+      "total_transactions": 11,
+      "total_deposit": 721473.0,
+      "total_withdrawal": 2105647.0,
+      "avg_balance": 238058.54545454544
+    },
+    {
+      "transaction_date": "2016-11-09",
+      "total_transactions": 10,
+      "total_deposit": 1031631.0,
+      "total_withdrawal": 1323310.0,
+      "avg_balance": 200218.2
+    },
+    {
+      "transaction_date": "2016-07-09",
+      "total_transactions": 6,
+      "total_deposit": 15151.0,
+      "total_withdrawal": 1203351.0,
+      "avg_balance": 362299.1666666667
+    },
+    {
+      "transaction_date": "2017-01-29",
+      "total_transactions": 2,
+      "total_deposit": 362382.0,
+      "total_withdrawal": 118175.0,
+      "avg_balance": 347782.5
+    },
+    {
+      "transaction_date": "2018-05-21",
+      "total_transactions": 5,
+      "total_deposit": 559628.28,
+      "total_withdrawal": 291200.0,
+      "avg_balance": 1109153.626
+    },
+    {
+      "transaction_date": "2016-03-29",
+      "total_transactions": 7,
+      "total_deposit": 929711.0,
+      "total_withdrawal": 921629.0,
+      "avg_balance": 1337239.0
+    },
+    {
+      "transaction_date": "2017-05-13",
+      "total_transactions": 10,
+      "total_deposit": 405019.0,
+      "total_withdrawal": 2568642.0,
+      "avg_balance": 259745.5
+    },
+    {
+      "transaction_date": "2017-09-06",
+      "total_transactions": 4,
+      "total_deposit": 882686.0,
+      "total_withdrawal": 435563.0,
+      "avg_balance": 676030.5
+    },
+    {
+      "transaction_date": "2017-08-05",
+      "total_transactions": 9,
+      "total_deposit": 1016194.0,
+      "total_withdrawal": 979059.0,
+      "avg_balance": 1030256.7777777778
+    },
+    {
+      "transaction_date": "2017-11-23",
+      "total_transactions": 8,
+      "total_deposit": 986051.0,
+      "total_withdrawal": 986700.2,
+      "avg_balance": 393607.63
+    },
+    {
+      "transaction_date": "2017-02-04",
+      "total_transactions": 8,
+      "total_deposit": 1696773.0,
+      "total_withdrawal": 1086250.0,
+      "avg_balance": 996691.125
+    },
+    {
+      "transaction_date": "2017-10-07",
+      "total_transactions": 8,
+      "total_deposit": 971353.0,
+      "total_withdrawal": 1007863.0,
+      "avg_balance": 56237.375
+    },
+    {
+      "transaction_date": "2018-03-20",
+      "total_transactions": 8,
+      "total_deposit": 1059619.0,
+      "total_withdrawal": 762294.3,
+      "avg_balance": 1170154.285
+    },
+    {
+      "transaction_date": "2016-06-06",
+      "total_transactions": 7,
+      "total_deposit": 762627.0,
+      "total_withdrawal": 961482.0,
+      "avg_balance": 451499.4285714286
+    },
+    {
+      "transaction_date": "2017-03-15",
+      "total_transactions": 8,
+      "total_deposit": 1091962.0,
+      "total_withdrawal": 833075.87,
+      "avg_balance": 821881.0075000001
+    },
+    {
+      "transaction_date": "2016-11-22",
+      "total_transactions": 37,
+      "total_deposit": 2442162.0,
+      "total_withdrawal": 954536.0,
+      "avg_balance": 1290911.5932432439
+    },
+    {
+      "transaction_date": "2016-07-15",
+      "total_transactions": 11,
+      "total_deposit": 685214.0,
+      "total_withdrawal": 825904.0,
+      "avg_balance": 1087333.6727272726
+    },
+    {
+      "transaction_date": "2016-03-23",
+      "total_transactions": 9,
+      "total_deposit": 1104411.0,
+      "total_withdrawal": 1896851.0,
+      "avg_balance": 569728.6666666666
+    },
+    {
+      "transaction_date": "2018-04-20",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 516451.47,
+      "avg_balance": 771533.4
+    },
+    {
+      "transaction_date": "2017-06-20",
+      "total_transactions": 10,
+      "total_deposit": 844534.0,
+      "total_withdrawal": 954433.63,
+      "avg_balance": 523038.70999999996
+    },
+    {
+      "transaction_date": "2017-10-25",
+      "total_transactions": 17,
+      "total_deposit": 2519542.0,
+      "total_withdrawal": 2402056.87,
+      "avg_balance": 751918.675882353
+    },
+    {
+      "transaction_date": "2017-04-14",
+      "total_transactions": 7,
+      "total_deposit": 402840.0,
+      "total_withdrawal": 1763492.0,
+      "avg_balance": 120328.28571428571
+    },
+    {
+      "transaction_date": "2017-12-21",
+      "total_transactions": 10,
+      "total_deposit": 1539008.0,
+      "total_withdrawal": 1938272.71,
+      "avg_balance": 705991.2849999999
+    },
+    {
+      "transaction_date": "2016-11-16",
+      "total_transactions": 23,
+      "total_deposit": 1429951.0,
+      "total_withdrawal": 986982.0,
+      "avg_balance": 993627.4239130437
+    },
+    {
+      "transaction_date": "2017-08-13",
+      "total_transactions": 7,
+      "total_deposit": 450889.0,
+      "total_withdrawal": 1380390.0,
+      "avg_balance": 329163.71428571426
+    },
+    {
+      "transaction_date": "2016-10-02",
+      "total_transactions": 14,
+      "total_deposit": 1313386.0,
+      "total_withdrawal": 2701015.0,
+      "avg_balance": 463535.35714285716
+    },
+    {
+      "transaction_date": "2017-04-21",
+      "total_transactions": 9,
+      "total_deposit": 728447.0,
+      "total_withdrawal": 1106506.72,
+      "avg_balance": 448497.78555555554
+    },
+    {
+      "transaction_date": "2017-11-27",
+      "total_transactions": 14,
+      "total_deposit": 1846357.0,
+      "total_withdrawal": 1799020.51,
+      "avg_balance": -77874.39428571428
+    },
+    {
+      "transaction_date": "2018-01-10",
+      "total_transactions": 2,
+      "total_deposit": 0.0,
+      "total_withdrawal": 682836.02,
+      "avg_balance": 841924.28
+    }
+  ]
+}

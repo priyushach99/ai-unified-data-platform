@@ -3,7 +3,7 @@ import json
 import os
 from glob import glob
 
-st.set_page_config(page_title="MCP AI Insights Dashboard", layout="wide")
+st.set_page_config(page_title="AI Transactions Insights Dashboard", layout="wide")
 
 
 def load_latest_file():
@@ -17,7 +17,7 @@ def load_latest_file():
 
 data = load_latest_file()
 
-st.title("📊 MCP AI Insight Dashboard")
+st.title("📊 AI Transactions Insights ")
 
 if not data:
     st.warning("No AI insights found. Run pipeline first.")

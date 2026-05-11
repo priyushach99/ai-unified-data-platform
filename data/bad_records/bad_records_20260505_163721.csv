@@ -1,3 +1,0 @@
-account_no,transaction_date,transaction_details,chqno,value_date,withdrawal_amt,deposit_amt,balance_amt,source_file,withdrawal_amt_clean,deposit_amt_clean,balance_amt_clean,transaction_date_clean,error_reason,ingestion_type
-409000611074,5-Jul-17,TRF FROM Indiaforensic SERVICES,,5-Jul-17,,1000000.00,2000000.00,transactions.csv,,1000000.0,2000000.0,,Invalid Date,Spark batch processing
-409000611074,1-Aug-17,TRF FRM Indiaforensic SERVICES,,1-Aug-17,,3000000.00,5500000.00,transactions.csv,,3000000.0,5500000.0,,Invalid Date,Spark batch processing

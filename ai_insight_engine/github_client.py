@@ -24,7 +24,7 @@ def call_github_model(prompt: str) -> str:
     }
 
     payload = {
-        "model": "gpt-4o-mini",
+        "model": "gpt-4o",
         "messages": [
             {
                 "role": "system",

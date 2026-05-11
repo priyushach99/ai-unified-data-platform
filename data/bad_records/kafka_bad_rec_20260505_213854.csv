@@ -1,2 +1,0 @@
-account_no,transaction_date,transaction_details,chqno,value_date,withdrawal_amt,deposit_amt,balance_amt,withdrawal_amt_clean,deposit_amt_clean,balance_amt_clean,transaction_date_clean,ingestion_type
-409000362497,7-Apr-18,NEFT/SBIN218096504522/Indfor,"",,"",3000000.00,-1904102101.06,,3000000.0,-1.90410210106E9,,streaming

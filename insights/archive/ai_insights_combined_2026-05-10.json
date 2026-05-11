@@ -1,0 +1,15 @@
+{
+  "source_date": "2026-05-10",
+  "ai_summary": "LLM unavailable. Using deterministic rule-based insights.",
+  "rule_summary": {
+    "total_transactions": 728,
+    "total_deposit": 100559619.0,
+    "total_withdrawal": 101055209.0,
+    "avg_balance": 1504911.63,
+    "anomaly": "high_withdrawal",
+    "confidence": 0.75
+  },
+  "mode": "fallback",
+  "error": "GitHub Model Error: {\"error\":{\"code\":\"tokens_limit_reached\",\"message\":\"Request body too large for gpt-4o-mini model. Max size: 8000 tokens.\",\"details\":\"Request body too large for gpt-4o-mini model. Max size: 8000 tokens.\"}}",
+  "note": "Combined insight generated from Spark only. Only Spark pipeline ran today (/opt/project/insights/insight_spark_batch_2026-05-10.json). No Kafka file was available."
+}

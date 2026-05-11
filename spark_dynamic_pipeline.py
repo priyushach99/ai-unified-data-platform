@@ -1,4 +1,4 @@
-# dynamic_pipeline.py
+# spark_dynamic_pipeline.py
 
 import os
 import sys
@@ -381,6 +381,7 @@ def main():
                 "deposit": r.get("total_deposit", 0),
                 "withdrawal": r.get("total_withdrawal", 0),
                 "balance": r.get("avg_balance", 0),
+                "total_transactions": r.get("total_transactions", 1),  # ← add this
                 "source": "spark"
             })
 

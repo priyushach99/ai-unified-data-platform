@@ -1,0 +1,13 @@
+{
+  "source_date": "2026-05-11",
+  "ai_summary": "1. **PERIOD SUMMARY:**  \nBetween 2016-01-01 and 2026-05-11, the banking system processed 7,252 transactions, with total deposits of $815,048,123.38 and total withdrawals of $792,778,922.25, resulting in a net positive cash flow of $22,269,201.13. The average balance across the period was $749,541.53. While overall financial health appears stable, the detection of a \"balance_spike\" anomaly with a confidence score of 0.85 warrants further scrutiny.\n\n2. **ANOMALY ANALYSIS:**  \nThe \"balance_spike\" anomaly is most evident on 2017-08-16, where withdrawals totaled $4,823,427.84 against deposits of $4,549,293.00, yet the reported balance surged to $4,860,934.81. This balance is inconsistent with the net flow for the day, which should have resulted in a lower balance. This suggests potential data integrity issues or unrecorded transactions contributing to the anomaly.\n\n3. **RISK FLAGS:**  \n- **High withdrawal concentration:** On 2017-08-16, withdrawals reached $4,823,427.84, the highest single-day outflow in the dataset, representing 0.61% of total withdrawals. This volume warrants investigation for potential fraud or unusual activity.  \n- **Unbalanced deposits vs withdrawals:** On 2018-11-12, withdrawals of $3,275,725.00 were nearly double the deposits of $1,662,113.13, leaving a low balance of $1,562,063.48. This imbalance could indicate liquidity stress.  \n\n4. **ARCHITECTURE NOTE:**  \nThe Spark batch pipeline processed 7,152 transactions (98.62%), while Kafka streaming handled 100 transactions (1.38%). Spark's batch processing is critical for detecting large-scale anomalies like the \"balance_spike,\" while Kafka's real-time streaming is underutilized but could enhance early detection of high-risk transactions, such as the flagged withdrawals.",
+  "rule_summary": {
+    "total_transactions": 7252,
+    "total_deposit": 815048123.38,
+    "total_withdrawal": 792778922.2499993,
+    "avg_balance": 749541.53,
+    "anomaly": "balance_spike",
+    "confidence": 0.85
+  },
+  "mode": "llm"
+}
