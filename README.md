@@ -186,8 +186,9 @@ Every row passes four validation gates before reaching PostgreSQL. Bad records a
 
 ---
 
-Demo:
+## 🎥 Demo Video
 
+[▶️ Click to view demo](assets/Project Demo.mp4)
 
 ---
 
